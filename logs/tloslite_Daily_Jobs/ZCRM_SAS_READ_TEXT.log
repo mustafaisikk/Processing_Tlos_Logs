@@ -1,0 +1,348 @@
+NOTE: Log file opened at Sat, 25 Jul 2020 07:30:01.129
+1                                                          The SAS System                          25 Temmuz 2020 Cumartesi 07:30:00
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, 
+       model number, and serial number are not included in the setinit data 
+       used to initialize the SAS System library in use. This is permitted if 
+       this processor is a designated backup processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial 
+numbers:
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name 
+ERSDPA0.
+NOTE: Copyright (c) 2016 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M6 MBCS3170) 
+      Licensed to ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD., Site 70166440.
+NOTE: This session is executing on the AIX 7.2 (AIX 64) platform.
+
+
+
+NOTE: Analytical products:
+      
+      SAS/STAT 15.1
+      SAS/ETS 15.1
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, model number, and serial number are not included in the 
+       setinit data used to initialize the SAS System library in use. This is permitted if this processor is a designated backup 
+       processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial numbers:
+
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name ERSDPA0.
+
+WARNING: Your system is scheduled to expire on July 30, 2020, which is 5 days from now. The SAS System will no longer function on 
+         or after that date. Please contact your SAS Installation Representative to obtain your updated SAS Installation Data (SID) 
+         file, which includes SETINIT information.
+To locate the name of your SAS Installation Representative go to http://support.sas.com/repfinder and provide your site number 
+70166440 and company name as ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD.. On the SAS REP list provided, locate the REP for 
+operating system AIX 64.
+NOTE: Additional host information:
+
+IBM AIX AIX 64 2 7 00C9C0374C00 
+
+You are running SAS 9. Some SAS 8 files will be automatically converted 
+by the V9 engine; others are incompatible.  Please see 
+http://support.sas.com/rnd/migration/planning/platform/64bit.html
+
+PROC MIGRATE will preserve current SAS file attributes and is 
+recommended for converting all your SAS libraries from any 
+SAS 8 release to SAS 9.  For details and examples, please see
+http://support.sas.com/rnd/migration/index.html
+
+
+This message is contained in the SAS news file, and is presented upon
+initialization.  Edit the file "news" in the "misc/base" directory to
+display site-specific news and information in the program log.
+The command line option "-nonews" will prevent this display.
+
+
+
+
+NOTE: SAS initialization used:
+2                                                          The SAS System                          25 Temmuz 2020 Cumartesi 07:30:00
+
+      real time           0.17 seconds
+      cpu time            0.00 seconds
+      
+WARNING: The Base SAS Software product with which IOM CLSID:6E56FD51-CFC1-11D5-87BD-00C04F38F0DB is associated will be expiring 
+         soon, and is currently in warning mode to indicate this upcoming expiration. Please run PROC SETINIT to obtain more 
+         information on your warning period.
+NOTE: Libref SASDATAL successfully assigned from logical server.
+NOTE: Libref SQLKODA successfully assigned from logical server.
+NOTE: Libref DQ_ORCL successfully assigned from logical server.
+ERROR: Libref SMARTHMP failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-28000: the account is locked.
+NOTE: Libref SMARTHMT successfully assigned from logical server.
+ERROR: Libref SMSPRD failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12170: TNS: Baðlantý zaman aþýmý oluþtu.
+
+NOTE: AUTOEXEC processing beginning; file is /sas/config/Lev1/SASApp_lt5/BatchServer/autoexec.sas.
+
+
+NOTE: AUTOEXEC processing completed.
+
+1          /****************************************************************************
+2           * Job:             ZCRM_SAS_READ_TEXT_U8_TEST_APR        A5LEQ650.BQ0014TV *
+3           * Description:                                                             *
+4           *                                                                          *
+5           * Metadata Server: eedpa0.enerjisa.local                                   *
+6           * Port:            8561                                                    *
+7           * Location:        /Data Integration/Jobs/RFC Jobs/DCQ/ZCRM_SAS_READ_TEXT  *
+8           *                                                                          *
+9           * Server:          SASApp_lt5                            A5LEQ650.AT000003 *
+10          *                                                                          *
+11          * Target Table:    T_TEXT_APR2018 - DMLIB.T_TEXT_APR2018 A5LEQ650.BI001EML *
+12          *                                                                          *
+13          * Generated on:    Wednesday, August 8, 2018 11:00:07 AM EEST              *
+14          * Generated by:    sasdemo                                                 *
+15          * Version:         SAS Data Integration Studio 4.902                       *
+16          ****************************************************************************/
+17         /*input(put(intnx('DAY',"&sysdate"d,-1), YYMMN6.),$6.)*/
+18         data _null_;
+19         	
+20         	YEAR = PUT(YEAR(intnx('DAY',"&sysdate"d,-1)),z04.);
+21         	MONTH = PUT(MONTH(intnx('DAY',"&sysdate"d,-1)),z02.);
+22         	DAY = PUT(DAY(intnx('DAY',"&sysdate"d,-1)),z02.);
+23         	CALL SYMPUT('TODAY',CAT(YEAR,MONTH,DAY));
+24         run;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.00 seconds
+      
+
+25         %PUT  &TODAY.;
+20200724
+26         /* Generate the process id for job  */
+27         %put Process ID: &SYSJOBID;
+Process ID: 4784950
+28         
+29         /* General macro variables  */
+30         %let jobID = %quote(A5LEQ650.BQ0014TV);
+3                                                          The SAS System                          25 Temmuz 2020 Cumartesi 07:30:00
+
+31         %let etls_jobName = %nrquote(ZCRM_SAS_READ_TEXT);
+32         %let etls_userID = %nrquote(sasdemo);
+33         
+34         /* Setup to capture return codes  */
+35         %global job_rc trans_rc sqlrc;
+36         %let sysrc = 0;
+37         %let job_rc = 0;
+38         %let trans_rc = 0;
+39         %let sqlrc = 0;
+40         %global etls_stepStartTime;
+41         /* initialize syserr to 0 */
+42         data _null_; run;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+43         
+44         %macro rcSet(error);
+45            %if (&error gt &trans_rc) %then
+46               %let trans_rc = &error;
+47            %if (&error gt &job_rc) %then
+48               %let job_rc = &error;
+49         %mend rcSet;
+50         
+51         %macro rcSetDS(error);
+52            if &error gt input(symget('trans_rc'),12.) then
+53               call symput('trans_rc',trim(left(put(&error,12.))));
+54            if &error gt input(symget('job_rc'),12.) then
+55               call symput('job_rc',trim(left(put(&error,12.))));
+56         %mend rcSetDS;
+57         
+58         /* Create metadata macro variables */
+59         %let IOMServer      = %nrquote(SASApp_lt5);
+60         %let metaPort       = %nrquote(8561);
+61         %let metaServer     = %nrquote(ersdpa0);
+62         
+63         /* Setup for capturing job status  */
+64         %let etls_startTime = %sysfunc(datetime(),datetime.);
+65         %let etls_recordsBefore = 0;
+66         %let etls_recordsAfter = 0;
+67         %let etls_lib = 0;
+68         %let etls_table = 0;
+69         
+70         %global etls_debug;
+71         %macro etls_setDebug;
+72            %if %str(&etls_debug) ne 0 %then
+73               OPTIONS MPRINT%str(;);
+74         %mend;
+75         %etls_setDebug;
+76         
+77         /*==========================================================================*
+78          * Step:            ZCRM_SAS_READ_TEXT                    A5LEQ650.BT001D73 *
+79          * Transform:       SAP CallRFC Transformation                              *
+80          * Description:                                                             *
+81          *                                                                          *
+82          * Target Table:    T_TEXT_APR2018 - DMLIB.T_TEXT_APR2018 A5LEQ650.BI001EML *
+4                                                          The SAS System                          25 Temmuz 2020 Cumartesi 07:30:00
+
+83          *==========================================================================*/
+84         
+85         %let transformID = %quote(A5LEQ650.BT001D73);
+86         %let trans_rc = 0;
+87         %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+88         
+89         /* Parameter default value(s) for ZCRM_SAS_READ_TEXT  */
+90         %let IV_END_DATE = &TODAY;
+91         %let IV_START_DATE = &TODAY;
+92         %let IV_TDID = Z010;
+93         
+94         %let ETLS_SYSLAST = &SYSLAST;
+95         /*---- Start of Pre-Process Code  ----*/
+96         
+97         options obs = max;
+98         /*---- End of Pre-Process Code  ----*/
+99         
+100        %rcSet(&syserr);
+101        %rcSet(&sqlrc);
+102        
+103        %let SYSLAST = &ETLS_SYSLAST;
+104        
+105        /* Access the data for DCP  */
+106        LIBNAME SAPdcp SASIOSR3  ashost="eddcpa0.enerjisa.dist"  sysnr=21  Client=500  language=EN  trace=0  BatchMode=1
+106      ! USER=SASUSER  PASSWORD=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ;
+NOTE: Libref SAPDCP was successfully assigned as follows: 
+      Engine:        R3 
+      Physical Name: eddcpa0.enerjisa.dist
+107        
+108        /*LIBNAME SAPdcp SASIOSR3  ashost="eddcpa0.enerjisa.dist"  sysnr=21  Client=500  language=EN  trace=0  BatchMode=1
+108      ! AUTHDOMAIN="DCQ" ;*/
+109        *LIBNAME SAPdcq SASIOSR3  ashost="eddcqa0.enerjisa.dist"  sysnr=21  Client=500  language=EN  trace=0  BatchMode=1
+109      ! AUTHDOMAIN="DCQ" ;
+110        
+111        %rcSet(&syslibrc);
+112        
+113        %macro etlsSAP_callrfc;
+114           /*---- Drop a table  ----*/
+115           %put %str(NOTE: Dropping table ...);
+116           proc datasets lib = DMLIB nolist nowarn memtype = (data view);
+117              delete T_TEXT_x;
+118           quit;
+119        
+120           %rcSet(&syserr);
+121        
+122        
+123        
+124           /* Execute proc callrfc for module ZCRM_SAS_READ_TEXT  */
+125           proc callrfc libref=SAPdcp;
+126              call function 'ZCRM_SAS_READ_TEXT'
+127                 EXPORTING
+128                    IV_END_DATE = "&IV_END_DATE"
+129                    IV_START_DATE = "&IV_START_DATE"
+130                    IV_TDID = "&IV_TDID"
+131                 TABLES
+132                    T_TEXT = DMLIB.T_TEXT_x(COMPRESS = YES)
+133              ;
+134           run;
+5                                                          The SAS System                          25 Temmuz 2020 Cumartesi 07:30:00
+
+135        
+136           %rcSet(&syserr);
+137        
+138        %mend etlsSAP_callrfc;
+139        %etlsSAP_callrfc;
+NOTE: Dropping table ...
+MPRINT(ETLSSAP_CALLRFC):   proc datasets lib = DMLIB nolist nowarn memtype = (data view);
+ERROR: Libref DMLIB is not assigned.
+MPRINT(ETLSSAP_CALLRFC):   delete T_TEXT_x;
+MPRINT(ETLSSAP_CALLRFC):   quit;
+
+NOTE: Statements not processed because of errors noted above.
+NOTE: The SAS System stopped processing this step because of errors.
+NOTE: Due to ERROR(s) above, SAS set option OBS=0, enabling syntax check mode. 
+      This prevents execution of subsequent data modification statements.
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.08 seconds
+      cpu time            0.02 seconds
+      
+MPRINT(ETLSSAP_CALLRFC):  ;
+
+
+NOTE: PROCEDURE CALLRFC used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+MPRINT(ETLSSAP_CALLRFC):   proc callrfc libref=SAPdcp;
+ERROR: An error occurred.
+NOTE: The SAS System stopped processing this step because of errors.
+MPRINT(ETLSSAP_CALLRFC):   call function 'ZCRM_SAS_READ_TEXT' EXPORTING IV_END_DATE = "20200724" IV_START_DATE = "20200724" IV_TDID 
+= "Z010" TABLES T_TEXT = DMLIB.T_TEXT_x(COMPRESS = YES) ;
+MPRINT(ETLSSAP_CALLRFC):   run;
+MPRINT(ETLSSAP_CALLRFC):  ;
+140        
+141        
+142        
+143        /**  Step end ZCRM_SAS_READ_TEXT **/
+144        
+145        /*==========================================================================*
+146         * Step:            Execute                               A5LEQ650.BT001D79 *
+147         * Transform:       Execute                                                 *
+148         * Description:                                                             *
+149         *                                                                          *
+150         * User Written:    SourceCode                                              *
+151         *==========================================================================*/
+152        
+153        %let transformID = %quote(A5LEQ650.BT001D79);
+154        %let trans_rc = 0;
+155        %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+156        
+157        %let _INPUT_count = 0;
+158        %let _OUTPUT_count = 0;
+159        /*---- Start of User Written Code  ----*/
+160        
+161        %let alan=tdline;
+162        %let tablo=T_TEXT_x;
+163        %let lib=dmlib;
+164        
+6                                                          The SAS System                          25 Temmuz 2020 Cumartesi 07:30:00
+
+
+
+165        data &lib..&tablo.;
+166        set &lib..&tablo.;
+ERROR: Libref DMLIB is not assigned.
+167        
+168        
+169        &alan.=kpropdata(&alan.,'TRIM','utf-8','latin5');
+170         &alan.=kpropdata(&alan.,'TRIM','latin5');
+171        
+172        run;
+
+NOTE: Numeric values have been converted to character values at the places given by: (Line):(Column).
+      169:1   170:1   
+NOTE: Character values have been converted to numeric values at the places given by: (Line):(Column).
+      169:8   170:9   
+ERROR: Libref DMLIB is not assigned.
+NOTE: The SAS System stopped processing this step because of errors.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+173        /*---- End of User Written Code  ----*/
+174        
+175        %rcSet(&syserr);
+176        %rcSet(&sqlrc);
+177        
+178        
+179        /**  Step end Execute **/
+180        
+181        %let etls_endTime = %sysfunc(datetime(),datetime.);
+182        
+183        
+184        
+
+ERROR: Errors printed on pages 2,5,6.
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           1:02.09
+      cpu time            0.41 seconds
+      
+
+

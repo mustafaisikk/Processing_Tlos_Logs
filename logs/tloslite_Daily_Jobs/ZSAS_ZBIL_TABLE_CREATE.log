@@ -1,0 +1,3119 @@
+NOTE: Log file opened at  Tue, 3 Nov 2020 00:00:00.915
+1                                                          The SAS System                            00:00 Tuesday, November 3, 2020
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, 
+       model number, and serial number are not included in the setinit data 
+       used to initialize the SAS System library in use. This is permitted if 
+       this processor is a designated backup processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial 
+numbers:
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name 
+ERSDPA0.
+NOTE: Copyright (c) 2016 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M6) 
+      Licensed to ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD., Site 70166440.
+NOTE: This session is executing on the AIX 7.2 (AIX 64) platform.
+
+
+
+NOTE: Analytical products:
+      
+      SAS/STAT 15.1
+      SAS/ETS 15.1
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, model number, and serial number are not included in the 
+       setinit data used to initialize the SAS System library in use. This is permitted if this processor is a designated backup 
+       processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial numbers:
+
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name ERSDPA0.
+
+NOTE: Additional host information:
+
+IBM AIX AIX 64 2 7 00C9C0374C00 
+
+You are running SAS 9. Some SAS 8 files will be automatically converted 
+by the V9 engine; others are incompatible.  Please see 
+http://support.sas.com/rnd/migration/planning/platform/64bit.html
+
+PROC MIGRATE will preserve current SAS file attributes and is 
+recommended for converting all your SAS libraries from any 
+SAS 8 release to SAS 9.  For details and examples, please see
+http://support.sas.com/rnd/migration/index.html
+
+
+This message is contained in the SAS news file, and is presented upon
+initialization.  Edit the file "news" in the "misc/base" directory to
+display site-specific news and information in the program log.
+The command line option "-nonews" will prevent this display.
+
+
+
+
+NOTE: SAS initialization used:
+      real time           0.09 seconds
+      cpu time            0.01 seconds
+      
+NOTE: This is a SPD 5.4  Engine 
+      executing SAS (r) 9.4 (TS1M6) on the AIX platform.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+2                                                          The SAS System                            00:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+3                                                          The SAS System                            00:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+4                                                          The SAS System                            00:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SASDATA successfully assigned from logical server.
+NOTE: Libref STPSAMP successfully assigned from logical server.
+NOTE: Libref MIGLIB successfully assigned from logical server.
+NOTE: Libref TRNLIB2 successfully assigned from logical server.
+NOTE: Libref TRNLIB successfully assigned from logical server.
+NOTE: Libref NEDLIB successfully assigned from logical server.
+NOTE: Libref PILIB successfully assigned from logical server.
+NOTE: Libref DMLIB successfully assigned from logical server.
+NOTE: Libref TMPLIB3 successfully assigned from logical server.
+NOTE: Libref TMPLIB4 successfully assigned from logical server.
+NOTE: Libref ODSLIB successfully assigned from logical server.
+NOTE: Libref ODSLIB2 successfully assigned from logical server.
+NOTE: Libref ODSLIB3 successfully assigned from logical server.
+NOTE: Libref PODSLIB1 successfully assigned from logical server.
+NOTE: Libref PODSLIB2 successfully assigned from logical server.
+NOTE: Libref PODSLIB3 successfully assigned from logical server.
+NOTE: Libref DASHLIBD successfully assigned from logical server.
+NOTE: Libref QLIKLIB successfully assigned from logical server.
+NOTE: Libref SQLKODA successfully assigned from logical server.
+NOTE: Libref RISU successfully assigned from logical server.
+NOTE: Libref DQ_ORCL successfully assigned from logical server.
+NOTE: Library ZGRLIB does not exist.
+NOTE: Libref HANARWP successfully assigned from logical server.
+NOTE: Libref BFLIB successfully assigned from logical server.
+NOTE: Libref PILIB2 successfully assigned from logical server.
+NOTE: Libref TMPLIB2 successfully assigned from logical server.
+NOTE: Libref DMLIB2 successfully assigned from logical server.
+NOTE: Libref ARCLIB successfully assigned from logical server.
+NOTE: Libref IADM successfully assigned from logical server.
+NOTE: Libref IATMP successfully assigned from logical server.
+NOTE: Libref AUTODIAL successfully assigned from logical server.
+NOTE: Libref BCSDM successfully assigned from logical server.
+NOTE: Libref BLDM successfully assigned from logical server.
+NOTE: Libref BLTMP successfully assigned from logical server.
+NOTE: Libref BADM successfully assigned from logical server.
+NOTE: Libref BATMP successfully assigned from logical server.
+NOTE: Libref CCDM successfully assigned from logical server.
+NOTE: Libref CCDM2 successfully assigned from logical server.
+NOTE: Libref CMPDM successfully assigned from logical server.
+NOTE: Libref CPSFRC successfully assigned from logical server.
+NOTE: Libref CPSHRLY successfully assigned from logical server.
+NOTE: Libref CPSREG successfully assigned from logical server.
+NOTE: Libref CPSUST successfully assigned from logical server.
+NOTE: Libref CXDM successfully assigned from logical server.
+NOTE: Libref DBALIB successfully assigned from logical server.
+NOTE: Libref DSTDM successfully assigned from logical server.
+NOTE: Libref DSTTMP successfully assigned from logical server.
+NOTE: Libref DYMDM successfully assigned from logical server.
+NOTE: Libref DYMTMP successfully assigned from logical server.
+NOTE: Libref EAP_ETY successfully assigned from logical server.
+NOTE: Libref EAP_PAY successfully assigned from logical server.
+NOTE: Libref EAP_PR successfully assigned from logical server.
+NOTE: Libref EPYDM successfully assigned from logical server.
+NOTE: Libref EPYTMP successfully assigned from logical server.
+5                                                          The SAS System                            00:00 Tuesday, November 3, 2020
+
+NOTE: Libref ETSDM successfully assigned from logical server.
+NOTE: Libref FADM successfully assigned from logical server.
+NOTE: Libref FPCLIB successfully assigned from logical server.
+NOTE: Libref FPCTMP successfully assigned from logical server.
+NOTE: Libref HRDM successfully assigned from logical server.
+NOTE: Libref KMHMDM successfully assigned from logical server.
+NOTE: Libref CSSLIB successfully assigned from logical server.
+NOTE: Libref MDLIB successfully assigned from logical server.
+NOTE: Libref MHMAYEDS successfully assigned from logical server.
+NOTE: Libref MHMDM successfully assigned from logical server.
+NOTE: Libref MIGLIB2 successfully assigned from logical server.
+NOTE: Libref MSADM successfully assigned from logical server.
+NOTE: Libref MSATMP successfully assigned from logical server.
+NOTE: Libref MTHEO successfully assigned from logical server.
+NOTE: Libref MTHKA successfully assigned from logical server.
+NOTE: Libref MTHMA successfully assigned from logical server.
+NOTE: Libref MTHSO successfully assigned from logical server.
+NOTE: Libref MTHTMP successfully assigned from logical server.
+NOTE: Libref D2DLIB successfully assigned from logical server.
+NOTE: Libref OKMDM successfully assigned from logical server.
+NOTE: Libref OKMTMP successfully assigned from logical server.
+NOTE: Libref PMDM successfully assigned from logical server.
+NOTE: Libref CNPRCDM successfully assigned from logical server.
+NOTE: Libref CNPRCTMP successfully assigned from logical server.
+NOTE: Libref EDULIB successfully assigned from logical server.
+NOTE: Libref PRCDM successfully assigned from logical server.
+NOTE: Libref PRCDM2 successfully assigned from logical server.
+NOTE: Libref PRCTMP successfully assigned from logical server.
+NOTE: Libref PRFTBLIB successfully assigned from logical server.
+NOTE: Libref TMPLIB successfully assigned from logical server.
+NOTE: Libref FRCARC successfully assigned from logical server.
+NOTE: Libref FRCPRD successfully assigned from logical server.
+NOTE: Libref PRCHARC successfully assigned from logical server.
+NOTE: Libref PRCHPRD successfully assigned from logical server.
+NOTE: Libref PRICARC successfully assigned from logical server.
+NOTE: Libref PRICPRD successfully assigned from logical server.
+NOTE: Libref QL_SALES successfully assigned from logical server.
+NOTE: Libref RAPOUT successfully assigned from logical server.
+NOTE: Libref RAPREF successfully assigned from logical server.
+NOTE: Libref RAPTEST successfully assigned from logical server.
+NOTE: Libref RAPTMP successfully assigned from logical server.
+NOTE: Libref RAPVAS successfully assigned from logical server.
+NOTE: Libref REFCPS successfully assigned from logical server.
+NOTE: Libref RMCDM successfully assigned from logical server.
+NOTE: Libref RMCTMP successfully assigned from logical server.
+NOTE: Libref SDLIB successfully assigned from logical server.
+NOTE: Libref SOMLIB successfully assigned from logical server.
+NOTE: Libref SHFDM successfully assigned from logical server.
+NOTE: Libref SODM successfully assigned from logical server.
+NOTE: Libref SOPDM successfully assigned from logical server.
+NOTE: Libref SOSUF successfully assigned from logical server.
+NOTE: Libref SOTMP successfully assigned from logical server.
+NOTE: Libref SPDM successfully assigned from logical server.
+NOTE: Libref SSIMDM successfully assigned from logical server.
+NOTE: Libref STLF successfully assigned from logical server.
+NOTE: Libref SMDM successfully assigned from logical server.
+NOTE: Libref SMTMP successfully assigned from logical server.
+NOTE: Libref TALDM successfully assigned from logical server.
+6                                                          The SAS System                            00:00 Tuesday, November 3, 2020
+
+NOTE: Libref TKDM successfully assigned from logical server.
+NOTE: Libref TSDM successfully assigned from logical server.
+NOTE: Libref QVYDM successfully assigned from logical server.
+NOTE: Libref STJVYDM successfully assigned from logical server.
+NOTE: Libref VYDM successfully assigned from logical server.
+NOTE: Libref VYDMKVKK successfully assigned from logical server.
+NOTE: Libref OGMDM successfully assigned from logical server.
+NOTE: Libref OGMTMP successfully assigned from logical server.
+NOTE: Libref CRLIB successfully assigned from logical server.
+NOTE: Libref RASTMP successfully assigned from logical server.
+NOTE: Libref SOSEC successfully assigned from logical server.
+NOTE: Libref STATLIB successfully assigned from logical server.
+ERROR: Libref SMARTHMP failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12514: TNS: Dinleyici þu anda baðlantý açýklayýcýsýnda belirtilen hizmeti tanýmýyor..
+ERROR: Libref SMARTHMT failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12514: TNS: Dinleyici þu anda baðlantý açýklayýcýsýnda belirtilen hizmeti tanýmýyor..
+ERROR: Libref SMSPRD failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12170: TNS: Baðlantý zaman aþýmý oluþtu.
+NOTE: Libref RAPARCH successfully assigned from logical server.
+NOTE: Libref SAHOL successfully assigned from logical server.
+NOTE: Libref MKVR successfully assigned from logical server.
+NOTE: Libref RODQLIK successfully assigned from logical server.
+NOTE: Libref UTFLIB successfully assigned from logical server.
+
+NOTE: AUTOEXEC processing beginning; file is /sas/config/Lev1/SASApp/BatchServer/autoexec.sas.
+
+
+NOTE: AUTOEXEC processing completed.
+
+1          /****************************************************************************
+2           * Job:             ZSAS_ZBIL_TABLE_CREATE                A57BXQB4.BT0000JB *
+3           * Description:                                                             *
+4           *                                                                          *
+5           * Metadata Server: ersupa0.enerjisa.local                                  *
+6           * Port:            8561                                                    *
+7           * Location:        /Data Integration/Jobs/Extraction HANA                  *
+8           *                   Jobs/Mobil_App_Rwp                                     *
+9           *                                                                          *
+10          * Server:          SASApp                                A57BXQB4.AS000002 *
+11          *                                                                          *
+12          * Generated on:    Thursday, August 20, 2020 3:41:11 PM EET                *
+13          * Generated by:    sas                                                     *
+14          * Version:         SAS Data Integration Studio 4.904                       *
+15          ****************************************************************************/
+16         
+17         /* Generate the process id for job  */
+18         %put Process ID: &SYSJOBID;
+Process ID: 7603128
+19         
+20         /* General macro variables  */
+21         %let jobID = %quote(A57BXQB4.BT0000JB);
+22         %let etls_jobName = %nrquote(ZSAS_ZBIL_TABLE_CREATE);
+23         %let etls_userID = %nrquote(sas);
+24         
+25         /* Setup to capture return codes  */
+26         %global job_rc trans_rc sqlrc;
+27         %let sysrc = 0;
+28         %let job_rc = 0;
+7                                                          The SAS System                            00:00 Tuesday, November 3, 2020
+
+29         %let trans_rc = 0;
+30         %let sqlrc = 0;
+31         %global etls_stepStartTime;
+32         /* initialize syserr to 0 */
+33         data _null_; run;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+34         
+35         %macro rcSet(error);
+36            %if (&error gt &trans_rc) %then
+37               %let trans_rc = &error;
+38            %if (&error gt &job_rc) %then
+39               %let job_rc = &error;
+40         %mend rcSet;
+41         
+42         %macro rcSetDS(error);
+43            if &error gt input(symget('trans_rc'),12.) then
+44               call symput('trans_rc',trim(left(put(&error,12.))));
+45            if &error gt input(symget('job_rc'),12.) then
+46               call symput('job_rc',trim(left(put(&error,12.))));
+47         %mend rcSetDS;
+48         
+49         /* Create metadata macro variables */
+50         %let IOMServer      = %nrquote(SASApp);
+51         %let metaPort       = %nrquote(8561);
+52         %let metaServer     = %nrquote(ersupa0.enerjisa.local);
+53         
+54         /* Setup for capturing job status  */
+55         %let etls_startTime = %sysfunc(datetime(),datetime.);
+56         %let etls_recordsBefore = 0;
+57         %let etls_recordsAfter = 0;
+58         %let etls_lib = 0;
+59         %let etls_table = 0;
+60         
+61         %global etls_debug;
+62         %macro etls_setDebug;
+63            %if %str(&etls_debug) ne 0 %then
+64               OPTIONS MPRINT%str(;);
+65         %mend;
+66         %etls_setDebug;
+67         
+68         /****************************************************************************
+69          * Job:             online_partner_create                 A57BXQB4.BT0000AP *
+70          * Description:                                                             *
+71          *                                                                          *
+72          * Metadata Server: ersupa0.enerjisa.local                                  *
+73          * Port:            8561                                                    *
+74          * Location:        /Data Integration/Jobs/Extraction HANA                  *
+75          *                   Jobs/Mobil_App_Rwp                                     *
+76          *                                                                          *
+77          * Server:          SASApp                                A57BXQB4.AS000002 *
+78          *                                                                          *
+79          * Source Table:    ZSAS_ONLINE_PARTNER_RWP -             A57BXQB4.BE0003X3 *
+80          *                   NEDLIB.ZSAS_ONLINE_PARTNER_RWP                         *
+8                                                          The SAS System                            00:00 Tuesday, November 3, 2020
+
+81          * Target Table:    ZSAS_ONLINE_PARTNER_HWP -             A57BXQB4.BE0003XL *
+82          *                   HANALIB2.ZSAS_ONLINE_PARTNER_HWP                       *
+83          *                                                                          *
+84          * Generated on:    Thursday, August 20, 2020 3:41:11 PM EET                *
+85          * Generated by:    sas                                                     *
+86          * Version:         SAS Data Integration Studio 4.904                       *
+87          ****************************************************************************/
+88         
+89         /* Generate the process id for job  */
+90         %put Process ID: &SYSJOBID;
+Process ID: 7603128
+91         
+92         /* General macro variables  */
+93         %let jobID = %quote(A57BXQB4.BT0000AP);
+94         %let etls_jobName = %nrquote(online_partner_create);
+95         %let etls_userID = %nrquote(sas);
+96         
+97         
+98         /* Create metadata macro variables */
+99         %let IOMServer      = %nrquote(SASApp);
+100        %let metaPort       = %nrquote(8561);
+101        %let metaServer     = %nrquote(ersupa0.enerjisa.local);
+102        
+103        /* Setup for capturing job status  */
+104        %let etls_startTime = %sysfunc(datetime(),datetime.);
+105        %let etls_recordsBefore = 0;
+106        %let etls_recordsAfter = 0;
+107        %let etls_lib = 0;
+108        %let etls_table = 0;
+109        
+110        %global etls_debug;
+111        %macro etls_setDebug;
+112           %if %str(&etls_debug) ne 0 %then
+113              OPTIONS MPRINT%str(;);
+114        %mend;
+115        %etls_setDebug;
+MPRINT(ETLS_SETDEBUG):   OPTIONS MPRINT;
+116        
+117        /*==========================================================================*
+118         * Step:            Execute                               A57BXQB4.BV0002LB *
+119         * Transform:       Execute                                                 *
+120         * Description:                                                             *
+121         *                                                                          *
+122         * Target Table:    Execute - work.WJHEP7R                A57BXQB4.BS0000CT *
+123         *                                                                          *
+124         * User Written:    SourceCode                                              *
+125         *==========================================================================*/
+126        
+127        %let transformID = %quote(A57BXQB4.BV0002LB);
+128        %let trans_rc = 0;
+129        %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+130        
+131        %let _INPUT_count = 0;
+132        %let _OUTPUT_count = 1;
+133        %let _OUTPUT = work.WJHEP7R;
+134        %let _OUTPUT_connect = ;
+135        %let _OUTPUT_engine = ;
+136        %let _OUTPUT_memtype = DATA;
+9                                                          The SAS System                            00:00 Tuesday, November 3, 2020
+
+137        %let _OUTPUT_options = %nrquote();
+138        %let _OUTPUT_alter = %nrquote();
+139        %let _OUTPUT_path = %nrquote(/Execute_A57BXQB4.BS0000CT%(WorkTable%));
+140        %let _OUTPUT_type = 1;
+141        %let _OUTPUT_label = %nrquote();
+142        %let _OUTPUT_col_count = 0;
+143        %let _OUTPUT_filetype = WorkTable;
+144        
+145        %let _OUTPUT1 = work.WJHEP7R;
+146        %let _OUTPUT1_connect = ;
+147        %let _OUTPUT1_engine = ;
+148        %let _OUTPUT1_memtype = DATA;
+149        %let _OUTPUT1_options = %nrquote();
+150        %let _OUTPUT1_alter = %nrquote();
+151        %let _OUTPUT1_path = %nrquote(/Execute_A57BXQB4.BS0000CT%(WorkTable%));
+152        %let _OUTPUT1_type = 1;
+153        %let _OUTPUT1_label = %nrquote();
+154        %let _OUTPUT1_col_count = 0;
+155        %let _OUTPUT1_filetype = WorkTable;
+156        
+157        /*---- Start of User Written Code  ----*/
+158        
+159        libname RTHANA sasiohna server='10.166.0.179' port='33015' user='SASHANAUSER' password=XXXXXXXXXXXXXX schema='RISU';
+NOTE: Libref RTHANA was successfully assigned as follows: 
+      Engine:        SAPHANA 
+      Physical Name: 10.166.0.179
+160        
+161        proc sql;
+162        create table NEDLIB.ZSAS_ONLINE_PARTNER_RWP as 	
+163        select PARTNER
+164        from RTHANA.but000
+165        where ZZUYELIKDURU = '1' ;
+NOTE: Compressing data set NEDLIB.ZSAS_ONLINE_PARTNER_RWP decreased size by 40.07 percent.
+NOTE: Table NEDLIB.ZSAS_ONLINE_PARTNER_RWP created, with 1405334 rows and 1 columns.
+
+166        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           5.14 seconds
+      cpu time            0.66 seconds
+      
+
+167        /*---- End of User Written Code  ----*/
+168        
+169        %rcSet(&syserr);
+170        %rcSet(&sqlrc);
+171        
+172        
+173        /** Step end Execute **/
+174        
+175        /*==========================================================================*
+176         * Step:            Table Loader                          A57BXQB4.BV0002LC *
+177         * Transform:       Table Loader (Version 2.1)                              *
+178         * Description:                                                             *
+179         *                                                                          *
+180         * Source Table:    ZSAS_ONLINE_PARTNER_RWP -             A57BXQB4.BE0003X3 *
+181         *                   NEDLIB.ZSAS_ONLINE_PARTNER_RWP                         *
+182         * Target Table:    ZSAS_ONLINE_PARTNER_HWP -             A57BXQB4.BE0003XL *
+183         *                   HANALIB2.ZSAS_ONLINE_PARTNER_HWP                       *
+10                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+184         *==========================================================================*
+185         *                                                                          *
+186         * Nothing will be generated for this process because the "Exclude          *
+187         *  transformation from run" option is selected.                            *
+188         *                                                                          *
+189         *==========================================================================*/
+190        
+191        %let etls_endTime = %sysfunc(datetime(),datetime.);
+192        
+193        
+194        
+195        /**  Job end online_partner_create **/
+196        
+197        /* Reset jobid and name */
+198        %let jobID = %quote(A57BXQB4.BT0000JB);
+199        %let etls_jobName = %nrquote(ZSAS_ZBIL_TABLE_CREATE);
+200        
+201        /****************************************************************************
+202         * Job:             HANA_ZBIL_WEB_ALL2                    A57BXQB4.BT0000AQ *
+203         * Description:                                                             *
+204         *                                                                          *
+205         * Metadata Server: ersupa0.enerjisa.local                                  *
+206         * Port:            8561                                                    *
+207         * Location:        /Data Integration/Jobs/Extraction HANA Jobs/Mobil_App   *
+208         *                                                                          *
+209         * Server:          SASApp                                A57BXQB4.AS000002 *
+210         *                                                                          *
+211         * Source Tables:   ZSAS_ZBIL_WEB_MONTHLY_CONS -          A57BXQB4.BE0003X8 *
+212         *                   HANALIB2.ZSAS_ZBIL_WEB_MONTHLY_CONS                    *
+213         *                  ZSAS_ZBIL_WEB_LAST_INV -              A57BXQB4.BE0003X6 *
+214         *                   HANALIB2.ZSAS_ZBIL_WEB_LAST_INV                        *
+215         *                  ZSAS_ZBIL_WEB_MONTHLY_INV -           A57BXQB4.BE0003X9 *
+216         *                   HANALIB2.ZSAS_ZBIL_WEB_MONTHLY_INV                     *
+217         *                  ZSAS_ZBIL_WEB_INVOICE_LOG -           A57BXQB4.BE0003XB *
+218         *                   HANALIB2.ZSAS_ZBIL_WEB_INVOICE_LOG                     *
+219         *                  ZSAS_ONLINE_PARTNER_RWP -             A57BXQB4.BE0003X3 *
+220         *                   NEDLIB.ZSAS_ONLINE_PARTNER_RWP                         *
+221         *                  HANA_WEB_MONTHLY_CONS_ALLX -          A57BXQB4.BE0003X4 *
+222         *                   NEDLIB.HANA_WEB_MONTHLY_CONS_ALLX                      *
+223         * Target Tables:   HANA_ZBIL_WEB_LAST_INV -              A57BXQB4.BE0003X7 *
+224         *                   NEDLIB.HANA_ZBIL_WEB_LAST_INV                          *
+225         *                  HANA_ZBIL_WEB_MONTHLY_INV -           A57BXQB4.BE0003XA *
+226         *                   NEDLIB.HANA_ZBIL_WEB_MONTHLY_INV                       *
+227         *                  HANA_ZBIL_WEB_INVOICE_LOG -           A57BXQB4.BE0003XC *
+228         *                   NEDLIB.HANA_ZBIL_WEB_INVOICE_LOG                       *
+229         *                  HANA_ZBIL_WEB_MONTHLY_CONS -          A57BXQB4.BE0003X5 *
+230         *                   NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS                      *
+231         *                                                                          *
+232         * Generated on:    Thursday, August 20, 2020 3:41:11 PM EET                *
+233         * Generated by:    sas                                                     *
+234         * Version:         SAS Data Integration Studio 4.904                       *
+235         ****************************************************************************/
+236        
+237        /* Generate the process id for job  */
+238        %put Process ID: &SYSJOBID;
+Process ID: 7603128
+239        
+240        /* General macro variables  */
+11                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+241        %let jobID = %quote(A57BXQB4.BT0000AQ);
+242        %let etls_jobName = %nrquote(HANA_ZBIL_WEB_ALL2);
+243        %let etls_userID = %nrquote(sas);
+244        
+245        
+246        /* Create metadata macro variables */
+247        %let IOMServer      = %nrquote(SASApp);
+248        %let metaPort       = %nrquote(8561);
+249        %let metaServer     = %nrquote(ersupa0.enerjisa.local);
+250        
+251        /* Setup for capturing job status  */
+252        %let etls_startTime = %sysfunc(datetime(),datetime.);
+253        %let etls_recordsBefore = 0;
+254        %let etls_recordsAfter = 0;
+255        %let etls_lib = 0;
+256        %let etls_table = 0;
+257        
+258        %global etls_debug;
+259        %macro etls_setDebug;
+260           %if %str(&etls_debug) ne 0 %then
+261              OPTIONS MPRINT%str(;);
+262        %mend;
+263        %etls_setDebug;
+MPRINT(ETLS_SETDEBUG):   OPTIONS MPRINT;
+264        
+265        /*==========================================================================*
+266         * Step:            Join                                  A57BXQB4.BV0002KV *
+267         * Transform:       Join                                                    *
+268         * Description:                                                             *
+269         *                                                                          *
+270         * Source Tables:   ZSAS_ONLINE_PARTNER_RWP -             A57BXQB4.BE0003X3 *
+271         *                   NEDLIB.ZSAS_ONLINE_PARTNER_RWP                         *
+272         *                  HANA_WEB_MONTHLY_CONS_ALLX -          A57BXQB4.BE0003X4 *
+273         *                   NEDLIB.HANA_WEB_MONTHLY_CONS_ALLX                      *
+274         * Target Table:    Join - work.W1ZVZ2TS                  A57BXQB4.BS0000A1 *
+275         *==========================================================================*/
+276        
+277        %let transformID = %quote(A57BXQB4.BV0002KV);
+278        %let trans_rc = 0;
+279        %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+280        
+281        %let etls_recCheckExist = 0;
+282        %let etls_recnt = 0;
+283        %macro etls_recordCheck;
+284           %let etls_recCheckExist = %eval(%sysfunc(exist(NEDLIB.ZSAS_ONLINE_PARTNER_RWP, DATA)) or
+285                 %sysfunc(exist(NEDLIB.ZSAS_ONLINE_PARTNER_RWP, VIEW)));
+286        
+287           %if (&etls_recCheckExist) %then
+288           %do;
+289              %local etls_syntaxcheck;
+290              %let etls_syntaxcheck = %sysfunc(getoption(syntaxcheck));
+291              /* Turn off syntaxcheck option to perform following steps  */
+292              options nosyntaxcheck;
+293        
+294              proc contents data = NEDLIB.ZSAS_ONLINE_PARTNER_RWP out = work.etls_contents(keep = nobs) noprint;
+295              run;
+296        
+297              data _null_;
+12                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+298                 set work.etls_contents (obs = 1);
+299                 call symput("etls_recnt", left(put(nobs,32.)));
+300              run;
+301        
+302              proc datasets lib = work nolist nowarn memtype = (data view);
+303                 delete etls_contents;
+304              quit;
+305        
+306              /* Reset syntaxcheck option to previous setting  */
+307              options &etls_syntaxcheck;
+308           %end;
+309        %mend etls_recordCheck;
+310        %etls_recordCheck;
+MPRINT(ETLS_RECORDCHECK):   options nosyntaxcheck;
+MPRINT(ETLS_RECORDCHECK):   proc contents data = NEDLIB.ZSAS_ONLINE_PARTNER_RWP out = work.etls_contents(keep = nobs) noprint;
+MPRINT(ETLS_RECORDCHECK):   run;
+
+NOTE: The data set WORK.ETLS_CONTENTS has 1 observations and 1 variables.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.01 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   data _null_;
+MPRINT(ETLS_RECORDCHECK):   set work.etls_contents (obs = 1);
+MPRINT(ETLS_RECORDCHECK):   call symput("etls_recnt", left(put(nobs,32.)));
+MPRINT(ETLS_RECORDCHECK):   run;
+
+NOTE: There were 1 observations read from the data set WORK.ETLS_CONTENTS.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_RECORDCHECK):   delete etls_contents;
+MPRINT(ETLS_RECORDCHECK):   quit;
+
+NOTE: Deleting WORK.ETLS_CONTENTS (memtype=DATA).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   options SYNTAXCHECK;
+311        
+312        %global etls_sql_pushDown;
+313        %let etls_sql_pushDown = -1;
+314        option DBIDIRECTEXEC;
+315        
+316        proc datasets lib = work nolist nowarn memtype = (data view);
+317           delete W1ZVZ2TS;
+318        quit;
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+13                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+
+319        
+320        %let spdssqlr = ;
+321        
+322        proc sql;
+323           create view work.W1ZVZ2TS as
+324           select distinct
+325              ZSAS_ONLINE_PARTNER_RWP.PARTNER length = 30
+326                 format = $30.
+327                 informat = $30.
+328                 label = 'PARTNER',
+329              HANA_WEB_MONTHLY_CONS_ALLX.VKONT length = 24
+330                 format = $24.
+331                 informat = $24.
+332                 label = 'VKONT',
+333              HANA_WEB_MONTHLY_CONS_ALLX.OPBEL length = 24
+334                 format = $24.
+335                 informat = $24.
+336                 label = 'OPBEL',
+337              HANA_WEB_MONTHLY_CONS_ALLX.DRUCKDAT length = 16
+338                 format = $16.
+339                 informat = $16.
+340                 label = 'DRUCKDAT',
+341              HANA_WEB_MONTHLY_CONS_ALLX.BILLING_PERIOD length = 20
+342                 format = $20.
+343                 informat = $20.
+344                 label = 'BILLING_PERIOD',
+345              HANA_WEB_MONTHLY_CONS_ALLX.BUDAT length = 16
+346                 format = $16.
+347                 informat = $16.
+348                 label = 'BUDAT',
+349              HANA_WEB_MONTHLY_CONS_ALLX.TOTAL_AMNT length = 8
+350                 format = 15.2
+351                 informat = 15.2
+352                 label = 'TOTAL_AMNT',
+353              HANA_WEB_MONTHLY_CONS_ALLX.BELNR length = 24
+354                 format = $24.
+355                 informat = $24.
+356                 label = 'BELNR',
+357              HANA_WEB_MONTHLY_CONS_ALLX.ENDABRPE length = 16
+358                 format = $16.
+359                 informat = $16.
+360                 label = 'ENDABRPE',
+361              HANA_WEB_MONTHLY_CONS_ALLX.BEGABRPE length = 16
+362                 format = $16.
+363                 informat = $16.
+364                 label = 'BEGABRPE',
+365              HANA_WEB_MONTHLY_CONS_ALLX.FATURA_GUN_SAYISI length = 8
+366                 format = 11.
+367                 informat = 11.
+368                 label = 'FATURA_GUN_SAYISI',
+369              HANA_WEB_MONTHLY_CONS_ALLX.ZMT0 length = 8
+370                 label = 'ZMT0',
+371              HANA_WEB_MONTHLY_CONS_ALLX.ZMT1 length = 8
+372                 label = 'ZMT1',
+373              HANA_WEB_MONTHLY_CONS_ALLX.ZMT2 length = 8
+374                 label = 'ZMT2',
+375              HANA_WEB_MONTHLY_CONS_ALLX.ZMT3 length = 8
+14                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+376                 label = 'ZMT3',
+377              HANA_WEB_MONTHLY_CONS_ALLX.ZMT_AVG length = 8
+378                 label = 'ZMT_AVG'
+379           from
+380              NEDLIB.ZSAS_ONLINE_PARTNER_RWP as ZSAS_ONLINE_PARTNER_RWP,
+381              NEDLIB.HANA_WEB_MONTHLY_CONS_ALLX as HANA_WEB_MONTHLY_CONS_ALLX
+382           where
+383              ZSAS_ONLINE_PARTNER_RWP.PARTNER = HANA_WEB_MONTHLY_CONS_ALLX.PARTNER
+384              and input(HANA_WEB_MONTHLY_CONS_ALLX.BUDAT,10.) > 20141231
+385           ;
+NOTE: SQL view WORK.W1ZVZ2TS has been defined.
+386        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+387        
+388        %global etls_sql_pushDown;
+389        %let etls_sql_pushDown = &sys_sql_ip_all;
+390        
+391        %rcSet(&sqlrc);
+392        
+393        
+394        
+395        /** Step end Join **/
+396        
+397        /*==========================================================================*
+398         * Step:            Extract                               A57BXQB4.BV0002KW *
+399         * Transform:       Extract                                                 *
+400         * Description:                                                             *
+401         *                                                                          *
+402         * Source Table:    Join - work.W1ZVZ2TS                  A57BXQB4.BS0000A1 *
+403         * Target Table:    Extract - work.W1ZWNF7J               A57BXQB4.BS0000A2 *
+404         *==========================================================================*/
+405        
+406        %let transformID = %quote(A57BXQB4.BV0002KW);
+407        %let trans_rc = 0;
+408        %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+409        
+410        %let etls_recnt = -1;
+411        %let SYSLAST = %nrquote(work.W1ZVZ2TS);
+412        
+413        %global etls_sql_pushDown;
+414        %let etls_sql_pushDown = -1;
+415        option DBIDIRECTEXEC;
+416        
+417        /*---- Map the columns  ----*/
+418        proc datasets lib = work nolist nowarn memtype = (data view);
+419           delete W1ZWNF7J;
+420        quit;
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+421        
+15                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+422        %put %str(NOTE: Mapping columns ...);
+NOTE: Mapping columns ...
+423        proc sql;
+424           create view work.W1ZWNF7J as
+425              select
+426                 PARTNER,
+427                 VKONT,
+428                 OPBEL,
+429                 DRUCKDAT,
+430                 BILLING_PERIOD,
+431                 BUDAT,
+432                 TOTAL_AMNT,
+433                 BELNR,
+434                 ENDABRPE,
+435                 BEGABRPE,
+436                 FATURA_GUN_SAYISI,
+437                 ZMT0,
+438                 ZMT1,
+439                 ZMT2,
+440                 ZMT3,
+441                 ZMT_AVG
+442           from &SYSLAST
+443           ;
+NOTE: SQL view WORK.W1ZWNF7J has been defined.
+444        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+445        
+446        %let SYSLAST = work.W1ZWNF7J;
+447        
+448        %global etls_sql_pushDown;
+449        %let etls_sql_pushDown = &sys_sql_ip_all;
+450        
+451        %rcSet(&sqlrc);
+452        
+453        
+454        
+455        /** Step end Extract **/
+456        
+457        /*==========================================================================*
+458         * Step:            Table Loader                          A57BXQB4.BV0002KX *
+459         * Transform:       Table Loader (Version 2.1)                              *
+460         * Description:                                                             *
+461         *                                                                          *
+462         * Source Table:    Extract - work.W1ZWNF7J               A57BXQB4.BS0000A2 *
+463         * Target Table:    HANA_ZBIL_WEB_MONTHLY_CONS -          A57BXQB4.BE0003X5 *
+464         *                   NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS                      *
+465         *==========================================================================*/
+466        
+467        %let transformID = %quote(A57BXQB4.BV0002KX);
+468        %let trans_rc = 0;
+469        %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+470        
+471        %let SYSLAST = %nrquote(work.W1ZWNF7J);
+472        
+16                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+473        %global etls_sql_pushDown;
+474        %let etls_sql_pushDown = -1;
+475        option DBIDIRECTEXEC;
+476        
+477        %global etls_tableExist;
+478        %global etls_numIndex;
+479        %global etls_lastTable;
+480        %let etls_tableExist = -1;
+481        %let etls_numIndex = -1;
+482        %let etls_lastTable = &SYSLAST;
+483        
+484        /*---- Define load data macro  ----*/
+485        
+486        /* --------------------------------------------------------------
+487           Load Technique Selection: Replace - EntireTable
+488           Constraint and index action selections: 'ASIS','ASIS','ASIS','ASIS'
+489           Additional options selections...
+490              Set unmapped to missing on updates: false
+491           -------------------------------------------------------------- */
+492        %macro etls_loader;
+493        
+494           %let etls_tableOptions = ;
+495        
+496           /*---- Map the columns  ----*/
+497           proc datasets lib = work nolist nowarn memtype = (data view);
+498              delete W9MOCGDB;
+499           quit;
+500        
+501           %put %str(NOTE: Mapping columns ...);
+502           proc sql;
+503              create view work.W9MOCGDB as
+504                 select
+505                    PARTNER,
+506                    VKONT length = 36
+507                       format = $36.
+508                       informat = $36.,
+509                    OPBEL length = 36
+510                       format = $36.
+511                       informat = $36.,
+512                    DRUCKDAT length = 24
+513                       format = $24.
+514                       informat = $24.,
+515                    BILLING_PERIOD length = 30
+516                       format = $30.
+517                       informat = $30.,
+518                    BUDAT length = 24
+519                       format = $24.
+520                       informat = $24.,
+521                    TOTAL_AMNT,
+522                    BELNR length = 36
+523                       format = $36.
+524                       informat = $36.,
+525                    ENDABRPE length = 24
+526                       format = $24.
+527                       informat = $24.,
+528                    BEGABRPE length = 24
+529                       format = $24.
+530                       informat = $24.,
+17                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+531                    FATURA_GUN_SAYISI,
+532                    ZMT0,
+533                    ZMT1,
+534                    ZMT2,
+535                    ZMT3,
+536                    ZMT_AVG
+537              from &etls_lastTable
+538              ;
+539           quit;
+540        
+541           %let SYSLAST = work.W9MOCGDB;
+542        
+543           %let etls_lastTable = &SYSLAST;
+544           %let etls_tableOptions = ;
+545        
+546           /* Determine if the target table exists  */
+547           %let etls_tableExist = %eval(%sysfunc(exist(NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS, DATA)) or
+548                 %sysfunc(exist(NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS, VIEW)));
+549        
+550           %if &etls_tableExist %then
+551           %do;/* table exists  */
+552              %let etls_hasPreExistingConstraint=0;
+553        
+554              proc datasets lib = work nolist nowarn memtype = (data view);
+555                 delete etls_commands etls_commands_F;
+556              quit;
+557        
+558              %let etls_otherTablesReferToThisTable=0;
+559        
+560              %macro etls_CIContents(table=,workTableOut=,inDSOptions=);
+561                 %put NOTE: Building table listing Constraints and Indexes for: &table;
+562                 proc datasets lib=work nolist; delete &workTableOut; quit;
+563                 proc contents data=&table&inDSOptions out2=&workTableOut noprint; run;
+564        
+565                 data &workTableOut;
+566                    length name $60 type $20 icown idxUnique idxNoMiss $3 recreate $600;
+567                    name = '';
+568                    type = '';
+569                    icown = '';
+570                    idxUnique = '';
+571                    idxNoMiss = '';
+572                    recreate = '';
+573                    set &workTableOut;
+574                    ref = '';
+575                    type=upcase(type);
+576                    if type eq 'REFERENTIAL' then
+577                    do;
+578                       put "WARNING%QUOTE(:) Target table is referenced by constraints in"
+579                            " another table: " ref;
+580                       call symput('etls_otherTablesReferToThisTable','1');
+581                       delete;
+582                    end;
+583                    if type='INDEX' and ICOwn eq 'YES' then delete;
+584                 run;
+585                 %rcSet(&syserr);
+586        
+587              %mend etls_CIContents;
+588        
+18                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+589              %etls_CIContents(table=NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS, workTableOut=etls_commands, inDSOptions=);
+590        
+591              %if &etls_otherTablesReferToThisTable %then
+592                 %put WARNING%QUOTE(:) Replacing entire table will fail. Consider an alternate load technique or revising
+592      ! constraints.;
+593              %else
+594              %do; /* okay - remove foreign keys  */
+595        
+596                 data etls_commands_F;
+597                    set etls_commands;
+598                    if upcase(type)="FOREIGN KEY" then
+599                    do;
+600                       command='ic delete '||trim(name)||';';
+601                       output etls_commands_F;
+602                    end;
+603                 run;
+604        
+605                 %put %str(NOTE: Removing foreign keys before dropping table...);
+606                 data _null_;
+607                    set etls_commands_F end=eof;
+608                    if _n_=1 then
+609                       call execute('proc datasets nolist lib=NEDLIB;modify HANA_ZBIL_WEB_MONTHLY_CONS;');
+610                    call execute(command);
+611                    if eof then call execute('; quit;');
+612                 run;
+613                 %rcSet(&syserr);
+614        
+615           %end; /* okay - remove foreign keys  */
+616        
+617           proc datasets lib = work nolist nowarn memtype = (data view);
+618              delete etls_commands etls_commands_F;
+619           quit;
+620        
+621           /*---- Drop a table  ----*/
+622           %put %str(NOTE: Dropping table ...);
+623           proc datasets lib = NEDLIB nolist nowarn memtype = (data view);
+624              delete HANA_ZBIL_WEB_MONTHLY_CONS;
+625           quit;
+626        
+627           %rcSet(&syserr);
+628        
+629           %let etls_tableExist = 0;
+630        
+631        %end; /* table exists  */
+632        
+633        /*---- Create a new table  ----*/
+634        %if (&etls_tableExist eq 0) %then
+635        %do;  /* if table does not exist  */
+636        
+637           %put %str(NOTE: Creating table ...);
+638        
+639           data NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS
+640                   (COMPRESS = YES);
+641              attrib PARTNER length = $30
+642                 format = $30.
+643                 informat = $30.
+644                 label = 'PARTNER';
+645              attrib VKONT length = $36
+19                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+646                 format = $36.
+647                 informat = $36.
+648                 label = 'VKONT';
+649              attrib OPBEL length = $36
+650                 format = $36.
+651                 informat = $36.
+652                 label = 'OPBEL';
+653              attrib DRUCKDAT length = $24
+654                 format = $24.
+655                 informat = $24.
+656                 label = 'DRUCKDAT';
+657              attrib BILLING_PERIOD length = $30
+658                 format = $30.
+659                 informat = $30.
+660                 label = 'BILLING_PERIOD';
+661              attrib BUDAT length = $24
+662                 format = $24.
+663                 informat = $24.
+664                 label = 'BUDAT';
+665              attrib TOTAL_AMNT length = 8
+666                 format = 15.2
+667                 informat = 15.2
+668                 label = 'TOTAL_AMNT';
+669              attrib BELNR length = $36
+670                 format = $36.
+671                 informat = $36.
+672                 label = 'BELNR';
+673              attrib ENDABRPE length = $24
+674                 format = $24.
+675                 informat = $24.
+676                 label = 'ENDABRPE';
+677              attrib BEGABRPE length = $24
+678                 format = $24.
+679                 informat = $24.
+680                 label = 'BEGABRPE';
+681              attrib FATURA_GUN_SAYISI length = 8
+682                 format = 11.
+683                 informat = 11.
+684                 label = 'FATURA_GUN_SAYISI';
+685              attrib ZMT0 length = 8
+686                 label = 'ZMT0';
+687              attrib ZMT1 length = 8
+688                 label = 'ZMT1';
+689              attrib ZMT2 length = 8
+690                 label = 'ZMT2';
+691              attrib ZMT3 length = 8
+692                 label = 'ZMT3';
+693              attrib ZMT_AVG length = 8
+694                 label = 'ZMT_AVG';
+695              call missing(of _all_);
+696              stop;
+697           run;
+698        
+699           %rcSet(&syserr);
+700        
+701        %end;  /* if table does not exist  */
+702        
+703        /*---- Append  ----*/
+20                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+704        %put %str(NOTE: Appending data ...);
+705        
+706        proc append base = NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS(COMPRESS = YES)
+707           data = &etls_lastTable (&etls_tableOptions)  force ;
+708         run;
+709        
+710        %rcSet(&syserr);
+711        
+712        proc datasets lib = work nolist nowarn memtype = (data view);
+713           delete W9MOCGDB;
+714        quit;
+715        
+716        %mend etls_loader;
+717        %etls_loader;
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete W9MOCGDB;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Mapping columns ...
+MPRINT(ETLS_LOADER):   proc sql;
+MPRINT(ETLS_LOADER):   create view work.W9MOCGDB as select PARTNER, VKONT length = 36 format = $36. informat = $36., OPBEL length = 
+36 format = $36. informat = $36., DRUCKDAT length = 24 format = $24. informat = $24., BILLING_PERIOD length = 30 format = $30. 
+informat = $30., BUDAT length = 24 format = $24. informat = $24., TOTAL_AMNT, BELNR length = 36 format = $36. informat = $36., 
+ENDABRPE length = 24 format = $24. informat = $24., BEGABRPE length = 24 format = $24. informat = $24., FATURA_GUN_SAYISI, ZMT0, 
+ZMT1, ZMT2, ZMT3, ZMT_AVG from WORK.W1ZWNF7J ;
+NOTE: SQL view WORK.W9MOCGDB has been defined.
+MPRINT(ETLS_LOADER):   quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete etls_commands etls_commands_F;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Building table listing Constraints and Indexes for: NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS
+MPRINT(ETLS_CICONTENTS):   proc datasets lib=work nolist;
+MPRINT(ETLS_CICONTENTS):   delete etls_commands;
+MPRINT(ETLS_CICONTENTS):   quit;
+
+NOTE: The file WORK.ETLS_COMMANDS (memtype=DATA) was not found, but appears on a DELETE statement.
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_CICONTENTS):   proc contents data=NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS out2=etls_commands noprint;
+21                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+MPRINT(ETLS_CICONTENTS):   run;
+
+NOTE: The data set WORK.ETLS_COMMANDS has 0 observations and 0 variables.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+MPRINT(ETLS_CICONTENTS):   data etls_commands;
+MPRINT(ETLS_CICONTENTS):   length name $60 type $20 icown idxUnique idxNoMiss $3 recreate $600;
+MPRINT(ETLS_CICONTENTS):   name = '';
+MPRINT(ETLS_CICONTENTS):   type = '';
+MPRINT(ETLS_CICONTENTS):   icown = '';
+MPRINT(ETLS_CICONTENTS):   idxUnique = '';
+MPRINT(ETLS_CICONTENTS):   idxNoMiss = '';
+MPRINT(ETLS_CICONTENTS):   recreate = '';
+MPRINT(ETLS_CICONTENTS):   set etls_commands;
+MPRINT(ETLS_CICONTENTS):   ref = '';
+MPRINT(ETLS_CICONTENTS):   type=upcase(type);
+MPRINT(ETLS_CICONTENTS):   if type eq 'REFERENTIAL' then do;
+MPRINT(ETLS_CICONTENTS):   put "WARNING: Target table is referenced by constraints in" " another table: " ref;
+MPRINT(ETLS_CICONTENTS):   call symput('etls_otherTablesReferToThisTable','1');
+MPRINT(ETLS_CICONTENTS):   delete;
+MPRINT(ETLS_CICONTENTS):   end;
+MPRINT(ETLS_CICONTENTS):   if type='INDEX' and ICOwn eq 'YES' then delete;
+MPRINT(ETLS_CICONTENTS):   run;
+
+NOTE: There were 0 observations read from the data set WORK.ETLS_COMMANDS.
+NOTE: The data set WORK.ETLS_COMMANDS has 0 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_CICONTENTS):  ;
+MPRINT(ETLS_LOADER):  ;
+MPRINT(ETLS_LOADER):   data etls_commands_F;
+MPRINT(ETLS_LOADER):   set etls_commands;
+MPRINT(ETLS_LOADER):   if upcase(type)="FOREIGN KEY" then do;
+MPRINT(ETLS_LOADER):   command='ic delete '||trim(name)||';';
+MPRINT(ETLS_LOADER):   output etls_commands_F;
+MPRINT(ETLS_LOADER):   end;
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: There were 0 observations read from the data set WORK.ETLS_COMMANDS.
+NOTE: The data set WORK.ETLS_COMMANDS_F has 0 observations and 8 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Removing foreign keys before dropping table...
+MPRINT(ETLS_LOADER):   data _null_;
+MPRINT(ETLS_LOADER):   set etls_commands_F end=eof;
+MPRINT(ETLS_LOADER):   if _n_=1 then call execute('proc datasets nolist lib=NEDLIB;modify HANA_ZBIL_WEB_MONTHLY_CONS;');
+MPRINT(ETLS_LOADER):   call execute(command);
+MPRINT(ETLS_LOADER):   if eof then call execute('; quit;');
+MPRINT(ETLS_LOADER):   run;
+22                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+
+NOTE: There were 0 observations read from the data set WORK.ETLS_COMMANDS_F.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_LOADER):  ;
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete etls_commands etls_commands_F;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: Deleting WORK.ETLS_COMMANDS (memtype=DATA).
+NOTE: Deleting WORK.ETLS_COMMANDS_F (memtype=DATA).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Dropping table ...
+MPRINT(ETLS_LOADER):   proc datasets lib = NEDLIB nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete HANA_ZBIL_WEB_MONTHLY_CONS;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: Deleting NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS (memtype=DATA).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.22 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_LOADER):  ;
+NOTE: Creating table ...
+MPRINT(ETLS_LOADER):   data NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS (COMPRESS = YES);
+MPRINT(ETLS_LOADER):   attrib PARTNER length = $30 format = $30. informat = $30. label = 'PARTNER';
+MPRINT(ETLS_LOADER):   attrib VKONT length = $36 format = $36. informat = $36. label = 'VKONT';
+MPRINT(ETLS_LOADER):   attrib OPBEL length = $36 format = $36. informat = $36. label = 'OPBEL';
+MPRINT(ETLS_LOADER):   attrib DRUCKDAT length = $24 format = $24. informat = $24. label = 'DRUCKDAT';
+MPRINT(ETLS_LOADER):   attrib BILLING_PERIOD length = $30 format = $30. informat = $30. label = 'BILLING_PERIOD';
+MPRINT(ETLS_LOADER):   attrib BUDAT length = $24 format = $24. informat = $24. label = 'BUDAT';
+MPRINT(ETLS_LOADER):   attrib TOTAL_AMNT length = 8 format = 15.2 informat = 15.2 label = 'TOTAL_AMNT';
+MPRINT(ETLS_LOADER):   attrib BELNR length = $36 format = $36. informat = $36. label = 'BELNR';
+MPRINT(ETLS_LOADER):   attrib ENDABRPE length = $24 format = $24. informat = $24. label = 'ENDABRPE';
+MPRINT(ETLS_LOADER):   attrib BEGABRPE length = $24 format = $24. informat = $24. label = 'BEGABRPE';
+MPRINT(ETLS_LOADER):   attrib FATURA_GUN_SAYISI length = 8 format = 11. informat = 11. label = 'FATURA_GUN_SAYISI';
+MPRINT(ETLS_LOADER):   attrib ZMT0 length = 8 label = 'ZMT0';
+MPRINT(ETLS_LOADER):   attrib ZMT1 length = 8 label = 'ZMT1';
+MPRINT(ETLS_LOADER):   attrib ZMT2 length = 8 label = 'ZMT2';
+MPRINT(ETLS_LOADER):   attrib ZMT3 length = 8 label = 'ZMT3';
+MPRINT(ETLS_LOADER):   attrib ZMT_AVG length = 8 label = 'ZMT_AVG';
+MPRINT(ETLS_LOADER):   call missing(of _all_);
+MPRINT(ETLS_LOADER):   stop;
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: The data set NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS has 0 observations and 16 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.00 seconds
+      
+23                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+
+MPRINT(ETLS_LOADER):  ;
+NOTE: Appending data ...
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: NEDLIB
+ SPDS_NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4  Server at 10.166.0.39.
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9438158/spdsmeta2/NEDLIB/
+
+ SPDS_NOTE: Libref NEDLIB was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9438158/spdsmeta2/NEDLIB/
+
+NOTE: Implicit SQL:  select W1ZWNF7J.PARTNER, W1ZWNF7J.VKONT as VKONT, W1ZWNF7J.OPBEL as OPBEL, W1ZWNF7J.DRUCKDAT as DRUCKDAT, 
+      W1ZWNF7J.BILLING_PERIOD as BILLING_PERIOD, W1ZWNF7J.BUDAT as BUDAT, W1ZWNF7J.TOTAL_AMNT, W1ZWNF7J.BELNR as BELNR, 
+      W1ZWNF7J.ENDABRPE as ENDABRPE, W1ZWNF7J.BEGABRPE as BEGABRPE, W1ZWNF7J.FATURA_GUN_SAYISI, W1ZWNF7J.ZMT0, W1ZWNF7J.ZMT1, 
+      W1ZWNF7J.ZMT2, W1ZWNF7J.ZMT3, W1ZWNF7J.ZMT_AVG from ( select distinct ZSAS_ONLINE_PARTNER_RWP.PARTNER as PARTNER, 
+      HANA_WEB_MONTHLY_CONS_ALLX.VKONT, HANA_WEB_MONTHLY_CONS_ALLX.OPBEL, HANA_WEB_MONTHLY_CONS_ALLX.DRUCKDAT, 
+      HANA_WEB_MONTHLY_CONS_ALLX.BILLING_PERIOD, HANA_WEB_MONTHLY_CONS_ALLX.BUDAT, HANA_WEB_MONTHLY_CONS_ALLX.TOTAL_AMNT, 
+      HANA_WEB_MONTHLY_CONS_ALLX.BELNR, HANA_WEB_MONTHLY_CONS_ALLX.ENDABRPE, HANA_WEB_MONTHLY_CONS_ALLX.BEGABRPE, 
+      HANA_WEB_MONTHLY_CONS_ALLX.FATURA_GUN_SAYISI, HANA_WEB_MONTHLY_CONS_ALLX.ZMT0, HANA_WEB_MONTHLY_CONS_ALLX.ZMT1, 
+      HANA_WEB_MONTHLY_CONS_ALLX.ZMT2, HANA_WEB_MONTHLY_CONS_ALLX.ZMT3, HANA_WEB_MONTHLY_CONS_ALLX.ZMT_AVG from 
+      ZSAS_ONLINE_PARTNER_RWP ZSAS_ONLINE_PARTNER_RWP, HANA_WEB_MONTHLY_CONS_ALLX HANA_WEB_MONTHLY_CONS_ALLX where 
+      (ZSAS_ONLINE_PARTNER_RWP.PARTNER = HANA_WEB_MONTHLY_CONS_ALLX.PARTNER) and (INPUT(HANA_WEB_MONTHLY_CONS_ALLX.BUDAT, F10.0) > 
+      20141231) ) W1ZWNF7J
+ SPDS_NOTE: Parallel Merge Join Method Selected
+
+MPRINT(ETLS_LOADER):   proc append base = NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS(COMPRESS = YES) data = WORK.W9MOCGDB () force ;
+MPRINT(ETLS_LOADER):   run;
+NOTE: Appending WORK.W9MOCGDB to NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS.
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9438158/spdsmeta2/NEDLIB/
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9438158/spdsmeta2/NEDLIB/
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9438158/spdsmeta2/NEDLIB/
+
+NOTE: There were 19953412 observations read from the data set WORK.W9MOCGDB.
+NOTE: 19953412 observations added.
+NOTE: The data set NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS has 19953412 observations and 16 variables.
+NOTE: Compressing data set NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS decreased size by 51.83 percent.
+NOTE: PROCEDURE APPEND used (Total process time):
+      real time           6:44.79
+      cpu time            19.75 seconds
+      
+
+MPRINT(ETLS_LOADER):  ;
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete W9MOCGDB;
+MPRINT(ETLS_LOADER):   quit;
+NOTE: Deleting WORK.W9MOCGDB (memtype=VIEW).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+24                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+      
+
+718        
+719        %let etls_recCheckExist = 0;
+720        %let etls_recnt = 0;
+721        %macro etls_recordCheck;
+722           %let etls_recCheckExist = %eval(%sysfunc(exist(NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS, DATA)) or
+723                 %sysfunc(exist(NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS, VIEW)));
+724        
+725           %if (&etls_recCheckExist) %then
+726           %do;
+727              %local etls_syntaxcheck;
+728              %let etls_syntaxcheck = %sysfunc(getoption(syntaxcheck));
+729              /* Turn off syntaxcheck option to perform following steps  */
+730              options nosyntaxcheck;
+731        
+732              proc contents data = NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS out = work.etls_contents(keep = nobs) noprint;
+733              run;
+734        
+735              data _null_;
+736                 set work.etls_contents (obs = 1);
+737                 call symput("etls_recnt", left(put(nobs,32.)));
+738              run;
+739        
+740              proc datasets lib = work nolist nowarn memtype = (data view);
+741                 delete etls_contents;
+742              quit;
+743        
+744              /* Reset syntaxcheck option to previous setting  */
+745              options &etls_syntaxcheck;
+746           %end;
+747        %mend etls_recordCheck;
+748        %etls_recordCheck;
+MPRINT(ETLS_RECORDCHECK):   options nosyntaxcheck;
+MPRINT(ETLS_RECORDCHECK):   proc contents data = NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS out = work.etls_contents(keep = nobs) noprint;
+MPRINT(ETLS_RECORDCHECK):   run;
+
+NOTE: The data set WORK.ETLS_CONTENTS has 16 observations and 1 variables.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   data _null_;
+MPRINT(ETLS_RECORDCHECK):   set work.etls_contents (obs = 1);
+MPRINT(ETLS_RECORDCHECK):   call symput("etls_recnt", left(put(nobs,32.)));
+MPRINT(ETLS_RECORDCHECK):   run;
+
+NOTE: There were 1 observations read from the data set WORK.ETLS_CONTENTS.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_RECORDCHECK):   delete etls_contents;
+MPRINT(ETLS_RECORDCHECK):   quit;
+
+25                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+NOTE: Deleting WORK.ETLS_CONTENTS (memtype=DATA).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   options SYNTAXCHECK;
+749        
+750        
+751        
+752        /** Step end Table Loader **/
+753        
+754        /*==========================================================================*
+755         * Step:            Table Loader                          A57BXQB4.BV0002KY *
+756         * Transform:       Table Loader (Version 2.1)                              *
+757         * Description:                                                             *
+758         *                                                                          *
+759         * Source Table:    ZSAS_ZBIL_WEB_LAST_INV -              A57BXQB4.BE0003X6 *
+760         *                   HANALIB2.ZSAS_ZBIL_WEB_LAST_INV                        *
+761         * Target Table:    HANA_ZBIL_WEB_LAST_INV -              A57BXQB4.BE0003X7 *
+762         *                   NEDLIB.HANA_ZBIL_WEB_LAST_INV                          *
+763         *==========================================================================*
+764         *                                                                          *
+765         * Nothing will be generated for this process because the "Exclude          *
+766         *  transformation from run" option is selected.                            *
+767         *                                                                          *
+768         *==========================================================================*/
+769        
+770        /*==========================================================================*
+771         * Step:            Table Loader                          A57BXQB4.BV0002KZ *
+772         * Transform:       Table Loader (Version 2.1)                              *
+773         * Description:                                                             *
+774         *                                                                          *
+775         * Source Table:    ZSAS_ZBIL_WEB_MONTHLY_CONS -          A57BXQB4.BE0003X8 *
+776         *                   HANALIB2.ZSAS_ZBIL_WEB_MONTHLY_CONS                    *
+777         *==========================================================================*
+778         *                                                                          *
+779         * Nothing will be generated for this process because the "Exclude          *
+780         *  transformation from run" option is selected.                            *
+781         *                                                                          *
+782         *==========================================================================*/
+783        
+784        /*==========================================================================*
+785         * Step:            Table Loader                          A57BXQB4.BV0002L0 *
+786         * Transform:       Table Loader (Version 2.1)                              *
+787         * Description:                                                             *
+788         *                                                                          *
+789         * Source Table:    ZSAS_ZBIL_WEB_MONTHLY_INV -           A57BXQB4.BE0003X9 *
+790         *                   HANALIB2.ZSAS_ZBIL_WEB_MONTHLY_INV                     *
+791         * Target Table:    HANA_ZBIL_WEB_MONTHLY_INV -           A57BXQB4.BE0003XA *
+792         *                   NEDLIB.HANA_ZBIL_WEB_MONTHLY_INV                       *
+793         *==========================================================================*
+794         *                                                                          *
+795         * Nothing will be generated for this process because the "Exclude          *
+796         *  transformation from run" option is selected.                            *
+797         *                                                                          *
+798         *==========================================================================*/
+799        
+26                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+800        /*==========================================================================*
+801         * Step:            Table Loader                          A57BXQB4.BV0002L1 *
+802         * Transform:       Table Loader (Version 2.1)                              *
+803         * Description:                                                             *
+804         *                                                                          *
+805         * Source Table:    ZSAS_ZBIL_WEB_INVOICE_LOG -           A57BXQB4.BE0003XB *
+806         *                   HANALIB2.ZSAS_ZBIL_WEB_INVOICE_LOG                     *
+807         * Target Table:    HANA_ZBIL_WEB_INVOICE_LOG -           A57BXQB4.BE0003XC *
+808         *                   NEDLIB.HANA_ZBIL_WEB_INVOICE_LOG                       *
+809         *==========================================================================*
+810         *                                                                          *
+811         * Nothing will be generated for this process because the "Exclude          *
+812         *  transformation from run" option is selected.                            *
+813         *                                                                          *
+814         *==========================================================================*/
+815        
+816        %let etls_endTime = %sysfunc(datetime(),datetime.);
+817        
+818        
+819        
+820        /**  Job end HANA_ZBIL_WEB_ALL2 **/
+821        
+822        /* Reset jobid and name */
+823        %let jobID = %quote(A57BXQB4.BT0000JB);
+824        %let etls_jobName = %nrquote(ZSAS_ZBIL_TABLE_CREATE);
+825        
+826        /****************************************************************************
+827         * Job:             HANA_ZBIL_WEB_ALL_RWP                 A57BXQB4.BT0000AR *
+828         * Description:                                                             *
+829         *                                                                          *
+830         * Metadata Server: ersupa0.enerjisa.local                                  *
+831         * Port:            8561                                                    *
+832         * Location:        /Data Integration/Jobs/Extraction HANA                  *
+833         *                   Jobs/Mobil_App_Rwp                                     *
+834         *                                                                          *
+835         * Server:          SASApp                                A57BXQB4.AS000002 *
+836         *                                                                          *
+837         * Source Tables:   ZSAS_ZBIL_WEB_INVOICE_LOG -           A57BXQB4.BE0003XF *
+838         *                   HANARWP.ZSAS_ZBIL_WEB_INVOICE_LOG                      *
+839         *                  ZSAS_ZBIL_WEB_LAST_INV -              A57BXQB4.BE0003XH *
+840         *                   HANARWP.ZSAS_ZBIL_WEB_LAST_INV                         *
+841         *                  ZSAS_ZBIL_WEB_MONTHLY_CONS -          A57BXQB4.BE0003XJ *
+842         *                   HANARWP.ZSAS_ZBIL_WEB_MONTHLY_CONS                     *
+843         *                  ZSAS_ZBIL_WEB_MONTHLY_INV -           A57BXQB4.BE0003XD *
+844         *                   HANARWP.ZSAS_ZBIL_WEB_MONTHLY_INV                      *
+845         * Target Tables:   HANA_ZBIL_WEB_INVOICE_LOG_RWP -       A57BXQB4.BE0003XG *
+846         *                   NEDLIB.HANA_ZBIL_WEB_INVOICE_LOG_RWP                   *
+847         *                  HANA_ZBIL_WEB_LAST_INV_RWP -          A57BXQB4.BE0003XI *
+848         *                   NEDLIB.HANA_ZBIL_WEB_LAST_INV_RWP                      *
+849         *                  HANA_ZBIL_WEB_MONTHLY_CONS_RWP -      A57BXQB4.BE0003XK *
+850         *                  NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_R                     *
+851         *                  WP                                                      *
+852         *                  HANA_ZBIL_WEB_MONTHLY_INV_RWP -       A57BXQB4.BE0003XE *
+853         *                   NEDLIB.HANA_ZBIL_WEB_MONTHLY_INV_RWP                   *
+854         *                                                                          *
+855         * Generated on:    Thursday, August 20, 2020 3:41:11 PM EET                *
+856         * Generated by:    sas                                                     *
+857         * Version:         SAS Data Integration Studio 4.904                       *
+27                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+858         ****************************************************************************/
+859        
+860        /* Generate the process id for job  */
+861        %put Process ID: &SYSJOBID;
+Process ID: 7603128
+862        
+863        /* General macro variables  */
+864        %let jobID = %quote(A57BXQB4.BT0000AR);
+865        %let etls_jobName = %nrquote(HANA_ZBIL_WEB_ALL_RWP);
+866        %let etls_userID = %nrquote(sas);
+867        
+868        
+869        /* Create metadata macro variables */
+870        %let IOMServer      = %nrquote(SASApp);
+871        %let metaPort       = %nrquote(8561);
+872        %let metaServer     = %nrquote(ersupa0.enerjisa.local);
+873        
+874        /* Setup for capturing job status  */
+875        %let etls_startTime = %sysfunc(datetime(),datetime.);
+876        %let etls_recordsBefore = 0;
+877        %let etls_recordsAfter = 0;
+878        %let etls_lib = 0;
+879        %let etls_table = 0;
+880        
+881        %global etls_debug;
+882        %macro etls_setDebug;
+883           %if %str(&etls_debug) ne 0 %then
+884              OPTIONS MPRINT%str(;);
+885        %mend;
+886        %etls_setDebug;
+MPRINT(ETLS_SETDEBUG):   OPTIONS MPRINT;
+887        
+888        /*==========================================================================*
+889         * Step:            Table Loader                          A57BXQB4.BV0002L7 *
+890         * Transform:       Table Loader (Version 2.1)                              *
+891         * Description:                                                             *
+892         *                                                                          *
+893         * Source Table:    ZSAS_ZBIL_WEB_MONTHLY_INV -           A57BXQB4.BE0003XD *
+894         *                   HANARWP.ZSAS_ZBIL_WEB_MONTHLY_INV                      *
+895         * Target Table:    HANA_ZBIL_WEB_MONTHLY_INV_RWP -       A57BXQB4.BE0003XE *
+896         *                   NEDLIB.HANA_ZBIL_WEB_MONTHLY_INV_RWP                   *
+897         *==========================================================================*
+898         *                                                                          *
+899         * Nothing will be generated for this process because the "Exclude          *
+900         *  transformation from run" option is selected.                            *
+901         *                                                                          *
+902         *==========================================================================*/
+903        
+904        /*==========================================================================*
+905         * Step:            Table Loader                          A57BXQB4.BV0002L8 *
+906         * Transform:       Table Loader (Version 2.1)                              *
+907         * Description:                                                             *
+908         *                                                                          *
+909         * Source Table:    ZSAS_ZBIL_WEB_INVOICE_LOG -           A57BXQB4.BE0003XF *
+910         *                   HANARWP.ZSAS_ZBIL_WEB_INVOICE_LOG                      *
+911         * Target Table:    HANA_ZBIL_WEB_INVOICE_LOG_RWP -       A57BXQB4.BE0003XG *
+912         *                   NEDLIB.HANA_ZBIL_WEB_INVOICE_LOG_RWP                   *
+913         *==========================================================================*
+28                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+914         *                                                                          *
+915         * Nothing will be generated for this process because the "Exclude          *
+916         *  transformation from run" option is selected.                            *
+917         *                                                                          *
+918         *==========================================================================*/
+919        
+920        /*==========================================================================*
+921         * Step:            Table Loader                          A57BXQB4.BV0002L9 *
+922         * Transform:       Table Loader (Version 2.1)                              *
+923         * Description:                                                             *
+924         *                                                                          *
+925         * Source Table:    ZSAS_ZBIL_WEB_LAST_INV -              A57BXQB4.BE0003XH *
+926         *                   HANARWP.ZSAS_ZBIL_WEB_LAST_INV                         *
+927         * Target Table:    HANA_ZBIL_WEB_LAST_INV_RWP -          A57BXQB4.BE0003XI *
+928         *                   NEDLIB.HANA_ZBIL_WEB_LAST_INV_RWP                      *
+929         *==========================================================================*
+930         *                                                                          *
+931         * Nothing will be generated for this process because the "Exclude          *
+932         *  transformation from run" option is selected.                            *
+933         *                                                                          *
+934         *==========================================================================*/
+935        
+936        /*==========================================================================*
+937         * Step:            Table Loader                          A57BXQB4.BV0002LA *
+938         * Transform:       Table Loader (Version 2.1)                              *
+939         * Description:                                                             *
+940         *                                                                          *
+941         * Source Table:    ZSAS_ZBIL_WEB_MONTHLY_CONS -          A57BXQB4.BE0003XJ *
+942         *                   HANARWP.ZSAS_ZBIL_WEB_MONTHLY_CONS                     *
+943         * Target Table:    HANA_ZBIL_WEB_MONTHLY_CONS_RWP -      A57BXQB4.BE0003XK *
+944         *                  NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_R                     *
+945         *                  WP                                                      *
+946         *==========================================================================*/
+947        
+948        %let transformID = %quote(A57BXQB4.BV0002LA);
+949        %let trans_rc = 0;
+950        %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+951        
+952        %let SYSLAST = %nrquote(HANARWP.ZSAS_ZBIL_WEB_MONTHLY_CONS);
+953        
+954        %global etls_sql_pushDown;
+955        %let etls_sql_pushDown = -1;
+956        option DBIDIRECTEXEC;
+957        
+958        %global etls_tableExist;
+959        %global etls_numIndex;
+960        %global etls_lastTable;
+961        %let etls_tableExist = -1;
+962        %let etls_numIndex = -1;
+963        %let etls_lastTable = &SYSLAST;
+964        
+965        /*---- Define load data macro  ----*/
+966        
+967        /* --------------------------------------------------------------
+968           Load Technique Selection: Replace - EntireTable
+969           Constraint and index action selections: 'ASIS','ASIS','ASIS','ASIS'
+970           Additional options selections...
+971              Set unmapped to missing on updates: false
+29                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+972           -------------------------------------------------------------- */
+973        %macro etls_loader;
+974        
+975           %let etls_tableOptions = ;
+976        
+977           /* Determine if the target table exists  */
+978           %let etls_tableExist = %eval(%sysfunc(exist(NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP, DATA)) or
+979                 %sysfunc(exist(NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP, VIEW)));
+980        
+981           %if &etls_tableExist %then
+982           %do;/* table exists  */
+983              %let etls_hasPreExistingConstraint=0;
+984        
+985              proc datasets lib = work nolist nowarn memtype = (data view);
+986                 delete etls_commands etls_commands_F;
+987              quit;
+988        
+989              %let etls_otherTablesReferToThisTable=0;
+990        
+991              %macro etls_CIContents(table=,workTableOut=,inDSOptions=);
+992                 %put NOTE: Building table listing Constraints and Indexes for: &table;
+993                 proc datasets lib=work nolist; delete &workTableOut; quit;
+994                 proc contents data=&table&inDSOptions out2=&workTableOut noprint; run;
+995        
+996                 data &workTableOut;
+997                    length name $60 type $20 icown idxUnique idxNoMiss $3 recreate $600;
+998                    name = '';
+999                    type = '';
+1000                   icown = '';
+1001                   idxUnique = '';
+1002                   idxNoMiss = '';
+1003                   recreate = '';
+1004                   set &workTableOut;
+1005                   ref = '';
+1006                   type=upcase(type);
+1007                   if type eq 'REFERENTIAL' then
+1008                   do;
+1009                      put "WARNING%QUOTE(:) Target table is referenced by constraints in"
+1010                           " another table: " ref;
+1011                      call symput('etls_otherTablesReferToThisTable','1');
+1012                      delete;
+1013                   end;
+1014                   if type='INDEX' and ICOwn eq 'YES' then delete;
+1015                run;
+1016                %rcSet(&syserr);
+1017       
+1018             %mend etls_CIContents;
+1019       
+1020             %etls_CIContents(table=NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP, workTableOut=etls_commands, inDSOptions=);
+1021       
+1022             %if &etls_otherTablesReferToThisTable %then
+1023                %put WARNING%QUOTE(:) Replacing entire table will fail. Consider an alternate load technique or revising
+1023     ! constraints.;
+1024             %else
+1025             %do; /* okay - remove foreign keys  */
+1026       
+1027                data etls_commands_F;
+1028                   set etls_commands;
+30                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1029                   if upcase(type)="FOREIGN KEY" then
+1030                   do;
+1031                      command='ic delete '||trim(name)||';';
+1032                      output etls_commands_F;
+1033                   end;
+1034                run;
+1035       
+1036                %put %str(NOTE: Removing foreign keys before dropping table...);
+1037                data _null_;
+1038                   set etls_commands_F end=eof;
+1039                   if _n_=1 then
+1040                      call execute('proc datasets nolist lib=NEDLIB;modify HANA_ZBIL_WEB_MONTHLY_CONS_RWP;');
+1041                   call execute(command);
+1042                   if eof then call execute('; quit;');
+1043                run;
+1044                %rcSet(&syserr);
+1045       
+1046          %end; /* okay - remove foreign keys  */
+1047       
+1048          proc datasets lib = work nolist nowarn memtype = (data view);
+1049             delete etls_commands etls_commands_F;
+1050          quit;
+1051       
+1052          /*---- Drop a table  ----*/
+1053          %put %str(NOTE: Dropping table ...);
+1054          proc datasets lib = NEDLIB nolist nowarn memtype = (data view);
+1055             delete HANA_ZBIL_WEB_MONTHLY_CONS_RWP;
+1056          quit;
+1057       
+1058          %rcSet(&syserr);
+1059       
+1060          %let etls_tableExist = 0;
+1061       
+1062       %end; /* table exists  */
+1063       
+1064       /*---- Create a new table  ----*/
+1065       %if (&etls_tableExist eq 0) %then
+1066       %do;  /* if table does not exist  */
+1067       
+1068          %put %str(NOTE: Creating table ...);
+1069       
+1070          data NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP
+1071                  (COMPRESS = YES);
+1072             attrib PARTNER length = $30
+1073                format = $30.
+1074                informat = $30.
+1075                label = 'PARTNER';
+1076             attrib VKONT length = $36
+1077                format = $36.
+1078                informat = $36.
+1079                label = 'VKONT';
+1080             attrib OPBEL length = $36
+1081                format = $36.
+1082                informat = $36.
+1083                label = 'OPBEL';
+1084             attrib DRUCKDAT length = $24
+1085                format = $24.
+1086                informat = $24.
+31                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1087                label = 'DRUCKDAT';
+1088             attrib BILLING_PERIOD length = $30
+1089                format = $30.
+1090                informat = $30.
+1091                label = 'BILLING_PERIOD';
+1092             attrib BUDAT length = $24
+1093                format = $24.
+1094                informat = $24.
+1095                label = 'BUDAT';
+1096             attrib TOTAL_AMNT length = 8
+1097                format = 15.2
+1098                informat = 15.2
+1099                label = 'TOTAL_AMNT';
+1100             attrib BELNR length = $36
+1101                format = $36.
+1102                informat = $36.
+1103                label = 'BELNR';
+1104             attrib ENDABRPE length = $24
+1105                format = $24.
+1106                informat = $24.
+1107                label = 'ENDABRPE';
+1108             attrib BEGABRPE length = $24
+1109                format = $24.
+1110                informat = $24.
+1111                label = 'BEGABRPE';
+1112             attrib FATURA_GUN_SAYISI length = 8
+1113                format = 11.
+1114                informat = 11.
+1115                label = 'FATURA_GUN_SAYISI';
+1116             attrib ZMT0 length = 8
+1117                label = 'ZMT0';
+1118             attrib ZMT1 length = 8
+1119                label = 'ZMT1';
+1120             attrib ZMT2 length = 8
+1121                label = 'ZMT2';
+1122             attrib ZMT3 length = 8
+1123                label = 'ZMT3';
+1124             attrib ZMT_AVG length = 8
+1125                label = 'ZMT_AVG';
+1126             call missing(of _all_);
+1127             stop;
+1128          run;
+1129       
+1130          %rcSet(&syserr);
+1131       
+1132       %end;  /* if table does not exist  */
+1133       
+1134       /*---- Append  ----*/
+1135       %put %str(NOTE: Appending data ...);
+1136       
+1137       proc append base = NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP(COMPRESS = YES)
+1138          data = &etls_lastTable (&etls_tableOptions)  force ;
+1139        run;
+1140       
+1141       %rcSet(&syserr);
+1142       
+1143       %mend etls_loader;
+1144       %etls_loader;
+32                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete etls_commands etls_commands_F;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Building table listing Constraints and Indexes for: NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP
+MPRINT(ETLS_CICONTENTS):   proc datasets lib=work nolist;
+MPRINT(ETLS_CICONTENTS):   delete etls_commands;
+MPRINT(ETLS_CICONTENTS):   quit;
+
+NOTE: The file WORK.ETLS_COMMANDS (memtype=DATA) was not found, but appears on a DELETE statement.
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+MPRINT(ETLS_CICONTENTS):   proc contents data=NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP out2=etls_commands noprint;
+MPRINT(ETLS_CICONTENTS):   run;
+
+NOTE: The data set WORK.ETLS_COMMANDS has 0 observations and 0 variables.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_CICONTENTS):   data etls_commands;
+MPRINT(ETLS_CICONTENTS):   length name $60 type $20 icown idxUnique idxNoMiss $3 recreate $600;
+MPRINT(ETLS_CICONTENTS):   name = '';
+MPRINT(ETLS_CICONTENTS):   type = '';
+MPRINT(ETLS_CICONTENTS):   icown = '';
+MPRINT(ETLS_CICONTENTS):   idxUnique = '';
+MPRINT(ETLS_CICONTENTS):   idxNoMiss = '';
+MPRINT(ETLS_CICONTENTS):   recreate = '';
+MPRINT(ETLS_CICONTENTS):   set etls_commands;
+MPRINT(ETLS_CICONTENTS):   ref = '';
+MPRINT(ETLS_CICONTENTS):   type=upcase(type);
+MPRINT(ETLS_CICONTENTS):   if type eq 'REFERENTIAL' then do;
+MPRINT(ETLS_CICONTENTS):   put "WARNING: Target table is referenced by constraints in" " another table: " ref;
+MPRINT(ETLS_CICONTENTS):   call symput('etls_otherTablesReferToThisTable','1');
+MPRINT(ETLS_CICONTENTS):   delete;
+MPRINT(ETLS_CICONTENTS):   end;
+MPRINT(ETLS_CICONTENTS):   if type='INDEX' and ICOwn eq 'YES' then delete;
+MPRINT(ETLS_CICONTENTS):   run;
+
+NOTE: There were 0 observations read from the data set WORK.ETLS_COMMANDS.
+NOTE: The data set WORK.ETLS_COMMANDS has 0 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_CICONTENTS):  ;
+MPRINT(ETLS_LOADER):  ;
+MPRINT(ETLS_LOADER):   data etls_commands_F;
+33                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+MPRINT(ETLS_LOADER):   set etls_commands;
+MPRINT(ETLS_LOADER):   if upcase(type)="FOREIGN KEY" then do;
+MPRINT(ETLS_LOADER):   command='ic delete '||trim(name)||';';
+MPRINT(ETLS_LOADER):   output etls_commands_F;
+MPRINT(ETLS_LOADER):   end;
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: There were 0 observations read from the data set WORK.ETLS_COMMANDS.
+NOTE: The data set WORK.ETLS_COMMANDS_F has 0 observations and 8 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Removing foreign keys before dropping table...
+MPRINT(ETLS_LOADER):   data _null_;
+MPRINT(ETLS_LOADER):   set etls_commands_F end=eof;
+MPRINT(ETLS_LOADER):   if _n_=1 then call execute('proc datasets nolist lib=NEDLIB;modify HANA_ZBIL_WEB_MONTHLY_CONS_RWP;');
+MPRINT(ETLS_LOADER):   call execute(command);
+MPRINT(ETLS_LOADER):   if eof then call execute('; quit;');
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: There were 0 observations read from the data set WORK.ETLS_COMMANDS_F.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+MPRINT(ETLS_LOADER):  ;
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete etls_commands etls_commands_F;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: Deleting WORK.ETLS_COMMANDS (memtype=DATA).
+NOTE: Deleting WORK.ETLS_COMMANDS_F (memtype=DATA).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Dropping table ...
+MPRINT(ETLS_LOADER):   proc datasets lib = NEDLIB nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete HANA_ZBIL_WEB_MONTHLY_CONS_RWP;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: Deleting NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP (memtype=DATA).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.89 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_LOADER):  ;
+NOTE: Creating table ...
+MPRINT(ETLS_LOADER):   data NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP (COMPRESS = YES);
+MPRINT(ETLS_LOADER):   attrib PARTNER length = $30 format = $30. informat = $30. label = 'PARTNER';
+MPRINT(ETLS_LOADER):   attrib VKONT length = $36 format = $36. informat = $36. label = 'VKONT';
+MPRINT(ETLS_LOADER):   attrib OPBEL length = $36 format = $36. informat = $36. label = 'OPBEL';
+MPRINT(ETLS_LOADER):   attrib DRUCKDAT length = $24 format = $24. informat = $24. label = 'DRUCKDAT';
+34                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+MPRINT(ETLS_LOADER):   attrib BILLING_PERIOD length = $30 format = $30. informat = $30. label = 'BILLING_PERIOD';
+MPRINT(ETLS_LOADER):   attrib BUDAT length = $24 format = $24. informat = $24. label = 'BUDAT';
+MPRINT(ETLS_LOADER):   attrib TOTAL_AMNT length = 8 format = 15.2 informat = 15.2 label = 'TOTAL_AMNT';
+MPRINT(ETLS_LOADER):   attrib BELNR length = $36 format = $36. informat = $36. label = 'BELNR';
+MPRINT(ETLS_LOADER):   attrib ENDABRPE length = $24 format = $24. informat = $24. label = 'ENDABRPE';
+MPRINT(ETLS_LOADER):   attrib BEGABRPE length = $24 format = $24. informat = $24. label = 'BEGABRPE';
+MPRINT(ETLS_LOADER):   attrib FATURA_GUN_SAYISI length = 8 format = 11. informat = 11. label = 'FATURA_GUN_SAYISI';
+MPRINT(ETLS_LOADER):   attrib ZMT0 length = 8 label = 'ZMT0';
+MPRINT(ETLS_LOADER):   attrib ZMT1 length = 8 label = 'ZMT1';
+MPRINT(ETLS_LOADER):   attrib ZMT2 length = 8 label = 'ZMT2';
+MPRINT(ETLS_LOADER):   attrib ZMT3 length = 8 label = 'ZMT3';
+MPRINT(ETLS_LOADER):   attrib ZMT_AVG length = 8 label = 'ZMT_AVG';
+MPRINT(ETLS_LOADER):   call missing(of _all_);
+MPRINT(ETLS_LOADER):   stop;
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: The data set NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP has 0 observations and 16 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_LOADER):  ;
+NOTE: Appending data ...
+MPRINT(ETLS_LOADER):   proc append base = NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP(COMPRESS = YES) data = 
+HANARWP.ZSAS_ZBIL_WEB_MONTHLY_CONS () force ;
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: Appending HANARWP.ZSAS_ZBIL_WEB_MONTHLY_CONS to NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP.
+WARNING: Variable PARTNER has different lengths on BASE and DATA files (BASE 30 DATA 20).
+WARNING: Variable VKONT has different lengths on BASE and DATA files (BASE 36 DATA 24).
+WARNING: Variable OPBEL has different lengths on BASE and DATA files (BASE 36 DATA 24).
+WARNING: Variable DRUCKDAT has different lengths on BASE and DATA files (BASE 24 DATA 16).
+WARNING: Variable BILLING_PERIOD has different lengths on BASE and DATA files (BASE 30 DATA 20).
+WARNING: Variable BUDAT has different lengths on BASE and DATA files (BASE 24 DATA 16).
+WARNING: Variable BELNR has different lengths on BASE and DATA files (BASE 36 DATA 24).
+WARNING: Variable ENDABRPE has different lengths on BASE and DATA files (BASE 24 DATA 16).
+WARNING: Variable BEGABRPE has different lengths on BASE and DATA files (BASE 24 DATA 16).
+NOTE: There were 40946816 observations read from the data set HANARWP.ZSAS_ZBIL_WEB_MONTHLY_CONS.
+NOTE: 40946816 observations added.
+NOTE: The data set NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP has 40946816 observations and 16 variables.
+NOTE: Compressing data set NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP decreased size by 51.52 percent.
+NOTE: PROCEDURE APPEND used (Total process time):
+      real time           19:48.87
+      cpu time            3:07.79
+      
+
+MPRINT(ETLS_LOADER):  ;
+1145       
+1146       %let etls_recCheckExist = 0;
+1147       %let etls_recnt = 0;
+1148       %macro etls_recordCheck;
+1149          %let etls_recCheckExist = %eval(%sysfunc(exist(NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP, DATA)) or
+1150                %sysfunc(exist(NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP, VIEW)));
+1151       
+1152          %if (&etls_recCheckExist) %then
+1153          %do;
+1154             %local etls_syntaxcheck;
+35                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1155             %let etls_syntaxcheck = %sysfunc(getoption(syntaxcheck));
+1156             /* Turn off syntaxcheck option to perform following steps  */
+1157             options nosyntaxcheck;
+1158       
+1159             proc contents data = NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP out = work.etls_contents(keep = nobs) noprint;
+1160             run;
+1161       
+1162             data _null_;
+1163                set work.etls_contents (obs = 1);
+1164                call symput("etls_recnt", left(put(nobs,32.)));
+1165             run;
+1166       
+1167             proc datasets lib = work nolist nowarn memtype = (data view);
+1168                delete etls_contents;
+1169             quit;
+1170       
+1171             /* Reset syntaxcheck option to previous setting  */
+1172             options &etls_syntaxcheck;
+1173          %end;
+1174       %mend etls_recordCheck;
+1175       %etls_recordCheck;
+MPRINT(ETLS_RECORDCHECK):   options nosyntaxcheck;
+MPRINT(ETLS_RECORDCHECK):   proc contents data = NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP out = work.etls_contents(keep = nobs) 
+noprint;
+MPRINT(ETLS_RECORDCHECK):   run;
+
+NOTE: The data set WORK.ETLS_CONTENTS has 16 observations and 1 variables.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   data _null_;
+MPRINT(ETLS_RECORDCHECK):   set work.etls_contents (obs = 1);
+MPRINT(ETLS_RECORDCHECK):   call symput("etls_recnt", left(put(nobs,32.)));
+MPRINT(ETLS_RECORDCHECK):   run;
+
+NOTE: There were 1 observations read from the data set WORK.ETLS_CONTENTS.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_RECORDCHECK):   delete etls_contents;
+MPRINT(ETLS_RECORDCHECK):   quit;
+
+NOTE: Deleting WORK.ETLS_CONTENTS (memtype=DATA).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   options SYNTAXCHECK;
+1176       
+1177       
+1178       
+1179       /** Step end Table Loader **/
+36                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1180       
+1181       %let etls_endTime = %sysfunc(datetime(),datetime.);
+1182       
+1183       
+1184       
+1185       /**  Job end HANA_ZBIL_WEB_ALL_RWP **/
+1186       
+1187       /* Reset jobid and name */
+1188       %let jobID = %quote(A57BXQB4.BT0000JB);
+1189       %let etls_jobName = %nrquote(ZSAS_ZBIL_TABLE_CREATE);
+1190       
+1191       /****************************************************************************
+1192        * Job:             ZSAS_ZBIL_WEB_MONTHLY_CONS_SAS        A57BXQB4.BT0000AS *
+1193        * Description:                                                             *
+1194        *                                                                          *
+1195        * Metadata Server: ersupa0.enerjisa.local                                  *
+1196        * Port:            8561                                                    *
+1197        * Location:        /Data Integration/Jobs/Extraction HANA                  *
+1198        *                   Jobs/Mobil_App_Rwp                                     *
+1199        *                                                                          *
+1200        * Server:          SASApp                                A57BXQB4.AS000002 *
+1201        *                                                                          *
+1202        * Generated on:    Thursday, August 20, 2020 3:41:11 PM EET                *
+1203        * Generated by:    sas                                                     *
+1204        * Version:         SAS Data Integration Studio 4.904                       *
+1205        ****************************************************************************/
+1206       
+1207       /* Generate the process id for job  */
+1208       %put Process ID: &SYSJOBID;
+Process ID: 7603128
+1209       
+1210       /* General macro variables  */
+1211       %let jobID = %quote(A57BXQB4.BT0000AS);
+1212       %let etls_jobName = %nrquote(ZSAS_ZBIL_WEB_MONTHLY_CONS_SAS);
+1213       %let etls_userID = %nrquote(sas);
+1214       
+1215       
+1216       /* Create metadata macro variables */
+1217       %let IOMServer      = %nrquote(SASApp);
+1218       %let metaPort       = %nrquote(8561);
+1219       %let metaServer     = %nrquote(ersupa0.enerjisa.local);
+1220       
+1221       /* Setup for capturing job status  */
+1222       %let etls_startTime = %sysfunc(datetime(),datetime.);
+1223       %let etls_recordsBefore = 0;
+1224       %let etls_recordsAfter = 0;
+1225       %let etls_lib = 0;
+1226       %let etls_table = 0;
+1227       
+1228       %global etls_debug;
+1229       %macro etls_setDebug;
+1230          %if %str(&etls_debug) ne 0 %then
+1231             OPTIONS MPRINT%str(;);
+1232       %mend;
+1233       %etls_setDebug;
+MPRINT(ETLS_SETDEBUG):   OPTIONS MPRINT;
+1234       
+1235       /*==========================================================================*
+37                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1236        * Step:            Execute                               A57BXQB4.BV0002LJ *
+1237        * Transform:       Execute                                                 *
+1238        * Description:                                                             *
+1239        *                                                                          *
+1240        * Target Table:    Execute - work.WJRBOHG                A57BXQB4.BS0000CU *
+1241        *                                                                          *
+1242        * User Written:    SourceCode                                              *
+1243        *==========================================================================*/
+1244       
+1245       %let transformID = %quote(A57BXQB4.BV0002LJ);
+1246       %let trans_rc = 0;
+1247       %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+1248       
+1249       %let _INPUT_count = 0;
+1250       %let _OUTPUT_count = 1;
+1251       %let _OUTPUT = work.WJRBOHG;
+1252       %let _OUTPUT_connect = ;
+1253       %let _OUTPUT_engine = ;
+1254       %let _OUTPUT_memtype = DATA;
+1255       %let _OUTPUT_options = %nrquote();
+1256       %let _OUTPUT_alter = %nrquote();
+1257       %let _OUTPUT_path = %nrquote(/Execute_A57BXQB4.BS0000CU%(WorkTable%));
+1258       %let _OUTPUT_type = 1;
+1259       %let _OUTPUT_label = %nrquote();
+1260       %let _OUTPUT_col_count = 0;
+1261       %let _OUTPUT_filetype = WorkTable;
+1262       
+1263       %let _OUTPUT1 = work.WJRBOHG;
+1264       %let _OUTPUT1_connect = ;
+1265       %let _OUTPUT1_engine = ;
+1266       %let _OUTPUT1_memtype = DATA;
+1267       %let _OUTPUT1_options = %nrquote();
+1268       %let _OUTPUT1_alter = %nrquote();
+1269       %let _OUTPUT1_path = %nrquote(/Execute_A57BXQB4.BS0000CU%(WorkTable%));
+1270       %let _OUTPUT1_type = 1;
+1271       %let _OUTPUT1_label = %nrquote();
+1272       %let _OUTPUT1_col_count = 0;
+1273       %let _OUTPUT1_filetype = WorkTable;
+1274       
+1275       /*---- Start of User Written Code  ----*/
+1276       
+1277       data nedlib.hana_zw_monthly_cons_append;
+1278       set nedlib.hana_zbil_web_monthly_cons
+1279       	   nedlib.hana_zbil_web_monthly_cons_rwp;
+1280       run;
+
+NOTE: There were 19953412 observations read from the data set NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS.
+NOTE: There were 40946816 observations read from the data set NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_RWP.
+NOTE: The data set NEDLIB.HANA_ZW_MONTHLY_CONS_APPEND has 60900228 observations and 16 variables.
+NOTE: Compressing data set NEDLIB.HANA_ZW_MONTHLY_CONS_APPEND decreased size by 51.62 percent.
+NOTE: DATA statement used (Total process time):
+      real time           2:33.92
+      cpu time            50.52 seconds
+      
+
+1281       
+1282       data x1;
+1283       set nedlib.hana_zw_monthly_cons_append(where=(input(budat,8.) >= input(  put(date(),yymmddn8.) , 8.) - 20100  ));
+38                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+NOTE: Where clause requires SAS filtering support which could affect performance. (See SPDSWDEB=YES for details.)
+1284       date_key= input(compress(tranwrd(billing_period,'/',''))||'01',8.) -20000;
+1285       by partner vkont descending budat;
+1286       run;
+
+NOTE: There were 35565712 observations read from the data set NEDLIB.HANA_ZW_MONTHLY_CONS_APPEND.
+      WHERE INPUT(budat, 8.)>=(INPUT(PUT(DATE(), YYMMDDN8.), 8.)-20100);
+NOTE: The data set WORK.X1 has 35565712 observations and 17 variables.
+NOTE: DATA statement used (Total process time):
+      real time           5:11.84
+      cpu time            1:38.48
+      
+
+1287       
+1288       data x2;
+1289       set nedlib.hana_zw_monthly_cons_append;
+1290       date_key= input( compress(tranwrd(billing_period,'/',''))||'01',8.) ;
+1291       by partner vkont descending budat;
+1292       run;
+
+NOTE: There were 60900228 observations read from the data set NEDLIB.HANA_ZW_MONTHLY_CONS_APPEND.
+NOTE: The data set WORK.X2 has 60900228 observations and 17 variables.
+NOTE: DATA statement used (Total process time):
+      real time           4:42.92
+      cpu time            1:13.96
+      
+
+1293       
+1294       proc sql;
+1295       create table nedlib.hana_zbil_web_monthly_cons_out as
+1296       SELECT
+1297       	DISTINCT
+1298       		  t1.PARTNER,
+1299                 t1.VKONT,
+1300                 t1.OPBEL,
+1301                 t1.DRUCKDAT,
+1302                 t1.BILLING_PERIOD,
+1303                 t1.BUDAT,
+1304                 t1.TOTAL_AMNT,
+1305                 t1.BELNR,
+1306                 t1.ENDABRPE,
+1307                 t1.BEGABRPE,
+1308                 t1.FATURA_GUN_SAYISI,
+1309                 t1.ZMT0,
+1310                 t1.ZMT1,
+1311                 t1.ZMT2,
+1312                 t1.ZMT3,
+1313                 t1.ZMT_AVG,
+1314       		  t2.BILLING_PERIOD as last_year_billing_period,
+1315                 t2.BUDAT as last_year_BUDAT,
+1316                 t2.TOTAL_AMNT as last_year_TOTAL_AMNT,
+1317                 t2.BELNR as last_year_BELNR,
+1318                 t2.ENDABRPE as last_year_ENDABRPE,
+1319                 t2.BEGABRPE as last_year_BEGABRPE,
+1320                 t2.FATURA_GUN_SAYISI as last_year_FATURA_GUN_SAYISI,
+1321                 t2.ZMT0 as last_year_ZMT0,
+1322                 t2.ZMT1 as last_year_ZMT1,
+1323                 t2.ZMT2 as last_year_ZMT2,
+39                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1324                 t2.ZMT3 as last_year_ZMT3,
+1325                 t2.ZMT_AVG as last_year_ZMT_AVG
+1326             FROM x1 t1
+1327       	  left outer join x2 t2 on t1.vkont=t2.vkont and t1.date_key=t2.date_key
+1328       	  ;
+NOTE: Compressing data set NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_OUT decreased size by 60.13 percent.
+NOTE: Table NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_OUT created, with 36135659 rows and 28 columns.
+
+1329       QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           11:39.32
+      cpu time            5:48.10
+      
+
+1330       /*---- End of User Written Code  ----*/
+1331       
+1332       %rcSet(&syserr);
+1333       %rcSet(&sqlrc);
+1334       
+1335       
+1336       /** Step end Execute **/
+1337       
+1338       %let etls_endTime = %sysfunc(datetime(),datetime.);
+1339       
+1340       
+1341       
+1342       /**  Job end ZSAS_ZBIL_WEB_MONTHLY_CONS_SAS **/
+1343       
+1344       /* Reset jobid and name */
+1345       %let jobID = %quote(A57BXQB4.BT0000JB);
+1346       %let etls_jobName = %nrquote(ZSAS_ZBIL_TABLE_CREATE);
+1347       
+1348       /****************************************************************************
+1349        * Job:             zbil_web_monthly_cons                 A57BXQB4.BT0000AT *
+1350        * Description:                                                             *
+1351        *                                                                          *
+1352        * Metadata Server: ersupa0.enerjisa.local                                  *
+1353        * Port:            8561                                                    *
+1354        * Location:        /Data Integration/Jobs/External ETL Jobs/mobil_app      *
+1355        *                                                                          *
+1356        * Server:          SASApp                                A57BXQB4.AS000002 *
+1357        *                                                                          *
+1358        * Source Tables:   HANA_ZBIL_WEB_MONTHLY_CONS_OUT -      A57BXQB4.BE0003WA *
+1359        *                  NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_O                     *
+1360        *                  UT                                                      *
+1361        *                  HANA_ZBIL_WEB_MONTHLY_CONS_OUT -      A57BXQB4.BE0003WA *
+1362        *                  NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_O                     *
+1363        *                  UT                                                      *
+1364        * Target Tables:   sas_zbil_web_monthly_cons_test -      A57BXQB4.BE0003WC *
+1365        *                  mobilapp.sas_zbil_web_monthly_cons_                     *
+1366        *                  org                                                     *
+1367        *                  sas_zbil_web_monthly_cons_prod -      A57BXQB4.BE0003WB *
+1368        *                  mobilprd.sas_zbil_web_monthly_cons_                     *
+1369        *                  org                                                     *
+1370        *                                                                          *
+1371        * Generated on:    Thursday, August 20, 2020 3:41:11 PM EET                *
+1372        * Generated by:    sas                                                     *
+1373        * Version:         SAS Data Integration Studio 4.904                       *
+40                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1374        ****************************************************************************/
+1375       
+1376       /* Generate the process id for job  */
+1377       %put Process ID: &SYSJOBID;
+Process ID: 7603128
+1378       
+1379       /* General macro variables  */
+1380       %let jobID = %quote(A57BXQB4.BT0000AT);
+1381       %let etls_jobName = %nrquote(zbil_web_monthly_cons);
+1382       %let etls_userID = %nrquote(sas);
+1383       
+1384       
+1385       /* Create metadata macro variables */
+1386       %let IOMServer      = %nrquote(SASApp);
+1387       %let metaPort       = %nrquote(8561);
+1388       %let metaServer     = %nrquote(ersupa0.enerjisa.local);
+1389       
+1390       /* Setup for capturing job status  */
+1391       %let etls_startTime = %sysfunc(datetime(),datetime.);
+1392       %let etls_recordsBefore = 0;
+1393       %let etls_recordsAfter = 0;
+1394       %let etls_lib = 0;
+1395       %let etls_table = 0;
+1396       
+1397       %global etls_debug;
+1398       %macro etls_setDebug;
+1399          %if %str(&etls_debug) ne 0 %then
+1400             OPTIONS MPRINT%str(;);
+1401       %mend;
+1402       %etls_setDebug;
+MPRINT(ETLS_SETDEBUG):   OPTIONS MPRINT;
+1403       
+1404       /*==========================================================================*
+1405        * Step:            Table Loader                          A57BXQB4.BV0002JX *
+1406        * Transform:       Table Loader (Version 2.1)                              *
+1407        * Description:                                                             *
+1408        *                                                                          *
+1409        * Source Table:    HANA_ZBIL_WEB_MONTHLY_CONS_OUT -      A57BXQB4.BE0003WA *
+1410        *                  NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_O                     *
+1411        *                  UT                                                      *
+1412        * Target Table:    sas_zbil_web_monthly_cons_prod -      A57BXQB4.BE0003WB *
+1413        *                  mobilprd.sas_zbil_web_monthly_cons_                     *
+1414        *                  org                                                     *
+1415        *==========================================================================*/
+1416       
+1417       %let transformID = %quote(A57BXQB4.BV0002JX);
+1418       %let trans_rc = 0;
+1419       %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+1420       
+1421       /* Access the data for mobilappprod  */
+1422       LIBNAME mobilprd SQLSVR  ignore_read_only_columns=yes  Datasrc=mobilappprod  SCHEMA=dbo  AUTHDOMAIN="mobil_app_prod" ;
+NOTE:  Credential obtained from SAS metadata server.
+NOTE: Libref MOBILPRD was successfully assigned as follows: 
+      Engine:        SQLSVR 
+      Physical Name: mobilappprod
+1423       %rcSet(&syslibrc);
+1424       
+1425       %let SYSLAST = %nrquote(NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_OUT);
+41                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1426       
+1427       %global etls_sql_pushDown;
+1428       %let etls_sql_pushDown = -1;
+1429       option DBIDIRECTEXEC;
+1430       
+1431       %global etls_tableExist;
+1432       %global etls_numIndex;
+1433       %global etls_lastTable;
+1434       %let etls_tableExist = -1;
+1435       %let etls_numIndex = -1;
+1436       %let etls_lastTable = &SYSLAST;
+1437       
+1438       /*---- Define load data macro  ----*/
+1439       
+1440       /* --------------------------------------------------------------
+1441          Load Technique Selection: Replace - Truncate
+1442          Constraint and index action selections: 'ASIS','ASIS','ASIS','ASIS'
+1443          Additional options selections...
+1444             Set unmapped to missing on updates: false
+1445          -------------------------------------------------------------- */
+1446       %macro etls_loader;
+1447       
+1448          %let etls_tableOptions = ;
+1449       
+1450          /*---- Map the columns  ----*/
+1451          proc datasets lib = work nolist nowarn memtype = (data view);
+1452             delete W9MOCGS8;
+1453          quit;
+1454       
+1455          %put %str(NOTE: Mapping columns ...);
+1456          proc sql;
+1457             create view work.W9MOCGS8 as
+1458                select
+1459                   PARTNER,
+1460                   VKONT,
+1461                   OPBEL,
+1462                   DRUCKDAT,
+1463                   BILLING_PERIOD,
+1464                   BUDAT,
+1465                   TOTAL_AMNT
+1466                      format = 15.
+1467                      informat = 15.,
+1468                   BELNR,
+1469                   ENDABRPE,
+1470                   BEGABRPE,
+1471                   FATURA_GUN_SAYISI
+1472                      format = 12.
+1473                      informat = 12.,
+1474                   ZMT0,
+1475                   ZMT1,
+1476                   ZMT2,
+1477                   ZMT3,
+1478                   ZMT_AVG,
+1479                   last_year_billing_period,
+1480                   last_year_BUDAT,
+1481                   last_year_TOTAL_AMNT
+1482                      format = 15.
+1483                      informat = 15.,
+42                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1484                   last_year_BELNR,
+1485                   last_year_ENDABRPE,
+1486                   last_year_BEGABRPE,
+1487                   last_year_FATURA_GUN_SAYISI
+1488                      format = 12.
+1489                      informat = 12.,
+1490                   last_year_ZMT0,
+1491                   last_year_ZMT1,
+1492                   last_year_ZMT2,
+1493                   last_year_ZMT3,
+1494                   last_year_ZMT_AVG
+1495             from &etls_lastTable
+1496             ;
+1497          quit;
+1498       
+1499          %let SYSLAST = work.W9MOCGS8;
+1500       
+1501          %let etls_lastTable = &SYSLAST;
+1502          %let etls_tableOptions = ;
+1503       
+1504          /* Determine if the target table exists  */
+1505          %let etls_tableExist = %eval(%sysfunc(exist(mobilprd.sas_zbil_web_monthly_cons_org, DATA)) or
+1506                %sysfunc(exist(mobilprd.sas_zbil_web_monthly_cons_org, VIEW)));
+1507       
+1508          /*---- Create a new table  ----*/
+1509          %if (&etls_tableExist eq 0) %then
+1510          %do;  /* if table does not exist  */
+1511       
+1512             %put %str(NOTE: Creating table ...);
+1513       
+1514             data mobilprd.sas_zbil_web_monthly_cons_org
+1515                     (dbnull = (
+1516                                PARTNER = YES
+1517                                VKONT = YES
+1518                                OPBEL = YES
+1519                                DRUCKDAT = YES
+1520                                BILLING_PERIOD = YES
+1521                                BUDAT = YES
+1522                                TOTAL_AMNT = YES
+1523                                BELNR = YES
+1524                                ENDABRPE = YES
+1525                                BEGABRPE = YES
+1526                                FATURA_GUN_SAYISI = YES
+1527                                ZMT0 = YES
+1528                                ZMT1 = YES
+1529                                ZMT2 = YES
+1530                                ZMT3 = YES
+1531                                ZMT_AVG = YES
+1532                                last_year_billing_period = YES
+1533                                last_year_BUDAT = YES
+1534                                last_year_TOTAL_AMNT = YES
+1535                                last_year_BELNR = YES
+1536                                last_year_ENDABRPE = YES
+1537                                last_year_BEGABRPE = YES
+1538                                last_year_FATURA_GUN_SAYISI = YES
+1539                                last_year_ZMT0 = YES
+1540                                last_year_ZMT1 = YES
+1541                                last_year_ZMT2 = YES
+43                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1542                                last_year_ZMT3 = YES
+1543                                last_year_ZMT_AVG = YES));
+1544                attrib PARTNER length = $30
+1545                   format = $30.
+1546                   informat = $30.
+1547                   label = 'PARTNER';
+1548                attrib VKONT length = $36
+1549                   format = $36.
+1550                   informat = $36.
+1551                   label = 'VKONT';
+1552                attrib OPBEL length = $36
+1553                   format = $36.
+1554                   informat = $36.
+1555                   label = 'OPBEL';
+1556                attrib DRUCKDAT length = $24
+1557                   format = $24.
+1558                   informat = $24.
+1559                   label = 'DRUCKDAT';
+1560                attrib BILLING_PERIOD length = $30
+1561                   format = $30.
+1562                   informat = $30.
+1563                   label = 'BILLING_PERIOD';
+1564                attrib BUDAT length = $24
+1565                   format = $24.
+1566                   informat = $24.
+1567                   label = 'BUDAT';
+1568                attrib TOTAL_AMNT length = 8
+1569                   format = 15.
+1570                   informat = 15.
+1571                   label = 'TOTAL_AMNT';
+1572                attrib BELNR length = $36
+1573                   format = $36.
+1574                   informat = $36.
+1575                   label = 'BELNR';
+1576                attrib ENDABRPE length = $24
+1577                   format = $24.
+1578                   informat = $24.
+1579                   label = 'ENDABRPE';
+1580                attrib BEGABRPE length = $24
+1581                   format = $24.
+1582                   informat = $24.
+1583                   label = 'BEGABRPE';
+1584                attrib FATURA_GUN_SAYISI length = 8
+1585                   format = 12.
+1586                   informat = 12.
+1587                   label = 'FATURA_GUN_SAYISI';
+1588                attrib ZMT0 length = 8
+1589                   label = 'ZMT0';
+1590                attrib ZMT1 length = 8
+1591                   label = 'ZMT1';
+1592                attrib ZMT2 length = 8
+1593                   label = 'ZMT2';
+1594                attrib ZMT3 length = 8
+1595                   label = 'ZMT3';
+1596                attrib ZMT_AVG length = 8
+1597                   label = 'ZMT_AVG';
+1598                attrib last_year_billing_period length = $30
+1599                   format = $30.
+44                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1600                   informat = $30.
+1601                   label = 'last_year_billing_period';
+1602                attrib last_year_BUDAT length = $24
+1603                   format = $24.
+1604                   informat = $24.
+1605                   label = 'last_year_BUDAT';
+1606                attrib last_year_TOTAL_AMNT length = 8
+1607                   format = 15.
+1608                   informat = 15.
+1609                   label = 'last_year_TOTAL_AMNT';
+1610                attrib last_year_BELNR length = $36
+1611                   format = $36.
+1612                   informat = $36.
+1613                   label = 'last_year_BELNR';
+1614                attrib last_year_ENDABRPE length = $24
+1615                   format = $24.
+1616                   informat = $24.
+1617                   label = 'last_year_ENDABRPE';
+1618                attrib last_year_BEGABRPE length = $24
+1619                   format = $24.
+1620                   informat = $24.
+1621                   label = 'last_year_BEGABRPE';
+1622                attrib last_year_FATURA_GUN_SAYISI length = 8
+1623                   format = 12.
+1624                   informat = 12.
+1625                   label = 'last_year_FATURA_GUN_SAYISI';
+1626                attrib last_year_ZMT0 length = 8
+1627                   label = 'last_year_ZMT0';
+1628                attrib last_year_ZMT1 length = 8
+1629                   label = 'last_year_ZMT1';
+1630                attrib last_year_ZMT2 length = 8
+1631                   label = 'last_year_ZMT2';
+1632                attrib last_year_ZMT3 length = 8
+1633                   label = 'last_year_ZMT3';
+1634                attrib last_year_ZMT_AVG length = 8
+1635                   label = 'last_year_ZMT_AVG';
+1636                call missing(of _all_);
+1637                stop;
+1638             run;
+1639       
+1640             %rcSet(&syserr);
+1641       
+1642          %end;  /* if table does not exist  */
+1643       
+1644          %else
+1645          %do;  /* table exists */
+1646             /*---- Truncate a table  ----*/
+1647             %put %str(NOTE: Truncating table ...);
+1648             proc sql;
+1649                connect to SQLSVR
+1650                (
+1651                    DATASRC=mobilappprod AUTHDOMAIN="mobil_app_prod"
+1652                );
+1653                reset noprint;
+1654       
+1655                execute
+1656                (
+1657                   truncate table dbo.sas_zbil_web_monthly_cons_org
+45                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1658                ) by SQLSVR;
+1659       
+1660                %rcSet(&sqlrc);
+1661       
+1662                disconnect from SQLSVR;
+1663             quit;
+1664       
+1665             %rcSet(&sqlrc);
+1666       
+1667          %end; /* table exists */
+1668       
+1669          /*---- Append  ----*/
+1670          %put %str(NOTE: Appending data ...);
+1671       
+1672          proc append base = mobilprd.sas_zbil_web_monthly_cons_org
+1673             data = &etls_lastTable (&etls_tableOptions)  force ;
+1674           run;
+1675       
+1676          %rcSet(&syserr);
+1677       
+1678          proc datasets lib = work nolist nowarn memtype = (data view);
+1679             delete W9MOCGS8;
+1680          quit;
+1681       
+1682       %mend etls_loader;
+1683       %etls_loader;
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete W9MOCGS8;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Mapping columns ...
+MPRINT(ETLS_LOADER):   proc sql;
+MPRINT(ETLS_LOADER):   create view work.W9MOCGS8 as select PARTNER, VKONT, OPBEL, DRUCKDAT, BILLING_PERIOD, BUDAT, TOTAL_AMNT 
+format = 15. informat = 15., BELNR, ENDABRPE, BEGABRPE, FATURA_GUN_SAYISI format = 12. informat = 12., ZMT0, ZMT1, ZMT2, ZMT3, 
+ZMT_AVG, last_year_billing_period, last_year_BUDAT, last_year_TOTAL_AMNT format = 15. informat = 15., last_year_BELNR, 
+last_year_ENDABRPE, last_year_BEGABRPE, last_year_FATURA_GUN_SAYISI format = 12. informat = 12., last_year_ZMT0, last_year_ZMT1, 
+last_year_ZMT2, last_year_ZMT3, last_year_ZMT_AVG from NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_OUT ;
+NOTE: SQL view WORK.W9MOCGS8 has been defined.
+MPRINT(ETLS_LOADER):   quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Truncating table ...
+MPRINT(ETLS_LOADER):   proc sql;
+MPRINT(ETLS_LOADER):   connect to SQLSVR ( DATASRC=mobilappprod AUTHDOMAIN="mobil_app_prod" );
+NOTE:  Credential obtained from SAS metadata server.
+MPRINT(ETLS_LOADER):   reset noprint;
+MPRINT(ETLS_LOADER):   execute ( truncate table dbo.sas_zbil_web_monthly_cons_org ) by SQLSVR;
+MPRINT(ETLS_LOADER):  ;
+MPRINT(ETLS_LOADER):   disconnect from SQLSVR;
+MPRINT(ETLS_LOADER):   quit;
+46                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.42 seconds
+      cpu time            0.14 seconds
+      
+
+MPRINT(ETLS_LOADER):  ;
+NOTE: Appending data ...
+MPRINT(ETLS_LOADER):   proc append base = mobilprd.sas_zbil_web_monthly_cons_org data = WORK.W9MOCGS8 () force ;
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: Appending WORK.W9MOCGS8 to MOBILPRD.sas_zbil_web_monthly_cons_org.
+NOTE: There were 36135659 observations read from the data set WORK.W9MOCGS8.
+NOTE: 36135659 observations added.
+NOTE: The data set MOBILPRD.sas_zbil_web_monthly_cons_org has . observations and 28 variables.
+NOTE: PROCEDURE APPEND used (Total process time):
+      real time           9:14:55.75
+      cpu time            16:08.64
+      
+
+MPRINT(ETLS_LOADER):  ;
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete W9MOCGS8;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: Deleting WORK.W9MOCGS8 (memtype=VIEW).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+1684       
+1685       %let etls_recnt = 0;
+1686       %macro etls_recordCheck;
+1687          %let etls_recCheckExist = %eval(%sysfunc(exist(mobilprd.sas_zbil_web_monthly_cons_org, DATA)) or
+1688                %sysfunc(exist(mobilprd.sas_zbil_web_monthly_cons_org, VIEW)));
+1689       
+1690          %if (&etls_recCheckExist) %then
+1691          %do;
+1692             proc sql noprint;
+1693                select count(*) into :etls_recnt from mobilprd.sas_zbil_web_monthly_cons_org;
+1694             quit;
+1695          %end;
+1696       %mend etls_recordCheck;
+1697       %etls_recordCheck;
+MPRINT(ETLS_RECORDCHECK):   proc sql noprint;
+MPRINT(ETLS_RECORDCHECK):   select count(*) into :etls_recnt from mobilprd.sas_zbil_web_monthly_cons_org;
+MPRINT(ETLS_RECORDCHECK):   quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           5.17 seconds
+      cpu time            0.63 seconds
+      
+
+1698       
+1699       
+1700       
+1701       /** Step end Table Loader **/
+1702       
+1703       /*==========================================================================*
+47                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1704        * Step:            Table Loader                          A57BXQB4.BV0002JY *
+1705        * Transform:       Table Loader (Version 2.1)                              *
+1706        * Description:                                                             *
+1707        *                                                                          *
+1708        * Source Table:    HANA_ZBIL_WEB_MONTHLY_CONS_OUT -      A57BXQB4.BE0003WA *
+1709        *                  NEDLIB.HANA_ZBIL_WEB_MONTHLY_CONS_O                     *
+1710        *                  UT                                                      *
+1711        * Target Table:    sas_zbil_web_monthly_cons_test -      A57BXQB4.BE0003WC *
+1712        *                  mobilapp.sas_zbil_web_monthly_cons_                     *
+1713        *                  org                                                     *
+1714        *==========================================================================*
+1715        *                                                                          *
+1716        * Nothing will be generated for this process because the "Exclude          *
+1717        *  transformation from run" option is selected.                            *
+1718        *                                                                          *
+1719        *==========================================================================*/
+1720       
+1721       %let etls_endTime = %sysfunc(datetime(),datetime.);
+1722       
+1723       
+1724       
+1725       /**  Job end zbil_web_monthly_cons **/
+1726       
+1727       /* Reset jobid and name */
+1728       %let jobID = %quote(A57BXQB4.BT0000JB);
+1729       %let etls_jobName = %nrquote(ZSAS_ZBIL_TABLE_CREATE);
+1730       
+1731       /****************************************************************************
+1732        * Job:             zsas_zbil_web_monthly_cons_sp         A57BXQB4.BT0000AU *
+1733        * Description:                                                             *
+1734        *                                                                          *
+1735        * Metadata Server: ersupa0.enerjisa.local                                  *
+1736        * Port:            8561                                                    *
+1737        * Location:        /Data Integration/Jobs/Extraction HANA                  *
+1738        *                   Jobs/Mobil_App_Rwp                                     *
+1739        *                                                                          *
+1740        * Server:          SASApp                                A57BXQB4.AS000002 *
+1741        *                                                                          *
+1742        * Generated on:    Thursday, August 20, 2020 3:41:11 PM EET                *
+1743        * Generated by:    sas                                                     *
+1744        * Version:         SAS Data Integration Studio 4.904                       *
+1745        ****************************************************************************/
+1746       
+1747       /* Generate the process id for job  */
+1748       %put Process ID: &SYSJOBID;
+Process ID: 7603128
+1749       
+1750       /* General macro variables  */
+1751       %let jobID = %quote(A57BXQB4.BT0000AU);
+1752       %let etls_jobName = %nrquote(zsas_zbil_web_monthly_cons_sp);
+1753       %let etls_userID = %nrquote(sas);
+1754       
+1755       
+1756       /* Create metadata macro variables */
+1757       %let IOMServer      = %nrquote(SASApp);
+1758       %let metaPort       = %nrquote(8561);
+1759       %let metaServer     = %nrquote(ersupa0.enerjisa.local);
+1760       
+48                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1761       /* Setup for capturing job status  */
+1762       %let etls_startTime = %sysfunc(datetime(),datetime.);
+1763       %let etls_recordsBefore = 0;
+1764       %let etls_recordsAfter = 0;
+1765       %let etls_lib = 0;
+1766       %let etls_table = 0;
+1767       
+1768       %global etls_debug;
+1769       %macro etls_setDebug;
+1770          %if %str(&etls_debug) ne 0 %then
+1771             OPTIONS MPRINT%str(;);
+1772       %mend;
+1773       %etls_setDebug;
+MPRINT(ETLS_SETDEBUG):   OPTIONS MPRINT;
+1774       
+1775       /*==========================================================================*
+1776        * Step:            Execute SP in mssql                   A57BXQB4.BV0002LK *
+1777        * Transform:       Execute                                                 *
+1778        * Description:                                                             *
+1779        *                                                                          *
+1780        * Target Table:    Execute - work.W2IE8KK4               A57BXQB4.BS0000CV *
+1781        *                                                                          *
+1782        * User Written:    SourceCode                                              *
+1783        *==========================================================================*/
+1784       
+1785       %let transformID = %quote(A57BXQB4.BV0002LK);
+1786       %let trans_rc = 0;
+1787       %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+1788       
+1789       %let _INPUT_count = 0;
+1790       %let _OUTPUT_count = 1;
+1791       %let _OUTPUT = work.W2IE8KK4;
+1792       %let _OUTPUT_connect = ;
+1793       %let _OUTPUT_engine = ;
+1794       %let _OUTPUT_memtype = DATA;
+1795       %let _OUTPUT_options = %nrquote();
+1796       %let _OUTPUT_alter = %nrquote();
+1797       %let _OUTPUT_path = %nrquote(/Execute_A57BXQB4.BS0000CV%(WorkTable%));
+1798       %let _OUTPUT_type = 1;
+1799       %let _OUTPUT_label = %nrquote();
+1800       %let _OUTPUT_col_count = 0;
+1801       %let _OUTPUT_filetype = WorkTable;
+1802       
+1803       %let _OUTPUT1 = work.W2IE8KK4;
+1804       %let _OUTPUT1_connect = ;
+1805       %let _OUTPUT1_engine = ;
+1806       %let _OUTPUT1_memtype = DATA;
+1807       %let _OUTPUT1_options = %nrquote();
+1808       %let _OUTPUT1_alter = %nrquote();
+1809       %let _OUTPUT1_path = %nrquote(/Execute_A57BXQB4.BS0000CV%(WorkTable%));
+1810       %let _OUTPUT1_type = 1;
+1811       %let _OUTPUT1_label = %nrquote();
+1812       %let _OUTPUT1_col_count = 0;
+1813       %let _OUTPUT1_filetype = WorkTable;
+1814       
+1815       /*---- Start of User Written Code  ----*/
+1816       
+1817       proc sql;
+49                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1818        connect to SQLSVR as mydb
+1819             (datasrc="mobilappprod" user=usretlmobil password=XXXXXXXXXX );
+1820         execute( exec dbo.sas_zbil_web_monthly_cons_doldur) by mydb
+1821        ;
+1822       disconnect from mydb;
+1823       quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           12:16.95
+      cpu time            0.17 seconds
+      
+
+1824       /*---- End of User Written Code  ----*/
+1825       
+1826       %rcSet(&syserr);
+1827       %rcSet(&sqlrc);
+1828       
+1829       
+1830       /** Step end Execute SP in mssql **/
+1831       
+1832       /*==========================================================================*
+1833        * Step:            send email                            A57BXQB4.BV0002LL *
+1834        * Transform:       Execute                                                 *
+1835        * Description:                                                             *
+1836        *                                                                          *
+1837        * Source Table:    Execute - work.W2IE8KK4               A57BXQB4.BS0000CV *
+1838        * Target Table:    Execute - work.W2IVO1PH               A57BXQB4.BS0000CW *
+1839        *                                                                          *
+1840        * User Written:    SourceCode                                              *
+1841        *==========================================================================*/
+1842       
+1843       %let transformID = %quote(A57BXQB4.BV0002LL);
+1844       %let trans_rc = 0;
+1845       %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+1846       
+1847       %let etls_recCheckExist = 0;
+1848       %let etls_recnt = 0;
+1849       %macro etls_recordCheck;
+1850          %let etls_recCheckExist = %eval(%sysfunc(exist(work.W2IE8KK4, DATA)) or
+1851                %sysfunc(exist(work.W2IE8KK4, VIEW)));
+1852       
+1853          %if (&etls_recCheckExist) %then
+1854          %do;
+1855             %local etls_syntaxcheck;
+1856             %let etls_syntaxcheck = %sysfunc(getoption(syntaxcheck));
+1857             /* Turn off syntaxcheck option to perform following steps  */
+1858             options nosyntaxcheck;
+1859       
+1860             proc contents data = work.W2IE8KK4 out = work.etls_contents(keep = nobs) noprint;
+1861             run;
+1862       
+1863             data _null_;
+1864                set work.etls_contents (obs = 1);
+1865                call symput("etls_recnt", left(put(nobs,32.)));
+1866             run;
+1867       
+1868             proc datasets lib = work nolist nowarn memtype = (data view);
+1869                delete etls_contents;
+1870             quit;
+50                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1871       
+1872             /* Reset syntaxcheck option to previous setting  */
+1873             options &etls_syntaxcheck;
+1874          %end;
+1875       %mend etls_recordCheck;
+1876       %etls_recordCheck;
+1877       
+1878       %let SYSLAST = %nrquote(work.W2IE8KK4);
+1879       
+1880       %let _INPUT_count = 1;
+1881       %let _INPUT = work.W2IE8KK4;
+1882       %let _INPUT_connect = ;
+1883       %let _INPUT_engine = ;
+1884       %let _INPUT_memtype = DATA;
+1885       %let _INPUT_options = %nrquote();
+1886       %let _INPUT_alter = %nrquote();
+1887       %let _INPUT_path = %nrquote(/Execute_A57BXQB4.BS0000CV%(WorkTable%));
+1888       %let _INPUT_type = 1;
+1889       %let _INPUT_label = %nrquote();
+1890       %let _INPUT_filetype = WorkTable;
+1891       
+1892       %let _INPUT1 = work.W2IE8KK4;
+1893       %let _INPUT1_connect = ;
+1894       %let _INPUT1_engine = ;
+1895       %let _INPUT1_memtype = DATA;
+1896       %let _INPUT1_options = %nrquote();
+1897       %let _INPUT1_alter = %nrquote();
+1898       %let _INPUT1_path = %nrquote(/Execute_A57BXQB4.BS0000CV%(WorkTable%));
+1899       %let _INPUT1_type = 1;
+1900       %let _INPUT1_label = %nrquote();
+1901       %let _INPUT1_filetype = WorkTable;
+1902       
+1903       %let _OUTPUT_count = 1;
+1904       %let _OUTPUT = work.W2IVO1PH;
+1905       %let _OUTPUT_connect = ;
+1906       %let _OUTPUT_engine = ;
+1907       %let _OUTPUT_memtype = DATA;
+1908       %let _OUTPUT_options = %nrquote();
+1909       %let _OUTPUT_alter = %nrquote();
+1910       %let _OUTPUT_path = %nrquote(/Execute_A57BXQB4.BS0000CW%(WorkTable%));
+1911       %let _OUTPUT_type = 1;
+1912       %let _OUTPUT_label = %nrquote();
+1913       %let _OUTPUT_col_count = 0;
+1914       %let _OUTPUT_filetype = WorkTable;
+1915       
+1916       %let _OUTPUT1 = work.W2IVO1PH;
+1917       %let _OUTPUT1_connect = ;
+1918       %let _OUTPUT1_engine = ;
+1919       %let _OUTPUT1_memtype = DATA;
+1920       %let _OUTPUT1_options = %nrquote();
+1921       %let _OUTPUT1_alter = %nrquote();
+1922       %let _OUTPUT1_path = %nrquote(/Execute_A57BXQB4.BS0000CW%(WorkTable%));
+1923       %let _OUTPUT1_type = 1;
+1924       %let _OUTPUT1_label = %nrquote();
+1925       %let _OUTPUT1_col_count = 0;
+1926       %let _OUTPUT1_filetype = WorkTable;
+1927       
+1928       /*---- Start of User Written Code  ----*/
+51                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1929       
+1930       
+1931       proc sql;
+1932        connect to SQLSVR as mydb
+1933             (datasrc="mobilapp" user=mobiletlusr password=XXXXXXXXXX );
+1934       create table x1 as
+1935       select * from connection to mydb
+1936             (select *
+1937                 from dbo.sas_zbil_web_control_table
+1938              );
+NOTE: Table WORK.X1 created, with 20 rows and 5 columns.
+
+1939       disconnect from mydb;
+1940       quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.31 seconds
+      cpu time            0.13 seconds
+      
+
+1941       
+1942       data x2;
+1943        set x1;
+1944        by table_name ID;
+1945       
+1946        if last.table_name then do;
+1947        	output;
+1948       end;
+1949       
+1950       run;
+
+NOTE: There were 20 observations read from the data set WORK.X1.
+NOTE: The data set WORK.X2 has 1 observations and 5 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+1951       
+1952       filename mymail email
+1953       	from="SAS_ETL@enerjisa.com"
+1954       	to=("emir.demirci@enerjisa.com""bahar.senyildiz@enerjisa.com""baris.goral@enerjisa.com""volkan.kural@enerjisa.com")
+1955       	subject = "Mobil App Sql Tables"
+1956       ;
+1957       
+1958       data _null_;
+1959       set x2;
+1960       call symputx('table_namex',table_name);
+1961       call symputx('row_countx',row_count);
+1962       call symputx('date_timex',date_time);
+1963       run;
+
+NOTE: There were 1 observations read from the data set WORK.X2.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+1964       
+52                                                         The SAS System                            00:00 Tuesday, November 3, 2020
+
+1965       data _null_;
+1966       	file mymail;
+1967       	put 'Merhaba';
+1968       	put ;
+1969       	put "&table_namex. tablosu &date_timex. tarihinde &row_countx. satýr olarak güncellenmiþtir";
+1970       	put;
+1971       	put 'Bilginize';
+1972       run;
+
+NOTE: The file MYMAIL is:
+      E-Mail Access Device
+
+Message sent
+      To:          "emir.demirci@enerjisa.com""bahar.senyildiz@enerjisa.com""baris.goral@enerjisa.com""volkan.kural@enerjisa.com"
+      Cc:          
+      Bcc:         
+      Subject:     Mobil App Sql Tables
+      Attachments: 
+NOTE: 5 records were written to the file MYMAIL.
+      The minimum record length was 0.
+      The maximum record length was 93.
+NOTE: DATA statement used (Total process time):
+      real time           0.19 seconds
+      cpu time            0.00 seconds
+      
+
+1973       /*---- End of User Written Code  ----*/
+1974       
+1975       %rcSet(&syserr);
+1976       %rcSet(&sqlrc);
+1977       
+1978       
+1979       /** Step end send email **/
+1980       
+1981       %let etls_endTime = %sysfunc(datetime(),datetime.);
+1982       
+1983       
+1984       
+1985       /**  Job end zsas_zbil_web_monthly_cons_sp **/
+1986       
+1987       /* Reset jobid and name */
+1988       %let jobID = %quote(A57BXQB4.BT0000JB);
+1989       %let etls_jobName = %nrquote(ZSAS_ZBIL_TABLE_CREATE);
+1990       
+1991       %let etls_endTime = %sysfunc(datetime(),datetime.);
+1992       
+
+ERROR: Errors printed on page 6.
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           10:19:35.18
+      cpu time            29:10.71
+      
+
+

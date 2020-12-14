@@ -1,0 +1,1264 @@
+NOTE: Log file opened at Thu, 23 Jul 2020 03:00:00.950
+1                                                          The SAS System                              03:00 Thursday, July 23, 2020
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, 
+       model number, and serial number are not included in the setinit data 
+       used to initialize the SAS System library in use. This is permitted if 
+       this processor is a designated backup processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial 
+numbers:
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name 
+ERSDPA0.
+NOTE: Copyright (c) 2016 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M6) 
+      Licensed to ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD., Site 70166440.
+NOTE: This session is executing on the AIX 7.2 (AIX 64) platform.
+
+
+
+NOTE: Analytical products:
+      
+      SAS/STAT 15.1
+      SAS/ETS 15.1
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, model number, and serial number are not included in the 
+       setinit data used to initialize the SAS System library in use. This is permitted if this processor is a designated backup 
+       processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial numbers:
+
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name ERSDPA0.
+
+WARNING: Your system is scheduled to expire on July 30, 2020, which is 7 days from now. The SAS System will no longer function on 
+         or after that date. Please contact your SAS Installation Representative to obtain your updated SAS Installation Data (SID) 
+         file, which includes SETINIT information.
+To locate the name of your SAS Installation Representative go to http://support.sas.com/repfinder and provide your site number 
+70166440 and company name as ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD.. On the SAS REP list provided, locate the REP for 
+operating system AIX 64.
+NOTE: Additional host information:
+
+IBM AIX AIX 64 2 7 00C9C0374C00 
+
+You are running SAS 9. Some SAS 8 files will be automatically converted 
+by the V9 engine; others are incompatible.  Please see 
+http://support.sas.com/rnd/migration/planning/platform/64bit.html
+
+PROC MIGRATE will preserve current SAS file attributes and is 
+recommended for converting all your SAS libraries from any 
+SAS 8 release to SAS 9.  For details and examples, please see
+http://support.sas.com/rnd/migration/index.html
+
+
+This message is contained in the SAS news file, and is presented upon
+initialization.  Edit the file "news" in the "misc/base" directory to
+display site-specific news and information in the program log.
+The command line option "-nonews" will prevent this display.
+
+
+
+
+NOTE: SAS initialization used:
+2                                                          The SAS System                              03:00 Thursday, July 23, 2020
+
+      real time           0.06 seconds
+      cpu time            0.02 seconds
+      
+WARNING: The Base SAS Software product with which IOM CLSID:6E56FD51-CFC1-11D5-87BD-00C04F38F0DB is associated will be expiring 
+         soon, and is currently in warning mode to indicate this upcoming expiration. Please run PROC SETINIT to obtain more 
+         information on your warning period.
+NOTE: This is a SPD 5.4  Engine 
+      executing SAS (r) 9.4 (TS1M6) on the AIX platform.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+3                                                          The SAS System                              03:00 Thursday, July 23, 2020
+
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+4                                                          The SAS System                              03:00 Thursday, July 23, 2020
+
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+5                                                          The SAS System                              03:00 Thursday, July 23, 2020
+
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+6                                                          The SAS System                              03:00 Thursday, July 23, 2020
+
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SASDATA successfully assigned from logical server.
+NOTE: Libref STPSAMP successfully assigned from logical server.
+NOTE: Libref MIGLIB successfully assigned from logical server.
+NOTE: Libref TRNLIB2 successfully assigned from logical server.
+NOTE: Libref TRNLIB successfully assigned from logical server.
+NOTE: Libref NEDLIB successfully assigned from logical server.
+NOTE: Libref PILIB successfully assigned from logical server.
+NOTE: Libref DMLIB successfully assigned from logical server.
+NOTE: Libref TMPLIB3 successfully assigned from logical server.
+NOTE: Libref TMPLIB4 successfully assigned from logical server.
+NOTE: Libref ODSLIB successfully assigned from logical server.
+NOTE: Libref ODSLIB2 successfully assigned from logical server.
+NOTE: Libref ODSLIB3 successfully assigned from logical server.
+NOTE: Libref PODSLIB1 successfully assigned from logical server.
+NOTE: Libref PODSLIB2 successfully assigned from logical server.
+NOTE: Libref PODSLIB3 successfully assigned from logical server.
+NOTE: Libref DASHLIBD successfully assigned from logical server.
+NOTE: Libref QLIKLIB successfully assigned from logical server.
+NOTE: Libref SQLKODA successfully assigned from logical server.
+NOTE: Libref RISU successfully assigned from logical server.
+NOTE: Libref DQ_ORCL successfully assigned from logical server.
+NOTE: Library ZGRLIB does not exist.
+NOTE: Libref HANARWP successfully assigned from logical server.
+NOTE: Libref BFLIB successfully assigned from logical server.
+NOTE: Libref PILIB2 successfully assigned from logical server.
+NOTE: Libref TMPLIB2 successfully assigned from logical server.
+NOTE: Libref DMLIB2 successfully assigned from logical server.
+NOTE: Libref ARCLIB successfully assigned from logical server.
+NOTE: Libref IADM successfully assigned from logical server.
+NOTE: Libref IATMP successfully assigned from logical server.
+NOTE: Libref AUTODIAL successfully assigned from logical server.
+NOTE: Libref BCSDM successfully assigned from logical server.
+NOTE: Libref BLDM successfully assigned from logical server.
+NOTE: Libref BLTMP successfully assigned from logical server.
+NOTE: Libref BADM successfully assigned from logical server.
+NOTE: Libref BATMP successfully assigned from logical server.
+NOTE: Libref CCDM successfully assigned from logical server.
+NOTE: Libref CCDM2 successfully assigned from logical server.
+NOTE: Libref CMPDM successfully assigned from logical server.
+NOTE: Libref CPSFRC successfully assigned from logical server.
+NOTE: Libref CPSHRLY successfully assigned from logical server.
+NOTE: Libref CPSREG successfully assigned from logical server.
+NOTE: Libref CPSUST successfully assigned from logical server.
+NOTE: Libref CXDM successfully assigned from logical server.
+7                                                          The SAS System                              03:00 Thursday, July 23, 2020
+
+NOTE: Libref DBALIB successfully assigned from logical server.
+NOTE: Libref DSTDM successfully assigned from logical server.
+NOTE: Libref DSTTMP successfully assigned from logical server.
+NOTE: Libref DYMDM successfully assigned from logical server.
+NOTE: Libref DYMTMP successfully assigned from logical server.
+NOTE: Libref EAP_ETY successfully assigned from logical server.
+NOTE: Libref EAP_PAY successfully assigned from logical server.
+NOTE: Libref EAP_PR successfully assigned from logical server.
+NOTE: Libref EPYDM successfully assigned from logical server.
+NOTE: Libref EPYTMP successfully assigned from logical server.
+NOTE: Libref ETSDM successfully assigned from logical server.
+NOTE: Libref FADM successfully assigned from logical server.
+NOTE: Libref FPCLIB successfully assigned from logical server.
+NOTE: Libref FPCTMP successfully assigned from logical server.
+NOTE: Libref HRDM successfully assigned from logical server.
+NOTE: Libref KMHMDM successfully assigned from logical server.
+NOTE: Libref CSSLIB successfully assigned from logical server.
+NOTE: Libref MDLIB successfully assigned from logical server.
+NOTE: Libref MHMAYEDS successfully assigned from logical server.
+NOTE: Libref MHMDM successfully assigned from logical server.
+NOTE: Libref MIGLIB2 successfully assigned from logical server.
+NOTE: Libref MSADM successfully assigned from logical server.
+NOTE: Libref MSATMP successfully assigned from logical server.
+NOTE: Libref MTHEO successfully assigned from logical server.
+NOTE: Libref MTHKA successfully assigned from logical server.
+NOTE: Libref MTHMA successfully assigned from logical server.
+NOTE: Libref MTHSO successfully assigned from logical server.
+NOTE: Libref MTHTMP successfully assigned from logical server.
+NOTE: Libref D2DLIB successfully assigned from logical server.
+NOTE: Libref OKMDM successfully assigned from logical server.
+NOTE: Libref OKMTMP successfully assigned from logical server.
+NOTE: Libref PMDM successfully assigned from logical server.
+NOTE: Libref CNPRCDM successfully assigned from logical server.
+NOTE: Libref CNPRCTMP successfully assigned from logical server.
+NOTE: Libref EDULIB successfully assigned from logical server.
+NOTE: Libref PRCDM successfully assigned from logical server.
+NOTE: Libref PRCDM2 successfully assigned from logical server.
+NOTE: Libref PRCTMP successfully assigned from logical server.
+NOTE: Libref PRFTBLIB successfully assigned from logical server.
+NOTE: Libref TMPLIB successfully assigned from logical server.
+NOTE: Libref FRCARC successfully assigned from logical server.
+NOTE: Libref FRCPRD successfully assigned from logical server.
+NOTE: Libref PRCHARC successfully assigned from logical server.
+NOTE: Libref PRCHPRD successfully assigned from logical server.
+NOTE: Libref PRICARC successfully assigned from logical server.
+NOTE: Libref PRICPRD successfully assigned from logical server.
+NOTE: Libref QL_SALES successfully assigned from logical server.
+NOTE: Libref RAPOUT successfully assigned from logical server.
+NOTE: Libref RAPREF successfully assigned from logical server.
+NOTE: Libref RAPTEST successfully assigned from logical server.
+NOTE: Libref RAPTMP successfully assigned from logical server.
+NOTE: Libref RAPVAS successfully assigned from logical server.
+NOTE: Libref REFCPS successfully assigned from logical server.
+NOTE: Libref RMCDM successfully assigned from logical server.
+NOTE: Libref RMCTMP successfully assigned from logical server.
+NOTE: Libref SDLIB successfully assigned from logical server.
+NOTE: Libref SOMLIB successfully assigned from logical server.
+NOTE: Libref SHFDM successfully assigned from logical server.
+8                                                          The SAS System                              03:00 Thursday, July 23, 2020
+
+NOTE: Libref SODM successfully assigned from logical server.
+NOTE: Libref SOPDM successfully assigned from logical server.
+NOTE: Libref SOSUF successfully assigned from logical server.
+NOTE: Libref SOTMP successfully assigned from logical server.
+NOTE: Libref SPDM successfully assigned from logical server.
+NOTE: Libref SSIMDM successfully assigned from logical server.
+NOTE: Libref STLF successfully assigned from logical server.
+NOTE: Libref SMDM successfully assigned from logical server.
+NOTE: Libref SMTMP successfully assigned from logical server.
+NOTE: Libref TALDM successfully assigned from logical server.
+NOTE: Libref TKDM successfully assigned from logical server.
+NOTE: Libref TSDM successfully assigned from logical server.
+NOTE: Libref QVYDM successfully assigned from logical server.
+NOTE: Libref STJVYDM successfully assigned from logical server.
+NOTE: Libref VYDM successfully assigned from logical server.
+NOTE: Libref VYDMKVKK successfully assigned from logical server.
+NOTE: Libref OGMDM successfully assigned from logical server.
+NOTE: Libref OGMTMP successfully assigned from logical server.
+NOTE: Libref CRLIB successfully assigned from logical server.
+NOTE: Libref RASTMP successfully assigned from logical server.
+NOTE: Libref SOSEC successfully assigned from logical server.
+NOTE: Libref STATLIB successfully assigned from logical server.
+ERROR: Libref SMARTHMP failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-28000: the account is locked.
+NOTE: Libref SMARTHMT successfully assigned from logical server.
+ERROR: Libref SMSPRD failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12170: TNS: Baðlantý zaman aþýmý oluþtu.
+NOTE: Libref RAPARCH successfully assigned from logical server.
+NOTE: Libref SAHOL successfully assigned from logical server.
+NOTE: Libref MKVR successfully assigned from logical server.
+
+NOTE: AUTOEXEC processing beginning; file is /sas/sascodes/SMS_JOBS/Insert_Jobs/Autoexec.sas.
+
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta1/TMPLIB3/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta1/PODSLIB3/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DMLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta1/DMLIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TRNLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta1/TRNLIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta1/ODSLIB3/
+9                                                          The SAS System                              03:00 Thursday, July 23, 2020
+
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB4 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta1/TMPLIB4/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta1/FADM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref VYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/VYDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/ODSLIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref NEDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/NEDLIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/smdm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TRNLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/TRNLIB2/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MSATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/MSATMP/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OKMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/okmtmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MIGLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/MIGLIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref REFCPS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/REFCPS/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_ETY was successfully assigned as follows: 
+10                                                         The SAS System                              03:00 Thursday, July 23, 2020
+
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/EAP_ETY/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/PODSLIB1/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/tmplib/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CRLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/crlib/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OKMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/okmdm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/CCDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RMCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/rmcdm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/smtmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOSEC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/sosec/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/PODSLIB2/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MHMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/MHMDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CCDM2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/CCDM2/
+WARNING: SPD server setinit date is going to expire in 22 days.
+11                                                         The SAS System                              03:00 Thursday, July 23, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RASTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/rastmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SODM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/sodm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref D2DLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/D2DLIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/ODSLIB2/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPREF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/rapref/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOMLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/SOMLIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRICARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/PRICARC/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MIGLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/MIGLIB2/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/sotmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/TSDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TALDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/taldm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSUST was successfully assigned as follows: 
+      Engine:        SASSPDS 
+12                                                         The SAS System                              03:00 Thursday, July 23, 2020
+
+      Physical Name: :12779916/spdsmeta2/CPSUST/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref STJVYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/STJVYDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QLIKLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/QLIKLIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/badm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EDULIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/edulib/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref STLF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/STLF/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DASHLIBD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/DASHLIBD/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BFLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/bflib/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/batmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/sopdm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref KKLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/kklib/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MHMAYEDS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/MHMAYEDS/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+13                                                         The SAS System                              03:00 Thursday, July 23, 2020
+
+NOTE: Libref MTHEO was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/MTHEO/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/prcdm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BLDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/bldm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/raptmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRFTBLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/prftblib/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPOUT was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/rapout/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPTEST was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/RAPTEST/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DMLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/DMLIB2/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BCSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/BCSDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref IATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/iatmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOSUF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/sosuf/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPARCH was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/raparch/
+14                                                         The SAS System                              03:00 Thursday, July 23, 2020
+
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RMCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/rmctmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHKA was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/MTHKA/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EPYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/EPYDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DSTDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/DSTDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DYMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/DYMTMP/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/MDLIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DSTTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/DSTTMP/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/tmplib2/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PILIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/PILIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BLTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/bltmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref AUTODIAL was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/AUTODIAL/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRICPRD was successfully assigned as follows: 
+15                                                         The SAS System                              03:00 Thursday, July 23, 2020
+
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/PRICPRD/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSREG was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/CPSREG/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CXDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/CXDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSFRC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/CPSFRC/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/SDLIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CMPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/CMPDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/PMDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MSADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/MSADM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FPCLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/fpclib/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DBALIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/DBALIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSHRLY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/CPSHRLY/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCDM2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/PRCDM2/
+WARNING: SPD server setinit date is going to expire in 22 days.
+16                                                         The SAS System                              03:00 Thursday, July 23, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ARCLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/ARCLIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QL_SALES was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/QL_SALES/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ETSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/etsdm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EPYTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/EPYTMP/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HRDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/HRDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CNPRCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/cnprctmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DI_SMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/DI_SMDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PREFLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/PREFLIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TRNLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/TRNLIB3/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB33 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/TMPLIB3/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SHFDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/SHFDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+17                                                         The SAS System                              03:00 Thursday, July 23, 2020
+
+      Physical Name: :12779916/spdsmeta2/SPDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SSIMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/SSIMDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TKDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/TKDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_PR was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/EAP_PR/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_PAY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/EAP_PAY/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref KMHMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/KMHMDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QVYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/QVYDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref VYDMKVKK was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/VYDMKVKK/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OGMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/OGMTMP/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OGMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/OGMDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/prctmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CNPRCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/cnprcdm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+18                                                         The SAS System                              03:00 Thursday, July 23, 2020
+
+NOTE: Libref IADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/iadm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMTMP2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/smtmp2/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ETSTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/etstmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BITMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/bitmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BIDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/bidm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/hslib/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RASDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/rasdm/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPVAS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/rapvas/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FPCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/fpctmp/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FRCPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/FRCPRD/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FRCARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/FRCARC/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCHPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/PRCHPRD/
+19                                                         The SAS System                              03:00 Thursday, July 23, 2020
+
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCHARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/PRCHARC/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HDGPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/HDGPRD/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HDGARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/HDGARC/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PILIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/PILIB2/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHSO was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/MTHSO/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHMA was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/MTHMA/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/MTHTMP/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DYMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/DYMDM/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CSSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/CSSLIB/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SAHOL was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/SAHOL/
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MKVR was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :12779916/spdsmeta2/MKVR/
+ERROR: ORACLE connection error: ORA-12170: TNS: Baðlantý zaman aþýmý oluþtu.
+ERROR: Error in the LIBNAME statement.
+ERROR: ORACLE connection error: ORA-12170: TNS: Baðlantý zaman aþýmý oluþtu.
+20                                                         The SAS System                              03:00 Thursday, July 23, 2020
+
+ERROR: Error in the LIBNAME statement.
+NOTE: Libref RISUH was successfully assigned as follows: 
+      Engine:        SAPHANA 
+      Physical Name: errwph0.enerjisa.retail
+
+NOTE: AUTOEXEC processing completed.
+
+1          
+2          
+3          libname vydm sasspds 'vydm' server=eempa0.5400 user='anonymous';
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.235.
+NOTE: Libref VYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :18219336/spdsmeta/VYDM/
+4          LIBNAME risux SASIOHNA  SERVER="errwph0.enerjisa.retail"  INSTANCE=30   SCHEMA=RISU DIRECT_EXE=DELETE USER=SASHANAUSER
+4        ! PASSWORD=XXXXXXXXXXXXXX dbsliceparm=all;
+NOTE: Libref RISUX was successfully assigned as follows: 
+      Engine:        SAPHANA 
+      Physical Name: errwph0.enerjisa.retail
+5          
+6          proc sql;
+7          connect to sasiohna as myHANA
+8          (server="errwph0.enerjisa.retail" user='SASHANAUSER' password=XXXXXXXXXXXXXX port='33015');
+9          create table vydm.ODC_LINK_REPORT_NEW as
+10         select
+11         	 Put(CAMPAIGNID, $HEX32.) as CAMPAIGNID ,
+12         	 CAMPAIGN_NAME format $100. informat $100. length 100,
+13         	 CAMPAIGNMETHOD format 10. informat 10. length 8,
+14         	 EXPLANATION format $100. informat $100. length 100,
+15         	 Put(MESSAGE, $HEX32.) as MESSAGE ,
+16         	 CREATEDDATE format $30. informat $30. length 30,
+17         	 CLICKEDDATE format $30. informat $30. length 30,
+18         	 TARGETADDRESS format $100. informat $100. length 100,
+19         	 DEVICE format $30. informat $30. length 30,
+20         	 OS format $30. informat $30. length 30
+21         from connection to myHANA
+22             ( Select * from RISU.ODC_LINK_REPORT );
+NOTE: Table VYDM.ODC_LINK_REPORT_NEW created, with 144789 rows and 10 columns.
+
+23         disconnect from myHANA;
+24         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           3.94 seconds
+      cpu time            1.25 seconds
+      
+
+25         
+26         
+27         
+28         proc sql;
+29         connect to sasiohna as myHANA
+30         (server="errwph0.enerjisa.retail" user='SASHANAUSER' password=XXXXXXXXXXXXXX port='33015');
+31         create table vydm.ODC_E_ARSIV_RESULT_NEW as
+32         select
+33         	ODC_EXTERNALID format $100. informat $100. length 100,
+34         	 Put(ODC_MESSAGEJOB, $HEX32.) as ODC_MESSAGEJOB ,
+35         	 ODC_MESSAGETYPE format 10. informat 10. length 8,
+36         	 ODC_TARGETADDRESS format $100. informat $100. length 100,
+21                                                         The SAS System                              03:00 Thursday, July 23, 2020
+
+37         	 ODC_STATUS format 10. informat 10. length 8,
+38         case
+39         	when ODC_STATUS = 3 then '[QUEUE] Gönderim kuyruðunda bekleyen mesaj '
+40         	when ODC_STATUS = 4 then '[REQUEUE] Tekrar denenmek için gönderim kuyruðunda bekleyen mesaj '
+41         	when ODC_STATUS = 6 then '[SENT] SmartMessage tarafýndan SMTP veya operatöre teslim edilmiþ mesaj '
+42         	when ODC_STATUS = 8 then '[PENDING] Henüz raporu oluþmadý þeklinde rapor alýnmýþ mesaj '
+43         	when ODC_STATUS = 7 then '[OPENED] E-Posta için okunmuþ, SMS için iletilmiþ mesaj '
+44         	when ODC_STATUS = 1 then '[FAILED] Gönderim de hata almýþ mesaj '
+45         	when ODC_STATUS = 10 then '[FAILURE] (sadece SMS için) Operatörden hata aldýðýna dair rapor alýnmýþ mesaj '
+46         	when ODC_STATUS = 2 then '[HARD BOUNCE] Üye E-Posta adresi ya da cep telefonu numarasýnýn geçerli olmamasý vb. kalýcý
+46       ! bir nedenden dolayý ulaþtýrýlamamýþ mesaj '
+47         	when ODC_STATUS = 5 then '[SOFT BOUNCE] (sadece E-Posta için) Mailbox kotasýnýn dolu olmasý vb. geçici bir nedenden
+47       ! dolayý ulaþtýrýlamamýþ mesaj '
+48         	when ODC_STATUS = 0 then '[EXPIRED] Sistem kaynaklý sebeplerden zaman aþýmýna uðramýþ mesaj '
+49         	when ODC_STATUS = 9 then '[EXPIRED] (sadece SMS için) Zaman aþýmýna uðramýþ mesaj '
+50         	when ODC_STATUS = 11 then '[BLACKLIST] (sadece E-posta için) Kullanýcý tarafýndan yasaklanmýþ alan adý filtresine
+50       ! takýlmýþ mesaj '
+51         	when ODC_STATUS = 12 then '[BADMAIL] (sadece E-Posta için) Bouncer tarafýndan belirlenen BadMail '
+52         	when ODC_STATUS = 13 then '[BADMAIL] (sadece E-Posta için) Kullanýcý tarafýndan belirlenen BadMail '
+53         	when ODC_STATUS = 14 then '[DUPLICATE] Yinelenen gönderim adresi filtresine takýlmýþ mesaj '
+54         	when ODC_STATUS = 15 then '[UNKNOWN] Uzun zamandýr bilgi alýnmadýðý için rapor durumu bilinmeyen mesaj '
+55         	when ODC_STATUS = 16 then '[JUNK] (sadece E-Posta için) Hedef okuyucu tarafýndan önemsiz E-Posta olarak iþaretlenmiþ
+55       ! mesaj '
+56         	when ODC_STATUS = 18 then '[FAILED via OPTIMIZATION] Optimizasyon kampanyasýndan gönderilen mesaj, gerçek kampanyadan
+56       ! gönderilemeyeceði için, gerçek kampanyada FLO statüsüne sahip mesaj '
+57         	when ODC_STATUS = 17 then '[FAILED via TIME QUOTA] Belli bir zamanda gönderilebilecek mesaj sayýsý limitine takýlan
+57       ! mesaj '
+58         	when ODC_STATUS = 19 then '[Already Junk] Daha önce bir epostayý junk iþaretlemiþ kiþiye tekrar eposta gönderilirse bu
+58       ! durum oluþacaktýr.'
+59         else ''
+60         end as ODC_STATUS_TEXT,
+61         	 ODC_CREATEDDATE format $30. informat $30. length 30,
+62         	 ODC_SENTDATE format $30. informat $30. length 30
+63         from connection to myHANA
+64             ( Select 	 ODC_EXTERNALID,
+65         	 ODC_MESSAGEJOB,
+66         	 ODC_MESSAGETYPE,
+67         	 ODC_TARGETADDRESS,
+68         	 ODC_STATUS,
+69         	 ODC_CREATEDDATE,
+70         	 ODC_SENTDATE from RISU.ODC_E_ARSIV_RESULT );
+NOTE: Table VYDM.ODC_E_ARSIV_RESULT_NEW created, with 8499 rows and 8 columns.
+
+71         disconnect from myHANA;
+72         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.57 seconds
+      cpu time            0.04 seconds
+      
+
+ERROR: Errors printed on pages 8,19,20.
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           227:01:58.74
+      cpu time            3.68 seconds
+      
+
+22                                                         The SAS System                              03:00 Thursday, July 23, 2020
+
+

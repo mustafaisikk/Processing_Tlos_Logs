@@ -1,0 +1,1593 @@
+NOTE: Log file opened at  Tue, 3 Nov 2020 10:00:00.974
+1                                                          The SAS System                            10:00 Tuesday, November 3, 2020
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, 
+       model number, and serial number are not included in the setinit data 
+       used to initialize the SAS System library in use. This is permitted if 
+       this processor is a designated backup processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial 
+numbers:
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name 
+ERSDPA0.
+NOTE: Copyright (c) 2016 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M6) 
+      Licensed to ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD., Site 70166440.
+NOTE: This session is executing on the AIX 7.2 (AIX 64) platform.
+
+
+
+NOTE: Analytical products:
+      
+      SAS/STAT 15.1
+      SAS/ETS 15.1
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, model number, and serial number are not included in the 
+       setinit data used to initialize the SAS System library in use. This is permitted if this processor is a designated backup 
+       processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial numbers:
+
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name ERSDPA0.
+
+NOTE: Additional host information:
+
+IBM AIX AIX 64 2 7 00C9C0374C00 
+
+You are running SAS 9. Some SAS 8 files will be automatically converted 
+by the V9 engine; others are incompatible.  Please see 
+http://support.sas.com/rnd/migration/planning/platform/64bit.html
+
+PROC MIGRATE will preserve current SAS file attributes and is 
+recommended for converting all your SAS libraries from any 
+SAS 8 release to SAS 9.  For details and examples, please see
+http://support.sas.com/rnd/migration/index.html
+
+
+This message is contained in the SAS news file, and is presented upon
+initialization.  Edit the file "news" in the "misc/base" directory to
+display site-specific news and information in the program log.
+The command line option "-nonews" will prevent this display.
+
+
+
+
+NOTE: SAS initialization used:
+      real time           0.05 seconds
+      cpu time            0.01 seconds
+      
+NOTE: This is a SPD 5.4  Engine 
+      executing SAS (r) 9.4 (TS1M6) on the AIX platform.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+2                                                          The SAS System                            10:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+3                                                          The SAS System                            10:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+4                                                          The SAS System                            10:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SASDATA successfully assigned from logical server.
+NOTE: Libref STPSAMP successfully assigned from logical server.
+NOTE: Libref MIGLIB successfully assigned from logical server.
+NOTE: Libref TRNLIB2 successfully assigned from logical server.
+NOTE: Libref TRNLIB successfully assigned from logical server.
+NOTE: Libref NEDLIB successfully assigned from logical server.
+NOTE: Libref PILIB successfully assigned from logical server.
+NOTE: Libref DMLIB successfully assigned from logical server.
+NOTE: Libref TMPLIB3 successfully assigned from logical server.
+NOTE: Libref TMPLIB4 successfully assigned from logical server.
+NOTE: Libref ODSLIB successfully assigned from logical server.
+NOTE: Libref ODSLIB2 successfully assigned from logical server.
+NOTE: Libref ODSLIB3 successfully assigned from logical server.
+NOTE: Libref PODSLIB1 successfully assigned from logical server.
+NOTE: Libref PODSLIB2 successfully assigned from logical server.
+NOTE: Libref PODSLIB3 successfully assigned from logical server.
+NOTE: Libref DASHLIBD successfully assigned from logical server.
+NOTE: Libref QLIKLIB successfully assigned from logical server.
+NOTE: Libref SQLKODA successfully assigned from logical server.
+NOTE: Libref RISU successfully assigned from logical server.
+NOTE: Libref DQ_ORCL successfully assigned from logical server.
+NOTE: Library ZGRLIB does not exist.
+NOTE: Libref HANARWP successfully assigned from logical server.
+NOTE: Libref BFLIB successfully assigned from logical server.
+NOTE: Libref PILIB2 successfully assigned from logical server.
+NOTE: Libref TMPLIB2 successfully assigned from logical server.
+NOTE: Libref DMLIB2 successfully assigned from logical server.
+NOTE: Libref ARCLIB successfully assigned from logical server.
+NOTE: Libref IADM successfully assigned from logical server.
+NOTE: Libref IATMP successfully assigned from logical server.
+NOTE: Libref AUTODIAL successfully assigned from logical server.
+NOTE: Libref BCSDM successfully assigned from logical server.
+NOTE: Libref BLDM successfully assigned from logical server.
+NOTE: Libref BLTMP successfully assigned from logical server.
+NOTE: Libref BADM successfully assigned from logical server.
+NOTE: Libref BATMP successfully assigned from logical server.
+NOTE: Libref CCDM successfully assigned from logical server.
+NOTE: Libref CCDM2 successfully assigned from logical server.
+NOTE: Libref CMPDM successfully assigned from logical server.
+NOTE: Libref CPSFRC successfully assigned from logical server.
+NOTE: Libref CPSHRLY successfully assigned from logical server.
+NOTE: Libref CPSREG successfully assigned from logical server.
+NOTE: Libref CPSUST successfully assigned from logical server.
+NOTE: Libref CXDM successfully assigned from logical server.
+NOTE: Libref DBALIB successfully assigned from logical server.
+NOTE: Libref DSTDM successfully assigned from logical server.
+NOTE: Libref DSTTMP successfully assigned from logical server.
+NOTE: Libref DYMDM successfully assigned from logical server.
+NOTE: Libref DYMTMP successfully assigned from logical server.
+NOTE: Libref EAP_ETY successfully assigned from logical server.
+NOTE: Libref EAP_PAY successfully assigned from logical server.
+NOTE: Libref EAP_PR successfully assigned from logical server.
+NOTE: Libref EPYDM successfully assigned from logical server.
+NOTE: Libref EPYTMP successfully assigned from logical server.
+5                                                          The SAS System                            10:00 Tuesday, November 3, 2020
+
+NOTE: Libref ETSDM successfully assigned from logical server.
+NOTE: Libref FADM successfully assigned from logical server.
+NOTE: Libref FPCLIB successfully assigned from logical server.
+NOTE: Libref FPCTMP successfully assigned from logical server.
+NOTE: Libref HRDM successfully assigned from logical server.
+NOTE: Libref KMHMDM successfully assigned from logical server.
+NOTE: Libref CSSLIB successfully assigned from logical server.
+NOTE: Libref MDLIB successfully assigned from logical server.
+NOTE: Libref MHMAYEDS successfully assigned from logical server.
+NOTE: Libref MHMDM successfully assigned from logical server.
+NOTE: Libref MIGLIB2 successfully assigned from logical server.
+NOTE: Libref MSADM successfully assigned from logical server.
+NOTE: Libref MSATMP successfully assigned from logical server.
+NOTE: Libref MTHEO successfully assigned from logical server.
+NOTE: Libref MTHKA successfully assigned from logical server.
+NOTE: Libref MTHMA successfully assigned from logical server.
+NOTE: Libref MTHSO successfully assigned from logical server.
+NOTE: Libref MTHTMP successfully assigned from logical server.
+NOTE: Libref D2DLIB successfully assigned from logical server.
+NOTE: Libref OKMDM successfully assigned from logical server.
+NOTE: Libref OKMTMP successfully assigned from logical server.
+NOTE: Libref PMDM successfully assigned from logical server.
+NOTE: Libref CNPRCDM successfully assigned from logical server.
+NOTE: Libref CNPRCTMP successfully assigned from logical server.
+NOTE: Libref EDULIB successfully assigned from logical server.
+NOTE: Libref PRCDM successfully assigned from logical server.
+NOTE: Libref PRCDM2 successfully assigned from logical server.
+NOTE: Libref PRCTMP successfully assigned from logical server.
+NOTE: Libref PRFTBLIB successfully assigned from logical server.
+NOTE: Libref TMPLIB successfully assigned from logical server.
+NOTE: Libref FRCARC successfully assigned from logical server.
+NOTE: Libref FRCPRD successfully assigned from logical server.
+NOTE: Libref PRCHARC successfully assigned from logical server.
+NOTE: Libref PRCHPRD successfully assigned from logical server.
+NOTE: Libref PRICARC successfully assigned from logical server.
+NOTE: Libref PRICPRD successfully assigned from logical server.
+NOTE: Libref QL_SALES successfully assigned from logical server.
+NOTE: Libref RAPOUT successfully assigned from logical server.
+NOTE: Libref RAPREF successfully assigned from logical server.
+NOTE: Libref RAPTEST successfully assigned from logical server.
+NOTE: Libref RAPTMP successfully assigned from logical server.
+NOTE: Libref RAPVAS successfully assigned from logical server.
+NOTE: Libref REFCPS successfully assigned from logical server.
+NOTE: Libref RMCDM successfully assigned from logical server.
+NOTE: Libref RMCTMP successfully assigned from logical server.
+NOTE: Libref SDLIB successfully assigned from logical server.
+NOTE: Libref SOMLIB successfully assigned from logical server.
+NOTE: Libref SHFDM successfully assigned from logical server.
+NOTE: Libref SODM successfully assigned from logical server.
+NOTE: Libref SOPDM successfully assigned from logical server.
+NOTE: Libref SOSUF successfully assigned from logical server.
+NOTE: Libref SOTMP successfully assigned from logical server.
+NOTE: Libref SPDM successfully assigned from logical server.
+NOTE: Libref SSIMDM successfully assigned from logical server.
+NOTE: Libref STLF successfully assigned from logical server.
+NOTE: Libref SMDM successfully assigned from logical server.
+NOTE: Libref SMTMP successfully assigned from logical server.
+NOTE: Libref TALDM successfully assigned from logical server.
+6                                                          The SAS System                            10:00 Tuesday, November 3, 2020
+
+NOTE: Libref TKDM successfully assigned from logical server.
+NOTE: Libref TSDM successfully assigned from logical server.
+NOTE: Libref QVYDM successfully assigned from logical server.
+NOTE: Libref STJVYDM successfully assigned from logical server.
+NOTE: Libref VYDM successfully assigned from logical server.
+NOTE: Libref VYDMKVKK successfully assigned from logical server.
+NOTE: Libref OGMDM successfully assigned from logical server.
+NOTE: Libref OGMTMP successfully assigned from logical server.
+NOTE: Libref CRLIB successfully assigned from logical server.
+NOTE: Libref RASTMP successfully assigned from logical server.
+NOTE: Libref SOSEC successfully assigned from logical server.
+NOTE: Libref STATLIB successfully assigned from logical server.
+ERROR: Libref SMARTHMP failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12514: TNS: Dinleyici þu anda baðlantý açýklayýcýsýnda belirtilen hizmeti tanýmýyor..
+ERROR: Libref SMARTHMT failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12514: TNS: Dinleyici þu anda baðlantý açýklayýcýsýnda belirtilen hizmeti tanýmýyor..
+ERROR: Libref SMSPRD failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12170: TNS: Baðlantý zaman aþýmý oluþtu.
+NOTE: Libref RAPARCH successfully assigned from logical server.
+NOTE: Libref SAHOL successfully assigned from logical server.
+NOTE: Libref MKVR successfully assigned from logical server.
+NOTE: Libref RODQLIK successfully assigned from logical server.
+NOTE: Libref UTFLIB successfully assigned from logical server.
+
+NOTE: AUTOEXEC processing beginning; file is /sas/config/Lev1/SASApp/BatchServer/autoexec.sas.
+
+
+NOTE: AUTOEXEC processing completed.
+
+1          %include "/sas/sascodes/Autoexec_File/Autoexec.sas";
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta1/TMPLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta1/PODSLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DMLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta1/DMLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TRNLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta1/TRNLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta1/ODSLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB4 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta1/TMPLIB4/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta1/FADM/
+7                                                          The SAS System                            10:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref VYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/VYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/ODSLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref NEDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/NEDLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/smdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TRNLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/TRNLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MSATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/MSATMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OKMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/okmtmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MIGLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/MIGLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref REFCPS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/REFCPS/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_ETY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/EAP_ETY/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/PODSLIB1/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/tmplib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CRLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/crlib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OKMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/okmdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CCDM was successfully assigned as follows: 
+8                                                          The SAS System                            10:00 Tuesday, November 3, 2020
+
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/CCDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RMCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/rmcdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/smtmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOSEC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/sosec/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/PODSLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MHMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/MHMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CCDM2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/CCDM2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RASTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/rastmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SODM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/sodm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref D2DLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/D2DLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/ODSLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPREF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/rapref/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOMLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/SOMLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRICARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/PRICARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MIGLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/MIGLIB2/
+9                                                          The SAS System                            10:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/sotmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/TSDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TALDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/taldm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSUST was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/CPSUST/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref STJVYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/STJVYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QLIKLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/QLIKLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/badm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EDULIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/edulib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref STLF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/STLF/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DASHLIBD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/DASHLIBD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BFLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/bflib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/batmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/sopdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref KKLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/kklib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MHMAYEDS was successfully assigned as follows: 
+10                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/MHMAYEDS/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHEO was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/MTHEO/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/prcdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BLDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/bldm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/raptmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRFTBLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/prftblib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPOUT was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/rapout/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPTEST was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/RAPTEST/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DMLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/DMLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BCSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/BCSDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref IATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/iatmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOSUF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/sosuf/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPARCH was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/raparch/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RMCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/rmctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHKA was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/MTHKA/
+11                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EPYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/EPYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DSTDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/DSTDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DYMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/DYMTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/MDLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DSTTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/DSTTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/tmplib2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PILIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/PILIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BLTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/bltmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref AUTODIAL was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/AUTODIAL/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRICPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/PRICPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSREG was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/CPSREG/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CXDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/CXDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSFRC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/CPSFRC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/SDLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CMPDM was successfully assigned as follows: 
+12                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/CMPDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/PMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MSADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/MSADM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FPCLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/fpclib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DBALIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/DBALIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSHRLY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/CPSHRLY/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCDM2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/PRCDM2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ARCLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/ARCLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QL_SALES was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/QL_SALES/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ETSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/etsdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EPYTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/EPYTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HRDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/HRDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CNPRCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/cnprctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DI_SMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/DI_SMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PREFLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/PREFLIB/
+13                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TRNLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/TRNLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB33 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/TMPLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SHFDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/SHFDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/SPDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SSIMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/SSIMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TKDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/TKDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_PR was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/EAP_PR/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_PAY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/EAP_PAY/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref KMHMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/KMHMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QVYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/QVYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref VYDMKVKK was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/VYDMKVKK/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OGMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/OGMTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OGMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/OGMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/prctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CNPRCDM was successfully assigned as follows: 
+14                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/cnprcdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref IADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/iadm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMTMP2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/smtmp2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ETSTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/etstmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BITMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/bitmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BIDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/bidm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/hslib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RASDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/rasdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPVAS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/rapvas/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FPCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/fpctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FRCPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/FRCPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FRCARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/FRCARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCHPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/PRCHPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCHARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/PRCHARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HDGPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/HDGPRD/
+15                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HDGARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/HDGARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PILIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/PILIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHSO was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/MTHSO/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHMA was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/MTHMA/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/MTHTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DYMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/DYMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CSSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/CSSLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SAHOL was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/SAHOL/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MKVR was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :16515342/spdsmeta2/MKVR/
+137        LIBNAME SASHANA SASIOHNA  SERVER="errwph0.enerjisa.retail"  INSTANCE=30   SCHEMA=SASHANAUSER USER=SASHANAUSER
+137      ! PASSWORD=XXXXXXXXXXXXXX TABLE_TYPE=COLUMN;
+NOTE: Libref SASHANA was successfully assigned as follows: 
+      Engine:        SAPHANA 
+      Physical Name: errwph0.enerjisa.retail
+138        
+139        data get_hrp1001(KEEP= objid USERNAME);
+140        set podslib1.rcp_hrp1001 (WHERE=(/*SOBID = 'TONDER' and*/ sclas='US'));
+141        USERNAME = sobid;
+142        run;
+
+NOTE: There were 2487 observations read from the data set PODSLIB1.RCP_HRP1001.
+      WHERE sclas='US';
+NOTE: The data set WORK.GET_HRP1001 has 2487 observations and 2 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.16 seconds
+      cpu time            0.01 seconds
+      
+
+143        
+144        proc sql;
+145        create table get_position as
+16                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+146        select t1.*,
+147        t2.subty,
+148        t2.sobid,
+149        t2.begda as position_begin_date,
+150        t2.endda as position_end_date
+151        from get_hrp1001 t1
+152        inner join podslib1.rcp_hrp1001 t2 on (t1.objid = t2.objid and t2.endda = '31DEC9999'd and subty = 'B008' )
+153        ;
+NOTE: Table WORK.GET_POSITION created, with 1500 rows and 6 columns.
+
+154        
+155        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.09 seconds
+      cpu time            0.01 seconds
+      
+
+156        
+157        proc sql;
+158        create table get_position_name as
+159        select t1.*,
+160        t2.mc_stext as UNVAN_POZISYON
+161        from get_position t1
+162        left join podslib1.rcp_hrp1000 t2 on (t1.sobid = t2.OBJID and t2.endda = t1.position_end_date/* and
+162      ! t1.position_begin_date = t2.begda*/)
+163        ;
+NOTE: Table WORK.GET_POSITION_NAME created, with 1500 rows and 7 columns.
+
+164        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.11 seconds
+      cpu time            0.02 seconds
+      
+
+165        
+166        
+167        
+168        proc sql;
+169        create table get_upper_org as
+170        select t1.*,
+171        t2.sobid as upper_org,
+172        t2.begda as begda_uo,
+173        t2.endda as endda_uo
+174        from get_position_name t1
+175        left join podslib1.rcp_hrp1001 t2 on (t1.SOBID not = '' and t1.SOBID = t2.OBJID and t2.sclas = 'O' and t2.endda =
+175      ! '31DEC9999'd and t2.relat='003' )
+176        ;
+NOTE: Table WORK.GET_UPPER_ORG created, with 1500 rows and 10 columns.
+
+177        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.08 seconds
+      cpu time            0.01 seconds
+      
+
+178        
+179        proc sql;
+180        create table get_upper_org_x as
+17                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+181        select t1.*,
+182        t2.short as short_uo,
+183        t2.stext as stext_uo,
+184        t2.mc_short as mc_short_uo,
+185        t2.mc_stext as mc_stext_uo,
+186        t2.mc_seark as mc_seark_uo
+187        from get_upper_org t1
+188        left join podslib1.rcp_hrp1000 t2 on (t1.upper_org = t2.OBJID And t2.endda = '31DEC9999'd)
+189        
+190        ;
+NOTE: Table WORK.GET_UPPER_ORG_X created, with 1500 rows and 15 columns.
+
+191        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.14 seconds
+      cpu time            0.02 seconds
+      
+
+192        
+193        proc sql;
+194        create table get_upper_org_xxx as
+195        select t1.*,
+196        t3.LOW as low_uo
+197        from WORK.get_upper_org_x t1
+198        left join podslib1.rcp_hrp1222 t2 on(t1.upper_org = t2.objid)
+199        left join podslib1.rcp_hrt1222 t3 on (t2.tabnr = t3.tabnr and t3.ATTRIB ='ZONE')
+200        ;
+NOTE: Table WORK.GET_UPPER_ORG_XXX created, with 1519 rows and 16 columns.
+
+201        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.19 seconds
+      cpu time            0.02 seconds
+      
+
+202        
+203        
+204        proc sql;
+205        create table get_upper_org_2 as
+206        select t1.*,
+207        t2.sobid as upper_org_2,
+208        t2.begda as begda_uo2,
+209        t2.endda as endda_uo2
+210        from get_upper_org_xxx t1
+211        left join podslib1.rcp_hrp1001 t2 on (t1.upper_org not = '' and t1.upper_org = t2.objid and rsign = 'A' and t2.sclas =
+211      ! 'O' and t2.endda = '31DEC9999'd and t2.relat='002')
+212        ;
+NOTE: Table WORK.GET_UPPER_ORG_2 created, with 1519 rows and 19 columns.
+
+213        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.11 seconds
+      cpu time            0.02 seconds
+      
+
+214        
+215        proc sql;
+216        create table get_upper_org_2_x as
+18                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+217        select t1.*,
+218        t2.short as short_uo2,
+219        t2.stext as stext_uo2,
+220        t2.mc_short as mc_short_uo2,
+221        t2.mc_stext as mc_stext_uo2,
+222        t2.mc_seark as mc_seark_uo2
+223        from get_upper_org_2 t1
+224        left join podslib1.rcp_hrp1000 t2 on (t1.upper_org_2 = t2.OBJID and t2.endda = '31DEC9999'd)
+225        
+226        ;
+NOTE: Table WORK.GET_UPPER_ORG_2_X created, with 1519 rows and 24 columns.
+
+227        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.14 seconds
+      cpu time            0.03 seconds
+      
+
+228        
+229        proc sql;
+230        create table get_upper_org_2_xxx as
+231        select t1.*,
+232        t3.LOW as low_uo2
+233        from WORK.get_upper_org_2_x t1
+234        left join podslib1.rcp_hrp1222 t2 on(t1.upper_org_2 = t2.objid)
+235        left join podslib1.rcp_hrt1222 t3 on (t2.tabnr = t3.tabnr and t3.ATTRIB ='ZONE')
+236        ;
+NOTE: Table WORK.GET_UPPER_ORG_2_XXX created, with 2703 rows and 25 columns.
+
+237        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.19 seconds
+      cpu time            0.03 seconds
+      
+
+238        
+239        proc sql;
+240        create table get_upper_org_3 as
+241        select t1.*,
+242        t2.sobid as upper_org_3,
+243        t2.begda as begda_uo3,
+244        t2.endda as endda_uo3
+245        from get_upper_org_2_xxx t1
+246        left join podslib1.rcp_hrp1001 t2 on (t1.upper_org_2 not = '' and t1.upper_org_2 = t2.objid and rsign = 'A' and t2.sclas
+246      ! = 'O' and t2.endda = '31DEC9999'd and t2.relat='002')
+247        ;
+NOTE: Table WORK.GET_UPPER_ORG_3 created, with 2703 rows and 28 columns.
+
+248        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.13 seconds
+      cpu time            0.04 seconds
+      
+
+249        
+250        proc sql;
+251        create table get_upper_org_3_x as
+252        select t1.*,
+19                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+253        t2.short as short_uo3,
+254        t2.stext as stext_uo3,
+255        t2.mc_short as mc_short_uo3,
+256        t2.mc_stext as mc_stext_uo3,
+257        t2.mc_seark as mc_seark_uo3
+258        from get_upper_org_3 t1
+259        left join podslib1.rcp_hrp1000 t2 on (t1.upper_org_3 = t2.OBJID and t2.endda = '31DEC9999'd)
+260        
+261        ;
+NOTE: Table WORK.GET_UPPER_ORG_3_X created, with 2703 rows and 33 columns.
+
+262        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.35 seconds
+      cpu time            0.03 seconds
+      
+
+263        
+264        
+265        proc sql;
+266        create table get_upper_org_4 as
+267        select t1.*,
+268        t2.sobid as upper_org_4,
+269        t2.begda as begda_uo4,
+270        t2.endda as endda_uo4
+271        from get_upper_org_3_x t1
+272        left join podslib1.rcp_hrp1001 t2 on (t1.upper_org_3 not = '' and t1.upper_org_3 = t2.objid and rsign = 'A' and t2.sclas
+272      ! = 'O' and t2.endda = '31DEC9999'd and t2.relat='002')
+273        ;
+NOTE: Table WORK.GET_UPPER_ORG_4 created, with 2703 rows and 36 columns.
+
+274        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.10 seconds
+      cpu time            0.02 seconds
+      
+
+275        
+276        proc sql;
+277        create table get_upper_org_4_x as
+278        select t1.*,
+279        t2.short as short_uo4,
+280        t2.stext as stext_uo4,
+281        t2.mc_short as mc_short_uo4,
+282        t2.mc_stext as mc_stext_uo4,
+283        t2.mc_seark as mc_seark_uo4
+284        from get_upper_org_4 t1
+285        left join podslib1.rcp_hrp1000 t2 on (t1.upper_org_4 = t2.OBJID and t2.endda = '31DEC9999'd)
+286        
+287        ;
+NOTE: Table WORK.GET_UPPER_ORG_4_X created, with 2703 rows and 41 columns.
+
+288        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.15 seconds
+      cpu time            0.04 seconds
+      
+
+20                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+289        
+290        
+291        proc sql;
+292        create table get_upper_org_5 as
+293        select t1.*,
+294        t2.sobid as upper_org_5,
+295        t2.begda as begda_uo5,
+296        t2.endda as endda_uo5
+297        from get_upper_org_4_x t1
+298        left join podslib1.rcp_hrp1001 t2 on (t1.upper_org_4 not = '' and t1.upper_org_4 = t2.objid and rsign = 'A' and t2.sclas
+298      ! = 'O' and t2.endda = '31DEC9999'd and t2.relat='002')
+299        ;
+NOTE: Table WORK.GET_UPPER_ORG_5 created, with 2703 rows and 44 columns.
+
+300        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.10 seconds
+      cpu time            0.02 seconds
+      
+
+301        
+302        
+303        proc sql;
+304        create table get_upper_org_5_x as
+305        select t1.*,
+306        t2.short as short_uo5,
+307        t2.stext as stext_uo5,
+308        t2.mc_short as mc_short_uo5,
+309        t2.mc_stext as mc_stext_uo5,
+310        t2.mc_seark as mc_seark_uo5
+311        from get_upper_org_5 t1
+312        left join podslib1.rcp_hrp1000 t2 on (t1.upper_org_5 = t2.OBJID and t2.endda = '31DEC9999'd)
+313        
+314        ;
+NOTE: Table WORK.GET_UPPER_ORG_5_X created, with 2703 rows and 49 columns.
+
+315        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.17 seconds
+      cpu time            0.03 seconds
+      
+
+316        
+317        
+318        
+319        proc sql;
+320        create table get_upper_org_6 as
+321        select t1.*,
+322        t2.sobid as upper_org_6,
+323        t2.begda as begda_uo6,
+324        t2.endda as endda_uo6
+325        from get_upper_org_5_x t1
+326        left join podslib1.rcp_hrp1001 t2 on (t1.upper_org_5 not = '' and t1.upper_org_5 = t2.objid and rsign = 'A' and t2.sclas
+326      ! = 'O' and t2.endda = '31DEC9999'd and t2.relat='002')
+327        ;
+NOTE: Table WORK.GET_UPPER_ORG_6 created, with 2703 rows and 52 columns.
+
+328        quit;
+21                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.11 seconds
+      cpu time            0.02 seconds
+      
+
+329        
+330        
+331        proc sql;
+332        create table get_upper_org_6_x as
+333        select t1.*,
+334        t2.short as short_uo6,
+335        t2.stext as stext_uo6,
+336        t2.mc_short as mc_short_uo6,
+337        t2.mc_stext as mc_stext_uo6,
+338        t2.mc_seark as mc_seark_uo6
+339        from get_upper_org_6 t1
+340        left join podslib1.rcp_hrp1000 t2 on (t1.upper_org_6 = t2.OBJID and t2.endda = '31DEC9999'd)
+341        
+342        ;
+NOTE: Table WORK.GET_UPPER_ORG_6_X created, with 2703 rows and 57 columns.
+
+343        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.18 seconds
+      cpu time            0.05 seconds
+      
+
+344        
+345        
+346        
+347        proc sql;
+348        create table get_upper_org_7 as
+349        select t1.*,
+350        t2.sobid as upper_org_7,
+351        t2.begda as begda_uo7,
+352        t2.endda as endda_uo7
+353        from get_upper_org_6_x t1
+354        left join podslib1.rcp_hrp1001 t2 on (t1.upper_org_6 not = '' and t1.upper_org_6 = t2.objid and rsign = 'A' and t2.sclas
+354      ! = 'O' and t2.endda = '31DEC9999'd and t2.relat='002')
+355        ;
+NOTE: Table WORK.GET_UPPER_ORG_7 created, with 2703 rows and 60 columns.
+
+356        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.09 seconds
+      cpu time            0.03 seconds
+      
+
+357        
+358        proc sql;
+359        create table get_un_x as
+360        select t1.*,
+361        t2.SOBID AS BP_NO
+362        from work.get_upper_org_7 t1
+363        left join podslib1.rcp_hrp1001 t2 on (t1.OBJID = t2.OBJID and t2.SCLAS = 'BP')
+364        ;
+NOTE: Table WORK.GET_UN_X created, with 2703 rows and 61 columns.
+
+22                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+365        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.16 seconds
+      cpu time            0.04 seconds
+      
+
+366        
+367        
+368        
+369        
+370        proc sql;
+371        create table get_un as
+372        select t1.*,
+373        catx(' ',t2.MC_NAME2,t2.MC_NAME1) as KUL_AD_SOYAD
+374        FROM get_un_x t1
+375        left join podslib1.rcp_but000 t2 on (t1.BP_NO = t2.PARTNER)
+376        ;
+NOTE: Table WORK.GET_UN created, with 2703 rows and 62 columns.
+
+377        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           40.44 seconds
+      cpu time            8.61 seconds
+      
+
+378        
+379        
+380        
+381        /*proc sql;*/
+382        /*create table get_un as*/
+383        /*select t1.*,*/
+384        /**/
+385        /*from get_upper_org_7 t1*/
+386        /*left join podslib1.rip_usr21 t2 on (t1.username = t2.bname)*/
+387        /*left join podslib1.rip_adrp t3 on (t2.persnumber = t3.persnumber)*/
+388        /*;*/
+389        /*quit;*/
+390        
+391        /*proc sql;*/
+392        /*create table get_upper_org_8 as*/
+393        /*select t1.*,*/
+394        /*t2.sobid as upper_org_8*/
+395        /*from get_upper_org_7 t1*/
+396        /*left join podslib1.rcp_hrp1001 t2 on (t1.upper_org_7 = t2.objid and rsign = 'A' and t2.sclas = 'O' and t2.endda =
+396      ! '31DEC9999'd and t2.relat='002')*/
+397        /*;*/
+398        /*quit;*/
+399        options validvarname=any;
+400        
+401        data VYDM.Organization_Schema (keep= KULLANICI_KODU KULLANICI AD_SOYAD POZISYON UNVAN_POZISYON KANAL_BILGISI
+401      ! "MHM/BAYI_ISMI"n
+402        						"MHM/BAYI_BASLANGIC_TARIHI"n "MHM/BAYI_BITIS_TARIHI"n
+403        						ZONE_BILGISI ZONE_BILGISI_TEXT SAHA ALT_BOLGE_BILGISI ORGANIZASYON_BIRIMI
+404        						POZISYON_BASLANGIC_TARIHI POZISYON_BITIS_TARIHI KANAL_BASLANGIC_TARIHI
+405        						KANAL_BITIS_TARIHI ZONE_BASLANGIC_TARIHI ZONE_BITIS_TARIHI SAHA_BASLANGIC_TARIHI
+406        						SAHA_BITIS_TARIHI ALT_BOLGE_BASLANGIC_TARIHI ALT_BOLGE_BITIS_TARIHI
+407        						ORGANIZASYON_BASLANGIC_TARIHI ORGANIZASYON_BITIS_TARIHI
+408        );
+23                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+409        retain
+410        						KULLANICI_KODU KULLANICI AD_SOYAD
+411        						POZISYON UNVAN_POZISYON POZISYON_BASLANGIC_TARIHI POZISYON_BITIS_TARIHI
+412        						KANAL_BILGISI KANAL_BASLANGIC_TARIHI	KANAL_BITIS_TARIHI
+413        						"MHM/BAYI_ISMI"n "MHM/BAYI_BASLANGIC_TARIHI"n "MHM/BAYI_BITIS_TARIHI"n
+414        						ZONE_BILGISI ZONE_BILGISI_TEXT ZONE_BASLANGIC_TARIHI ZONE_BITIS_TARIHI
+415        						SAHA SAHA_BASLANGIC_TARIHI SAHA_BITIS_TARIHI ALT_BOLGE_BILGISI
+416        						ALT_BOLGE_BASLANGIC_TARIHI ALT_BOLGE_BITIS_TARIHI ORGANIZASYON_BIRIMI
+417        						ORGANIZASYON_BASLANGIC_TARIHI ORGANIZASYON_BITIS_TARIHI
+418        						
+419        						
+420        ;
+421        set get_un;
+422        format POZISYON_BASLANGIC_TARIHI POZISYON_BITIS_TARIHI KANAL_BASLANGIC_TARIHI KANAL_BITIS_TARIHI
+423        "MHM/BAYI_BASLANGIC_TARIHI"n "MHM/BAYI_BITIS_TARIHI"n ZONE_BASLANGIC_TARIHI ZONE_BITIS_TARIHI SAHA_BASLANGIC_TARIHI
+424        SAHA_BITIS_TARIHI ALT_BOLGE_BASLANGIC_TARIHI ALT_BOLGE_BITIS_TARIHI ORGANIZASYON_BASLANGIC_TARIHI
+425        ORGANIZASYON_BITIS_TARIHI date9.;
+426        KULLANICI_KODU = OBJID;
+427        KULLANICI = USERNAME;
+428        AD_SOYAD = KUL_AD_SOYAD;
+429        POZISYON = SOBID;
+430        POZISYON_BASLANGIC_TARIHI = position_begin_date;
+431        POZISYON_BITIS_TARIHI = position_end_date;
+432        if(upper_org_6 <> '' and upper_org_7 = '') then do;
+NOTE: The "<>" operator is interpreted as "MAX".
+433        	KANAL_BILGISI = mc_stext_uo5;
+434        	KANAL_BASLANGIC_TARIHI = begda_uo5;
+435        	KANAL_BITIS_TARIHI = endda_uo5;
+436        	"MHM/BAYI_ISMI"n = mc_stext_uo;
+437        	"MHM/BAYI_BASLANGIC_TARIHI"n = begda_uo;
+438        	"MHM/BAYI_BITIS_TARIHI"n = endda_uo;
+439        	ZONE_BILGISI = mc_stext_uo2;
+440        	ZONE_BILGISI_TEXT = low_uo2;
+441        	ZONE_BASLANGIC_TARIHI = begda_uo2;
+442        	ZONE_BITIS_TARIHI = endda_uo2;
+443        	SAHA = mc_stext_uo3;
+444        	SAHA_BASLANGIC_TARIHI = begda_uo3;
+445        	SAHA_BITIS_TARIHI = endda_uo3;
+446        	ALT_BOLGE_BILGISI = mc_stext_uo4;
+447        	ALT_BOLGE_BASLANGIC_TARIHI = begda_uo4;
+448        	ALT_BOLGE_BITIS_TARIHI = endda_uo4;
+449        	ORGANIZASYON_BIRIMI = mc_short_uo6;
+450        	ORGANIZASYON_BASLANGIC_TARIHI = begda_uo6;
+451        	ORGANIZASYON_BITIS_TARIHI = endda_uo6;
+452        end;
+453        
+454        else if (upper_org_5 <> '' and upper_org_6 = '') then do;
+NOTE: The "<>" operator is interpreted as "MAX".
+455        	KANAL_BILGISI = mc_stext_uo4;
+456        	KANAL_BASLANGIC_TARIHI = begda_uo4;
+457        	KANAL_BITIS_TARIHI = endda_uo4;
+458        	"MHM/BAYI_ISMI"n = '';
+459        	"MHM/BAYI_BASLANGIC_TARIHI"n = ''d;
+460        	"MHM/BAYI_BITIS_TARIHI"n = ''d;
+461        	ZONE_BILGISI = mc_stext_uo;
+462        	ZONE_BILGISI_TEXT = low_uo;
+463        	ZONE_BASLANGIC_TARIHI = begda_uo;
+464        	ZONE_BITIS_TARIHI = endda_uo;
+24                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+465        	SAHA = mc_stext_uo2;
+466        	SAHA_BASLANGIC_TARIHI = begda_uo2;
+467        	SAHA_BITIS_TARIHI = endda_uo2;
+468        	ALT_BOLGE_BILGISI = mc_stext_uo3;
+469        	ALT_BOLGE_BASLANGIC_TARIHI = begda_uo3;
+470        	ALT_BOLGE_BITIS_TARIHI = endda_uo3;
+471        	ORGANIZASYON_BIRIMI = mc_short_uo5;
+472        	ORGANIZASYON_BASLANGIC_TARIHI = begda_uo5;
+473        	ORGANIZASYON_BITIS_TARIHI = endda_uo5;
+474        end;
+475        
+476        else if (upper_org_4 <> '' and upper_org_5 = '') then do;
+NOTE: The "<>" operator is interpreted as "MAX".
+477        	KANAL_BILGISI = mc_stext_uo3;
+478        	KANAL_BASLANGIC_TARIHI = begda_uo3;
+479        	KANAL_BITIS_TARIHI = endda_uo3;
+480        	"MHM/BAYI_ISMI"n = '';
+481        	"MHM/BAYI_BASLANGIC_TARIHI"n = ''d;
+482        	"MHM/BAYI_BITIS_TARIHI"n = ''d;
+483        	ZONE_BILGISI = '';
+484        	ZONE_BILGISI_TEXT = '';
+485        	ZONE_BASLANGIC_TARIHI = ''d;
+486        	ZONE_BITIS_TARIHI = ''d;
+487        	SAHA = mc_stext_uo;
+488        	SAHA_BASLANGIC_TARIHI = begda_uo;
+489        	SAHA_BITIS_TARIHI = endda_uo;
+490        	ALT_BOLGE_BILGISI = mc_stext_uo2;
+491        	ALT_BOLGE_BASLANGIC_TARIHI = begda_uo2;
+492        	ALT_BOLGE_BITIS_TARIHI = endda_uo2;
+493        	ORGANIZASYON_BIRIMI = mc_short_uo4;
+494        	ORGANIZASYON_BASLANGIC_TARIHI = begda_uo4;
+495        	ORGANIZASYON_BITIS_TARIHI = endda_uo4;
+496        end;
+497        
+498        else if (upper_org_3 <> '' and upper_org_4 = '') then do;
+NOTE: The "<>" operator is interpreted as "MAX".
+499        	KANAL_BILGISI = mc_stext_uo2;
+500        	KANAL_BASLANGIC_TARIHI = begda_uo2;
+501        	KANAL_BITIS_TARIHI = endda_uo2;
+502        	"MHM/BAYI_ISMI"n = '';
+503        	"MHM/BAYI_BASLANGIC_TARIHI"n = ''d;
+504        	"MHM/BAYI_BITIS_TARIHI"n = ''d;
+505        	ZONE_BILGISI = '';
+506        	ZONE_BILGISI_TEXT = '';
+507        	ZONE_BASLANGIC_TARIHI = ''d;
+508        	ZONE_BITIS_TARIHI = ''d;
+509        	SAHA = '';
+510        	SAHA_BASLANGIC_TARIHI = ''d;
+511        	SAHA_BITIS_TARIHI = ''d;
+512        	ALT_BOLGE_BILGISI = mc_stext_uo;
+513        	ALT_BOLGE_BASLANGIC_TARIHI = begda_uo;
+514        	ALT_BOLGE_BITIS_TARIHI = endda_uo;
+515        	ORGANIZASYON_BIRIMI = mc_short_uo3;
+516        	ORGANIZASYON_BASLANGIC_TARIHI = begda_uo3;
+517        	ORGANIZASYON_BITIS_TARIHI = endda_uo3;
+518        end;
+519        
+520        else if (upper_org_2 <> '' and upper_org_3 = '') then do;
+25                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+NOTE: The "<>" operator is interpreted as "MAX".
+521        	KANAL_BILGISI = mc_stext_uo;
+522        	KANAL_BASLANGIC_TARIHI = begda_uo;
+523        	KANAL_BITIS_TARIHI = endda_uo;
+524        	"MHM/BAYI_ISMI"n = '';
+525        	"MHM/BAYI_BASLANGIC_TARIHI"n = ''d;
+526        	"MHM/BAYI_BITIS_TARIHI"n = ''d;
+527        	ZONE_BILGISI = '';
+528        	ZONE_BILGISI_TEXT = '';
+529        	ZONE_BASLANGIC_TARIHI = ''d;
+530        	ZONE_BITIS_TARIHI = ''d;
+531        	SAHA = '';
+532        	SAHA_BASLANGIC_TARIHI = ''d;
+533        	SAHA_BITIS_TARIHI = ''d;
+534        	ALT_BOLGE_BILGISI = '';
+535        	ALT_BOLGE_BASLANGIC_TARIHI = ''d;
+536        	ALT_BOLGE_BITIS_TARIHI = ''d;
+537        	ORGANIZASYON_BIRIMI = mc_short_uo2;
+538        	ORGANIZASYON_BASLANGIC_TARIHI = begda_uo2;
+539        	ORGANIZASYON_BITIS_TARIHI = endda_uo2;
+540        end;
+541        
+542        else if (upper_org <> '' and upper_org_2 = '') then do;
+NOTE: The "<>" operator is interpreted as "MAX".
+543        		if (mc_short_uo = 'BAYÝ') then do;
+544        			KANAL_BILGISI = '';
+545        			KANAL_BASLANGIC_TARIHI = ''d;
+546        			KANAL_BITIS_TARIHI = ''d;
+547        			"MHM/BAYI_ISMI"n = mc_stext_uo;
+548        			"MHM/BAYI_BASLANGIC_TARIHI"n = begda_uo;
+549        			"MHM/BAYI_BITIS_TARIHI"n = endda_uo;
+550        			ZONE_BILGISI = '';
+551        			ZONE_BILGISI_TEXT = '';
+552        			ZONE_BASLANGIC_TARIHI = ''d;
+553        			ZONE_BITIS_TARIHI = ''d;
+554        			SAHA = '';
+555        			SAHA_BASLANGIC_TARIHI = ''d;
+556        			SAHA_BITIS_TARIHI = ''d;
+557        			ALT_BOLGE_BILGISI = '';
+558        			ALT_BOLGE_BASLANGIC_TARIHI = ''d;
+559        			ALT_BOLGE_BITIS_TARIHI = ''d;
+560        			ORGANIZASYON_BIRIMI ='' ;
+561        			ORGANIZASYON_BASLANGIC_TARIHI =''d ;
+562        			ORGANIZASYON_BITIS_TARIHI = ''d;
+563        		end;
+564        		else do;
+565        			KANAL_BILGISI = mc_stext_uo;
+566        			KANAL_BASLANGIC_TARIHI = begda_uo;
+567        			KANAL_BITIS_TARIHI = endda_uo;
+568        			"MHM/BAYI_ISMI"n = '';
+569        			"MHM/BAYI_BASLANGIC_TARIHI"n = ''d;
+570        			"MHM/BAYI_BITIS_TARIHI"n = ''d;
+571        			ZONE_BILGISI = '';
+572        			ZONE_BILGISI_TEXT = '';
+573        			ZONE_BASLANGIC_TARIHI = ''d;
+574        			ZONE_BITIS_TARIHI = ''d;
+575        			SAHA = '';
+576        			SAHA_BASLANGIC_TARIHI = ''d;
+26                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+577        			SAHA_BITIS_TARIHI = ''d;
+578        			ALT_BOLGE_BILGISI = '';
+579        			ALT_BOLGE_BASLANGIC_TARIHI = ''d;
+580        			ALT_BOLGE_BITIS_TARIHI = ''d;
+581        			ORGANIZASYON_BIRIMI ='' ;
+582        			ORGANIZASYON_BASLANGIC_TARIHI =''d ;
+583        			ORGANIZASYON_BITIS_TARIHI = ''d;
+584        		end;
+585        end;
+586        
+587        
+588        run;
+
+NOTE: Character values have been converted to numeric values at the places given by: (Line):(Column).
+      432:16   454:22   476:22   498:22   520:22   542:20   
+NOTE: There were 2703 observations read from the data set WORK.GET_UN.
+NOTE: The data set VYDM.ORGANIZATION_SCHEMA has 2703 observations and 26 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.10 seconds
+      cpu time            0.01 seconds
+      
+
+589        
+590        
+591        
+592        proc sql;
+593        drop table SASHANA.ORGANIZATION_SCHEMA;
+NOTE: Table SASHANA.ORGANIZATION_SCHEMA has been dropped.
+594        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.06 seconds
+      cpu time            0.02 seconds
+      
+
+595        
+596        data Organization_Schema;
+597        set VYDM.ORGANIZATION_SCHEMA;
+598        rename
+599        "MHM/BAYI_ISMI"n = MHM_BAYI_ISMI
+600        "MHM/BAYI_BASLANGIC_TARIHI"n = MHM_BAYI_BASLANGIC_TARIHI
+601        "MHM/BAYI_BITIS_TARIHI"n = MHM_BAYI_BITIS_TARIHI;
+602        run;
+
+NOTE: There were 2703 observations read from the data set VYDM.ORGANIZATION_SCHEMA.
+NOTE: The data set WORK.ORGANIZATION_SCHEMA has 2703 observations and 26 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.07 seconds
+      cpu time            0.01 seconds
+      
+
+603        
+604        
+605        
+606        data SASHANA.ORGANIZATION_SCHEMA(TABLE_TYPE=COLUMN);
+607        set Organization_Schema(OBS=0);
+608        RUN;
+
+NOTE: SAS variable labels, formats, and lengths are not written to DBMS tables.
+27                                                         The SAS System                            10:00 Tuesday, November 3, 2020
+
+NOTE: There were 0 observations read from the data set WORK.ORGANIZATION_SCHEMA.
+NOTE: The data set SASHANA.ORGANIZATION_SCHEMA has 0 observations and 26 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.12 seconds
+      cpu time            0.02 seconds
+      
+
+609        
+610        
+611        proc SQL;
+612        insert into SASHANA.ORGANIZATION_SCHEMA (insertbuff=10000)
+613        select * from Organization_Schema;
+NOTE: 2703 rows were inserted into SASHANA.ORGANIZATION_SCHEMA.
+
+614        run;
+NOTE: PROC SQL statements are executed immediately; The RUN statement has no effect.
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.84 seconds
+      cpu time            0.07 seconds
+      
+
+ERROR: Errors printed on page 6.
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           2:36.64
+      cpu time            11.07 seconds
+      
+
+

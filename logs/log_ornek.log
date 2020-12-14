@@ -1,0 +1,211 @@
+1:	T=YES READBUFF=10000);
+2:	141       +
+3:	    create table tmplib3.PMUMTmp6_14_202010 as       select * from
+4:	142       + connection to mydb        (select * from tbl_GetSayacVerisCekisAylikKayipsizBySayac         where BillingYear = 2020 
+5:	and               BillingMonth = 10 and              ParentCompanyId = 14    );
+6:	NOTE: Table TMPLIB3.PMUMTMP6_14_202010 created, with 25451 rows and 60 columns.
+7:	
+8:	142       +
+9:	 disconnect from mydb;
+10:	142       +
+11:	 quit;     
+12:	NOTE: PROCEDURE SQL used (Total process time):
+13:	      real time           11.17 seconds
+14:	      cpu time            0.61 seconds
+15:	      
+16:	
+17:	143       + proc sql;
+18:	143       +           connect to SQLSVR as mydb (datasrc="sqlpiprod" user=usretl 
+19:	pass=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  INSERT_SQL=YES INSERTBUFF=1000 AUTOCOMMIT=YES READBUFF=10000);
+20:	143       +
+21:	    create table tmplib3.PMUMTmp5_4_202010 as       select * from
+22:	144       + connection to mydb        (select * from tbl_GetSayacVerisCekisAylikBySayac         where BillingYear = 2020 and        
+23:	       BillingMonth = 10 and              ParentCompanyId = 4    );
+24:	NOTE: Table TMPLIB3.PMUMTMP5_4_202010 created, with 38781 rows and 60 columns.
+25:	
+26:	144       +
+27:	 disconnect from mydb;
+28:	144       +
+29:	 quit;     
+30:	NOTE: PROCEDURE SQL used (Total process time):
+31:	      real time           10.12 seconds
+32:	      cpu time            0.66 seconds
+33:	      
+34:	
+35:	145       + proc sql;
+36:	145       +           connect to SQLSVR as mydb (datasrc="sqlpiprod" user=usretl 
+37:	pass=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  INSERT_SQL=YES INSERTBUFF=1000 AUTOCOMMIT=YES READBUFF=10000);
+38:	145       +
+39:	    create table tmplib3.PMUMTmp6_4_202010 as       select * from
+40:	146       + connection to mydb        (select * from tbl_GetSayacVerisCekisAylikKayipsizBySayac         where BillingYear = 2020 
+41:	and               BillingMonth = 10 and              ParentCompanyId = 4    );
+42:	NOTE: Table TMPLIB3.PMUMTMP6_4_202010 created, with 38781 rows and 60 columns.
+43:	
+44:	146       +
+45:	 disconnect from mydb;
+46:	146       +
+47:	 quit;     
+48:	NOTE: PROCEDURE SQL used (Total process time):
+49:	      real time           10.26 seconds
+50:	      cpu time            0.71 seconds
+51:	      
+52:	
+53:	147       + proc sql;
+54:	147       +           connect to SQLSVR as mydb (datasrc="sqlpiprod" user=usretl 
+55:	pass=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  INSERT_SQL=YES INSERTBUFF=1000 AUTOCOMMIT=YES READBUFF=10000);
+56:	37                                                         The SAS System                         18:06 Wednesday, November 11, 2020
+57:	
+58:	147       +
+59:	    create table tmplib3.PMUMTmp5_7_202010 as       select * from
+60:	148       + connection to mydb        (select * from tbl_GetSayacVerisCekisAylikBySayac         where BillingYear = 2020 and        
+61:	       BillingMonth = 10 and              ParentCompanyId = 7    );
+62:	NOTE: Table TMPLIB3.PMUMTMP5_7_202010 created, with 31713 rows and 60 columns.
+63:	
+64:	148       +
+65:	 disconnect from mydb;
+66:	148       +
+67:	 quit;     
+68:	NOTE: PROCEDURE SQL used (Total process time):
+69:	      real time           9.89 seconds
+70:	      cpu time            0.67 seconds
+71:	      
+72:	
+73:	149       + proc sql;
+74:	149       +           connect to SQLSVR as mydb (datasrc="sqlpiprod" user=usretl 
+75:	pass=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  INSERT_SQL=YES INSERTBUFF=1000 AUTOCOMMIT=YES READBUFF=10000);
+76:	149       +
+77:	    create table tmplib3.PMUMTmp6_7_202010 as       select * from
+78:	150       + connection to mydb        (select * from tbl_GetSayacVerisCekisAylikKayipsizBySayac         where BillingYear = 2020 
+79:	and               BillingMonth = 10 and              ParentCompanyId = 7    );
+80:	NOTE: Table TMPLIB3.PMUMTMP6_7_202010 created, with 31713 rows and 60 columns.
+81:	
+82:	150       +
+83:	 disconnect from mydb;
+84:	150       +
+85:	 quit;     
+86:	NOTE: PROCEDURE SQL used (Total process time):
+87:	      real time           10.49 seconds
+88:	      cpu time            0.68 seconds
+89:	      
+90:	
+91:	151       + proc sql;
+92:	151       +           connect to SQLSVR as mydb (datasrc="sqlpiprod" user=usretl 
+93:	pass=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  INSERT_SQL=YES INSERTBUFF=1000 AUTOCOMMIT=YES READBUFF=10000);
+94:	151       +
+95:	    create table tmplib3.PMUMTmp5_5_202010 as       select * from
+96:	152       + connection to mydb        (select * from tbl_GetSayacVerisCekisAylikBySayac         where BillingYear = 2020 and        
+97:	       BillingMonth = 10 and              ParentCompanyId = 5    );
+98:	NOTE: Table TMPLIB3.PMUMTMP5_5_202010 created, with 67611 rows and 60 columns.
+99:	
+100:	152       +
+101:	 disconnect from mydb;
+102:	152       +
+103:	 quit;     
+104:	NOTE: PROCEDURE SQL used (Total process time):
+105:	      real time           10.63 seconds
+106:	      cpu time            1.09 seconds
+107:	      
+108:	
+109:	153       + proc sql;
+110:	153       +           connect to SQLSVR as mydb (datasrc="sqlpiprod" user=usretl 
+111:	pass=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  INSERT_SQL=YES INSERTBUFF=1000 AUTOCOMMIT=YES READBUFF=10000);
+112:	153       +
+113:	    create table tmplib3.PMUMTmp6_5_202010 as       select * from
+114:	154       + connection to mydb        (select * from tbl_GetSayacVerisCekisAylikKayipsizBySayac         where BillingYear = 2020 
+115:	and               BillingMonth = 10 and              ParentCompanyId = 5    );
+116:	38                                                         The SAS System                         18:06 Wednesday, November 11, 2020
+117:	
+118:	NOTE: Table TMPLIB3.PMUMTMP6_5_202010 created, with 67611 rows and 60 columns.
+119:	
+120:	154       +
+121:	 disconnect from mydb;
+122:	154       +
+123:	 quit;     
+124:	NOTE: PROCEDURE SQL used (Total process time):
+125:	      real time           10.86 seconds
+126:	      cpu time            1.10 seconds
+127:	      
+128:	
+129:	155       + proc sql;
+130:	155       +           connect to SQLSVR as mydb (datasrc="sqlpiprod" user=usretl 
+131:	pass=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  INSERT_SQL=YES INSERTBUFF=1000 AUTOCOMMIT=YES READBUFF=10000);
+132:	155       +
+133:	    create table tmplib3.PMUMTmp5_15_202010 as       select * from
+134:	156       + connection to mydb        (select * from tbl_GetSayacVerisCekisAylikBySayac         where BillingYear = 2020 and        
+135:	       BillingMonth = 10 and              ParentCompanyId = 15    );
+136:	NOTE: Table TMPLIB3.PMUMTMP5_15_202010 created, with 69967 rows and 60 columns.
+137:	
+138:	156       +
+139:	 disconnect from mydb;
+140:	156       +
+141:	 quit;     
+142:	NOTE: PROCEDURE SQL used (Total process time):
+143:	      real time           9.73 seconds
+144:	      cpu time            1.15 seconds
+145:	      
+146:	
+147:	157       + proc sql;
+148:	157       +           connect to SQLSVR as mydb (datasrc="sqlpiprod" user=usretl 
+149:	pass=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  INSERT_SQL=YES INSERTBUFF=1000 AUTOCOMMIT=YES READBUFF=10000);
+150:	157       +
+151:	    create table tmplib3.PMUMTmp6_15_202010 as       select * from
+152:	158       + connection to mydb        (select * from tbl_GetSayacVerisCekisAylikKayipsizBySayac         where BillingYear = 2020 
+153:	and               BillingMonth = 10 and              ParentCompanyId = 15    );
+154:	NOTE: Table TMPLIB3.PMUMTMP6_15_202010 created, with 69967 rows and 60 columns.
+155:	
+156:	158       +
+157:	 disconnect from mydb;
+158:	158       +
+159:	 quit;     
+160:	NOTE: PROCEDURE SQL used (Total process time):
+161:	      real time           10.69 seconds
+162:	      cpu time            1.09 seconds
+163:	      
+164:	
+165:	159       + proc sql;
+166:	159       +           connect to SQLSVR as mydb (datasrc="sqlpiprod" user=usretl 
+167:	pass=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  INSERT_SQL=YES INSERTBUFF=1000 AUTOCOMMIT=YES READBUFF=10000);
+168:	159       +
+169:	    create table tmplib3.PMUMTmp5_8_202010 as       select * from
+170:	160       + connection to mydb        (select * from tbl_GetSayacVerisCekisAylikBySayac         where BillingYear = 2020 and        
+171:	       BillingMonth = 10 and              ParentCompanyId = 8    );
+172:	NOTE: Table TMPLIB3.PMUMTMP5_8_202010 created, with 138601 rows and 60 columns.
+173:	
+174:	160       +
+175:	 disconnect from mydb;
+176:	39                                                         The SAS System                         18:06 Wednesday, November 11, 2020
+177:	
+178:	160       +
+179:	 quit;
+180:	NOTE: PROCEDURE SQL used (Total process time):
+181:	      real time           11.83 seconds
+182:	      cpu time            1.87 seconds
+183:	      
+184:	
+185:	161       + proc sql;
+186:	161       +           connect to SQLSVR as mydb (datasrc="sqlpiprod" user=usretl 
+187:	pass=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  INSERT_SQL=YES INSERTBUFF=1000 AUTOCOMMIT=YES READBUFF=10000);
+188:	161       +
+189:	    create table tmplib3.PMUMTmp6_8_202010 as       select * from
+190:	162       + connection to mydb        (select * from tbl_GetSayacVerisCekisAylikKayipsizBySayac         where BillingYear = 2020 
+191:	and               BillingMonth = 10 and              ParentCompanyId = 8    );
+192:	NOTE: Table TMPLIB3.PMUMTMP6_8_202010 created, with 138601 rows and 60 columns.
+193:	
+194:	162       +
+195:	 disconnect from mydb;
+196:	162       +
+197:	 quit;     
+198:	NOTE: PROCEDURE SQL used (Total process time):
+199:	      real time           11.99 seconds
+200:	      cpu time            1.92 seconds
+201:	      
+202:	
+203:	352        
+204:	353        
+205:	354        
+206:	
+207:	NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+208:	NOTE: The SAS System used:
+209:	      real time           11:45.98
+210:	      cpu time            1:02.05
+211:	      

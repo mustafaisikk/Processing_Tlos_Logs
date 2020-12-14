@@ -1,0 +1,2127 @@
+1                                                          The SAS System                             07:06 Sunday, October 18, 2020
+
+NOTE: Unable to open SASUSER.REGSTRY. WORK.REGSTRY will be opened instead.
+NOTE: All registry changes will be lost at the end of the session.
+
+WARNING: Unable to copy SASUSER registry to WORK registry. Because of this, you will not see registry customizations during this 
+         session.
+ERROR: The SAS System is executing on a processor (CPU) whose model name, 
+       model number, and serial number are not included in the setinit data 
+       used to initialize the SAS System library in use. This is permitted if 
+       this processor is a designated backup processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial 
+numbers:
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name 
+ERSDPA0.
+NOTE: Unable to open SASUSER.PROFILE. WORK.PROFILE will be opened instead.
+NOTE: All profile changes will be lost at the end of the session.
+NOTE: Copyright (c) 2016 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M6) 
+      Licensed to ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD., Site 70166440.
+NOTE: This session is executing on the AIX 7.2 (AIX 64) platform.
+
+
+
+NOTE: Analytical products:
+      
+      SAS/STAT 15.1
+      SAS/ETS 15.1
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, model number, and serial number are not included in the 
+       setinit data used to initialize the SAS System library in use. This is permitted if this processor is a designated backup 
+       processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial numbers:
+
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name ERSDPA0.
+
+NOTE: Additional host information:
+
+IBM AIX AIX 64 2 7 00C9C0374C00 
+
+You are running SAS 9. Some SAS 8 files will be automatically converted 
+by the V9 engine; others are incompatible.  Please see 
+http://support.sas.com/rnd/migration/planning/platform/64bit.html
+
+PROC MIGRATE will preserve current SAS file attributes and is 
+recommended for converting all your SAS libraries from any 
+SAS 8 release to SAS 9.  For details and examples, please see
+http://support.sas.com/rnd/migration/index.html
+
+
+This message is contained in the SAS news file, and is presented upon
+initialization.  Edit the file "news" in the "misc/base" directory to
+display site-specific news and information in the program log.
+The command line option "-nonews" will prevent this display.
+
+
+
+
+2                                                          The SAS System                             07:06 Sunday, October 18, 2020
+
+NOTE: SAS initialization used:
+      real time           0.04 seconds
+      cpu time            0.02 seconds
+      
+
+NOTE: AUTOEXEC processing beginning; file is /bidm/sascodes/Musteri_Sayisi/Autoexec.sas.
+
+
+NOTE: AUTOEXEC processing completed.
+
+1          %include "/sas/sascodes/Autoexec_File/Autoexec.sas";
+NOTE: This is a SPD 5.4  Engine 
+      executing SAS (r) 9.4 (TS1M6) on the AIX platform.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta1/TMPLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta1/PODSLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DMLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta1/DMLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TRNLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta1/TRNLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta1/ODSLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB4 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta1/TMPLIB4/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta1/FADM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref VYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/VYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/ODSLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref NEDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/NEDLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/smdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+3                                                          The SAS System                             07:06 Sunday, October 18, 2020
+
+NOTE: Libref TRNLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/TRNLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MSATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/MSATMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OKMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/okmtmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MIGLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/MIGLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref REFCPS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/REFCPS/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_ETY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/EAP_ETY/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/PODSLIB1/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/tmplib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CRLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/crlib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OKMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/okmdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/CCDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RMCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/rmcdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/smtmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOSEC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/sosec/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+4                                                          The SAS System                             07:06 Sunday, October 18, 2020
+
+      Physical Name: :5768120/spdsmeta2/PODSLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MHMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/MHMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CCDM2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/CCDM2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RASTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/rastmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SODM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/sodm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref D2DLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/D2DLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/ODSLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPREF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/rapref/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOMLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/SOMLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRICARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/PRICARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MIGLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/MIGLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/sotmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/TSDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TALDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/taldm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSUST was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/CPSUST/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+5                                                          The SAS System                             07:06 Sunday, October 18, 2020
+
+NOTE: Libref STJVYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/STJVYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QLIKLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/QLIKLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/badm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EDULIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/edulib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref STLF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/STLF/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DASHLIBD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/DASHLIBD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BFLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/bflib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/batmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/sopdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref KKLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/kklib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MHMAYEDS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/MHMAYEDS/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHEO was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/MTHEO/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/prcdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BLDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/bldm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+6                                                          The SAS System                             07:06 Sunday, October 18, 2020
+
+      Physical Name: :5768120/spdsmeta2/raptmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRFTBLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/prftblib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPOUT was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/rapout/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPTEST was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/RAPTEST/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DMLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/DMLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BCSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/BCSDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref IATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/iatmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOSUF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/sosuf/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPARCH was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/raparch/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RMCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/rmctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHKA was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/MTHKA/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EPYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/EPYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DSTDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/DSTDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DYMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/DYMTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/MDLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+7                                                          The SAS System                             07:06 Sunday, October 18, 2020
+
+NOTE: Libref DSTTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/DSTTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/tmplib2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PILIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/PILIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BLTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/bltmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref AUTODIAL was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/AUTODIAL/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRICPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/PRICPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSREG was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/CPSREG/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CXDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/CXDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSFRC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/CPSFRC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/SDLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CMPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/CMPDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/PMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MSADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/MSADM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FPCLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/fpclib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DBALIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+8                                                          The SAS System                             07:06 Sunday, October 18, 2020
+
+      Physical Name: :5768120/spdsmeta2/DBALIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSHRLY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/CPSHRLY/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCDM2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/PRCDM2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ARCLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/ARCLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QL_SALES was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/QL_SALES/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ETSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/etsdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EPYTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/EPYTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HRDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/HRDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CNPRCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/cnprctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DI_SMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/DI_SMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PREFLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/PREFLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TRNLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/TRNLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB33 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/TMPLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SHFDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/SHFDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/SPDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+9                                                          The SAS System                             07:06 Sunday, October 18, 2020
+
+NOTE: Libref SSIMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/SSIMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TKDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/TKDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_PR was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/EAP_PR/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_PAY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/EAP_PAY/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref KMHMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/KMHMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QVYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/QVYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref VYDMKVKK was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/VYDMKVKK/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OGMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/OGMTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OGMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/OGMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/prctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CNPRCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/cnprcdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref IADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/iadm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMTMP2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/smtmp2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ETSTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/etstmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BITMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+10                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      Physical Name: :5768120/spdsmeta2/bitmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BIDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/bidm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/hslib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RASDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/rasdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPVAS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/rapvas/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FPCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/fpctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FRCPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/FRCPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FRCARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/FRCARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCHPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/PRCHPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCHARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/PRCHARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HDGPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/HDGPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HDGARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/HDGARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PILIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/PILIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHSO was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/MTHSO/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHMA was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/MTHMA/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+11                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+NOTE: Libref MTHTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/MTHTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DYMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/DYMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CSSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/CSSLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SAHOL was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/SAHOL/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MKVR was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :5768120/spdsmeta2/MKVR/
+137        data _null_;
+138        	if DAY(TODAY())<7 then
+139        		do;
+140        			call symput('m0',input(put(intnx('MONTH',"&sysdate"d,-1),yymmn6.),$6.));
+141        			call symput('m1',input(put(intnx('MONTH',"&sysdate"d,-2),yymmn6.),$6.));
+142        			call symput('m2',input(put(intnx('MONTH',"&sysdate"d,-3),yymmn6.),$6.));
+143        			call symput('m3',input(put(intnx('MONTH',"&sysdate"d,-4),yymmn6.),$6.));
+144        			call symput('m4',input(put(intnx('MONTH',"&sysdate"d,-5),yymmn6.),$6.));
+145        			call symput('m5',input(put(intnx('MONTH',"&sysdate"d,-6),yymmn6.),$6.));
+146        			call symput('m6',input(put(intnx('MONTH',"&sysdate"d,-7),yymmn6.),$6.));
+147        			call symput('m7',input(put(intnx('MONTH',"&sysdate"d,-8),yymmn6.),$6.));
+148        			call symput('m8',input(put(intnx('MONTH',"&sysdate"d,-9),yymmn6.),$6.));
+149        			call symput('m9',input(put(intnx('MONTH',"&sysdate"d,-10),yymmn6.),$6.));
+150        			call symput('m10',input(put(intnx('MONTH',"&sysdate"d,-11),yymmn6.),$6.));
+151        			call symput('m11',input(put(intnx('MONTH',"&sysdate"d,-12),yymmn6.),$6.));
+152        			call symput('m12',input(put(intnx('MONTH',"&sysdate"d,-13),yymmn6.),$6.));
+153        			call symput('m13',input(put(intnx('MONTH',"&sysdate"d,-14),yymmn6.),$6.));
+154        			call symput('m14',input(put(intnx('MONTH',"&sysdate"d,-15),yymmn6.),$6.));
+155        			call symput('m15',input(put(intnx('MONTH',"&sysdate"d,-16),yymmn6.),$6.));
+156        			call symput('m16',input(put(intnx('MONTH',"&sysdate"d,-17),yymmn6.),$6.));
+157        			call symput('m17',input(put(intnx('MONTH',"&sysdate"d,-18),yymmn6.),$6.));
+158        			call symput('m18',input(put(intnx('MONTH',"&sysdate"d,-19),yymmn6.),$6.));
+159        			call symput('m19',input(put(intnx('MONTH',"&sysdate"d,-20),yymmn6.),$6.));
+160        			call symput('m20',input(put(intnx('MONTH',"&sysdate"d,-21),yymmn6.),$6.));
+161        			call symput('m21',input(put(intnx('MONTH',"&sysdate"d,-22),yymmn6.),$6.));
+162        			call symput('m22',input(put(intnx('MONTH',"&sysdate"d,-23),yymmn6.),$6.));
+163        			call symput('m23',input(put(intnx('MONTH',"&sysdate"d,-24),yymmn6.),$6.));
+164        			call symput('m24',input(put(intnx('MONTH',"&sysdate"d,-25),yymmn6.),$6.));
+165        		end;
+166        	else
+167        		do;
+168        			call symput('m0',input(put(intnx('MONTH',"&sysdate"d,0),yymmn6.),$6.));
+169        			call symput('m1',input(put(intnx('MONTH',"&sysdate"d,-1),yymmn6.),$6.));
+170        			call symput('m2',input(put(intnx('MONTH',"&sysdate"d,-2),yymmn6.),$6.));
+171        			call symput('m3',input(put(intnx('MONTH',"&sysdate"d,-3),yymmn6.),$6.));
+172        			call symput('m4',input(put(intnx('MONTH',"&sysdate"d,-4),yymmn6.),$6.));
+173        			call symput('m5',input(put(intnx('MONTH',"&sysdate"d,-5),yymmn6.),$6.));
+174        			call symput('m6',input(put(intnx('MONTH',"&sysdate"d,-6),yymmn6.),$6.));
+175        			call symput('m7',input(put(intnx('MONTH',"&sysdate"d,-7),yymmn6.),$6.));
+12                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+176        			call symput('m8',input(put(intnx('MONTH',"&sysdate"d,-8),yymmn6.),$6.));
+177        			call symput('m9',input(put(intnx('MONTH',"&sysdate"d,-9),yymmn6.),$6.));
+178        			call symput('m10',input(put(intnx('MONTH',"&sysdate"d,-10),yymmn6.),$6.));
+179        			call symput('m11',input(put(intnx('MONTH',"&sysdate"d,-11),yymmn6.),$6.));
+180        			call symput('m12',input(put(intnx('MONTH',"&sysdate"d,-12),yymmn6.),$6.));
+181        			call symput('m13',input(put(intnx('MONTH',"&sysdate"d,-13),yymmn6.),$6.));
+182        			call symput('m14',input(put(intnx('MONTH',"&sysdate"d,-14),yymmn6.),$6.));
+183        			call symput('m15',input(put(intnx('MONTH',"&sysdate"d,-15),yymmn6.),$6.));
+184        			call symput('m16',input(put(intnx('MONTH',"&sysdate"d,-16),yymmn6.),$6.));
+185        			call symput('m17',input(put(intnx('MONTH',"&sysdate"d,-17),yymmn6.),$6.));
+186        			call symput('m18',input(put(intnx('MONTH',"&sysdate"d,-18),yymmn6.),$6.));
+187        			call symput('m19',input(put(intnx('MONTH',"&sysdate"d,-19),yymmn6.),$6.));
+188        			call symput('m20',input(put(intnx('MONTH',"&sysdate"d,-20),yymmn6.),$6.));
+189        			call symput('m21',input(put(intnx('MONTH',"&sysdate"d,-21),yymmn6.),$6.));
+190        			call symput('m22',input(put(intnx('MONTH',"&sysdate"d,-22),yymmn6.),$6.));
+191        			call symput('m23',input(put(intnx('MONTH',"&sysdate"d,-23),yymmn6.),$6.));
+192        			call symput('m24',input(put(intnx('MONTH',"&sysdate"d,-24),yymmn6.),$6.));
+193        		end;
+194        
+195        	call symput('y0',put(YEAR(TODAY()),4.));
+196        	call symput('y1',put(YEAR(TODAY())-1,4.));
+197        	call symput('y2',put(YEAR(TODAY())-2,4.));
+198        run;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.00 seconds
+      
+
+199        
+200        %put &m0. &m24. &y0. &y1. &y2.;
+202010 201810 2020 2019 2018
+201        
+202        PROC SQL;
+203        	CREATE TABLE TMPLIB3.MUSTERI_CONS AS
+204        		SELECT t1.BPARTNER,
+205        			t1.UCINSTALLA,
+206        			t1.CALMONTH,
+207        			/* SUM_of_TAHAKKUK_KULLANIM_T0 */
+208        	(SUM(t1.TAHAKKUK_KULLANIM_T0)) AS TAHAKKUK_KULLANIM_T0 FROM DMLIB.MSTR_FTR_BGMLI_TUKETIM t1 /* WHERE t1.Source_system IN
+208      !  ( 'HWP', 'AYEDAS', 'TOROSLAR' ) AND t1.CALMONTH >= "&m24."*/ GROUP BY t1.BPARTNER, t1.UCINSTALLA, t1.CALMONTH ORDER BY
+208      ! t1.BPARTNER, t1.UCINSTALLA, t1.CALMONTH;
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: DMLIB
+ SPDS_NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4  Server at 10.166.0.39.
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/DMLIB/
+
+ SPDS_NOTE: Libref DMLIB was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/DMLIB/
+
+NOTE: Implicit SQL:  select t1.BPARTNER, t1.UCINSTALLA, t1.CALMONTH, SUM(t1.TAHAKKUK_KULLANIM_T0) as TAHAKKUK_KULLANIM_T0 from 
+      MSTR_FTR_BGMLI_TUKETIM t1 group by t1.BPARTNER, t1.UCINSTALLA, t1.CALMONTH order by t1.BPARTNER asc, t1.UCINSTALLA asc, 
+      t1.CALMONTH asc
+ SPDS_NOTE: Parallel group-select method chosen to execute this query.
+
+13                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+NOTE: Table TMPLIB3.MUSTERI_CONS created, with 746736438 rows and 4 columns.
+
+209        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           19:15.35
+      cpu time            2:39.76
+      
+
+210        
+211        proc transpose
+212        	data=TMPLIB3.MUSTERI_CONS out=TMPLIB3.MUSTERI_CONSTRANSPOSED
+213        	prefix=AKTIF_TUKETIM_KWH_;
+214        	by bpartner UCINSTALLA;
+215        	var TAHAKKUK_KULLANIM_T0;
+216        	id CALMONTH;
+217        run;
+
+NOTE: There were 746736438 observations read from the data set TMPLIB3.MUSTERI_CONS.
+NOTE: The data set TMPLIB3.MUSTERI_CONSTRANSPOSED has 14692021 observations and 1454 variables.
+NOTE: PROCEDURE TRANSPOSE used (Total process time):
+      real time           1:00:28.19
+      cpu time            32:38.16
+      
+
+218        
+219        PROC SQL;
+220        	CREATE TABLE TMPLIB3.MUSTERI_CONS_&y2. AS
+221        		SELECT DISTINCT t1.BPARTNER,
+222        			t1.UCINSTALLA,
+223        		(CASE
+224        			WHEN SUBSTR(t1.CALMONTH, 1, 4)="&y2." THEN SUM(t1.TAHAKKUK_KULLANIM_T0)
+225        		END)
+226        	AS AKTIF_TUKETIM_KWH_&y2. FROM TMPLIB3.MUSTERI_CONS t1 WHERE t1.CALMONTH CONTAINS "&y2." GROUP BY t1.BPARTNER,
+226      ! t1.UCINSTALLA;
+NOTE: A CASE expression has no ELSE clause. Cases not accounted for by the WHEN clauses will result in a missing value for the CASE 
+      expression.
+NOTE: The query requires remerging summary statistics back with the original data.
+NOTE: Table TMPLIB3.MUSTERI_CONS_2018 created, with 9844816 rows and 3 columns.
+
+227        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           2:16.80
+      cpu time            1:34.63
+      
+
+228        
+229        PROC SQL;
+230        	CREATE TABLE TMPLIB3.MUSTERI_CONS_&y1. AS
+231        		SELECT DISTINCT t1.BPARTNER,
+232        			t1.UCINSTALLA,
+233        		(CASE
+234        			WHEN SUBSTR(t1.CALMONTH, 1, 4)="&y1." THEN SUM(t1.TAHAKKUK_KULLANIM_T0)
+235        		END)
+236        	AS AKTIF_TUKETIM_KWH_&y1. FROM TMPLIB3.MUSTERI_CONS t1 WHERE t1.CALMONTH CONTAINS "&y1." GROUP BY t1.BPARTNER,
+236      ! t1.UCINSTALLA;
+NOTE: A CASE expression has no ELSE clause. Cases not accounted for by the WHEN clauses will result in a missing value for the CASE 
+      expression.
+NOTE: The query requires remerging summary statistics back with the original data.
+14                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+NOTE: Table TMPLIB3.MUSTERI_CONS_2019 created, with 10248967 rows and 3 columns.
+
+237        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           2:39.31
+      cpu time            1:34.73
+      
+
+238        
+239        PROC SQL;
+240        	CREATE TABLE TMPLIB3.MUSTERI_CONS_&y0. AS
+241        		SELECT DISTINCT t1.BPARTNER,
+242        			t1.UCINSTALLA,
+243        		(CASE
+244        			WHEN SUBSTR(t1.CALMONTH, 1, 4)="&y0." THEN SUM(t1.TAHAKKUK_KULLANIM_T0)
+245        		END)
+246        	AS AKTIF_TUKETIM_KWH_&y0. FROM TMPLIB3.MUSTERI_CONS t1 WHERE t1.CALMONTH CONTAINS "&y0." GROUP BY t1.BPARTNER,
+246      ! t1.UCINSTALLA;
+NOTE: A CASE expression has no ELSE clause. Cases not accounted for by the WHEN clauses will result in a missing value for the CASE 
+      expression.
+NOTE: The query requires remerging summary statistics back with the original data.
+NOTE: Table TMPLIB3.MUSTERI_CONS_2020 created, with 10182479 rows and 3 columns.
+
+247        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           2:09.11
+      cpu time            1:18.90
+      
+
+248        
+249        PROC SQL;
+250        	CREATE TABLE TMPLIB3.MUSTERI_TRANSPOSED1 AS
+251        		SELECT *
+252        			FROM TMPLIB3.MUSTERI_CONSTRANSPOSED t1
+253        				LEFT JOIN TMPLIB3.MUSTERI_CONS_&y2. t2 ON (t1.BPARTNER = t2.BPARTNER AND (t1.UCINSTALLA = t2.UCINSTALLA));
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/TMPLIB3/
+
+NOTE: Implicit SQL:  select t1.BPARTNER, t1.UCINSTALLA, t1._NAME_, t1.AKTIF_TUKETIM_KWH_201207, t1.AKTIF_TUKETIM_KWH_201208, 
+      t1.AKTIF_TUKETIM_KWH_200809, t1.AKTIF_TUKETIM_KWH_200810, t1.AKTIF_TUKETIM_KWH_200811, t1.AKTIF_TUKETIM_KWH_200812, 
+      t1.AKTIF_TUKETIM_KWH_200901, t1.AKTIF_TUKETIM_KWH_200902, t1.AKTIF_TUKETIM_KWH_200903, t1.AKTIF_TUKETIM_KWH_200904, 
+      t1.AKTIF_TUKETIM_KWH_200905, t1.AKTIF_TUKETIM_KWH_200906, t1.AKTIF_TUKETIM_KWH_200907, t1.AKTIF_TUKETIM_KWH_200908, 
+      t1.AKTIF_TUKETIM_KWH_200909, t1.AKTIF_TUKETIM_KWH_200910, t1.AKTIF_TUKETIM_KWH_200911, t1.AKTIF_TUKETIM_KWH_200912, 
+      t1.AKTIF_TUKETIM_KWH_201001, t1.AKTIF_TUKETIM_KWH_201002, t1.AKTIF_TUKETIM_KWH_201003, t1.AKTIF_TUKETIM_KWH_201004, 
+      t1.AKTIF_TUKETIM_KWH_201005, t1.AKTIF_TUKETIM_KWH_201006, t1.AKTIF_TUKETIM_KWH_201007, t1.AKTIF_TUKETIM_KWH_201008, 
+      t1.AKTIF_TUKETIM_KWH_201009, t1.AKTIF_TUKETIM_KWH_201010, t1.AKTIF_TUKETIM_KWH_201011, t1.AKTIF_TUKETIM_KWH_201012, 
+      t1.AKTIF_TUKETIM_KWH_201101, t1.AKTIF_TUKETIM_KWH_201102, t1.AKTIF_TUKETIM_KWH_201202, t1.AKTIF_TUKETIM_KWH_201203, 
+      t1.AKTIF_TUKETIM_KWH_201204, t1.AKTIF_TUKETIM_KWH_201205, t1.AKTIF_TUKETIM_KWH_201206, t1.AKTIF_TUKETIM_KWH_201112, 
+      t1.AKTIF_TUKETIM_KWH_201201, t1.AKTIF_TUKETIM_KWH_201209, t1.AKTIF_TUKETIM_KWH_201210, t1.AKTIF_TUKETIM_KWH_201211, 
+      t1.AKTIF_TUKETIM_KWH_201212, t1.AKTIF_TUKETIM_KWH_201301, t1.AKTIF_TUKETIM_KWH_201302, t1.AKTIF_TUKETIM_KWH_201303, 
+      t1.AKTIF_TUKETIM_KWH_201304, t1.AKTIF_TUKETIM_KWH_201305, t1.AKTIF_TUKETIM_KWH_201306, t1.AKTIF_TUKETIM_KWH_201307, 
+15                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_200803, t1.AKTIF_TUKETIM_KWH_200804, t1.AKTIF_TUKETIM_KWH_200805, t1.AKTIF_TUKETIM_KWH_200806, 
+      t1.AKTIF_TUKETIM_KWH_200807, t1.AKTIF_TUKETIM_KWH_200808, t1.AKTIF_TUKETIM_KWH_201103, t1.AKTIF_TUKETIM_KWH_201104, 
+      t1.AKTIF_TUKETIM_KWH_201105, t1.AKTIF_TUKETIM_KWH_201106, t1.AKTIF_TUKETIM_KWH_201107, t1.AKTIF_TUKETIM_KWH_201108, 
+      t1.AKTIF_TUKETIM_KWH_201109, t1.AKTIF_TUKETIM_KWH_201110, t1.AKTIF_TUKETIM_KWH_200707, t1.AKTIF_TUKETIM_KWH_200708, 
+      t1.AKTIF_TUKETIM_KWH_200709, t1.AKTIF_TUKETIM_KWH_200710, t1.AKTIF_TUKETIM_KWH_200711, t1.AKTIF_TUKETIM_KWH_200712, 
+      t1.AKTIF_TUKETIM_KWH_200801, t1.AKTIF_TUKETIM_KWH_200802, t1.AKTIF_TUKETIM_KWH_201111, t1.AKTIF_TUKETIM_KWH_200605, 
+      t1.AKTIF_TUKETIM_KWH_200606, t1.AKTIF_TUKETIM_KWH_200607, t1.AKTIF_TUKETIM_KWH_200608, t1.AKTIF_TUKETIM_KWH_200609, 
+      t1.AKTIF_TUKETIM_KWH_200610, t1.AKTIF_TUKETIM_KWH_200611, t1.AKTIF_TUKETIM_KWH_200612, t1.AKTIF_TUKETIM_KWH_200701, 
+      t1.AKTIF_TUKETIM_KWH_200702, t1.AKTIF_TUKETIM_KWH_200703, t1.AKTIF_TUKETIM_KWH_200704, t1.AKTIF_TUKETIM_KWH_200705, 
+      t1.AKTIF_TUKETIM_KWH_200706, t1.AKTIF_TUKETIM_KWH_201308, t1.AKTIF_TUKETIM_KWH_201309, t1.AKTIF_TUKETIM_KWH_200604, 
+      t1.AKTIF_TUKETIM_KWH_201310, t1.AKTIF_TUKETIM_KWH_200511, t1.AKTIF_TUKETIM_KWH_200512, t1.AKTIF_TUKETIM_KWH_200601, 
+      t1.AKTIF_TUKETIM_KWH_200602, t1.AKTIF_TUKETIM_KWH_200603, t1.AKTIF_TUKETIM_KWH_201311, t1.AKTIF_TUKETIM_KWH_201312, 
+      t1.AKTIF_TUKETIM_KWH_201401, t1.AKTIF_TUKETIM_KWH_201402, t1.AKTIF_TUKETIM_KWH_201403, t1.AKTIF_TUKETIM_KWH_201404, 
+      t1.AKTIF_TUKETIM_KWH_201405, t1.AKTIF_TUKETIM_KWH_201406, t1.AKTIF_TUKETIM_KWH_201407, t1.AKTIF_TUKETIM_KWH_200509, 
+      t1.AKTIF_TUKETIM_KWH_200510, t1.AKTIF_TUKETIM_KWH_200401, t1.AKTIF_TUKETIM_KWH_200402, t1.AKTIF_TUKETIM_KWH_200403, 
+      t1.AKTIF_TUKETIM_KWH_200404, t1.AKTIF_TUKETIM_KWH_200405, t1.AKTIF_TUKETIM_KWH_200406, t1.AKTIF_TUKETIM_KWH_200407, 
+      t1.AKTIF_TUKETIM_KWH_200408, t1.AKTIF_TUKETIM_KWH_200409, t1.AKTIF_TUKETIM_KWH_200410, t1.AKTIF_TUKETIM_KWH_200411, 
+      t1.AKTIF_TUKETIM_KWH_200412, t1.AKTIF_TUKETIM_KWH_200501, t1.AKTIF_TUKETIM_KWH_200502, t1.AKTIF_TUKETIM_KWH_200503, 
+      t1.AKTIF_TUKETIM_KWH_200504, t1.AKTIF_TUKETIM_KWH_200505, t1.AKTIF_TUKETIM_KWH_200506, t1.AKTIF_TUKETIM_KWH_200507, 
+      t1.AKTIF_TUKETIM_KWH_200508, t1.AKTIF_TUKETIM_KWH_200310, t1.AKTIF_TUKETIM_KWH_200311, t1.AKTIF_TUKETIM_KWH_200312, 
+      t1.AKTIF_TUKETIM_KWH_200001, t1.AKTIF_TUKETIM_KWH_200002, t1.AKTIF_TUKETIM_KWH_200003, t1.AKTIF_TUKETIM_KWH_200004, 
+      t1.AKTIF_TUKETIM_KWH_200005, t1.AKTIF_TUKETIM_KWH_200006, t1.AKTIF_TUKETIM_KWH_200007, t1.AKTIF_TUKETIM_KWH_200008, 
+      t1.AKTIF_TUKETIM_KWH_200009, t1.AKTIF_TUKETIM_KWH_200010, t1.AKTIF_TUKETIM_KWH_200011, t1.AKTIF_TUKETIM_KWH_200012, 
+      t1.AKTIF_TUKETIM_KWH_200101, t1.AKTIF_TUKETIM_KWH_200102, t1.AKTIF_TUKETIM_KWH_200103, t1.AKTIF_TUKETIM_KWH_200104, 
+      t1.AKTIF_TUKETIM_KWH_200105, t1.AKTIF_TUKETIM_KWH_200106, t1.AKTIF_TUKETIM_KWH_200107, t1.AKTIF_TUKETIM_KWH_200108, 
+      t1.AKTIF_TUKETIM_KWH_200109, t1.AKTIF_TUKETIM_KWH_200110, t1.AKTIF_TUKETIM_KWH_200111, t1.AKTIF_TUKETIM_KWH_200112, 
+      t1.AKTIF_TUKETIM_KWH_200201, t1.AKTIF_TUKETIM_KWH_200202, t1.AKTIF_TUKETIM_KWH_200203, t1.AKTIF_TUKETIM_KWH_200204, 
+      t1.AKTIF_TUKETIM_KWH_200205, t1.AKTIF_TUKETIM_KWH_200206, t1.AKTIF_TUKETIM_KWH_200207, t1.AKTIF_TUKETIM_KWH_200208, 
+      t1.AKTIF_TUKETIM_KWH_200209, t1.AKTIF_TUKETIM_KWH_200210, t1.AKTIF_TUKETIM_KWH_200211, t1.AKTIF_TUKETIM_KWH_200212, 
+      t1.AKTIF_TUKETIM_KWH_200301, t1.AKTIF_TUKETIM_KWH_200302, t1.AKTIF_TUKETIM_KWH_200303, t1.AKTIF_TUKETIM_KWH_200304, 
+      t1.AKTIF_TUKETIM_KWH_200305, t1.AKTIF_TUKETIM_KWH_200306, t1.AKTIF_TUKETIM_KWH_200307, t1.AKTIF_TUKETIM_KWH_200308, 
+      t1.AKTIF_TUKETIM_KWH_200309, t1.AKTIF_TUKETIM_KWH_201408, t1.AKTIF_TUKETIM_KWH_198501, t1.AKTIF_TUKETIM_KWH_198502, 
+      t1.AKTIF_TUKETIM_KWH_198503, t1.AKTIF_TUKETIM_KWH_198504, t1.AKTIF_TUKETIM_KWH_198505, t1.AKTIF_TUKETIM_KWH_198506, 
+      t1.AKTIF_TUKETIM_KWH_198507, t1.AKTIF_TUKETIM_KWH_198508, t1.AKTIF_TUKETIM_KWH_198509, t1.AKTIF_TUKETIM_KWH_198510, 
+      t1.AKTIF_TUKETIM_KWH_198511, t1.AKTIF_TUKETIM_KWH_198512, t1.AKTIF_TUKETIM_KWH_198601, t1.AKTIF_TUKETIM_KWH_198602, 
+      t1.AKTIF_TUKETIM_KWH_198603, t1.AKTIF_TUKETIM_KWH_198604, t1.AKTIF_TUKETIM_KWH_198605, t1.AKTIF_TUKETIM_KWH_198606, 
+      t1.AKTIF_TUKETIM_KWH_198607, t1.AKTIF_TUKETIM_KWH_198608, t1.AKTIF_TUKETIM_KWH_198609, t1.AKTIF_TUKETIM_KWH_198610, 
+      t1.AKTIF_TUKETIM_KWH_198611, t1.AKTIF_TUKETIM_KWH_198612, t1.AKTIF_TUKETIM_KWH_198701, t1.AKTIF_TUKETIM_KWH_198702, 
+      t1.AKTIF_TUKETIM_KWH_198703, t1.AKTIF_TUKETIM_KWH_198704, t1.AKTIF_TUKETIM_KWH_198705, t1.AKTIF_TUKETIM_KWH_198706, 
+      t1.AKTIF_TUKETIM_KWH_198707, t1.AKTIF_TUKETIM_KWH_198708, t1.AKTIF_TUKETIM_KWH_198709, t1.AKTIF_TUKETIM_KWH_198710, 
+      t1.AKTIF_TUKETIM_KWH_198711, t1.AKTIF_TUKETIM_KWH_198712, t1.AKTIF_TUKETIM_KWH_198801, t1.AKTIF_TUKETIM_KWH_198802, 
+      t1.AKTIF_TUKETIM_KWH_198803, t1.AKTIF_TUKETIM_KWH_198804, t1.AKTIF_TUKETIM_KWH_198805, t1.AKTIF_TUKETIM_KWH_198806, 
+      t1.AKTIF_TUKETIM_KWH_198807, t1.AKTIF_TUKETIM_KWH_198808, t1.AKTIF_TUKETIM_KWH_198809, t1.AKTIF_TUKETIM_KWH_198810, 
+      t1.AKTIF_TUKETIM_KWH_198811, t1.AKTIF_TUKETIM_KWH_198812, t1.AKTIF_TUKETIM_KWH_198901, t1.AKTIF_TUKETIM_KWH_198902, 
+      t1.AKTIF_TUKETIM_KWH_198903, t1.AKTIF_TUKETIM_KWH_198904, t1.AKTIF_TUKETIM_KWH_198905, t1.AKTIF_TUKETIM_KWH_198906, 
+      t1.AKTIF_TUKETIM_KWH_198907, t1.AKTIF_TUKETIM_KWH_198908, t1.AKTIF_TUKETIM_KWH_198909, t1.AKTIF_TUKETIM_KWH_198910, 
+      t1.AKTIF_TUKETIM_KWH_198911, t1.AKTIF_TUKETIM_KWH_198912, t1.AKTIF_TUKETIM_KWH_199001, t1.AKTIF_TUKETIM_KWH_199002, 
+      t1.AKTIF_TUKETIM_KWH_199003, t1.AKTIF_TUKETIM_KWH_199004, t1.AKTIF_TUKETIM_KWH_199005, t1.AKTIF_TUKETIM_KWH_199006, 
+      t1.AKTIF_TUKETIM_KWH_199007, t1.AKTIF_TUKETIM_KWH_199008, t1.AKTIF_TUKETIM_KWH_199009, t1.AKTIF_TUKETIM_KWH_199010, 
+      t1.AKTIF_TUKETIM_KWH_199011, t1.AKTIF_TUKETIM_KWH_199012, t1.AKTIF_TUKETIM_KWH_199101, t1.AKTIF_TUKETIM_KWH_199102, 
+      t1.AKTIF_TUKETIM_KWH_199103, t1.AKTIF_TUKETIM_KWH_199104, t1.AKTIF_TUKETIM_KWH_199105, t1.AKTIF_TUKETIM_KWH_199106, 
+      t1.AKTIF_TUKETIM_KWH_199107, t1.AKTIF_TUKETIM_KWH_199108, t1.AKTIF_TUKETIM_KWH_199109, t1.AKTIF_TUKETIM_KWH_199110, 
+      t1.AKTIF_TUKETIM_KWH_199111, t1.AKTIF_TUKETIM_KWH_199112, t1.AKTIF_TUKETIM_KWH_199201, t1.AKTIF_TUKETIM_KWH_199202, 
+      t1.AKTIF_TUKETIM_KWH_199203, t1.AKTIF_TUKETIM_KWH_199204, t1.AKTIF_TUKETIM_KWH_199205, t1.AKTIF_TUKETIM_KWH_199206, 
+      t1.AKTIF_TUKETIM_KWH_199207, t1.AKTIF_TUKETIM_KWH_199208, t1.AKTIF_TUKETIM_KWH_199209, t1.AKTIF_TUKETIM_KWH_199210, 
+      t1.AKTIF_TUKETIM_KWH_199211, t1.AKTIF_TUKETIM_KWH_199212, t1.AKTIF_TUKETIM_KWH_199301, t1.AKTIF_TUKETIM_KWH_199302, 
+      t1.AKTIF_TUKETIM_KWH_199303, t1.AKTIF_TUKETIM_KWH_199304, t1.AKTIF_TUKETIM_KWH_199305, t1.AKTIF_TUKETIM_KWH_199306, 
+      t1.AKTIF_TUKETIM_KWH_199307, t1.AKTIF_TUKETIM_KWH_199308, t1.AKTIF_TUKETIM_KWH_199309, t1.AKTIF_TUKETIM_KWH_199310, 
+16                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_199311, t1.AKTIF_TUKETIM_KWH_199312, t1.AKTIF_TUKETIM_KWH_199401, t1.AKTIF_TUKETIM_KWH_199402, 
+      t1.AKTIF_TUKETIM_KWH_199403, t1.AKTIF_TUKETIM_KWH_199404, t1.AKTIF_TUKETIM_KWH_199405, t1.AKTIF_TUKETIM_KWH_199406, 
+      t1.AKTIF_TUKETIM_KWH_199407, t1.AKTIF_TUKETIM_KWH_199408, t1.AKTIF_TUKETIM_KWH_199409, t1.AKTIF_TUKETIM_KWH_199410, 
+      t1.AKTIF_TUKETIM_KWH_199411, t1.AKTIF_TUKETIM_KWH_199412, t1.AKTIF_TUKETIM_KWH_199501, t1.AKTIF_TUKETIM_KWH_199502, 
+      t1.AKTIF_TUKETIM_KWH_199503, t1.AKTIF_TUKETIM_KWH_199504, t1.AKTIF_TUKETIM_KWH_199505, t1.AKTIF_TUKETIM_KWH_199506, 
+      t1.AKTIF_TUKETIM_KWH_199507, t1.AKTIF_TUKETIM_KWH_199508, t1.AKTIF_TUKETIM_KWH_199509, t1.AKTIF_TUKETIM_KWH_199510, 
+      t1.AKTIF_TUKETIM_KWH_199511, t1.AKTIF_TUKETIM_KWH_199512, t1.AKTIF_TUKETIM_KWH_199601, t1.AKTIF_TUKETIM_KWH_199602, 
+      t1.AKTIF_TUKETIM_KWH_199603, t1.AKTIF_TUKETIM_KWH_199604, t1.AKTIF_TUKETIM_KWH_199605, t1.AKTIF_TUKETIM_KWH_199606, 
+      t1.AKTIF_TUKETIM_KWH_199607, t1.AKTIF_TUKETIM_KWH_199608, t1.AKTIF_TUKETIM_KWH_199609, t1.AKTIF_TUKETIM_KWH_199610, 
+      t1.AKTIF_TUKETIM_KWH_199611, t1.AKTIF_TUKETIM_KWH_199612, t1.AKTIF_TUKETIM_KWH_199701, t1.AKTIF_TUKETIM_KWH_199702, 
+      t1.AKTIF_TUKETIM_KWH_199703, t1.AKTIF_TUKETIM_KWH_199704, t1.AKTIF_TUKETIM_KWH_199705, t1.AKTIF_TUKETIM_KWH_199706, 
+      t1.AKTIF_TUKETIM_KWH_199707, t1.AKTIF_TUKETIM_KWH_199708, t1.AKTIF_TUKETIM_KWH_199709, t1.AKTIF_TUKETIM_KWH_199710, 
+      t1.AKTIF_TUKETIM_KWH_199711, t1.AKTIF_TUKETIM_KWH_199712, t1.AKTIF_TUKETIM_KWH_199801, t1.AKTIF_TUKETIM_KWH_199802, 
+      t1.AKTIF_TUKETIM_KWH_199803, t1.AKTIF_TUKETIM_KWH_199804, t1.AKTIF_TUKETIM_KWH_199805, t1.AKTIF_TUKETIM_KWH_199806, 
+      t1.AKTIF_TUKETIM_KWH_199807, t1.AKTIF_TUKETIM_KWH_199808, t1.AKTIF_TUKETIM_KWH_199809, t1.AKTIF_TUKETIM_KWH_199810, 
+      t1.AKTIF_TUKETIM_KWH_199811, t1.AKTIF_TUKETIM_KWH_199812, t1.AKTIF_TUKETIM_KWH_199901, t1.AKTIF_TUKETIM_KWH_199902, 
+      t1.AKTIF_TUKETIM_KWH_199903, t1.AKTIF_TUKETIM_KWH_199904, t1.AKTIF_TUKETIM_KWH_199905, t1.AKTIF_TUKETIM_KWH_199906, 
+      t1.AKTIF_TUKETIM_KWH_199907, t1.AKTIF_TUKETIM_KWH_199908, t1.AKTIF_TUKETIM_KWH_199909, t1.AKTIF_TUKETIM_KWH_199910, 
+      t1.AKTIF_TUKETIM_KWH_199911, t1.AKTIF_TUKETIM_KWH_199912, t1.AKTIF_TUKETIM_KWH_201709, t1.AKTIF_TUKETIM_KWH_201710, 
+      t1.AKTIF_TUKETIM_KWH_201711, t1.AKTIF_TUKETIM_KWH_201712, t1.AKTIF_TUKETIM_KWH_201801, t1.AKTIF_TUKETIM_KWH_201802, 
+      t1.AKTIF_TUKETIM_KWH_201803, t1.AKTIF_TUKETIM_KWH_201804, t1.AKTIF_TUKETIM_KWH_201805, t1.AKTIF_TUKETIM_KWH_201806, 
+      t1.AKTIF_TUKETIM_KWH_201807, t1.AKTIF_TUKETIM_KWH_201808, t1.AKTIF_TUKETIM_KWH_201809, t1.AKTIF_TUKETIM_KWH_201810, 
+      t1.AKTIF_TUKETIM_KWH_201811, t1.AKTIF_TUKETIM_KWH_201812, t1.AKTIF_TUKETIM_KWH_201901, t1.AKTIF_TUKETIM_KWH_201902, 
+      t1.AKTIF_TUKETIM_KWH_201903, t1.AKTIF_TUKETIM_KWH_201904, t1.AKTIF_TUKETIM_KWH_201905, t1.AKTIF_TUKETIM_KWH_201906, 
+      t1.AKTIF_TUKETIM_KWH_201907, t1.AKTIF_TUKETIM_KWH_201908, t1.AKTIF_TUKETIM_KWH_201909, t1.AKTIF_TUKETIM_KWH_201910, 
+      t1.AKTIF_TUKETIM_KWH_201911, t1.AKTIF_TUKETIM_KWH_201912, t1.AKTIF_TUKETIM_KWH_202001, t1.AKTIF_TUKETIM_KWH_202002, 
+      t1.AKTIF_TUKETIM_KWH_202003, t1.AKTIF_TUKETIM_KWH_202004, t1.AKTIF_TUKETIM_KWH_202005, t1.AKTIF_TUKETIM_KWH_202006, 
+      t1.AKTIF_TUKETIM_KWH_202007, t1.AKTIF_TUKETIM_KWH_202008, t1.AKTIF_TUKETIM_KWH_202009, t1.AKTIF_TUKETIM_KWH_202010, 
+      t1.AKTIF_TUKETIM_KWH_201706, t1.AKTIF_TUKETIM_KWH_201707, t1.AKTIF_TUKETIM_KWH_201708, t1.AKTIF_TUKETIM_KWH_201409, 
+      t1.AKTIF_TUKETIM_KWH_201410, t1.AKTIF_TUKETIM_KWH_201411, t1.AKTIF_TUKETIM_KWH_201412, t1.AKTIF_TUKETIM_KWH_201501, 
+      t1.AKTIF_TUKETIM_KWH_201502, t1.AKTIF_TUKETIM_KWH_201503, t1.AKTIF_TUKETIM_KWH_201504, t1.AKTIF_TUKETIM_KWH_201505, 
+      t1.AKTIF_TUKETIM_KWH_201506, t1.AKTIF_TUKETIM_KWH_201507, t1.AKTIF_TUKETIM_KWH_201508, t1.AKTIF_TUKETIM_KWH_201509, 
+      t1.AKTIF_TUKETIM_KWH_201510, t1.AKTIF_TUKETIM_KWH_201511, t1.AKTIF_TUKETIM_KWH_201512, t1.AKTIF_TUKETIM_KWH_201601, 
+      t1.AKTIF_TUKETIM_KWH_201602, t1.AKTIF_TUKETIM_KWH_201603, t1.AKTIF_TUKETIM_KWH_201604, t1.AKTIF_TUKETIM_KWH_201605, 
+      t1.AKTIF_TUKETIM_KWH_201606, t1.AKTIF_TUKETIM_KWH_201607, t1.AKTIF_TUKETIM_KWH_201608, t1.AKTIF_TUKETIM_KWH_201609, 
+      t1.AKTIF_TUKETIM_KWH_201610, t1.AKTIF_TUKETIM_KWH_201611, t1.AKTIF_TUKETIM_KWH_201612, t1.AKTIF_TUKETIM_KWH_201701, 
+      t1.AKTIF_TUKETIM_KWH_201702, t1.AKTIF_TUKETIM_KWH_201703, t1.AKTIF_TUKETIM_KWH_201704, t1.AKTIF_TUKETIM_KWH_201705, 
+      t1.AKTIF_TUKETIM_KWH_202011, t1.AKTIF_TUKETIM_KWH_192001, t1.AKTIF_TUKETIM_KWH_192002, t1.AKTIF_TUKETIM_KWH_192003, 
+      t1.AKTIF_TUKETIM_KWH_192004, t1.AKTIF_TUKETIM_KWH_192005, t1.AKTIF_TUKETIM_KWH_192006, t1.AKTIF_TUKETIM_KWH_192007, 
+      t1.AKTIF_TUKETIM_KWH_192008, t1.AKTIF_TUKETIM_KWH_192009, t1.AKTIF_TUKETIM_KWH_192010, t1.AKTIF_TUKETIM_KWH_192011, 
+      t1.AKTIF_TUKETIM_KWH_192012, t1.AKTIF_TUKETIM_KWH_192101, t1.AKTIF_TUKETIM_KWH_192102, t1.AKTIF_TUKETIM_KWH_192103, 
+      t1.AKTIF_TUKETIM_KWH_192104, t1.AKTIF_TUKETIM_KWH_192105, t1.AKTIF_TUKETIM_KWH_192106, t1.AKTIF_TUKETIM_KWH_192107, 
+      t1.AKTIF_TUKETIM_KWH_192108, t1.AKTIF_TUKETIM_KWH_192109, t1.AKTIF_TUKETIM_KWH_192110, t1.AKTIF_TUKETIM_KWH_192111, 
+      t1.AKTIF_TUKETIM_KWH_192112, t1.AKTIF_TUKETIM_KWH_192201, t1.AKTIF_TUKETIM_KWH_192202, t1.AKTIF_TUKETIM_KWH_192203, 
+      t1.AKTIF_TUKETIM_KWH_192204, t1.AKTIF_TUKETIM_KWH_192205, t1.AKTIF_TUKETIM_KWH_192206, t1.AKTIF_TUKETIM_KWH_192207, 
+      t1.AKTIF_TUKETIM_KWH_192208, t1.AKTIF_TUKETIM_KWH_192209, t1.AKTIF_TUKETIM_KWH_192210, t1.AKTIF_TUKETIM_KWH_192211, 
+      t1.AKTIF_TUKETIM_KWH_192212, t1.AKTIF_TUKETIM_KWH_192301, t1.AKTIF_TUKETIM_KWH_192302, t1.AKTIF_TUKETIM_KWH_192303, 
+      t1.AKTIF_TUKETIM_KWH_192304, t1.AKTIF_TUKETIM_KWH_192305, t1.AKTIF_TUKETIM_KWH_192306, t1.AKTIF_TUKETIM_KWH_192307, 
+      t1.AKTIF_TUKETIM_KWH_192308, t1.AKTIF_TUKETIM_KWH_192309, t1.AKTIF_TUKETIM_KWH_192310, t1.AKTIF_TUKETIM_KWH_192311, 
+      t1.AKTIF_TUKETIM_KWH_192312, t1.AKTIF_TUKETIM_KWH_192401, t1.AKTIF_TUKETIM_KWH_192402, t1.AKTIF_TUKETIM_KWH_192403, 
+      t1.AKTIF_TUKETIM_KWH_192404, t1.AKTIF_TUKETIM_KWH_192405, t1.AKTIF_TUKETIM_KWH_192406, t1.AKTIF_TUKETIM_KWH_192407, 
+      t1.AKTIF_TUKETIM_KWH_192408, t1.AKTIF_TUKETIM_KWH_192409, t1.AKTIF_TUKETIM_KWH_192410, t1.AKTIF_TUKETIM_KWH_192411, 
+      t1.AKTIF_TUKETIM_KWH_192412, t1.AKTIF_TUKETIM_KWH_192501, t1.AKTIF_TUKETIM_KWH_192502, t1.AKTIF_TUKETIM_KWH_192503, 
+      t1.AKTIF_TUKETIM_KWH_192504, t1.AKTIF_TUKETIM_KWH_192505, t1.AKTIF_TUKETIM_KWH_192506, t1.AKTIF_TUKETIM_KWH_192507, 
+      t1.AKTIF_TUKETIM_KWH_192508, t1.AKTIF_TUKETIM_KWH_192509, t1.AKTIF_TUKETIM_KWH_192510, t1.AKTIF_TUKETIM_KWH_192511, 
+      t1.AKTIF_TUKETIM_KWH_192512, t1.AKTIF_TUKETIM_KWH_192601, t1.AKTIF_TUKETIM_KWH_192602, t1.AKTIF_TUKETIM_KWH_192603, 
+      t1.AKTIF_TUKETIM_KWH_192604, t1.AKTIF_TUKETIM_KWH_192605, t1.AKTIF_TUKETIM_KWH_192606, t1.AKTIF_TUKETIM_KWH_192607, 
+      t1.AKTIF_TUKETIM_KWH_192608, t1.AKTIF_TUKETIM_KWH_192609, t1.AKTIF_TUKETIM_KWH_192610, t1.AKTIF_TUKETIM_KWH_192611, 
+17                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_192612, t1.AKTIF_TUKETIM_KWH_192701, t1.AKTIF_TUKETIM_KWH_192702, t1.AKTIF_TUKETIM_KWH_192703, 
+      t1.AKTIF_TUKETIM_KWH_192704, t1.AKTIF_TUKETIM_KWH_192705, t1.AKTIF_TUKETIM_KWH_192706, t1.AKTIF_TUKETIM_KWH_192707, 
+      t1.AKTIF_TUKETIM_KWH_192708, t1.AKTIF_TUKETIM_KWH_192709, t1.AKTIF_TUKETIM_KWH_192710, t1.AKTIF_TUKETIM_KWH_192711, 
+      t1.AKTIF_TUKETIM_KWH_192712, t1.AKTIF_TUKETIM_KWH_192801, t1.AKTIF_TUKETIM_KWH_192802, t1.AKTIF_TUKETIM_KWH_192803, 
+      t1.AKTIF_TUKETIM_KWH_192804, t1.AKTIF_TUKETIM_KWH_192805, t1.AKTIF_TUKETIM_KWH_192806, t1.AKTIF_TUKETIM_KWH_192807, 
+      t1.AKTIF_TUKETIM_KWH_192808, t1.AKTIF_TUKETIM_KWH_192809, t1.AKTIF_TUKETIM_KWH_192810, t1.AKTIF_TUKETIM_KWH_192811, 
+      t1.AKTIF_TUKETIM_KWH_192812, t1.AKTIF_TUKETIM_KWH_192901, t1.AKTIF_TUKETIM_KWH_192902, t1.AKTIF_TUKETIM_KWH_192903, 
+      t1.AKTIF_TUKETIM_KWH_192904, t1.AKTIF_TUKETIM_KWH_192905, t1.AKTIF_TUKETIM_KWH_192906, t1.AKTIF_TUKETIM_KWH_192907, 
+      t1.AKTIF_TUKETIM_KWH_192908, t1.AKTIF_TUKETIM_KWH_192909, t1.AKTIF_TUKETIM_KWH_192910, t1.AKTIF_TUKETIM_KWH_192911, 
+      t1.AKTIF_TUKETIM_KWH_192912, t1.AKTIF_TUKETIM_KWH_193001, t1.AKTIF_TUKETIM_KWH_193002, t1.AKTIF_TUKETIM_KWH_193003, 
+      t1.AKTIF_TUKETIM_KWH_193004, t1.AKTIF_TUKETIM_KWH_193005, t1.AKTIF_TUKETIM_KWH_193006, t1.AKTIF_TUKETIM_KWH_193007, 
+      t1.AKTIF_TUKETIM_KWH_193008, t1.AKTIF_TUKETIM_KWH_193009, t1.AKTIF_TUKETIM_KWH_193010, t1.AKTIF_TUKETIM_KWH_193011, 
+      t1.AKTIF_TUKETIM_KWH_193012, t1.AKTIF_TUKETIM_KWH_193101, t1.AKTIF_TUKETIM_KWH_193102, t1.AKTIF_TUKETIM_KWH_193103, 
+      t1.AKTIF_TUKETIM_KWH_193104, t1.AKTIF_TUKETIM_KWH_193105, t1.AKTIF_TUKETIM_KWH_193106, t1.AKTIF_TUKETIM_KWH_193107, 
+      t1.AKTIF_TUKETIM_KWH_193108, t1.AKTIF_TUKETIM_KWH_193109, t1.AKTIF_TUKETIM_KWH_193110, t1.AKTIF_TUKETIM_KWH_193111, 
+      t1.AKTIF_TUKETIM_KWH_193112, t1.AKTIF_TUKETIM_KWH_193201, t1.AKTIF_TUKETIM_KWH_193202, t1.AKTIF_TUKETIM_KWH_193203, 
+      t1.AKTIF_TUKETIM_KWH_193204, t1.AKTIF_TUKETIM_KWH_193205, t1.AKTIF_TUKETIM_KWH_193206, t1.AKTIF_TUKETIM_KWH_193207, 
+      t1.AKTIF_TUKETIM_KWH_193208, t1.AKTIF_TUKETIM_KWH_193209, t1.AKTIF_TUKETIM_KWH_193210, t1.AKTIF_TUKETIM_KWH_193211, 
+      t1.AKTIF_TUKETIM_KWH_193212, t1.AKTIF_TUKETIM_KWH_193301, t1.AKTIF_TUKETIM_KWH_193302, t1.AKTIF_TUKETIM_KWH_193303, 
+      t1.AKTIF_TUKETIM_KWH_193304, t1.AKTIF_TUKETIM_KWH_193305, t1.AKTIF_TUKETIM_KWH_193306, t1.AKTIF_TUKETIM_KWH_193307, 
+      t1.AKTIF_TUKETIM_KWH_193308, t1.AKTIF_TUKETIM_KWH_193309, t1.AKTIF_TUKETIM_KWH_193310, t1.AKTIF_TUKETIM_KWH_193311, 
+      t1.AKTIF_TUKETIM_KWH_193312, t1.AKTIF_TUKETIM_KWH_193401, t1.AKTIF_TUKETIM_KWH_193402, t1.AKTIF_TUKETIM_KWH_193403, 
+      t1.AKTIF_TUKETIM_KWH_193404, t1.AKTIF_TUKETIM_KWH_193405, t1.AKTIF_TUKETIM_KWH_193406, t1.AKTIF_TUKETIM_KWH_193407, 
+      t1.AKTIF_TUKETIM_KWH_193408, t1.AKTIF_TUKETIM_KWH_193409, t1.AKTIF_TUKETIM_KWH_193410, t1.AKTIF_TUKETIM_KWH_193411, 
+      t1.AKTIF_TUKETIM_KWH_193412, t1.AKTIF_TUKETIM_KWH_193501, t1.AKTIF_TUKETIM_KWH_193502, t1.AKTIF_TUKETIM_KWH_193503, 
+      t1.AKTIF_TUKETIM_KWH_193504, t1.AKTIF_TUKETIM_KWH_193505, t1.AKTIF_TUKETIM_KWH_193506, t1.AKTIF_TUKETIM_KWH_193507, 
+      t1.AKTIF_TUKETIM_KWH_193508, t1.AKTIF_TUKETIM_KWH_193509, t1.AKTIF_TUKETIM_KWH_193510, t1.AKTIF_TUKETIM_KWH_193511, 
+      t1.AKTIF_TUKETIM_KWH_193512, t1.AKTIF_TUKETIM_KWH_193601, t1.AKTIF_TUKETIM_KWH_193602, t1.AKTIF_TUKETIM_KWH_193603, 
+      t1.AKTIF_TUKETIM_KWH_193604, t1.AKTIF_TUKETIM_KWH_193605, t1.AKTIF_TUKETIM_KWH_193606, t1.AKTIF_TUKETIM_KWH_193607, 
+      t1.AKTIF_TUKETIM_KWH_193608, t1.AKTIF_TUKETIM_KWH_193609, t1.AKTIF_TUKETIM_KWH_193610, t1.AKTIF_TUKETIM_KWH_193611, 
+      t1.AKTIF_TUKETIM_KWH_193612, t1.AKTIF_TUKETIM_KWH_193701, t1.AKTIF_TUKETIM_KWH_193702, t1.AKTIF_TUKETIM_KWH_193703, 
+      t1.AKTIF_TUKETIM_KWH_193704, t1.AKTIF_TUKETIM_KWH_193705, t1.AKTIF_TUKETIM_KWH_193706, t1.AKTIF_TUKETIM_KWH_193707, 
+      t1.AKTIF_TUKETIM_KWH_193708, t1.AKTIF_TUKETIM_KWH_193709, t1.AKTIF_TUKETIM_KWH_193710, t1.AKTIF_TUKETIM_KWH_193711, 
+      t1.AKTIF_TUKETIM_KWH_193712, t1.AKTIF_TUKETIM_KWH_193801, t1.AKTIF_TUKETIM_KWH_193802, t1.AKTIF_TUKETIM_KWH_193803, 
+      t1.AKTIF_TUKETIM_KWH_193804, t1.AKTIF_TUKETIM_KWH_193805, t1.AKTIF_TUKETIM_KWH_193806, t1.AKTIF_TUKETIM_KWH_193807, 
+      t1.AKTIF_TUKETIM_KWH_193808, t1.AKTIF_TUKETIM_KWH_193809, t1.AKTIF_TUKETIM_KWH_193810, t1.AKTIF_TUKETIM_KWH_193811, 
+      t1.AKTIF_TUKETIM_KWH_193812, t1.AKTIF_TUKETIM_KWH_193901, t1.AKTIF_TUKETIM_KWH_193902, t1.AKTIF_TUKETIM_KWH_193903, 
+      t1.AKTIF_TUKETIM_KWH_193904, t1.AKTIF_TUKETIM_KWH_193905, t1.AKTIF_TUKETIM_KWH_193906, t1.AKTIF_TUKETIM_KWH_193907, 
+      t1.AKTIF_TUKETIM_KWH_193908, t1.AKTIF_TUKETIM_KWH_193909, t1.AKTIF_TUKETIM_KWH_193910, t1.AKTIF_TUKETIM_KWH_193911, 
+      t1.AKTIF_TUKETIM_KWH_193912, t1.AKTIF_TUKETIM_KWH_194001, t1.AKTIF_TUKETIM_KWH_194002, t1.AKTIF_TUKETIM_KWH_194003, 
+      t1.AKTIF_TUKETIM_KWH_194004, t1.AKTIF_TUKETIM_KWH_194005, t1.AKTIF_TUKETIM_KWH_194006, t1.AKTIF_TUKETIM_KWH_194007, 
+      t1.AKTIF_TUKETIM_KWH_194008, t1.AKTIF_TUKETIM_KWH_194009, t1.AKTIF_TUKETIM_KWH_194010, t1.AKTIF_TUKETIM_KWH_194011, 
+      t1.AKTIF_TUKETIM_KWH_194012, t1.AKTIF_TUKETIM_KWH_194101, t1.AKTIF_TUKETIM_KWH_194102, t1.AKTIF_TUKETIM_KWH_194103, 
+      t1.AKTIF_TUKETIM_KWH_194104, t1.AKTIF_TUKETIM_KWH_194105, t1.AKTIF_TUKETIM_KWH_194106, t1.AKTIF_TUKETIM_KWH_194107, 
+      t1.AKTIF_TUKETIM_KWH_194108, t1.AKTIF_TUKETIM_KWH_194109, t1.AKTIF_TUKETIM_KWH_194110, t1.AKTIF_TUKETIM_KWH_194111, 
+      t1.AKTIF_TUKETIM_KWH_194112, t1.AKTIF_TUKETIM_KWH_194201, t1.AKTIF_TUKETIM_KWH_194202, t1.AKTIF_TUKETIM_KWH_194203, 
+      t1.AKTIF_TUKETIM_KWH_194204, t1.AKTIF_TUKETIM_KWH_194205, t1.AKTIF_TUKETIM_KWH_194206, t1.AKTIF_TUKETIM_KWH_194207, 
+      t1.AKTIF_TUKETIM_KWH_194208, t1.AKTIF_TUKETIM_KWH_194209, t1.AKTIF_TUKETIM_KWH_194210, t1.AKTIF_TUKETIM_KWH_194211, 
+      t1.AKTIF_TUKETIM_KWH_194212, t1.AKTIF_TUKETIM_KWH_194301, t1.AKTIF_TUKETIM_KWH_194302, t1.AKTIF_TUKETIM_KWH_194303, 
+      t1.AKTIF_TUKETIM_KWH_194304, t1.AKTIF_TUKETIM_KWH_194305, t1.AKTIF_TUKETIM_KWH_194306, t1.AKTIF_TUKETIM_KWH_194307, 
+      t1.AKTIF_TUKETIM_KWH_194308, t1.AKTIF_TUKETIM_KWH_194309, t1.AKTIF_TUKETIM_KWH_194310, t1.AKTIF_TUKETIM_KWH_194311, 
+      t1.AKTIF_TUKETIM_KWH_194312, t1.AKTIF_TUKETIM_KWH_194401, t1.AKTIF_TUKETIM_KWH_194402, t1.AKTIF_TUKETIM_KWH_194403, 
+      t1.AKTIF_TUKETIM_KWH_194404, t1.AKTIF_TUKETIM_KWH_194405, t1.AKTIF_TUKETIM_KWH_194406, t1.AKTIF_TUKETIM_KWH_194407, 
+      t1.AKTIF_TUKETIM_KWH_194408, t1.AKTIF_TUKETIM_KWH_194409, t1.AKTIF_TUKETIM_KWH_194410, t1.AKTIF_TUKETIM_KWH_194411, 
+      t1.AKTIF_TUKETIM_KWH_194412, t1.AKTIF_TUKETIM_KWH_194501, t1.AKTIF_TUKETIM_KWH_194502, t1.AKTIF_TUKETIM_KWH_194503, 
+      t1.AKTIF_TUKETIM_KWH_194504, t1.AKTIF_TUKETIM_KWH_194505, t1.AKTIF_TUKETIM_KWH_194506, t1.AKTIF_TUKETIM_KWH_194507, 
+      t1.AKTIF_TUKETIM_KWH_194508, t1.AKTIF_TUKETIM_KWH_194509, t1.AKTIF_TUKETIM_KWH_194510, t1.AKTIF_TUKETIM_KWH_194511, 
+      t1.AKTIF_TUKETIM_KWH_194512, t1.AKTIF_TUKETIM_KWH_194601, t1.AKTIF_TUKETIM_KWH_194602, t1.AKTIF_TUKETIM_KWH_194603, 
+18                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_194604, t1.AKTIF_TUKETIM_KWH_194605, t1.AKTIF_TUKETIM_KWH_194606, t1.AKTIF_TUKETIM_KWH_194607, 
+      t1.AKTIF_TUKETIM_KWH_194608, t1.AKTIF_TUKETIM_KWH_194609, t1.AKTIF_TUKETIM_KWH_194610, t1.AKTIF_TUKETIM_KWH_194611, 
+      t1.AKTIF_TUKETIM_KWH_194612, t1.AKTIF_TUKETIM_KWH_194701, t1.AKTIF_TUKETIM_KWH_194702, t1.AKTIF_TUKETIM_KWH_194703, 
+      t1.AKTIF_TUKETIM_KWH_194704, t1.AKTIF_TUKETIM_KWH_194705, t1.AKTIF_TUKETIM_KWH_194706, t1.AKTIF_TUKETIM_KWH_194707, 
+      t1.AKTIF_TUKETIM_KWH_194708, t1.AKTIF_TUKETIM_KWH_194709, t1.AKTIF_TUKETIM_KWH_194710, t1.AKTIF_TUKETIM_KWH_194711, 
+      t1.AKTIF_TUKETIM_KWH_194712, t1.AKTIF_TUKETIM_KWH_194801, t1.AKTIF_TUKETIM_KWH_194802, t1.AKTIF_TUKETIM_KWH_194803, 
+      t1.AKTIF_TUKETIM_KWH_194804, t1.AKTIF_TUKETIM_KWH_194805, t1.AKTIF_TUKETIM_KWH_194806, t1.AKTIF_TUKETIM_KWH_194807, 
+      t1.AKTIF_TUKETIM_KWH_194808, t1.AKTIF_TUKETIM_KWH_194809, t1.AKTIF_TUKETIM_KWH_194810, t1.AKTIF_TUKETIM_KWH_194811, 
+      t1.AKTIF_TUKETIM_KWH_194812, t1.AKTIF_TUKETIM_KWH_194901, t1.AKTIF_TUKETIM_KWH_194902, t1.AKTIF_TUKETIM_KWH_194903, 
+      t1.AKTIF_TUKETIM_KWH_194904, t1.AKTIF_TUKETIM_KWH_194905, t1.AKTIF_TUKETIM_KWH_194906, t1.AKTIF_TUKETIM_KWH_194907, 
+      t1.AKTIF_TUKETIM_KWH_194908, t1.AKTIF_TUKETIM_KWH_194909, t1.AKTIF_TUKETIM_KWH_194910, t1.AKTIF_TUKETIM_KWH_194911, 
+      t1.AKTIF_TUKETIM_KWH_194912, t1.AKTIF_TUKETIM_KWH_195001, t1.AKTIF_TUKETIM_KWH_195002, t1.AKTIF_TUKETIM_KWH_195003, 
+      t1.AKTIF_TUKETIM_KWH_195004, t1.AKTIF_TUKETIM_KWH_195005, t1.AKTIF_TUKETIM_KWH_195006, t1.AKTIF_TUKETIM_KWH_195007, 
+      t1.AKTIF_TUKETIM_KWH_195008, t1.AKTIF_TUKETIM_KWH_195009, t1.AKTIF_TUKETIM_KWH_195010, t1.AKTIF_TUKETIM_KWH_195011, 
+      t1.AKTIF_TUKETIM_KWH_195012, t1.AKTIF_TUKETIM_KWH_195101, t1.AKTIF_TUKETIM_KWH_195102, t1.AKTIF_TUKETIM_KWH_195103, 
+      t1.AKTIF_TUKETIM_KWH_195104, t1.AKTIF_TUKETIM_KWH_195105, t1.AKTIF_TUKETIM_KWH_195106, t1.AKTIF_TUKETIM_KWH_195107, 
+      t1.AKTIF_TUKETIM_KWH_195108, t1.AKTIF_TUKETIM_KWH_195109, t1.AKTIF_TUKETIM_KWH_195110, t1.AKTIF_TUKETIM_KWH_195111, 
+      t1.AKTIF_TUKETIM_KWH_195112, t1.AKTIF_TUKETIM_KWH_195201, t1.AKTIF_TUKETIM_KWH_195202, t1.AKTIF_TUKETIM_KWH_195203, 
+      t1.AKTIF_TUKETIM_KWH_195204, t1.AKTIF_TUKETIM_KWH_195205, t1.AKTIF_TUKETIM_KWH_195206, t1.AKTIF_TUKETIM_KWH_195207, 
+      t1.AKTIF_TUKETIM_KWH_195208, t1.AKTIF_TUKETIM_KWH_195209, t1.AKTIF_TUKETIM_KWH_195210, t1.AKTIF_TUKETIM_KWH_195211, 
+      t1.AKTIF_TUKETIM_KWH_195212, t1.AKTIF_TUKETIM_KWH_195301, t1.AKTIF_TUKETIM_KWH_195302, t1.AKTIF_TUKETIM_KWH_195303, 
+      t1.AKTIF_TUKETIM_KWH_195304, t1.AKTIF_TUKETIM_KWH_195305, t1.AKTIF_TUKETIM_KWH_195306, t1.AKTIF_TUKETIM_KWH_195307, 
+      t1.AKTIF_TUKETIM_KWH_195308, t1.AKTIF_TUKETIM_KWH_195309, t1.AKTIF_TUKETIM_KWH_195310, t1.AKTIF_TUKETIM_KWH_195311, 
+      t1.AKTIF_TUKETIM_KWH_195312, t1.AKTIF_TUKETIM_KWH_195401, t1.AKTIF_TUKETIM_KWH_195402, t1.AKTIF_TUKETIM_KWH_195403, 
+      t1.AKTIF_TUKETIM_KWH_195404, t1.AKTIF_TUKETIM_KWH_195405, t1.AKTIF_TUKETIM_KWH_195406, t1.AKTIF_TUKETIM_KWH_195407, 
+      t1.AKTIF_TUKETIM_KWH_195408, t1.AKTIF_TUKETIM_KWH_195409, t1.AKTIF_TUKETIM_KWH_195410, t1.AKTIF_TUKETIM_KWH_195411, 
+      t1.AKTIF_TUKETIM_KWH_195412, t1.AKTIF_TUKETIM_KWH_195501, t1.AKTIF_TUKETIM_KWH_195502, t1.AKTIF_TUKETIM_KWH_195503, 
+      t1.AKTIF_TUKETIM_KWH_195504, t1.AKTIF_TUKETIM_KWH_195505, t1.AKTIF_TUKETIM_KWH_195506, t1.AKTIF_TUKETIM_KWH_195507, 
+      t1.AKTIF_TUKETIM_KWH_195508, t1.AKTIF_TUKETIM_KWH_195509, t1.AKTIF_TUKETIM_KWH_195510, t1.AKTIF_TUKETIM_KWH_195511, 
+      t1.AKTIF_TUKETIM_KWH_195512, t1.AKTIF_TUKETIM_KWH_195601, t1.AKTIF_TUKETIM_KWH_195602, t1.AKTIF_TUKETIM_KWH_195603, 
+      t1.AKTIF_TUKETIM_KWH_195604, t1.AKTIF_TUKETIM_KWH_195605, t1.AKTIF_TUKETIM_KWH_195606, t1.AKTIF_TUKETIM_KWH_195607, 
+      t1.AKTIF_TUKETIM_KWH_195608, t1.AKTIF_TUKETIM_KWH_195609, t1.AKTIF_TUKETIM_KWH_195610, t1.AKTIF_TUKETIM_KWH_195611, 
+      t1.AKTIF_TUKETIM_KWH_195612, t1.AKTIF_TUKETIM_KWH_195701, t1.AKTIF_TUKETIM_KWH_195702, t1.AKTIF_TUKETIM_KWH_195703, 
+      t1.AKTIF_TUKETIM_KWH_195704, t1.AKTIF_TUKETIM_KWH_195705, t1.AKTIF_TUKETIM_KWH_195706, t1.AKTIF_TUKETIM_KWH_195707, 
+      t1.AKTIF_TUKETIM_KWH_195708, t1.AKTIF_TUKETIM_KWH_195709, t1.AKTIF_TUKETIM_KWH_195710, t1.AKTIF_TUKETIM_KWH_195711, 
+      t1.AKTIF_TUKETIM_KWH_195712, t1.AKTIF_TUKETIM_KWH_195801, t1.AKTIF_TUKETIM_KWH_195802, t1.AKTIF_TUKETIM_KWH_195803, 
+      t1.AKTIF_TUKETIM_KWH_195804, t1.AKTIF_TUKETIM_KWH_195805, t1.AKTIF_TUKETIM_KWH_195806, t1.AKTIF_TUKETIM_KWH_195807, 
+      t1.AKTIF_TUKETIM_KWH_195808, t1.AKTIF_TUKETIM_KWH_195809, t1.AKTIF_TUKETIM_KWH_195810, t1.AKTIF_TUKETIM_KWH_195811, 
+      t1.AKTIF_TUKETIM_KWH_195812, t1.AKTIF_TUKETIM_KWH_195901, t1.AKTIF_TUKETIM_KWH_195902, t1.AKTIF_TUKETIM_KWH_195903, 
+      t1.AKTIF_TUKETIM_KWH_195904, t1.AKTIF_TUKETIM_KWH_195905, t1.AKTIF_TUKETIM_KWH_195906, t1.AKTIF_TUKETIM_KWH_195907, 
+      t1.AKTIF_TUKETIM_KWH_195908, t1.AKTIF_TUKETIM_KWH_195909, t1.AKTIF_TUKETIM_KWH_195910, t1.AKTIF_TUKETIM_KWH_195911, 
+      t1.AKTIF_TUKETIM_KWH_195912, t1.AKTIF_TUKETIM_KWH_196001, t1.AKTIF_TUKETIM_KWH_196002, t1.AKTIF_TUKETIM_KWH_196003, 
+      t1.AKTIF_TUKETIM_KWH_196004, t1.AKTIF_TUKETIM_KWH_196005, t1.AKTIF_TUKETIM_KWH_196006, t1.AKTIF_TUKETIM_KWH_196007, 
+      t1.AKTIF_TUKETIM_KWH_196008, t1.AKTIF_TUKETIM_KWH_196009, t1.AKTIF_TUKETIM_KWH_196010, t1.AKTIF_TUKETIM_KWH_196011, 
+      t1.AKTIF_TUKETIM_KWH_196012, t1.AKTIF_TUKETIM_KWH_196101, t1.AKTIF_TUKETIM_KWH_196102, t1.AKTIF_TUKETIM_KWH_196103, 
+      t1.AKTIF_TUKETIM_KWH_196104, t1.AKTIF_TUKETIM_KWH_196105, t1.AKTIF_TUKETIM_KWH_196106, t1.AKTIF_TUKETIM_KWH_196107, 
+      t1.AKTIF_TUKETIM_KWH_196108, t1.AKTIF_TUKETIM_KWH_196109, t1.AKTIF_TUKETIM_KWH_196110, t1.AKTIF_TUKETIM_KWH_196111, 
+      t1.AKTIF_TUKETIM_KWH_196112, t1.AKTIF_TUKETIM_KWH_196201, t1.AKTIF_TUKETIM_KWH_196202, t1.AKTIF_TUKETIM_KWH_196203, 
+      t1.AKTIF_TUKETIM_KWH_196204, t1.AKTIF_TUKETIM_KWH_196205, t1.AKTIF_TUKETIM_KWH_196206, t1.AKTIF_TUKETIM_KWH_196207, 
+      t1.AKTIF_TUKETIM_KWH_196208, t1.AKTIF_TUKETIM_KWH_196209, t1.AKTIF_TUKETIM_KWH_196210, t1.AKTIF_TUKETIM_KWH_196211, 
+      t1.AKTIF_TUKETIM_KWH_196212, t1.AKTIF_TUKETIM_KWH_196301, t1.AKTIF_TUKETIM_KWH_196302, t1.AKTIF_TUKETIM_KWH_196303, 
+      t1.AKTIF_TUKETIM_KWH_196304, t1.AKTIF_TUKETIM_KWH_196305, t1.AKTIF_TUKETIM_KWH_196306, t1.AKTIF_TUKETIM_KWH_196307, 
+      t1.AKTIF_TUKETIM_KWH_196308, t1.AKTIF_TUKETIM_KWH_196309, t1.AKTIF_TUKETIM_KWH_196310, t1.AKTIF_TUKETIM_KWH_196311, 
+      t1.AKTIF_TUKETIM_KWH_196312, t1.AKTIF_TUKETIM_KWH_196401, t1.AKTIF_TUKETIM_KWH_196402, t1.AKTIF_TUKETIM_KWH_196403, 
+      t1.AKTIF_TUKETIM_KWH_196404, t1.AKTIF_TUKETIM_KWH_196405, t1.AKTIF_TUKETIM_KWH_196406, t1.AKTIF_TUKETIM_KWH_196407, 
+      t1.AKTIF_TUKETIM_KWH_196408, t1.AKTIF_TUKETIM_KWH_196409, t1.AKTIF_TUKETIM_KWH_196410, t1.AKTIF_TUKETIM_KWH_196411, 
+      t1.AKTIF_TUKETIM_KWH_196412, t1.AKTIF_TUKETIM_KWH_196501, t1.AKTIF_TUKETIM_KWH_196502, t1.AKTIF_TUKETIM_KWH_196503, 
+      t1.AKTIF_TUKETIM_KWH_196504, t1.AKTIF_TUKETIM_KWH_196505, t1.AKTIF_TUKETIM_KWH_196506, t1.AKTIF_TUKETIM_KWH_196507, 
+19                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_196508, t1.AKTIF_TUKETIM_KWH_196509, t1.AKTIF_TUKETIM_KWH_196510, t1.AKTIF_TUKETIM_KWH_196511, 
+      t1.AKTIF_TUKETIM_KWH_196512, t1.AKTIF_TUKETIM_KWH_196601, t1.AKTIF_TUKETIM_KWH_196602, t1.AKTIF_TUKETIM_KWH_196603, 
+      t1.AKTIF_TUKETIM_KWH_196604, t1.AKTIF_TUKETIM_KWH_196605, t1.AKTIF_TUKETIM_KWH_196606, t1.AKTIF_TUKETIM_KWH_196607, 
+      t1.AKTIF_TUKETIM_KWH_196608, t1.AKTIF_TUKETIM_KWH_196609, t1.AKTIF_TUKETIM_KWH_196610, t1.AKTIF_TUKETIM_KWH_196611, 
+      t1.AKTIF_TUKETIM_KWH_196612, t1.AKTIF_TUKETIM_KWH_196701, t1.AKTIF_TUKETIM_KWH_196702, t1.AKTIF_TUKETIM_KWH_196703, 
+      t1.AKTIF_TUKETIM_KWH_196704, t1.AKTIF_TUKETIM_KWH_196705, t1.AKTIF_TUKETIM_KWH_196706, t1.AKTIF_TUKETIM_KWH_196707, 
+      t1.AKTIF_TUKETIM_KWH_196708, t1.AKTIF_TUKETIM_KWH_196709, t1.AKTIF_TUKETIM_KWH_196710, t1.AKTIF_TUKETIM_KWH_196711, 
+      t1.AKTIF_TUKETIM_KWH_196712, t1.AKTIF_TUKETIM_KWH_196801, t1.AKTIF_TUKETIM_KWH_196802, t1.AKTIF_TUKETIM_KWH_196803, 
+      t1.AKTIF_TUKETIM_KWH_196804, t1.AKTIF_TUKETIM_KWH_196805, t1.AKTIF_TUKETIM_KWH_196806, t1.AKTIF_TUKETIM_KWH_196807, 
+      t1.AKTIF_TUKETIM_KWH_196808, t1.AKTIF_TUKETIM_KWH_196809, t1.AKTIF_TUKETIM_KWH_196810, t1.AKTIF_TUKETIM_KWH_196811, 
+      t1.AKTIF_TUKETIM_KWH_196812, t1.AKTIF_TUKETIM_KWH_196901, t1.AKTIF_TUKETIM_KWH_196902, t1.AKTIF_TUKETIM_KWH_196903, 
+      t1.AKTIF_TUKETIM_KWH_196904, t1.AKTIF_TUKETIM_KWH_196905, t1.AKTIF_TUKETIM_KWH_196906, t1.AKTIF_TUKETIM_KWH_196907, 
+      t1.AKTIF_TUKETIM_KWH_196908, t1.AKTIF_TUKETIM_KWH_196909, t1.AKTIF_TUKETIM_KWH_196910, t1.AKTIF_TUKETIM_KWH_196911, 
+      t1.AKTIF_TUKETIM_KWH_196912, t1.AKTIF_TUKETIM_KWH_197001, t1.AKTIF_TUKETIM_KWH_197002, t1.AKTIF_TUKETIM_KWH_197003, 
+      t1.AKTIF_TUKETIM_KWH_197004, t1.AKTIF_TUKETIM_KWH_197005, t1.AKTIF_TUKETIM_KWH_197006, t1.AKTIF_TUKETIM_KWH_197007, 
+      t1.AKTIF_TUKETIM_KWH_197008, t1.AKTIF_TUKETIM_KWH_197009, t1.AKTIF_TUKETIM_KWH_197010, t1.AKTIF_TUKETIM_KWH_197011, 
+      t1.AKTIF_TUKETIM_KWH_197012, t1.AKTIF_TUKETIM_KWH_197101, t1.AKTIF_TUKETIM_KWH_197102, t1.AKTIF_TUKETIM_KWH_197103, 
+      t1.AKTIF_TUKETIM_KWH_197104, t1.AKTIF_TUKETIM_KWH_197105, t1.AKTIF_TUKETIM_KWH_197106, t1.AKTIF_TUKETIM_KWH_197107, 
+      t1.AKTIF_TUKETIM_KWH_197108, t1.AKTIF_TUKETIM_KWH_197109, t1.AKTIF_TUKETIM_KWH_197110, t1.AKTIF_TUKETIM_KWH_197111, 
+      t1.AKTIF_TUKETIM_KWH_197112, t1.AKTIF_TUKETIM_KWH_197201, t1.AKTIF_TUKETIM_KWH_197202, t1.AKTIF_TUKETIM_KWH_197203, 
+      t1.AKTIF_TUKETIM_KWH_197204, t1.AKTIF_TUKETIM_KWH_197205, t1.AKTIF_TUKETIM_KWH_197206, t1.AKTIF_TUKETIM_KWH_197207, 
+      t1.AKTIF_TUKETIM_KWH_197208, t1.AKTIF_TUKETIM_KWH_197209, t1.AKTIF_TUKETIM_KWH_197210, t1.AKTIF_TUKETIM_KWH_197211, 
+      t1.AKTIF_TUKETIM_KWH_197212, t1.AKTIF_TUKETIM_KWH_197301, t1.AKTIF_TUKETIM_KWH_197302, t1.AKTIF_TUKETIM_KWH_197303, 
+      t1.AKTIF_TUKETIM_KWH_197304, t1.AKTIF_TUKETIM_KWH_197305, t1.AKTIF_TUKETIM_KWH_197306, t1.AKTIF_TUKETIM_KWH_197307, 
+      t1.AKTIF_TUKETIM_KWH_197308, t1.AKTIF_TUKETIM_KWH_197309, t1.AKTIF_TUKETIM_KWH_197310, t1.AKTIF_TUKETIM_KWH_197311, 
+      t1.AKTIF_TUKETIM_KWH_197312, t1.AKTIF_TUKETIM_KWH_197401, t1.AKTIF_TUKETIM_KWH_197402, t1.AKTIF_TUKETIM_KWH_197403, 
+      t1.AKTIF_TUKETIM_KWH_197404, t1.AKTIF_TUKETIM_KWH_197405, t1.AKTIF_TUKETIM_KWH_197406, t1.AKTIF_TUKETIM_KWH_197407, 
+      t1.AKTIF_TUKETIM_KWH_197408, t1.AKTIF_TUKETIM_KWH_197409, t1.AKTIF_TUKETIM_KWH_197410, t1.AKTIF_TUKETIM_KWH_197411, 
+      t1.AKTIF_TUKETIM_KWH_197412, t1.AKTIF_TUKETIM_KWH_197501, t1.AKTIF_TUKETIM_KWH_197502, t1.AKTIF_TUKETIM_KWH_197503, 
+      t1.AKTIF_TUKETIM_KWH_197504, t1.AKTIF_TUKETIM_KWH_197505, t1.AKTIF_TUKETIM_KWH_197506, t1.AKTIF_TUKETIM_KWH_197507, 
+      t1.AKTIF_TUKETIM_KWH_197508, t1.AKTIF_TUKETIM_KWH_197509, t1.AKTIF_TUKETIM_KWH_197510, t1.AKTIF_TUKETIM_KWH_197511, 
+      t1.AKTIF_TUKETIM_KWH_197512, t1.AKTIF_TUKETIM_KWH_197601, t1.AKTIF_TUKETIM_KWH_197602, t1.AKTIF_TUKETIM_KWH_197603, 
+      t1.AKTIF_TUKETIM_KWH_197604, t1.AKTIF_TUKETIM_KWH_197605, t1.AKTIF_TUKETIM_KWH_197606, t1.AKTIF_TUKETIM_KWH_197607, 
+      t1.AKTIF_TUKETIM_KWH_197608, t1.AKTIF_TUKETIM_KWH_197609, t1.AKTIF_TUKETIM_KWH_197610, t1.AKTIF_TUKETIM_KWH_197611, 
+      t1.AKTIF_TUKETIM_KWH_197612, t1.AKTIF_TUKETIM_KWH_197701, t1.AKTIF_TUKETIM_KWH_197702, t1.AKTIF_TUKETIM_KWH_197703, 
+      t1.AKTIF_TUKETIM_KWH_197704, t1.AKTIF_TUKETIM_KWH_197705, t1.AKTIF_TUKETIM_KWH_197706, t1.AKTIF_TUKETIM_KWH_197707, 
+      t1.AKTIF_TUKETIM_KWH_197708, t1.AKTIF_TUKETIM_KWH_197709, t1.AKTIF_TUKETIM_KWH_197710, t1.AKTIF_TUKETIM_KWH_197711, 
+      t1.AKTIF_TUKETIM_KWH_197712, t1.AKTIF_TUKETIM_KWH_197801, t1.AKTIF_TUKETIM_KWH_197802, t1.AKTIF_TUKETIM_KWH_197803, 
+      t1.AKTIF_TUKETIM_KWH_197804, t1.AKTIF_TUKETIM_KWH_197805, t1.AKTIF_TUKETIM_KWH_197806, t1.AKTIF_TUKETIM_KWH_197807, 
+      t1.AKTIF_TUKETIM_KWH_197808, t1.AKTIF_TUKETIM_KWH_197809, t1.AKTIF_TUKETIM_KWH_197810, t1.AKTIF_TUKETIM_KWH_197811, 
+      t1.AKTIF_TUKETIM_KWH_197812, t1.AKTIF_TUKETIM_KWH_197901, t1.AKTIF_TUKETIM_KWH_197902, t1.AKTIF_TUKETIM_KWH_197903, 
+      t1.AKTIF_TUKETIM_KWH_197904, t1.AKTIF_TUKETIM_KWH_197905, t1.AKTIF_TUKETIM_KWH_197906, t1.AKTIF_TUKETIM_KWH_197907, 
+      t1.AKTIF_TUKETIM_KWH_197908, t1.AKTIF_TUKETIM_KWH_197909, t1.AKTIF_TUKETIM_KWH_197910, t1.AKTIF_TUKETIM_KWH_197911, 
+      t1.AKTIF_TUKETIM_KWH_197912, t1.AKTIF_TUKETIM_KWH_198001, t1.AKTIF_TUKETIM_KWH_198002, t1.AKTIF_TUKETIM_KWH_198003, 
+      t1.AKTIF_TUKETIM_KWH_198004, t1.AKTIF_TUKETIM_KWH_198005, t1.AKTIF_TUKETIM_KWH_198006, t1.AKTIF_TUKETIM_KWH_198007, 
+      t1.AKTIF_TUKETIM_KWH_198008, t1.AKTIF_TUKETIM_KWH_198009, t1.AKTIF_TUKETIM_KWH_198010, t1.AKTIF_TUKETIM_KWH_198011, 
+      t1.AKTIF_TUKETIM_KWH_198012, t1.AKTIF_TUKETIM_KWH_198101, t1.AKTIF_TUKETIM_KWH_198102, t1.AKTIF_TUKETIM_KWH_198103, 
+      t1.AKTIF_TUKETIM_KWH_198104, t1.AKTIF_TUKETIM_KWH_198105, t1.AKTIF_TUKETIM_KWH_198106, t1.AKTIF_TUKETIM_KWH_198107, 
+      t1.AKTIF_TUKETIM_KWH_198108, t1.AKTIF_TUKETIM_KWH_198109, t1.AKTIF_TUKETIM_KWH_198110, t1.AKTIF_TUKETIM_KWH_198111, 
+      t1.AKTIF_TUKETIM_KWH_198112, t1.AKTIF_TUKETIM_KWH_198201, t1.AKTIF_TUKETIM_KWH_198202, t1.AKTIF_TUKETIM_KWH_198203, 
+      t1.AKTIF_TUKETIM_KWH_198204, t1.AKTIF_TUKETIM_KWH_198205, t1.AKTIF_TUKETIM_KWH_198206, t1.AKTIF_TUKETIM_KWH_198207, 
+      t1.AKTIF_TUKETIM_KWH_198208, t1.AKTIF_TUKETIM_KWH_198209, t1.AKTIF_TUKETIM_KWH_198210, t1.AKTIF_TUKETIM_KWH_198211, 
+      t1.AKTIF_TUKETIM_KWH_198212, t1.AKTIF_TUKETIM_KWH_198301, t1.AKTIF_TUKETIM_KWH_198302, t1.AKTIF_TUKETIM_KWH_198303, 
+      t1.AKTIF_TUKETIM_KWH_198304, t1.AKTIF_TUKETIM_KWH_198305, t1.AKTIF_TUKETIM_KWH_198306, t1.AKTIF_TUKETIM_KWH_198307, 
+      t1.AKTIF_TUKETIM_KWH_198308, t1.AKTIF_TUKETIM_KWH_198309, t1.AKTIF_TUKETIM_KWH_198310, t1.AKTIF_TUKETIM_KWH_198311, 
+      t1.AKTIF_TUKETIM_KWH_198312, t1.AKTIF_TUKETIM_KWH_198401, t1.AKTIF_TUKETIM_KWH_198402, t1.AKTIF_TUKETIM_KWH_198403, 
+      t1.AKTIF_TUKETIM_KWH_198404, t1.AKTIF_TUKETIM_KWH_198405, t1.AKTIF_TUKETIM_KWH_198406, t1.AKTIF_TUKETIM_KWH_198407, 
+      t1.AKTIF_TUKETIM_KWH_198408, t1.AKTIF_TUKETIM_KWH_198409, t1.AKTIF_TUKETIM_KWH_198410, t1.AKTIF_TUKETIM_KWH_198411, 
+20                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_198412, t1.AKTIF_TUKETIM_KWH_190001, t1.AKTIF_TUKETIM_KWH_190002, t1.AKTIF_TUKETIM_KWH_190003, 
+      t1.AKTIF_TUKETIM_KWH_190004, t1.AKTIF_TUKETIM_KWH_190005, t1.AKTIF_TUKETIM_KWH_190006, t1.AKTIF_TUKETIM_KWH_190007, 
+      t1.AKTIF_TUKETIM_KWH_190008, t1.AKTIF_TUKETIM_KWH_190009, t1.AKTIF_TUKETIM_KWH_190010, t1.AKTIF_TUKETIM_KWH_190011, 
+      t1.AKTIF_TUKETIM_KWH_190012, t1.AKTIF_TUKETIM_KWH_190101, t1.AKTIF_TUKETIM_KWH_190102, t1.AKTIF_TUKETIM_KWH_190103, 
+      t1.AKTIF_TUKETIM_KWH_190104, t1.AKTIF_TUKETIM_KWH_190105, t1.AKTIF_TUKETIM_KWH_190106, t1.AKTIF_TUKETIM_KWH_190107, 
+      t1.AKTIF_TUKETIM_KWH_190108, t1.AKTIF_TUKETIM_KWH_190109, t1.AKTIF_TUKETIM_KWH_190110, t1.AKTIF_TUKETIM_KWH_190111, 
+      t1.AKTIF_TUKETIM_KWH_190112, t1.AKTIF_TUKETIM_KWH_190201, t1.AKTIF_TUKETIM_KWH_190202, t1.AKTIF_TUKETIM_KWH_190203, 
+      t1.AKTIF_TUKETIM_KWH_190204, t1.AKTIF_TUKETIM_KWH_190205, t1.AKTIF_TUKETIM_KWH_190206, t1.AKTIF_TUKETIM_KWH_190207, 
+      t1.AKTIF_TUKETIM_KWH_190208, t1.AKTIF_TUKETIM_KWH_190209, t1.AKTIF_TUKETIM_KWH_190210, t1.AKTIF_TUKETIM_KWH_190211, 
+      t1.AKTIF_TUKETIM_KWH_190212, t1.AKTIF_TUKETIM_KWH_190301, t1.AKTIF_TUKETIM_KWH_190302, t1.AKTIF_TUKETIM_KWH_190303, 
+      t1.AKTIF_TUKETIM_KWH_190304, t1.AKTIF_TUKETIM_KWH_190305, t1.AKTIF_TUKETIM_KWH_190306, t1.AKTIF_TUKETIM_KWH_190307, 
+      t1.AKTIF_TUKETIM_KWH_190308, t1.AKTIF_TUKETIM_KWH_190309, t1.AKTIF_TUKETIM_KWH_190310, t1.AKTIF_TUKETIM_KWH_190311, 
+      t1.AKTIF_TUKETIM_KWH_190312, t1.AKTIF_TUKETIM_KWH_190401, t1.AKTIF_TUKETIM_KWH_190402, t1.AKTIF_TUKETIM_KWH_190403, 
+      t1.AKTIF_TUKETIM_KWH_190404, t1.AKTIF_TUKETIM_KWH_190405, t1.AKTIF_TUKETIM_KWH_190406, t1.AKTIF_TUKETIM_KWH_190407, 
+      t1.AKTIF_TUKETIM_KWH_190408, t1.AKTIF_TUKETIM_KWH_190409, t1.AKTIF_TUKETIM_KWH_190410, t1.AKTIF_TUKETIM_KWH_190411, 
+      t1.AKTIF_TUKETIM_KWH_190412, t1.AKTIF_TUKETIM_KWH_190501, t1.AKTIF_TUKETIM_KWH_190502, t1.AKTIF_TUKETIM_KWH_190503, 
+      t1.AKTIF_TUKETIM_KWH_190504, t1.AKTIF_TUKETIM_KWH_190505, t1.AKTIF_TUKETIM_KWH_190506, t1.AKTIF_TUKETIM_KWH_190507, 
+      t1.AKTIF_TUKETIM_KWH_190508, t1.AKTIF_TUKETIM_KWH_190509, t1.AKTIF_TUKETIM_KWH_190510, t1.AKTIF_TUKETIM_KWH_190511, 
+      t1.AKTIF_TUKETIM_KWH_190512, t1.AKTIF_TUKETIM_KWH_190601, t1.AKTIF_TUKETIM_KWH_190602, t1.AKTIF_TUKETIM_KWH_190603, 
+      t1.AKTIF_TUKETIM_KWH_190604, t1.AKTIF_TUKETIM_KWH_190605, t1.AKTIF_TUKETIM_KWH_190606, t1.AKTIF_TUKETIM_KWH_190607, 
+      t1.AKTIF_TUKETIM_KWH_190608, t1.AKTIF_TUKETIM_KWH_190609, t1.AKTIF_TUKETIM_KWH_190610, t1.AKTIF_TUKETIM_KWH_190611, 
+      t1.AKTIF_TUKETIM_KWH_190612, t1.AKTIF_TUKETIM_KWH_190701, t1.AKTIF_TUKETIM_KWH_190702, t1.AKTIF_TUKETIM_KWH_190703, 
+      t1.AKTIF_TUKETIM_KWH_190704, t1.AKTIF_TUKETIM_KWH_190705, t1.AKTIF_TUKETIM_KWH_190706, t1.AKTIF_TUKETIM_KWH_190707, 
+      t1.AKTIF_TUKETIM_KWH_190708, t1.AKTIF_TUKETIM_KWH_190709, t1.AKTIF_TUKETIM_KWH_190710, t1.AKTIF_TUKETIM_KWH_190711, 
+      t1.AKTIF_TUKETIM_KWH_190712, t1.AKTIF_TUKETIM_KWH_190801, t1.AKTIF_TUKETIM_KWH_190802, t1.AKTIF_TUKETIM_KWH_190803, 
+      t1.AKTIF_TUKETIM_KWH_190804, t1.AKTIF_TUKETIM_KWH_190805, t1.AKTIF_TUKETIM_KWH_190806, t1.AKTIF_TUKETIM_KWH_190807, 
+      t1.AKTIF_TUKETIM_KWH_190808, t1.AKTIF_TUKETIM_KWH_190809, t1.AKTIF_TUKETIM_KWH_190810, t1.AKTIF_TUKETIM_KWH_190811, 
+      t1.AKTIF_TUKETIM_KWH_190812, t1.AKTIF_TUKETIM_KWH_190901, t1.AKTIF_TUKETIM_KWH_190902, t1.AKTIF_TUKETIM_KWH_190903, 
+      t1.AKTIF_TUKETIM_KWH_190904, t1.AKTIF_TUKETIM_KWH_190905, t1.AKTIF_TUKETIM_KWH_190906, t1.AKTIF_TUKETIM_KWH_190907, 
+      t1.AKTIF_TUKETIM_KWH_190908, t1.AKTIF_TUKETIM_KWH_190909, t1.AKTIF_TUKETIM_KWH_190910, t1.AKTIF_TUKETIM_KWH_190911, 
+      t1.AKTIF_TUKETIM_KWH_190912, t1.AKTIF_TUKETIM_KWH_191001, t1.AKTIF_TUKETIM_KWH_191002, t1.AKTIF_TUKETIM_KWH_191003, 
+      t1.AKTIF_TUKETIM_KWH_191004, t1.AKTIF_TUKETIM_KWH_191005, t1.AKTIF_TUKETIM_KWH_191006, t1.AKTIF_TUKETIM_KWH_191007, 
+      t1.AKTIF_TUKETIM_KWH_191008, t1.AKTIF_TUKETIM_KWH_191009, t1.AKTIF_TUKETIM_KWH_191010, t1.AKTIF_TUKETIM_KWH_191011, 
+      t1.AKTIF_TUKETIM_KWH_191012, t1.AKTIF_TUKETIM_KWH_191101, t1.AKTIF_TUKETIM_KWH_191102, t1.AKTIF_TUKETIM_KWH_191103, 
+      t1.AKTIF_TUKETIM_KWH_191104, t1.AKTIF_TUKETIM_KWH_191105, t1.AKTIF_TUKETIM_KWH_191106, t1.AKTIF_TUKETIM_KWH_191107, 
+      t1.AKTIF_TUKETIM_KWH_191108, t1.AKTIF_TUKETIM_KWH_191109, t1.AKTIF_TUKETIM_KWH_191110, t1.AKTIF_TUKETIM_KWH_191111, 
+      t1.AKTIF_TUKETIM_KWH_191112, t1.AKTIF_TUKETIM_KWH_191201, t1.AKTIF_TUKETIM_KWH_191202, t1.AKTIF_TUKETIM_KWH_191203, 
+      t1.AKTIF_TUKETIM_KWH_191204, t1.AKTIF_TUKETIM_KWH_191205, t1.AKTIF_TUKETIM_KWH_191206, t1.AKTIF_TUKETIM_KWH_191207, 
+      t1.AKTIF_TUKETIM_KWH_191208, t1.AKTIF_TUKETIM_KWH_191209, t1.AKTIF_TUKETIM_KWH_191210, t1.AKTIF_TUKETIM_KWH_191211, 
+      t1.AKTIF_TUKETIM_KWH_191212, t1.AKTIF_TUKETIM_KWH_191301, t1.AKTIF_TUKETIM_KWH_191302, t1.AKTIF_TUKETIM_KWH_191303, 
+      t1.AKTIF_TUKETIM_KWH_191304, t1.AKTIF_TUKETIM_KWH_191305, t1.AKTIF_TUKETIM_KWH_191306, t1.AKTIF_TUKETIM_KWH_191307, 
+      t1.AKTIF_TUKETIM_KWH_191308, t1.AKTIF_TUKETIM_KWH_191309, t1.AKTIF_TUKETIM_KWH_191310, t1.AKTIF_TUKETIM_KWH_191311, 
+      t1.AKTIF_TUKETIM_KWH_191312, t1.AKTIF_TUKETIM_KWH_191401, t1.AKTIF_TUKETIM_KWH_191402, t1.AKTIF_TUKETIM_KWH_191403, 
+      t1.AKTIF_TUKETIM_KWH_191404, t1.AKTIF_TUKETIM_KWH_191405, t1.AKTIF_TUKETIM_KWH_191406, t1.AKTIF_TUKETIM_KWH_191407, 
+      t1.AKTIF_TUKETIM_KWH_191408, t1.AKTIF_TUKETIM_KWH_191409, t1.AKTIF_TUKETIM_KWH_191410, t1.AKTIF_TUKETIM_KWH_191411, 
+      t1.AKTIF_TUKETIM_KWH_191412, t1.AKTIF_TUKETIM_KWH_191501, t1.AKTIF_TUKETIM_KWH_191502, t1.AKTIF_TUKETIM_KWH_191503, 
+      t1.AKTIF_TUKETIM_KWH_191504, t1.AKTIF_TUKETIM_KWH_191505, t1.AKTIF_TUKETIM_KWH_191506, t1.AKTIF_TUKETIM_KWH_191507, 
+      t1.AKTIF_TUKETIM_KWH_191508, t1.AKTIF_TUKETIM_KWH_191509, t1.AKTIF_TUKETIM_KWH_191510, t1.AKTIF_TUKETIM_KWH_191511, 
+      t1.AKTIF_TUKETIM_KWH_191512, t1.AKTIF_TUKETIM_KWH_191601, t1.AKTIF_TUKETIM_KWH_191602, t1.AKTIF_TUKETIM_KWH_191603, 
+      t1.AKTIF_TUKETIM_KWH_191604, t1.AKTIF_TUKETIM_KWH_191605, t1.AKTIF_TUKETIM_KWH_191606, t1.AKTIF_TUKETIM_KWH_191607, 
+      t1.AKTIF_TUKETIM_KWH_191608, t1.AKTIF_TUKETIM_KWH_191609, t1.AKTIF_TUKETIM_KWH_191610, t1.AKTIF_TUKETIM_KWH_191611, 
+      t1.AKTIF_TUKETIM_KWH_191612, t1.AKTIF_TUKETIM_KWH_191701, t1.AKTIF_TUKETIM_KWH_191702, t1.AKTIF_TUKETIM_KWH_191703, 
+      t1.AKTIF_TUKETIM_KWH_191704, t1.AKTIF_TUKETIM_KWH_191705, t1.AKTIF_TUKETIM_KWH_191706, t1.AKTIF_TUKETIM_KWH_191707, 
+      t1.AKTIF_TUKETIM_KWH_191708, t1.AKTIF_TUKETIM_KWH_191709, t1.AKTIF_TUKETIM_KWH_191710, t1.AKTIF_TUKETIM_KWH_191711, 
+      t1.AKTIF_TUKETIM_KWH_191712, t1.AKTIF_TUKETIM_KWH_191801, t1.AKTIF_TUKETIM_KWH_191802, t1.AKTIF_TUKETIM_KWH_191803, 
+      t1.AKTIF_TUKETIM_KWH_191804, t1.AKTIF_TUKETIM_KWH_191805, t1.AKTIF_TUKETIM_KWH_191806, t1.AKTIF_TUKETIM_KWH_191807, 
+      t1.AKTIF_TUKETIM_KWH_191808, t1.AKTIF_TUKETIM_KWH_191809, t1.AKTIF_TUKETIM_KWH_191810, t1.AKTIF_TUKETIM_KWH_191811, 
+      t1.AKTIF_TUKETIM_KWH_191812, t1.AKTIF_TUKETIM_KWH_191901, t1.AKTIF_TUKETIM_KWH_191902, t1.AKTIF_TUKETIM_KWH_191903, 
+21                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_191904, t1.AKTIF_TUKETIM_KWH_191905, t1.AKTIF_TUKETIM_KWH_191906, t1.AKTIF_TUKETIM_KWH_191907, 
+      t1.AKTIF_TUKETIM_KWH_191908, t1.AKTIF_TUKETIM_KWH_191909, t1.AKTIF_TUKETIM_KWH_191910, t1.AKTIF_TUKETIM_KWH_191911, 
+      t1.AKTIF_TUKETIM_KWH_191912, t2.BPARTNER, t2.UCINSTALLA, t2.AKTIF_TUKETIM_KWH_2018 from MUSTERI_CONSTRANSPOSED t1 left join 
+      MUSTERI_CONS_2018 t2 on (t1.BPARTNER = t2.BPARTNER) and (t1.UCINSTALLA = t2.UCINSTALLA)
+ SPDS_NOTE: Parallel Merge Join Method Selected
+
+WARNING: Variable BPARTNER already exists on file TMPLIB3.MUSTERI_TRANSPOSED1.
+WARNING: Variable UCINSTALLA already exists on file TMPLIB3.MUSTERI_TRANSPOSED1.
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/TMPLIB3/
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/TMPLIB3/
+
+NOTE: Table TMPLIB3.MUSTERI_TRANSPOSED1 created, with 14692021 rows and 1455 columns.
+
+254        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           28:21.38
+      cpu time            9:10.11
+      
+
+255        
+256        PROC SQL;
+257        	CREATE TABLE TMPLIB3.MUSTERI_TRANSPOSED2 AS
+258        		SELECT *
+259        			FROM TMPLIB3.MUSTERI_TRANSPOSED1 t1
+260        				LEFT JOIN TMPLIB3.MUSTERI_CONS_&y1. t2 ON (t1.BPARTNER = t2.BPARTNER AND (t1.UCINSTALLA =
+261        					t2.UCINSTALLA));
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/TMPLIB3/
+
+NOTE: Implicit SQL:  select t1.BPARTNER, t1.UCINSTALLA, t1._NAME_, t1.AKTIF_TUKETIM_KWH_201207, t1.AKTIF_TUKETIM_KWH_201208, 
+      t1.AKTIF_TUKETIM_KWH_200809, t1.AKTIF_TUKETIM_KWH_200810, t1.AKTIF_TUKETIM_KWH_200811, t1.AKTIF_TUKETIM_KWH_200812, 
+      t1.AKTIF_TUKETIM_KWH_200901, t1.AKTIF_TUKETIM_KWH_200902, t1.AKTIF_TUKETIM_KWH_200903, t1.AKTIF_TUKETIM_KWH_200904, 
+      t1.AKTIF_TUKETIM_KWH_200905, t1.AKTIF_TUKETIM_KWH_200906, t1.AKTIF_TUKETIM_KWH_200907, t1.AKTIF_TUKETIM_KWH_200908, 
+      t1.AKTIF_TUKETIM_KWH_200909, t1.AKTIF_TUKETIM_KWH_200910, t1.AKTIF_TUKETIM_KWH_200911, t1.AKTIF_TUKETIM_KWH_200912, 
+      t1.AKTIF_TUKETIM_KWH_201001, t1.AKTIF_TUKETIM_KWH_201002, t1.AKTIF_TUKETIM_KWH_201003, t1.AKTIF_TUKETIM_KWH_201004, 
+      t1.AKTIF_TUKETIM_KWH_201005, t1.AKTIF_TUKETIM_KWH_201006, t1.AKTIF_TUKETIM_KWH_201007, t1.AKTIF_TUKETIM_KWH_201008, 
+      t1.AKTIF_TUKETIM_KWH_201009, t1.AKTIF_TUKETIM_KWH_201010, t1.AKTIF_TUKETIM_KWH_201011, t1.AKTIF_TUKETIM_KWH_201012, 
+      t1.AKTIF_TUKETIM_KWH_201101, t1.AKTIF_TUKETIM_KWH_201102, t1.AKTIF_TUKETIM_KWH_201202, t1.AKTIF_TUKETIM_KWH_201203, 
+      t1.AKTIF_TUKETIM_KWH_201204, t1.AKTIF_TUKETIM_KWH_201205, t1.AKTIF_TUKETIM_KWH_201206, t1.AKTIF_TUKETIM_KWH_201112, 
+      t1.AKTIF_TUKETIM_KWH_201201, t1.AKTIF_TUKETIM_KWH_201209, t1.AKTIF_TUKETIM_KWH_201210, t1.AKTIF_TUKETIM_KWH_201211, 
+      t1.AKTIF_TUKETIM_KWH_201212, t1.AKTIF_TUKETIM_KWH_201301, t1.AKTIF_TUKETIM_KWH_201302, t1.AKTIF_TUKETIM_KWH_201303, 
+      t1.AKTIF_TUKETIM_KWH_201304, t1.AKTIF_TUKETIM_KWH_201305, t1.AKTIF_TUKETIM_KWH_201306, t1.AKTIF_TUKETIM_KWH_201307, 
+      t1.AKTIF_TUKETIM_KWH_200803, t1.AKTIF_TUKETIM_KWH_200804, t1.AKTIF_TUKETIM_KWH_200805, t1.AKTIF_TUKETIM_KWH_200806, 
+      t1.AKTIF_TUKETIM_KWH_200807, t1.AKTIF_TUKETIM_KWH_200808, t1.AKTIF_TUKETIM_KWH_201103, t1.AKTIF_TUKETIM_KWH_201104, 
+      t1.AKTIF_TUKETIM_KWH_201105, t1.AKTIF_TUKETIM_KWH_201106, t1.AKTIF_TUKETIM_KWH_201107, t1.AKTIF_TUKETIM_KWH_201108, 
+      t1.AKTIF_TUKETIM_KWH_201109, t1.AKTIF_TUKETIM_KWH_201110, t1.AKTIF_TUKETIM_KWH_200707, t1.AKTIF_TUKETIM_KWH_200708, 
+      t1.AKTIF_TUKETIM_KWH_200709, t1.AKTIF_TUKETIM_KWH_200710, t1.AKTIF_TUKETIM_KWH_200711, t1.AKTIF_TUKETIM_KWH_200712, 
+22                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_200801, t1.AKTIF_TUKETIM_KWH_200802, t1.AKTIF_TUKETIM_KWH_201111, t1.AKTIF_TUKETIM_KWH_200605, 
+      t1.AKTIF_TUKETIM_KWH_200606, t1.AKTIF_TUKETIM_KWH_200607, t1.AKTIF_TUKETIM_KWH_200608, t1.AKTIF_TUKETIM_KWH_200609, 
+      t1.AKTIF_TUKETIM_KWH_200610, t1.AKTIF_TUKETIM_KWH_200611, t1.AKTIF_TUKETIM_KWH_200612, t1.AKTIF_TUKETIM_KWH_200701, 
+      t1.AKTIF_TUKETIM_KWH_200702, t1.AKTIF_TUKETIM_KWH_200703, t1.AKTIF_TUKETIM_KWH_200704, t1.AKTIF_TUKETIM_KWH_200705, 
+      t1.AKTIF_TUKETIM_KWH_200706, t1.AKTIF_TUKETIM_KWH_201308, t1.AKTIF_TUKETIM_KWH_201309, t1.AKTIF_TUKETIM_KWH_200604, 
+      t1.AKTIF_TUKETIM_KWH_201310, t1.AKTIF_TUKETIM_KWH_200511, t1.AKTIF_TUKETIM_KWH_200512, t1.AKTIF_TUKETIM_KWH_200601, 
+      t1.AKTIF_TUKETIM_KWH_200602, t1.AKTIF_TUKETIM_KWH_200603, t1.AKTIF_TUKETIM_KWH_201311, t1.AKTIF_TUKETIM_KWH_201312, 
+      t1.AKTIF_TUKETIM_KWH_201401, t1.AKTIF_TUKETIM_KWH_201402, t1.AKTIF_TUKETIM_KWH_201403, t1.AKTIF_TUKETIM_KWH_201404, 
+      t1.AKTIF_TUKETIM_KWH_201405, t1.AKTIF_TUKETIM_KWH_201406, t1.AKTIF_TUKETIM_KWH_201407, t1.AKTIF_TUKETIM_KWH_200509, 
+      t1.AKTIF_TUKETIM_KWH_200510, t1.AKTIF_TUKETIM_KWH_200401, t1.AKTIF_TUKETIM_KWH_200402, t1.AKTIF_TUKETIM_KWH_200403, 
+      t1.AKTIF_TUKETIM_KWH_200404, t1.AKTIF_TUKETIM_KWH_200405, t1.AKTIF_TUKETIM_KWH_200406, t1.AKTIF_TUKETIM_KWH_200407, 
+      t1.AKTIF_TUKETIM_KWH_200408, t1.AKTIF_TUKETIM_KWH_200409, t1.AKTIF_TUKETIM_KWH_200410, t1.AKTIF_TUKETIM_KWH_200411, 
+      t1.AKTIF_TUKETIM_KWH_200412, t1.AKTIF_TUKETIM_KWH_200501, t1.AKTIF_TUKETIM_KWH_200502, t1.AKTIF_TUKETIM_KWH_200503, 
+      t1.AKTIF_TUKETIM_KWH_200504, t1.AKTIF_TUKETIM_KWH_200505, t1.AKTIF_TUKETIM_KWH_200506, t1.AKTIF_TUKETIM_KWH_200507, 
+      t1.AKTIF_TUKETIM_KWH_200508, t1.AKTIF_TUKETIM_KWH_200310, t1.AKTIF_TUKETIM_KWH_200311, t1.AKTIF_TUKETIM_KWH_200312, 
+      t1.AKTIF_TUKETIM_KWH_200001, t1.AKTIF_TUKETIM_KWH_200002, t1.AKTIF_TUKETIM_KWH_200003, t1.AKTIF_TUKETIM_KWH_200004, 
+      t1.AKTIF_TUKETIM_KWH_200005, t1.AKTIF_TUKETIM_KWH_200006, t1.AKTIF_TUKETIM_KWH_200007, t1.AKTIF_TUKETIM_KWH_200008, 
+      t1.AKTIF_TUKETIM_KWH_200009, t1.AKTIF_TUKETIM_KWH_200010, t1.AKTIF_TUKETIM_KWH_200011, t1.AKTIF_TUKETIM_KWH_200012, 
+      t1.AKTIF_TUKETIM_KWH_200101, t1.AKTIF_TUKETIM_KWH_200102, t1.AKTIF_TUKETIM_KWH_200103, t1.AKTIF_TUKETIM_KWH_200104, 
+      t1.AKTIF_TUKETIM_KWH_200105, t1.AKTIF_TUKETIM_KWH_200106, t1.AKTIF_TUKETIM_KWH_200107, t1.AKTIF_TUKETIM_KWH_200108, 
+      t1.AKTIF_TUKETIM_KWH_200109, t1.AKTIF_TUKETIM_KWH_200110, t1.AKTIF_TUKETIM_KWH_200111, t1.AKTIF_TUKETIM_KWH_200112, 
+      t1.AKTIF_TUKETIM_KWH_200201, t1.AKTIF_TUKETIM_KWH_200202, t1.AKTIF_TUKETIM_KWH_200203, t1.AKTIF_TUKETIM_KWH_200204, 
+      t1.AKTIF_TUKETIM_KWH_200205, t1.AKTIF_TUKETIM_KWH_200206, t1.AKTIF_TUKETIM_KWH_200207, t1.AKTIF_TUKETIM_KWH_200208, 
+      t1.AKTIF_TUKETIM_KWH_200209, t1.AKTIF_TUKETIM_KWH_200210, t1.AKTIF_TUKETIM_KWH_200211, t1.AKTIF_TUKETIM_KWH_200212, 
+      t1.AKTIF_TUKETIM_KWH_200301, t1.AKTIF_TUKETIM_KWH_200302, t1.AKTIF_TUKETIM_KWH_200303, t1.AKTIF_TUKETIM_KWH_200304, 
+      t1.AKTIF_TUKETIM_KWH_200305, t1.AKTIF_TUKETIM_KWH_200306, t1.AKTIF_TUKETIM_KWH_200307, t1.AKTIF_TUKETIM_KWH_200308, 
+      t1.AKTIF_TUKETIM_KWH_200309, t1.AKTIF_TUKETIM_KWH_201408, t1.AKTIF_TUKETIM_KWH_198501, t1.AKTIF_TUKETIM_KWH_198502, 
+      t1.AKTIF_TUKETIM_KWH_198503, t1.AKTIF_TUKETIM_KWH_198504, t1.AKTIF_TUKETIM_KWH_198505, t1.AKTIF_TUKETIM_KWH_198506, 
+      t1.AKTIF_TUKETIM_KWH_198507, t1.AKTIF_TUKETIM_KWH_198508, t1.AKTIF_TUKETIM_KWH_198509, t1.AKTIF_TUKETIM_KWH_198510, 
+      t1.AKTIF_TUKETIM_KWH_198511, t1.AKTIF_TUKETIM_KWH_198512, t1.AKTIF_TUKETIM_KWH_198601, t1.AKTIF_TUKETIM_KWH_198602, 
+      t1.AKTIF_TUKETIM_KWH_198603, t1.AKTIF_TUKETIM_KWH_198604, t1.AKTIF_TUKETIM_KWH_198605, t1.AKTIF_TUKETIM_KWH_198606, 
+      t1.AKTIF_TUKETIM_KWH_198607, t1.AKTIF_TUKETIM_KWH_198608, t1.AKTIF_TUKETIM_KWH_198609, t1.AKTIF_TUKETIM_KWH_198610, 
+      t1.AKTIF_TUKETIM_KWH_198611, t1.AKTIF_TUKETIM_KWH_198612, t1.AKTIF_TUKETIM_KWH_198701, t1.AKTIF_TUKETIM_KWH_198702, 
+      t1.AKTIF_TUKETIM_KWH_198703, t1.AKTIF_TUKETIM_KWH_198704, t1.AKTIF_TUKETIM_KWH_198705, t1.AKTIF_TUKETIM_KWH_198706, 
+      t1.AKTIF_TUKETIM_KWH_198707, t1.AKTIF_TUKETIM_KWH_198708, t1.AKTIF_TUKETIM_KWH_198709, t1.AKTIF_TUKETIM_KWH_198710, 
+      t1.AKTIF_TUKETIM_KWH_198711, t1.AKTIF_TUKETIM_KWH_198712, t1.AKTIF_TUKETIM_KWH_198801, t1.AKTIF_TUKETIM_KWH_198802, 
+      t1.AKTIF_TUKETIM_KWH_198803, t1.AKTIF_TUKETIM_KWH_198804, t1.AKTIF_TUKETIM_KWH_198805, t1.AKTIF_TUKETIM_KWH_198806, 
+      t1.AKTIF_TUKETIM_KWH_198807, t1.AKTIF_TUKETIM_KWH_198808, t1.AKTIF_TUKETIM_KWH_198809, t1.AKTIF_TUKETIM_KWH_198810, 
+      t1.AKTIF_TUKETIM_KWH_198811, t1.AKTIF_TUKETIM_KWH_198812, t1.AKTIF_TUKETIM_KWH_198901, t1.AKTIF_TUKETIM_KWH_198902, 
+      t1.AKTIF_TUKETIM_KWH_198903, t1.AKTIF_TUKETIM_KWH_198904, t1.AKTIF_TUKETIM_KWH_198905, t1.AKTIF_TUKETIM_KWH_198906, 
+      t1.AKTIF_TUKETIM_KWH_198907, t1.AKTIF_TUKETIM_KWH_198908, t1.AKTIF_TUKETIM_KWH_198909, t1.AKTIF_TUKETIM_KWH_198910, 
+      t1.AKTIF_TUKETIM_KWH_198911, t1.AKTIF_TUKETIM_KWH_198912, t1.AKTIF_TUKETIM_KWH_199001, t1.AKTIF_TUKETIM_KWH_199002, 
+      t1.AKTIF_TUKETIM_KWH_199003, t1.AKTIF_TUKETIM_KWH_199004, t1.AKTIF_TUKETIM_KWH_199005, t1.AKTIF_TUKETIM_KWH_199006, 
+      t1.AKTIF_TUKETIM_KWH_199007, t1.AKTIF_TUKETIM_KWH_199008, t1.AKTIF_TUKETIM_KWH_199009, t1.AKTIF_TUKETIM_KWH_199010, 
+      t1.AKTIF_TUKETIM_KWH_199011, t1.AKTIF_TUKETIM_KWH_199012, t1.AKTIF_TUKETIM_KWH_199101, t1.AKTIF_TUKETIM_KWH_199102, 
+      t1.AKTIF_TUKETIM_KWH_199103, t1.AKTIF_TUKETIM_KWH_199104, t1.AKTIF_TUKETIM_KWH_199105, t1.AKTIF_TUKETIM_KWH_199106, 
+      t1.AKTIF_TUKETIM_KWH_199107, t1.AKTIF_TUKETIM_KWH_199108, t1.AKTIF_TUKETIM_KWH_199109, t1.AKTIF_TUKETIM_KWH_199110, 
+      t1.AKTIF_TUKETIM_KWH_199111, t1.AKTIF_TUKETIM_KWH_199112, t1.AKTIF_TUKETIM_KWH_199201, t1.AKTIF_TUKETIM_KWH_199202, 
+      t1.AKTIF_TUKETIM_KWH_199203, t1.AKTIF_TUKETIM_KWH_199204, t1.AKTIF_TUKETIM_KWH_199205, t1.AKTIF_TUKETIM_KWH_199206, 
+      t1.AKTIF_TUKETIM_KWH_199207, t1.AKTIF_TUKETIM_KWH_199208, t1.AKTIF_TUKETIM_KWH_199209, t1.AKTIF_TUKETIM_KWH_199210, 
+      t1.AKTIF_TUKETIM_KWH_199211, t1.AKTIF_TUKETIM_KWH_199212, t1.AKTIF_TUKETIM_KWH_199301, t1.AKTIF_TUKETIM_KWH_199302, 
+      t1.AKTIF_TUKETIM_KWH_199303, t1.AKTIF_TUKETIM_KWH_199304, t1.AKTIF_TUKETIM_KWH_199305, t1.AKTIF_TUKETIM_KWH_199306, 
+      t1.AKTIF_TUKETIM_KWH_199307, t1.AKTIF_TUKETIM_KWH_199308, t1.AKTIF_TUKETIM_KWH_199309, t1.AKTIF_TUKETIM_KWH_199310, 
+      t1.AKTIF_TUKETIM_KWH_199311, t1.AKTIF_TUKETIM_KWH_199312, t1.AKTIF_TUKETIM_KWH_199401, t1.AKTIF_TUKETIM_KWH_199402, 
+      t1.AKTIF_TUKETIM_KWH_199403, t1.AKTIF_TUKETIM_KWH_199404, t1.AKTIF_TUKETIM_KWH_199405, t1.AKTIF_TUKETIM_KWH_199406, 
+      t1.AKTIF_TUKETIM_KWH_199407, t1.AKTIF_TUKETIM_KWH_199408, t1.AKTIF_TUKETIM_KWH_199409, t1.AKTIF_TUKETIM_KWH_199410, 
+      t1.AKTIF_TUKETIM_KWH_199411, t1.AKTIF_TUKETIM_KWH_199412, t1.AKTIF_TUKETIM_KWH_199501, t1.AKTIF_TUKETIM_KWH_199502, 
+      t1.AKTIF_TUKETIM_KWH_199503, t1.AKTIF_TUKETIM_KWH_199504, t1.AKTIF_TUKETIM_KWH_199505, t1.AKTIF_TUKETIM_KWH_199506, 
+23                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_199507, t1.AKTIF_TUKETIM_KWH_199508, t1.AKTIF_TUKETIM_KWH_199509, t1.AKTIF_TUKETIM_KWH_199510, 
+      t1.AKTIF_TUKETIM_KWH_199511, t1.AKTIF_TUKETIM_KWH_199512, t1.AKTIF_TUKETIM_KWH_199601, t1.AKTIF_TUKETIM_KWH_199602, 
+      t1.AKTIF_TUKETIM_KWH_199603, t1.AKTIF_TUKETIM_KWH_199604, t1.AKTIF_TUKETIM_KWH_199605, t1.AKTIF_TUKETIM_KWH_199606, 
+      t1.AKTIF_TUKETIM_KWH_199607, t1.AKTIF_TUKETIM_KWH_199608, t1.AKTIF_TUKETIM_KWH_199609, t1.AKTIF_TUKETIM_KWH_199610, 
+      t1.AKTIF_TUKETIM_KWH_199611, t1.AKTIF_TUKETIM_KWH_199612, t1.AKTIF_TUKETIM_KWH_199701, t1.AKTIF_TUKETIM_KWH_199702, 
+      t1.AKTIF_TUKETIM_KWH_199703, t1.AKTIF_TUKETIM_KWH_199704, t1.AKTIF_TUKETIM_KWH_199705, t1.AKTIF_TUKETIM_KWH_199706, 
+      t1.AKTIF_TUKETIM_KWH_199707, t1.AKTIF_TUKETIM_KWH_199708, t1.AKTIF_TUKETIM_KWH_199709, t1.AKTIF_TUKETIM_KWH_199710, 
+      t1.AKTIF_TUKETIM_KWH_199711, t1.AKTIF_TUKETIM_KWH_199712, t1.AKTIF_TUKETIM_KWH_199801, t1.AKTIF_TUKETIM_KWH_199802, 
+      t1.AKTIF_TUKETIM_KWH_199803, t1.AKTIF_TUKETIM_KWH_199804, t1.AKTIF_TUKETIM_KWH_199805, t1.AKTIF_TUKETIM_KWH_199806, 
+      t1.AKTIF_TUKETIM_KWH_199807, t1.AKTIF_TUKETIM_KWH_199808, t1.AKTIF_TUKETIM_KWH_199809, t1.AKTIF_TUKETIM_KWH_199810, 
+      t1.AKTIF_TUKETIM_KWH_199811, t1.AKTIF_TUKETIM_KWH_199812, t1.AKTIF_TUKETIM_KWH_199901, t1.AKTIF_TUKETIM_KWH_199902, 
+      t1.AKTIF_TUKETIM_KWH_199903, t1.AKTIF_TUKETIM_KWH_199904, t1.AKTIF_TUKETIM_KWH_199905, t1.AKTIF_TUKETIM_KWH_199906, 
+      t1.AKTIF_TUKETIM_KWH_199907, t1.AKTIF_TUKETIM_KWH_199908, t1.AKTIF_TUKETIM_KWH_199909, t1.AKTIF_TUKETIM_KWH_199910, 
+      t1.AKTIF_TUKETIM_KWH_199911, t1.AKTIF_TUKETIM_KWH_199912, t1.AKTIF_TUKETIM_KWH_201709, t1.AKTIF_TUKETIM_KWH_201710, 
+      t1.AKTIF_TUKETIM_KWH_201711, t1.AKTIF_TUKETIM_KWH_201712, t1.AKTIF_TUKETIM_KWH_201801, t1.AKTIF_TUKETIM_KWH_201802, 
+      t1.AKTIF_TUKETIM_KWH_201803, t1.AKTIF_TUKETIM_KWH_201804, t1.AKTIF_TUKETIM_KWH_201805, t1.AKTIF_TUKETIM_KWH_201806, 
+      t1.AKTIF_TUKETIM_KWH_201807, t1.AKTIF_TUKETIM_KWH_201808, t1.AKTIF_TUKETIM_KWH_201809, t1.AKTIF_TUKETIM_KWH_201810, 
+      t1.AKTIF_TUKETIM_KWH_201811, t1.AKTIF_TUKETIM_KWH_201812, t1.AKTIF_TUKETIM_KWH_201901, t1.AKTIF_TUKETIM_KWH_201902, 
+      t1.AKTIF_TUKETIM_KWH_201903, t1.AKTIF_TUKETIM_KWH_201904, t1.AKTIF_TUKETIM_KWH_201905, t1.AKTIF_TUKETIM_KWH_201906, 
+      t1.AKTIF_TUKETIM_KWH_201907, t1.AKTIF_TUKETIM_KWH_201908, t1.AKTIF_TUKETIM_KWH_201909, t1.AKTIF_TUKETIM_KWH_201910, 
+      t1.AKTIF_TUKETIM_KWH_201911, t1.AKTIF_TUKETIM_KWH_201912, t1.AKTIF_TUKETIM_KWH_202001, t1.AKTIF_TUKETIM_KWH_202002, 
+      t1.AKTIF_TUKETIM_KWH_202003, t1.AKTIF_TUKETIM_KWH_202004, t1.AKTIF_TUKETIM_KWH_202005, t1.AKTIF_TUKETIM_KWH_202006, 
+      t1.AKTIF_TUKETIM_KWH_202007, t1.AKTIF_TUKETIM_KWH_202008, t1.AKTIF_TUKETIM_KWH_202009, t1.AKTIF_TUKETIM_KWH_202010, 
+      t1.AKTIF_TUKETIM_KWH_201706, t1.AKTIF_TUKETIM_KWH_201707, t1.AKTIF_TUKETIM_KWH_201708, t1.AKTIF_TUKETIM_KWH_201409, 
+      t1.AKTIF_TUKETIM_KWH_201410, t1.AKTIF_TUKETIM_KWH_201411, t1.AKTIF_TUKETIM_KWH_201412, t1.AKTIF_TUKETIM_KWH_201501, 
+      t1.AKTIF_TUKETIM_KWH_201502, t1.AKTIF_TUKETIM_KWH_201503, t1.AKTIF_TUKETIM_KWH_201504, t1.AKTIF_TUKETIM_KWH_201505, 
+      t1.AKTIF_TUKETIM_KWH_201506, t1.AKTIF_TUKETIM_KWH_201507, t1.AKTIF_TUKETIM_KWH_201508, t1.AKTIF_TUKETIM_KWH_201509, 
+      t1.AKTIF_TUKETIM_KWH_201510, t1.AKTIF_TUKETIM_KWH_201511, t1.AKTIF_TUKETIM_KWH_201512, t1.AKTIF_TUKETIM_KWH_201601, 
+      t1.AKTIF_TUKETIM_KWH_201602, t1.AKTIF_TUKETIM_KWH_201603, t1.AKTIF_TUKETIM_KWH_201604, t1.AKTIF_TUKETIM_KWH_201605, 
+      t1.AKTIF_TUKETIM_KWH_201606, t1.AKTIF_TUKETIM_KWH_201607, t1.AKTIF_TUKETIM_KWH_201608, t1.AKTIF_TUKETIM_KWH_201609, 
+      t1.AKTIF_TUKETIM_KWH_201610, t1.AKTIF_TUKETIM_KWH_201611, t1.AKTIF_TUKETIM_KWH_201612, t1.AKTIF_TUKETIM_KWH_201701, 
+      t1.AKTIF_TUKETIM_KWH_201702, t1.AKTIF_TUKETIM_KWH_201703, t1.AKTIF_TUKETIM_KWH_201704, t1.AKTIF_TUKETIM_KWH_201705, 
+      t1.AKTIF_TUKETIM_KWH_202011, t1.AKTIF_TUKETIM_KWH_192001, t1.AKTIF_TUKETIM_KWH_192002, t1.AKTIF_TUKETIM_KWH_192003, 
+      t1.AKTIF_TUKETIM_KWH_192004, t1.AKTIF_TUKETIM_KWH_192005, t1.AKTIF_TUKETIM_KWH_192006, t1.AKTIF_TUKETIM_KWH_192007, 
+      t1.AKTIF_TUKETIM_KWH_192008, t1.AKTIF_TUKETIM_KWH_192009, t1.AKTIF_TUKETIM_KWH_192010, t1.AKTIF_TUKETIM_KWH_192011, 
+      t1.AKTIF_TUKETIM_KWH_192012, t1.AKTIF_TUKETIM_KWH_192101, t1.AKTIF_TUKETIM_KWH_192102, t1.AKTIF_TUKETIM_KWH_192103, 
+      t1.AKTIF_TUKETIM_KWH_192104, t1.AKTIF_TUKETIM_KWH_192105, t1.AKTIF_TUKETIM_KWH_192106, t1.AKTIF_TUKETIM_KWH_192107, 
+      t1.AKTIF_TUKETIM_KWH_192108, t1.AKTIF_TUKETIM_KWH_192109, t1.AKTIF_TUKETIM_KWH_192110, t1.AKTIF_TUKETIM_KWH_192111, 
+      t1.AKTIF_TUKETIM_KWH_192112, t1.AKTIF_TUKETIM_KWH_192201, t1.AKTIF_TUKETIM_KWH_192202, t1.AKTIF_TUKETIM_KWH_192203, 
+      t1.AKTIF_TUKETIM_KWH_192204, t1.AKTIF_TUKETIM_KWH_192205, t1.AKTIF_TUKETIM_KWH_192206, t1.AKTIF_TUKETIM_KWH_192207, 
+      t1.AKTIF_TUKETIM_KWH_192208, t1.AKTIF_TUKETIM_KWH_192209, t1.AKTIF_TUKETIM_KWH_192210, t1.AKTIF_TUKETIM_KWH_192211, 
+      t1.AKTIF_TUKETIM_KWH_192212, t1.AKTIF_TUKETIM_KWH_192301, t1.AKTIF_TUKETIM_KWH_192302, t1.AKTIF_TUKETIM_KWH_192303, 
+      t1.AKTIF_TUKETIM_KWH_192304, t1.AKTIF_TUKETIM_KWH_192305, t1.AKTIF_TUKETIM_KWH_192306, t1.AKTIF_TUKETIM_KWH_192307, 
+      t1.AKTIF_TUKETIM_KWH_192308, t1.AKTIF_TUKETIM_KWH_192309, t1.AKTIF_TUKETIM_KWH_192310, t1.AKTIF_TUKETIM_KWH_192311, 
+      t1.AKTIF_TUKETIM_KWH_192312, t1.AKTIF_TUKETIM_KWH_192401, t1.AKTIF_TUKETIM_KWH_192402, t1.AKTIF_TUKETIM_KWH_192403, 
+      t1.AKTIF_TUKETIM_KWH_192404, t1.AKTIF_TUKETIM_KWH_192405, t1.AKTIF_TUKETIM_KWH_192406, t1.AKTIF_TUKETIM_KWH_192407, 
+      t1.AKTIF_TUKETIM_KWH_192408, t1.AKTIF_TUKETIM_KWH_192409, t1.AKTIF_TUKETIM_KWH_192410, t1.AKTIF_TUKETIM_KWH_192411, 
+      t1.AKTIF_TUKETIM_KWH_192412, t1.AKTIF_TUKETIM_KWH_192501, t1.AKTIF_TUKETIM_KWH_192502, t1.AKTIF_TUKETIM_KWH_192503, 
+      t1.AKTIF_TUKETIM_KWH_192504, t1.AKTIF_TUKETIM_KWH_192505, t1.AKTIF_TUKETIM_KWH_192506, t1.AKTIF_TUKETIM_KWH_192507, 
+      t1.AKTIF_TUKETIM_KWH_192508, t1.AKTIF_TUKETIM_KWH_192509, t1.AKTIF_TUKETIM_KWH_192510, t1.AKTIF_TUKETIM_KWH_192511, 
+      t1.AKTIF_TUKETIM_KWH_192512, t1.AKTIF_TUKETIM_KWH_192601, t1.AKTIF_TUKETIM_KWH_192602, t1.AKTIF_TUKETIM_KWH_192603, 
+      t1.AKTIF_TUKETIM_KWH_192604, t1.AKTIF_TUKETIM_KWH_192605, t1.AKTIF_TUKETIM_KWH_192606, t1.AKTIF_TUKETIM_KWH_192607, 
+      t1.AKTIF_TUKETIM_KWH_192608, t1.AKTIF_TUKETIM_KWH_192609, t1.AKTIF_TUKETIM_KWH_192610, t1.AKTIF_TUKETIM_KWH_192611, 
+      t1.AKTIF_TUKETIM_KWH_192612, t1.AKTIF_TUKETIM_KWH_192701, t1.AKTIF_TUKETIM_KWH_192702, t1.AKTIF_TUKETIM_KWH_192703, 
+      t1.AKTIF_TUKETIM_KWH_192704, t1.AKTIF_TUKETIM_KWH_192705, t1.AKTIF_TUKETIM_KWH_192706, t1.AKTIF_TUKETIM_KWH_192707, 
+      t1.AKTIF_TUKETIM_KWH_192708, t1.AKTIF_TUKETIM_KWH_192709, t1.AKTIF_TUKETIM_KWH_192710, t1.AKTIF_TUKETIM_KWH_192711, 
+      t1.AKTIF_TUKETIM_KWH_192712, t1.AKTIF_TUKETIM_KWH_192801, t1.AKTIF_TUKETIM_KWH_192802, t1.AKTIF_TUKETIM_KWH_192803, 
+      t1.AKTIF_TUKETIM_KWH_192804, t1.AKTIF_TUKETIM_KWH_192805, t1.AKTIF_TUKETIM_KWH_192806, t1.AKTIF_TUKETIM_KWH_192807, 
+24                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_192808, t1.AKTIF_TUKETIM_KWH_192809, t1.AKTIF_TUKETIM_KWH_192810, t1.AKTIF_TUKETIM_KWH_192811, 
+      t1.AKTIF_TUKETIM_KWH_192812, t1.AKTIF_TUKETIM_KWH_192901, t1.AKTIF_TUKETIM_KWH_192902, t1.AKTIF_TUKETIM_KWH_192903, 
+      t1.AKTIF_TUKETIM_KWH_192904, t1.AKTIF_TUKETIM_KWH_192905, t1.AKTIF_TUKETIM_KWH_192906, t1.AKTIF_TUKETIM_KWH_192907, 
+      t1.AKTIF_TUKETIM_KWH_192908, t1.AKTIF_TUKETIM_KWH_192909, t1.AKTIF_TUKETIM_KWH_192910, t1.AKTIF_TUKETIM_KWH_192911, 
+      t1.AKTIF_TUKETIM_KWH_192912, t1.AKTIF_TUKETIM_KWH_193001, t1.AKTIF_TUKETIM_KWH_193002, t1.AKTIF_TUKETIM_KWH_193003, 
+      t1.AKTIF_TUKETIM_KWH_193004, t1.AKTIF_TUKETIM_KWH_193005, t1.AKTIF_TUKETIM_KWH_193006, t1.AKTIF_TUKETIM_KWH_193007, 
+      t1.AKTIF_TUKETIM_KWH_193008, t1.AKTIF_TUKETIM_KWH_193009, t1.AKTIF_TUKETIM_KWH_193010, t1.AKTIF_TUKETIM_KWH_193011, 
+      t1.AKTIF_TUKETIM_KWH_193012, t1.AKTIF_TUKETIM_KWH_193101, t1.AKTIF_TUKETIM_KWH_193102, t1.AKTIF_TUKETIM_KWH_193103, 
+      t1.AKTIF_TUKETIM_KWH_193104, t1.AKTIF_TUKETIM_KWH_193105, t1.AKTIF_TUKETIM_KWH_193106, t1.AKTIF_TUKETIM_KWH_193107, 
+      t1.AKTIF_TUKETIM_KWH_193108, t1.AKTIF_TUKETIM_KWH_193109, t1.AKTIF_TUKETIM_KWH_193110, t1.AKTIF_TUKETIM_KWH_193111, 
+      t1.AKTIF_TUKETIM_KWH_193112, t1.AKTIF_TUKETIM_KWH_193201, t1.AKTIF_TUKETIM_KWH_193202, t1.AKTIF_TUKETIM_KWH_193203, 
+      t1.AKTIF_TUKETIM_KWH_193204, t1.AKTIF_TUKETIM_KWH_193205, t1.AKTIF_TUKETIM_KWH_193206, t1.AKTIF_TUKETIM_KWH_193207, 
+      t1.AKTIF_TUKETIM_KWH_193208, t1.AKTIF_TUKETIM_KWH_193209, t1.AKTIF_TUKETIM_KWH_193210, t1.AKTIF_TUKETIM_KWH_193211, 
+      t1.AKTIF_TUKETIM_KWH_193212, t1.AKTIF_TUKETIM_KWH_193301, t1.AKTIF_TUKETIM_KWH_193302, t1.AKTIF_TUKETIM_KWH_193303, 
+      t1.AKTIF_TUKETIM_KWH_193304, t1.AKTIF_TUKETIM_KWH_193305, t1.AKTIF_TUKETIM_KWH_193306, t1.AKTIF_TUKETIM_KWH_193307, 
+      t1.AKTIF_TUKETIM_KWH_193308, t1.AKTIF_TUKETIM_KWH_193309, t1.AKTIF_TUKETIM_KWH_193310, t1.AKTIF_TUKETIM_KWH_193311, 
+      t1.AKTIF_TUKETIM_KWH_193312, t1.AKTIF_TUKETIM_KWH_193401, t1.AKTIF_TUKETIM_KWH_193402, t1.AKTIF_TUKETIM_KWH_193403, 
+      t1.AKTIF_TUKETIM_KWH_193404, t1.AKTIF_TUKETIM_KWH_193405, t1.AKTIF_TUKETIM_KWH_193406, t1.AKTIF_TUKETIM_KWH_193407, 
+      t1.AKTIF_TUKETIM_KWH_193408, t1.AKTIF_TUKETIM_KWH_193409, t1.AKTIF_TUKETIM_KWH_193410, t1.AKTIF_TUKETIM_KWH_193411, 
+      t1.AKTIF_TUKETIM_KWH_193412, t1.AKTIF_TUKETIM_KWH_193501, t1.AKTIF_TUKETIM_KWH_193502, t1.AKTIF_TUKETIM_KWH_193503, 
+      t1.AKTIF_TUKETIM_KWH_193504, t1.AKTIF_TUKETIM_KWH_193505, t1.AKTIF_TUKETIM_KWH_193506, t1.AKTIF_TUKETIM_KWH_193507, 
+      t1.AKTIF_TUKETIM_KWH_193508, t1.AKTIF_TUKETIM_KWH_193509, t1.AKTIF_TUKETIM_KWH_193510, t1.AKTIF_TUKETIM_KWH_193511, 
+      t1.AKTIF_TUKETIM_KWH_193512, t1.AKTIF_TUKETIM_KWH_193601, t1.AKTIF_TUKETIM_KWH_193602, t1.AKTIF_TUKETIM_KWH_193603, 
+      t1.AKTIF_TUKETIM_KWH_193604, t1.AKTIF_TUKETIM_KWH_193605, t1.AKTIF_TUKETIM_KWH_193606, t1.AKTIF_TUKETIM_KWH_193607, 
+      t1.AKTIF_TUKETIM_KWH_193608, t1.AKTIF_TUKETIM_KWH_193609, t1.AKTIF_TUKETIM_KWH_193610, t1.AKTIF_TUKETIM_KWH_193611, 
+      t1.AKTIF_TUKETIM_KWH_193612, t1.AKTIF_TUKETIM_KWH_193701, t1.AKTIF_TUKETIM_KWH_193702, t1.AKTIF_TUKETIM_KWH_193703, 
+      t1.AKTIF_TUKETIM_KWH_193704, t1.AKTIF_TUKETIM_KWH_193705, t1.AKTIF_TUKETIM_KWH_193706, t1.AKTIF_TUKETIM_KWH_193707, 
+      t1.AKTIF_TUKETIM_KWH_193708, t1.AKTIF_TUKETIM_KWH_193709, t1.AKTIF_TUKETIM_KWH_193710, t1.AKTIF_TUKETIM_KWH_193711, 
+      t1.AKTIF_TUKETIM_KWH_193712, t1.AKTIF_TUKETIM_KWH_193801, t1.AKTIF_TUKETIM_KWH_193802, t1.AKTIF_TUKETIM_KWH_193803, 
+      t1.AKTIF_TUKETIM_KWH_193804, t1.AKTIF_TUKETIM_KWH_193805, t1.AKTIF_TUKETIM_KWH_193806, t1.AKTIF_TUKETIM_KWH_193807, 
+      t1.AKTIF_TUKETIM_KWH_193808, t1.AKTIF_TUKETIM_KWH_193809, t1.AKTIF_TUKETIM_KWH_193810, t1.AKTIF_TUKETIM_KWH_193811, 
+      t1.AKTIF_TUKETIM_KWH_193812, t1.AKTIF_TUKETIM_KWH_193901, t1.AKTIF_TUKETIM_KWH_193902, t1.AKTIF_TUKETIM_KWH_193903, 
+      t1.AKTIF_TUKETIM_KWH_193904, t1.AKTIF_TUKETIM_KWH_193905, t1.AKTIF_TUKETIM_KWH_193906, t1.AKTIF_TUKETIM_KWH_193907, 
+      t1.AKTIF_TUKETIM_KWH_193908, t1.AKTIF_TUKETIM_KWH_193909, t1.AKTIF_TUKETIM_KWH_193910, t1.AKTIF_TUKETIM_KWH_193911, 
+      t1.AKTIF_TUKETIM_KWH_193912, t1.AKTIF_TUKETIM_KWH_194001, t1.AKTIF_TUKETIM_KWH_194002, t1.AKTIF_TUKETIM_KWH_194003, 
+      t1.AKTIF_TUKETIM_KWH_194004, t1.AKTIF_TUKETIM_KWH_194005, t1.AKTIF_TUKETIM_KWH_194006, t1.AKTIF_TUKETIM_KWH_194007, 
+      t1.AKTIF_TUKETIM_KWH_194008, t1.AKTIF_TUKETIM_KWH_194009, t1.AKTIF_TUKETIM_KWH_194010, t1.AKTIF_TUKETIM_KWH_194011, 
+      t1.AKTIF_TUKETIM_KWH_194012, t1.AKTIF_TUKETIM_KWH_194101, t1.AKTIF_TUKETIM_KWH_194102, t1.AKTIF_TUKETIM_KWH_194103, 
+      t1.AKTIF_TUKETIM_KWH_194104, t1.AKTIF_TUKETIM_KWH_194105, t1.AKTIF_TUKETIM_KWH_194106, t1.AKTIF_TUKETIM_KWH_194107, 
+      t1.AKTIF_TUKETIM_KWH_194108, t1.AKTIF_TUKETIM_KWH_194109, t1.AKTIF_TUKETIM_KWH_194110, t1.AKTIF_TUKETIM_KWH_194111, 
+      t1.AKTIF_TUKETIM_KWH_194112, t1.AKTIF_TUKETIM_KWH_194201, t1.AKTIF_TUKETIM_KWH_194202, t1.AKTIF_TUKETIM_KWH_194203, 
+      t1.AKTIF_TUKETIM_KWH_194204, t1.AKTIF_TUKETIM_KWH_194205, t1.AKTIF_TUKETIM_KWH_194206, t1.AKTIF_TUKETIM_KWH_194207, 
+      t1.AKTIF_TUKETIM_KWH_194208, t1.AKTIF_TUKETIM_KWH_194209, t1.AKTIF_TUKETIM_KWH_194210, t1.AKTIF_TUKETIM_KWH_194211, 
+      t1.AKTIF_TUKETIM_KWH_194212, t1.AKTIF_TUKETIM_KWH_194301, t1.AKTIF_TUKETIM_KWH_194302, t1.AKTIF_TUKETIM_KWH_194303, 
+      t1.AKTIF_TUKETIM_KWH_194304, t1.AKTIF_TUKETIM_KWH_194305, t1.AKTIF_TUKETIM_KWH_194306, t1.AKTIF_TUKETIM_KWH_194307, 
+      t1.AKTIF_TUKETIM_KWH_194308, t1.AKTIF_TUKETIM_KWH_194309, t1.AKTIF_TUKETIM_KWH_194310, t1.AKTIF_TUKETIM_KWH_194311, 
+      t1.AKTIF_TUKETIM_KWH_194312, t1.AKTIF_TUKETIM_KWH_194401, t1.AKTIF_TUKETIM_KWH_194402, t1.AKTIF_TUKETIM_KWH_194403, 
+      t1.AKTIF_TUKETIM_KWH_194404, t1.AKTIF_TUKETIM_KWH_194405, t1.AKTIF_TUKETIM_KWH_194406, t1.AKTIF_TUKETIM_KWH_194407, 
+      t1.AKTIF_TUKETIM_KWH_194408, t1.AKTIF_TUKETIM_KWH_194409, t1.AKTIF_TUKETIM_KWH_194410, t1.AKTIF_TUKETIM_KWH_194411, 
+      t1.AKTIF_TUKETIM_KWH_194412, t1.AKTIF_TUKETIM_KWH_194501, t1.AKTIF_TUKETIM_KWH_194502, t1.AKTIF_TUKETIM_KWH_194503, 
+      t1.AKTIF_TUKETIM_KWH_194504, t1.AKTIF_TUKETIM_KWH_194505, t1.AKTIF_TUKETIM_KWH_194506, t1.AKTIF_TUKETIM_KWH_194507, 
+      t1.AKTIF_TUKETIM_KWH_194508, t1.AKTIF_TUKETIM_KWH_194509, t1.AKTIF_TUKETIM_KWH_194510, t1.AKTIF_TUKETIM_KWH_194511, 
+      t1.AKTIF_TUKETIM_KWH_194512, t1.AKTIF_TUKETIM_KWH_194601, t1.AKTIF_TUKETIM_KWH_194602, t1.AKTIF_TUKETIM_KWH_194603, 
+      t1.AKTIF_TUKETIM_KWH_194604, t1.AKTIF_TUKETIM_KWH_194605, t1.AKTIF_TUKETIM_KWH_194606, t1.AKTIF_TUKETIM_KWH_194607, 
+      t1.AKTIF_TUKETIM_KWH_194608, t1.AKTIF_TUKETIM_KWH_194609, t1.AKTIF_TUKETIM_KWH_194610, t1.AKTIF_TUKETIM_KWH_194611, 
+      t1.AKTIF_TUKETIM_KWH_194612, t1.AKTIF_TUKETIM_KWH_194701, t1.AKTIF_TUKETIM_KWH_194702, t1.AKTIF_TUKETIM_KWH_194703, 
+      t1.AKTIF_TUKETIM_KWH_194704, t1.AKTIF_TUKETIM_KWH_194705, t1.AKTIF_TUKETIM_KWH_194706, t1.AKTIF_TUKETIM_KWH_194707, 
+      t1.AKTIF_TUKETIM_KWH_194708, t1.AKTIF_TUKETIM_KWH_194709, t1.AKTIF_TUKETIM_KWH_194710, t1.AKTIF_TUKETIM_KWH_194711, 
+25                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_194712, t1.AKTIF_TUKETIM_KWH_194801, t1.AKTIF_TUKETIM_KWH_194802, t1.AKTIF_TUKETIM_KWH_194803, 
+      t1.AKTIF_TUKETIM_KWH_194804, t1.AKTIF_TUKETIM_KWH_194805, t1.AKTIF_TUKETIM_KWH_194806, t1.AKTIF_TUKETIM_KWH_194807, 
+      t1.AKTIF_TUKETIM_KWH_194808, t1.AKTIF_TUKETIM_KWH_194809, t1.AKTIF_TUKETIM_KWH_194810, t1.AKTIF_TUKETIM_KWH_194811, 
+      t1.AKTIF_TUKETIM_KWH_194812, t1.AKTIF_TUKETIM_KWH_194901, t1.AKTIF_TUKETIM_KWH_194902, t1.AKTIF_TUKETIM_KWH_194903, 
+      t1.AKTIF_TUKETIM_KWH_194904, t1.AKTIF_TUKETIM_KWH_194905, t1.AKTIF_TUKETIM_KWH_194906, t1.AKTIF_TUKETIM_KWH_194907, 
+      t1.AKTIF_TUKETIM_KWH_194908, t1.AKTIF_TUKETIM_KWH_194909, t1.AKTIF_TUKETIM_KWH_194910, t1.AKTIF_TUKETIM_KWH_194911, 
+      t1.AKTIF_TUKETIM_KWH_194912, t1.AKTIF_TUKETIM_KWH_195001, t1.AKTIF_TUKETIM_KWH_195002, t1.AKTIF_TUKETIM_KWH_195003, 
+      t1.AKTIF_TUKETIM_KWH_195004, t1.AKTIF_TUKETIM_KWH_195005, t1.AKTIF_TUKETIM_KWH_195006, t1.AKTIF_TUKETIM_KWH_195007, 
+      t1.AKTIF_TUKETIM_KWH_195008, t1.AKTIF_TUKETIM_KWH_195009, t1.AKTIF_TUKETIM_KWH_195010, t1.AKTIF_TUKETIM_KWH_195011, 
+      t1.AKTIF_TUKETIM_KWH_195012, t1.AKTIF_TUKETIM_KWH_195101, t1.AKTIF_TUKETIM_KWH_195102, t1.AKTIF_TUKETIM_KWH_195103, 
+      t1.AKTIF_TUKETIM_KWH_195104, t1.AKTIF_TUKETIM_KWH_195105, t1.AKTIF_TUKETIM_KWH_195106, t1.AKTIF_TUKETIM_KWH_195107, 
+      t1.AKTIF_TUKETIM_KWH_195108, t1.AKTIF_TUKETIM_KWH_195109, t1.AKTIF_TUKETIM_KWH_195110, t1.AKTIF_TUKETIM_KWH_195111, 
+      t1.AKTIF_TUKETIM_KWH_195112, t1.AKTIF_TUKETIM_KWH_195201, t1.AKTIF_TUKETIM_KWH_195202, t1.AKTIF_TUKETIM_KWH_195203, 
+      t1.AKTIF_TUKETIM_KWH_195204, t1.AKTIF_TUKETIM_KWH_195205, t1.AKTIF_TUKETIM_KWH_195206, t1.AKTIF_TUKETIM_KWH_195207, 
+      t1.AKTIF_TUKETIM_KWH_195208, t1.AKTIF_TUKETIM_KWH_195209, t1.AKTIF_TUKETIM_KWH_195210, t1.AKTIF_TUKETIM_KWH_195211, 
+      t1.AKTIF_TUKETIM_KWH_195212, t1.AKTIF_TUKETIM_KWH_195301, t1.AKTIF_TUKETIM_KWH_195302, t1.AKTIF_TUKETIM_KWH_195303, 
+      t1.AKTIF_TUKETIM_KWH_195304, t1.AKTIF_TUKETIM_KWH_195305, t1.AKTIF_TUKETIM_KWH_195306, t1.AKTIF_TUKETIM_KWH_195307, 
+      t1.AKTIF_TUKETIM_KWH_195308, t1.AKTIF_TUKETIM_KWH_195309, t1.AKTIF_TUKETIM_KWH_195310, t1.AKTIF_TUKETIM_KWH_195311, 
+      t1.AKTIF_TUKETIM_KWH_195312, t1.AKTIF_TUKETIM_KWH_195401, t1.AKTIF_TUKETIM_KWH_195402, t1.AKTIF_TUKETIM_KWH_195403, 
+      t1.AKTIF_TUKETIM_KWH_195404, t1.AKTIF_TUKETIM_KWH_195405, t1.AKTIF_TUKETIM_KWH_195406, t1.AKTIF_TUKETIM_KWH_195407, 
+      t1.AKTIF_TUKETIM_KWH_195408, t1.AKTIF_TUKETIM_KWH_195409, t1.AKTIF_TUKETIM_KWH_195410, t1.AKTIF_TUKETIM_KWH_195411, 
+      t1.AKTIF_TUKETIM_KWH_195412, t1.AKTIF_TUKETIM_KWH_195501, t1.AKTIF_TUKETIM_KWH_195502, t1.AKTIF_TUKETIM_KWH_195503, 
+      t1.AKTIF_TUKETIM_KWH_195504, t1.AKTIF_TUKETIM_KWH_195505, t1.AKTIF_TUKETIM_KWH_195506, t1.AKTIF_TUKETIM_KWH_195507, 
+      t1.AKTIF_TUKETIM_KWH_195508, t1.AKTIF_TUKETIM_KWH_195509, t1.AKTIF_TUKETIM_KWH_195510, t1.AKTIF_TUKETIM_KWH_195511, 
+      t1.AKTIF_TUKETIM_KWH_195512, t1.AKTIF_TUKETIM_KWH_195601, t1.AKTIF_TUKETIM_KWH_195602, t1.AKTIF_TUKETIM_KWH_195603, 
+      t1.AKTIF_TUKETIM_KWH_195604, t1.AKTIF_TUKETIM_KWH_195605, t1.AKTIF_TUKETIM_KWH_195606, t1.AKTIF_TUKETIM_KWH_195607, 
+      t1.AKTIF_TUKETIM_KWH_195608, t1.AKTIF_TUKETIM_KWH_195609, t1.AKTIF_TUKETIM_KWH_195610, t1.AKTIF_TUKETIM_KWH_195611, 
+      t1.AKTIF_TUKETIM_KWH_195612, t1.AKTIF_TUKETIM_KWH_195701, t1.AKTIF_TUKETIM_KWH_195702, t1.AKTIF_TUKETIM_KWH_195703, 
+      t1.AKTIF_TUKETIM_KWH_195704, t1.AKTIF_TUKETIM_KWH_195705, t1.AKTIF_TUKETIM_KWH_195706, t1.AKTIF_TUKETIM_KWH_195707, 
+      t1.AKTIF_TUKETIM_KWH_195708, t1.AKTIF_TUKETIM_KWH_195709, t1.AKTIF_TUKETIM_KWH_195710, t1.AKTIF_TUKETIM_KWH_195711, 
+      t1.AKTIF_TUKETIM_KWH_195712, t1.AKTIF_TUKETIM_KWH_195801, t1.AKTIF_TUKETIM_KWH_195802, t1.AKTIF_TUKETIM_KWH_195803, 
+      t1.AKTIF_TUKETIM_KWH_195804, t1.AKTIF_TUKETIM_KWH_195805, t1.AKTIF_TUKETIM_KWH_195806, t1.AKTIF_TUKETIM_KWH_195807, 
+      t1.AKTIF_TUKETIM_KWH_195808, t1.AKTIF_TUKETIM_KWH_195809, t1.AKTIF_TUKETIM_KWH_195810, t1.AKTIF_TUKETIM_KWH_195811, 
+      t1.AKTIF_TUKETIM_KWH_195812, t1.AKTIF_TUKETIM_KWH_195901, t1.AKTIF_TUKETIM_KWH_195902, t1.AKTIF_TUKETIM_KWH_195903, 
+      t1.AKTIF_TUKETIM_KWH_195904, t1.AKTIF_TUKETIM_KWH_195905, t1.AKTIF_TUKETIM_KWH_195906, t1.AKTIF_TUKETIM_KWH_195907, 
+      t1.AKTIF_TUKETIM_KWH_195908, t1.AKTIF_TUKETIM_KWH_195909, t1.AKTIF_TUKETIM_KWH_195910, t1.AKTIF_TUKETIM_KWH_195911, 
+      t1.AKTIF_TUKETIM_KWH_195912, t1.AKTIF_TUKETIM_KWH_196001, t1.AKTIF_TUKETIM_KWH_196002, t1.AKTIF_TUKETIM_KWH_196003, 
+      t1.AKTIF_TUKETIM_KWH_196004, t1.AKTIF_TUKETIM_KWH_196005, t1.AKTIF_TUKETIM_KWH_196006, t1.AKTIF_TUKETIM_KWH_196007, 
+      t1.AKTIF_TUKETIM_KWH_196008, t1.AKTIF_TUKETIM_KWH_196009, t1.AKTIF_TUKETIM_KWH_196010, t1.AKTIF_TUKETIM_KWH_196011, 
+      t1.AKTIF_TUKETIM_KWH_196012, t1.AKTIF_TUKETIM_KWH_196101, t1.AKTIF_TUKETIM_KWH_196102, t1.AKTIF_TUKETIM_KWH_196103, 
+      t1.AKTIF_TUKETIM_KWH_196104, t1.AKTIF_TUKETIM_KWH_196105, t1.AKTIF_TUKETIM_KWH_196106, t1.AKTIF_TUKETIM_KWH_196107, 
+      t1.AKTIF_TUKETIM_KWH_196108, t1.AKTIF_TUKETIM_KWH_196109, t1.AKTIF_TUKETIM_KWH_196110, t1.AKTIF_TUKETIM_KWH_196111, 
+      t1.AKTIF_TUKETIM_KWH_196112, t1.AKTIF_TUKETIM_KWH_196201, t1.AKTIF_TUKETIM_KWH_196202, t1.AKTIF_TUKETIM_KWH_196203, 
+      t1.AKTIF_TUKETIM_KWH_196204, t1.AKTIF_TUKETIM_KWH_196205, t1.AKTIF_TUKETIM_KWH_196206, t1.AKTIF_TUKETIM_KWH_196207, 
+      t1.AKTIF_TUKETIM_KWH_196208, t1.AKTIF_TUKETIM_KWH_196209, t1.AKTIF_TUKETIM_KWH_196210, t1.AKTIF_TUKETIM_KWH_196211, 
+      t1.AKTIF_TUKETIM_KWH_196212, t1.AKTIF_TUKETIM_KWH_196301, t1.AKTIF_TUKETIM_KWH_196302, t1.AKTIF_TUKETIM_KWH_196303, 
+      t1.AKTIF_TUKETIM_KWH_196304, t1.AKTIF_TUKETIM_KWH_196305, t1.AKTIF_TUKETIM_KWH_196306, t1.AKTIF_TUKETIM_KWH_196307, 
+      t1.AKTIF_TUKETIM_KWH_196308, t1.AKTIF_TUKETIM_KWH_196309, t1.AKTIF_TUKETIM_KWH_196310, t1.AKTIF_TUKETIM_KWH_196311, 
+      t1.AKTIF_TUKETIM_KWH_196312, t1.AKTIF_TUKETIM_KWH_196401, t1.AKTIF_TUKETIM_KWH_196402, t1.AKTIF_TUKETIM_KWH_196403, 
+      t1.AKTIF_TUKETIM_KWH_196404, t1.AKTIF_TUKETIM_KWH_196405, t1.AKTIF_TUKETIM_KWH_196406, t1.AKTIF_TUKETIM_KWH_196407, 
+      t1.AKTIF_TUKETIM_KWH_196408, t1.AKTIF_TUKETIM_KWH_196409, t1.AKTIF_TUKETIM_KWH_196410, t1.AKTIF_TUKETIM_KWH_196411, 
+      t1.AKTIF_TUKETIM_KWH_196412, t1.AKTIF_TUKETIM_KWH_196501, t1.AKTIF_TUKETIM_KWH_196502, t1.AKTIF_TUKETIM_KWH_196503, 
+      t1.AKTIF_TUKETIM_KWH_196504, t1.AKTIF_TUKETIM_KWH_196505, t1.AKTIF_TUKETIM_KWH_196506, t1.AKTIF_TUKETIM_KWH_196507, 
+      t1.AKTIF_TUKETIM_KWH_196508, t1.AKTIF_TUKETIM_KWH_196509, t1.AKTIF_TUKETIM_KWH_196510, t1.AKTIF_TUKETIM_KWH_196511, 
+      t1.AKTIF_TUKETIM_KWH_196512, t1.AKTIF_TUKETIM_KWH_196601, t1.AKTIF_TUKETIM_KWH_196602, t1.AKTIF_TUKETIM_KWH_196603, 
+      t1.AKTIF_TUKETIM_KWH_196604, t1.AKTIF_TUKETIM_KWH_196605, t1.AKTIF_TUKETIM_KWH_196606, t1.AKTIF_TUKETIM_KWH_196607, 
+      t1.AKTIF_TUKETIM_KWH_196608, t1.AKTIF_TUKETIM_KWH_196609, t1.AKTIF_TUKETIM_KWH_196610, t1.AKTIF_TUKETIM_KWH_196611, 
+      t1.AKTIF_TUKETIM_KWH_196612, t1.AKTIF_TUKETIM_KWH_196701, t1.AKTIF_TUKETIM_KWH_196702, t1.AKTIF_TUKETIM_KWH_196703, 
+26                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_196704, t1.AKTIF_TUKETIM_KWH_196705, t1.AKTIF_TUKETIM_KWH_196706, t1.AKTIF_TUKETIM_KWH_196707, 
+      t1.AKTIF_TUKETIM_KWH_196708, t1.AKTIF_TUKETIM_KWH_196709, t1.AKTIF_TUKETIM_KWH_196710, t1.AKTIF_TUKETIM_KWH_196711, 
+      t1.AKTIF_TUKETIM_KWH_196712, t1.AKTIF_TUKETIM_KWH_196801, t1.AKTIF_TUKETIM_KWH_196802, t1.AKTIF_TUKETIM_KWH_196803, 
+      t1.AKTIF_TUKETIM_KWH_196804, t1.AKTIF_TUKETIM_KWH_196805, t1.AKTIF_TUKETIM_KWH_196806, t1.AKTIF_TUKETIM_KWH_196807, 
+      t1.AKTIF_TUKETIM_KWH_196808, t1.AKTIF_TUKETIM_KWH_196809, t1.AKTIF_TUKETIM_KWH_196810, t1.AKTIF_TUKETIM_KWH_196811, 
+      t1.AKTIF_TUKETIM_KWH_196812, t1.AKTIF_TUKETIM_KWH_196901, t1.AKTIF_TUKETIM_KWH_196902, t1.AKTIF_TUKETIM_KWH_196903, 
+      t1.AKTIF_TUKETIM_KWH_196904, t1.AKTIF_TUKETIM_KWH_196905, t1.AKTIF_TUKETIM_KWH_196906, t1.AKTIF_TUKETIM_KWH_196907, 
+      t1.AKTIF_TUKETIM_KWH_196908, t1.AKTIF_TUKETIM_KWH_196909, t1.AKTIF_TUKETIM_KWH_196910, t1.AKTIF_TUKETIM_KWH_196911, 
+      t1.AKTIF_TUKETIM_KWH_196912, t1.AKTIF_TUKETIM_KWH_197001, t1.AKTIF_TUKETIM_KWH_197002, t1.AKTIF_TUKETIM_KWH_197003, 
+      t1.AKTIF_TUKETIM_KWH_197004, t1.AKTIF_TUKETIM_KWH_197005, t1.AKTIF_TUKETIM_KWH_197006, t1.AKTIF_TUKETIM_KWH_197007, 
+      t1.AKTIF_TUKETIM_KWH_197008, t1.AKTIF_TUKETIM_KWH_197009, t1.AKTIF_TUKETIM_KWH_197010, t1.AKTIF_TUKETIM_KWH_197011, 
+      t1.AKTIF_TUKETIM_KWH_197012, t1.AKTIF_TUKETIM_KWH_197101, t1.AKTIF_TUKETIM_KWH_197102, t1.AKTIF_TUKETIM_KWH_197103, 
+      t1.AKTIF_TUKETIM_KWH_197104, t1.AKTIF_TUKETIM_KWH_197105, t1.AKTIF_TUKETIM_KWH_197106, t1.AKTIF_TUKETIM_KWH_197107, 
+      t1.AKTIF_TUKETIM_KWH_197108, t1.AKTIF_TUKETIM_KWH_197109, t1.AKTIF_TUKETIM_KWH_197110, t1.AKTIF_TUKETIM_KWH_197111, 
+      t1.AKTIF_TUKETIM_KWH_197112, t1.AKTIF_TUKETIM_KWH_197201, t1.AKTIF_TUKETIM_KWH_197202, t1.AKTIF_TUKETIM_KWH_197203, 
+      t1.AKTIF_TUKETIM_KWH_197204, t1.AKTIF_TUKETIM_KWH_197205, t1.AKTIF_TUKETIM_KWH_197206, t1.AKTIF_TUKETIM_KWH_197207, 
+      t1.AKTIF_TUKETIM_KWH_197208, t1.AKTIF_TUKETIM_KWH_197209, t1.AKTIF_TUKETIM_KWH_197210, t1.AKTIF_TUKETIM_KWH_197211, 
+      t1.AKTIF_TUKETIM_KWH_197212, t1.AKTIF_TUKETIM_KWH_197301, t1.AKTIF_TUKETIM_KWH_197302, t1.AKTIF_TUKETIM_KWH_197303, 
+      t1.AKTIF_TUKETIM_KWH_197304, t1.AKTIF_TUKETIM_KWH_197305, t1.AKTIF_TUKETIM_KWH_197306, t1.AKTIF_TUKETIM_KWH_197307, 
+      t1.AKTIF_TUKETIM_KWH_197308, t1.AKTIF_TUKETIM_KWH_197309, t1.AKTIF_TUKETIM_KWH_197310, t1.AKTIF_TUKETIM_KWH_197311, 
+      t1.AKTIF_TUKETIM_KWH_197312, t1.AKTIF_TUKETIM_KWH_197401, t1.AKTIF_TUKETIM_KWH_197402, t1.AKTIF_TUKETIM_KWH_197403, 
+      t1.AKTIF_TUKETIM_KWH_197404, t1.AKTIF_TUKETIM_KWH_197405, t1.AKTIF_TUKETIM_KWH_197406, t1.AKTIF_TUKETIM_KWH_197407, 
+      t1.AKTIF_TUKETIM_KWH_197408, t1.AKTIF_TUKETIM_KWH_197409, t1.AKTIF_TUKETIM_KWH_197410, t1.AKTIF_TUKETIM_KWH_197411, 
+      t1.AKTIF_TUKETIM_KWH_197412, t1.AKTIF_TUKETIM_KWH_197501, t1.AKTIF_TUKETIM_KWH_197502, t1.AKTIF_TUKETIM_KWH_197503, 
+      t1.AKTIF_TUKETIM_KWH_197504, t1.AKTIF_TUKETIM_KWH_197505, t1.AKTIF_TUKETIM_KWH_197506, t1.AKTIF_TUKETIM_KWH_197507, 
+      t1.AKTIF_TUKETIM_KWH_197508, t1.AKTIF_TUKETIM_KWH_197509, t1.AKTIF_TUKETIM_KWH_197510, t1.AKTIF_TUKETIM_KWH_197511, 
+      t1.AKTIF_TUKETIM_KWH_197512, t1.AKTIF_TUKETIM_KWH_197601, t1.AKTIF_TUKETIM_KWH_197602, t1.AKTIF_TUKETIM_KWH_197603, 
+      t1.AKTIF_TUKETIM_KWH_197604, t1.AKTIF_TUKETIM_KWH_197605, t1.AKTIF_TUKETIM_KWH_197606, t1.AKTIF_TUKETIM_KWH_197607, 
+      t1.AKTIF_TUKETIM_KWH_197608, t1.AKTIF_TUKETIM_KWH_197609, t1.AKTIF_TUKETIM_KWH_197610, t1.AKTIF_TUKETIM_KWH_197611, 
+      t1.AKTIF_TUKETIM_KWH_197612, t1.AKTIF_TUKETIM_KWH_197701, t1.AKTIF_TUKETIM_KWH_197702, t1.AKTIF_TUKETIM_KWH_197703, 
+      t1.AKTIF_TUKETIM_KWH_197704, t1.AKTIF_TUKETIM_KWH_197705, t1.AKTIF_TUKETIM_KWH_197706, t1.AKTIF_TUKETIM_KWH_197707, 
+      t1.AKTIF_TUKETIM_KWH_197708, t1.AKTIF_TUKETIM_KWH_197709, t1.AKTIF_TUKETIM_KWH_197710, t1.AKTIF_TUKETIM_KWH_197711, 
+      t1.AKTIF_TUKETIM_KWH_197712, t1.AKTIF_TUKETIM_KWH_197801, t1.AKTIF_TUKETIM_KWH_197802, t1.AKTIF_TUKETIM_KWH_197803, 
+      t1.AKTIF_TUKETIM_KWH_197804, t1.AKTIF_TUKETIM_KWH_197805, t1.AKTIF_TUKETIM_KWH_197806, t1.AKTIF_TUKETIM_KWH_197807, 
+      t1.AKTIF_TUKETIM_KWH_197808, t1.AKTIF_TUKETIM_KWH_197809, t1.AKTIF_TUKETIM_KWH_197810, t1.AKTIF_TUKETIM_KWH_197811, 
+      t1.AKTIF_TUKETIM_KWH_197812, t1.AKTIF_TUKETIM_KWH_197901, t1.AKTIF_TUKETIM_KWH_197902, t1.AKTIF_TUKETIM_KWH_197903, 
+      t1.AKTIF_TUKETIM_KWH_197904, t1.AKTIF_TUKETIM_KWH_197905, t1.AKTIF_TUKETIM_KWH_197906, t1.AKTIF_TUKETIM_KWH_197907, 
+      t1.AKTIF_TUKETIM_KWH_197908, t1.AKTIF_TUKETIM_KWH_197909, t1.AKTIF_TUKETIM_KWH_197910, t1.AKTIF_TUKETIM_KWH_197911, 
+      t1.AKTIF_TUKETIM_KWH_197912, t1.AKTIF_TUKETIM_KWH_198001, t1.AKTIF_TUKETIM_KWH_198002, t1.AKTIF_TUKETIM_KWH_198003, 
+      t1.AKTIF_TUKETIM_KWH_198004, t1.AKTIF_TUKETIM_KWH_198005, t1.AKTIF_TUKETIM_KWH_198006, t1.AKTIF_TUKETIM_KWH_198007, 
+      t1.AKTIF_TUKETIM_KWH_198008, t1.AKTIF_TUKETIM_KWH_198009, t1.AKTIF_TUKETIM_KWH_198010, t1.AKTIF_TUKETIM_KWH_198011, 
+      t1.AKTIF_TUKETIM_KWH_198012, t1.AKTIF_TUKETIM_KWH_198101, t1.AKTIF_TUKETIM_KWH_198102, t1.AKTIF_TUKETIM_KWH_198103, 
+      t1.AKTIF_TUKETIM_KWH_198104, t1.AKTIF_TUKETIM_KWH_198105, t1.AKTIF_TUKETIM_KWH_198106, t1.AKTIF_TUKETIM_KWH_198107, 
+      t1.AKTIF_TUKETIM_KWH_198108, t1.AKTIF_TUKETIM_KWH_198109, t1.AKTIF_TUKETIM_KWH_198110, t1.AKTIF_TUKETIM_KWH_198111, 
+      t1.AKTIF_TUKETIM_KWH_198112, t1.AKTIF_TUKETIM_KWH_198201, t1.AKTIF_TUKETIM_KWH_198202, t1.AKTIF_TUKETIM_KWH_198203, 
+      t1.AKTIF_TUKETIM_KWH_198204, t1.AKTIF_TUKETIM_KWH_198205, t1.AKTIF_TUKETIM_KWH_198206, t1.AKTIF_TUKETIM_KWH_198207, 
+      t1.AKTIF_TUKETIM_KWH_198208, t1.AKTIF_TUKETIM_KWH_198209, t1.AKTIF_TUKETIM_KWH_198210, t1.AKTIF_TUKETIM_KWH_198211, 
+      t1.AKTIF_TUKETIM_KWH_198212, t1.AKTIF_TUKETIM_KWH_198301, t1.AKTIF_TUKETIM_KWH_198302, t1.AKTIF_TUKETIM_KWH_198303, 
+      t1.AKTIF_TUKETIM_KWH_198304, t1.AKTIF_TUKETIM_KWH_198305, t1.AKTIF_TUKETIM_KWH_198306, t1.AKTIF_TUKETIM_KWH_198307, 
+      t1.AKTIF_TUKETIM_KWH_198308, t1.AKTIF_TUKETIM_KWH_198309, t1.AKTIF_TUKETIM_KWH_198310, t1.AKTIF_TUKETIM_KWH_198311, 
+      t1.AKTIF_TUKETIM_KWH_198312, t1.AKTIF_TUKETIM_KWH_198401, t1.AKTIF_TUKETIM_KWH_198402, t1.AKTIF_TUKETIM_KWH_198403, 
+      t1.AKTIF_TUKETIM_KWH_198404, t1.AKTIF_TUKETIM_KWH_198405, t1.AKTIF_TUKETIM_KWH_198406, t1.AKTIF_TUKETIM_KWH_198407, 
+      t1.AKTIF_TUKETIM_KWH_198408, t1.AKTIF_TUKETIM_KWH_198409, t1.AKTIF_TUKETIM_KWH_198410, t1.AKTIF_TUKETIM_KWH_198411, 
+      t1.AKTIF_TUKETIM_KWH_198412, t1.AKTIF_TUKETIM_KWH_190001, t1.AKTIF_TUKETIM_KWH_190002, t1.AKTIF_TUKETIM_KWH_190003, 
+      t1.AKTIF_TUKETIM_KWH_190004, t1.AKTIF_TUKETIM_KWH_190005, t1.AKTIF_TUKETIM_KWH_190006, t1.AKTIF_TUKETIM_KWH_190007, 
+      t1.AKTIF_TUKETIM_KWH_190008, t1.AKTIF_TUKETIM_KWH_190009, t1.AKTIF_TUKETIM_KWH_190010, t1.AKTIF_TUKETIM_KWH_190011, 
+      t1.AKTIF_TUKETIM_KWH_190012, t1.AKTIF_TUKETIM_KWH_190101, t1.AKTIF_TUKETIM_KWH_190102, t1.AKTIF_TUKETIM_KWH_190103, 
+      t1.AKTIF_TUKETIM_KWH_190104, t1.AKTIF_TUKETIM_KWH_190105, t1.AKTIF_TUKETIM_KWH_190106, t1.AKTIF_TUKETIM_KWH_190107, 
+27                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_190108, t1.AKTIF_TUKETIM_KWH_190109, t1.AKTIF_TUKETIM_KWH_190110, t1.AKTIF_TUKETIM_KWH_190111, 
+      t1.AKTIF_TUKETIM_KWH_190112, t1.AKTIF_TUKETIM_KWH_190201, t1.AKTIF_TUKETIM_KWH_190202, t1.AKTIF_TUKETIM_KWH_190203, 
+      t1.AKTIF_TUKETIM_KWH_190204, t1.AKTIF_TUKETIM_KWH_190205, t1.AKTIF_TUKETIM_KWH_190206, t1.AKTIF_TUKETIM_KWH_190207, 
+      t1.AKTIF_TUKETIM_KWH_190208, t1.AKTIF_TUKETIM_KWH_190209, t1.AKTIF_TUKETIM_KWH_190210, t1.AKTIF_TUKETIM_KWH_190211, 
+      t1.AKTIF_TUKETIM_KWH_190212, t1.AKTIF_TUKETIM_KWH_190301, t1.AKTIF_TUKETIM_KWH_190302, t1.AKTIF_TUKETIM_KWH_190303, 
+      t1.AKTIF_TUKETIM_KWH_190304, t1.AKTIF_TUKETIM_KWH_190305, t1.AKTIF_TUKETIM_KWH_190306, t1.AKTIF_TUKETIM_KWH_190307, 
+      t1.AKTIF_TUKETIM_KWH_190308, t1.AKTIF_TUKETIM_KWH_190309, t1.AKTIF_TUKETIM_KWH_190310, t1.AKTIF_TUKETIM_KWH_190311, 
+      t1.AKTIF_TUKETIM_KWH_190312, t1.AKTIF_TUKETIM_KWH_190401, t1.AKTIF_TUKETIM_KWH_190402, t1.AKTIF_TUKETIM_KWH_190403, 
+      t1.AKTIF_TUKETIM_KWH_190404, t1.AKTIF_TUKETIM_KWH_190405, t1.AKTIF_TUKETIM_KWH_190406, t1.AKTIF_TUKETIM_KWH_190407, 
+      t1.AKTIF_TUKETIM_KWH_190408, t1.AKTIF_TUKETIM_KWH_190409, t1.AKTIF_TUKETIM_KWH_190410, t1.AKTIF_TUKETIM_KWH_190411, 
+      t1.AKTIF_TUKETIM_KWH_190412, t1.AKTIF_TUKETIM_KWH_190501, t1.AKTIF_TUKETIM_KWH_190502, t1.AKTIF_TUKETIM_KWH_190503, 
+      t1.AKTIF_TUKETIM_KWH_190504, t1.AKTIF_TUKETIM_KWH_190505, t1.AKTIF_TUKETIM_KWH_190506, t1.AKTIF_TUKETIM_KWH_190507, 
+      t1.AKTIF_TUKETIM_KWH_190508, t1.AKTIF_TUKETIM_KWH_190509, t1.AKTIF_TUKETIM_KWH_190510, t1.AKTIF_TUKETIM_KWH_190511, 
+      t1.AKTIF_TUKETIM_KWH_190512, t1.AKTIF_TUKETIM_KWH_190601, t1.AKTIF_TUKETIM_KWH_190602, t1.AKTIF_TUKETIM_KWH_190603, 
+      t1.AKTIF_TUKETIM_KWH_190604, t1.AKTIF_TUKETIM_KWH_190605, t1.AKTIF_TUKETIM_KWH_190606, t1.AKTIF_TUKETIM_KWH_190607, 
+      t1.AKTIF_TUKETIM_KWH_190608, t1.AKTIF_TUKETIM_KWH_190609, t1.AKTIF_TUKETIM_KWH_190610, t1.AKTIF_TUKETIM_KWH_190611, 
+      t1.AKTIF_TUKETIM_KWH_190612, t1.AKTIF_TUKETIM_KWH_190701, t1.AKTIF_TUKETIM_KWH_190702, t1.AKTIF_TUKETIM_KWH_190703, 
+      t1.AKTIF_TUKETIM_KWH_190704, t1.AKTIF_TUKETIM_KWH_190705, t1.AKTIF_TUKETIM_KWH_190706, t1.AKTIF_TUKETIM_KWH_190707, 
+      t1.AKTIF_TUKETIM_KWH_190708, t1.AKTIF_TUKETIM_KWH_190709, t1.AKTIF_TUKETIM_KWH_190710, t1.AKTIF_TUKETIM_KWH_190711, 
+      t1.AKTIF_TUKETIM_KWH_190712, t1.AKTIF_TUKETIM_KWH_190801, t1.AKTIF_TUKETIM_KWH_190802, t1.AKTIF_TUKETIM_KWH_190803, 
+      t1.AKTIF_TUKETIM_KWH_190804, t1.AKTIF_TUKETIM_KWH_190805, t1.AKTIF_TUKETIM_KWH_190806, t1.AKTIF_TUKETIM_KWH_190807, 
+      t1.AKTIF_TUKETIM_KWH_190808, t1.AKTIF_TUKETIM_KWH_190809, t1.AKTIF_TUKETIM_KWH_190810, t1.AKTIF_TUKETIM_KWH_190811, 
+      t1.AKTIF_TUKETIM_KWH_190812, t1.AKTIF_TUKETIM_KWH_190901, t1.AKTIF_TUKETIM_KWH_190902, t1.AKTIF_TUKETIM_KWH_190903, 
+      t1.AKTIF_TUKETIM_KWH_190904, t1.AKTIF_TUKETIM_KWH_190905, t1.AKTIF_TUKETIM_KWH_190906, t1.AKTIF_TUKETIM_KWH_190907, 
+      t1.AKTIF_TUKETIM_KWH_190908, t1.AKTIF_TUKETIM_KWH_190909, t1.AKTIF_TUKETIM_KWH_190910, t1.AKTIF_TUKETIM_KWH_190911, 
+      t1.AKTIF_TUKETIM_KWH_190912, t1.AKTIF_TUKETIM_KWH_191001, t1.AKTIF_TUKETIM_KWH_191002, t1.AKTIF_TUKETIM_KWH_191003, 
+      t1.AKTIF_TUKETIM_KWH_191004, t1.AKTIF_TUKETIM_KWH_191005, t1.AKTIF_TUKETIM_KWH_191006, t1.AKTIF_TUKETIM_KWH_191007, 
+      t1.AKTIF_TUKETIM_KWH_191008, t1.AKTIF_TUKETIM_KWH_191009, t1.AKTIF_TUKETIM_KWH_191010, t1.AKTIF_TUKETIM_KWH_191011, 
+      t1.AKTIF_TUKETIM_KWH_191012, t1.AKTIF_TUKETIM_KWH_191101, t1.AKTIF_TUKETIM_KWH_191102, t1.AKTIF_TUKETIM_KWH_191103, 
+      t1.AKTIF_TUKETIM_KWH_191104, t1.AKTIF_TUKETIM_KWH_191105, t1.AKTIF_TUKETIM_KWH_191106, t1.AKTIF_TUKETIM_KWH_191107, 
+      t1.AKTIF_TUKETIM_KWH_191108, t1.AKTIF_TUKETIM_KWH_191109, t1.AKTIF_TUKETIM_KWH_191110, t1.AKTIF_TUKETIM_KWH_191111, 
+      t1.AKTIF_TUKETIM_KWH_191112, t1.AKTIF_TUKETIM_KWH_191201, t1.AKTIF_TUKETIM_KWH_191202, t1.AKTIF_TUKETIM_KWH_191203, 
+      t1.AKTIF_TUKETIM_KWH_191204, t1.AKTIF_TUKETIM_KWH_191205, t1.AKTIF_TUKETIM_KWH_191206, t1.AKTIF_TUKETIM_KWH_191207, 
+      t1.AKTIF_TUKETIM_KWH_191208, t1.AKTIF_TUKETIM_KWH_191209, t1.AKTIF_TUKETIM_KWH_191210, t1.AKTIF_TUKETIM_KWH_191211, 
+      t1.AKTIF_TUKETIM_KWH_191212, t1.AKTIF_TUKETIM_KWH_191301, t1.AKTIF_TUKETIM_KWH_191302, t1.AKTIF_TUKETIM_KWH_191303, 
+      t1.AKTIF_TUKETIM_KWH_191304, t1.AKTIF_TUKETIM_KWH_191305, t1.AKTIF_TUKETIM_KWH_191306, t1.AKTIF_TUKETIM_KWH_191307, 
+      t1.AKTIF_TUKETIM_KWH_191308, t1.AKTIF_TUKETIM_KWH_191309, t1.AKTIF_TUKETIM_KWH_191310, t1.AKTIF_TUKETIM_KWH_191311, 
+      t1.AKTIF_TUKETIM_KWH_191312, t1.AKTIF_TUKETIM_KWH_191401, t1.AKTIF_TUKETIM_KWH_191402, t1.AKTIF_TUKETIM_KWH_191403, 
+      t1.AKTIF_TUKETIM_KWH_191404, t1.AKTIF_TUKETIM_KWH_191405, t1.AKTIF_TUKETIM_KWH_191406, t1.AKTIF_TUKETIM_KWH_191407, 
+      t1.AKTIF_TUKETIM_KWH_191408, t1.AKTIF_TUKETIM_KWH_191409, t1.AKTIF_TUKETIM_KWH_191410, t1.AKTIF_TUKETIM_KWH_191411, 
+      t1.AKTIF_TUKETIM_KWH_191412, t1.AKTIF_TUKETIM_KWH_191501, t1.AKTIF_TUKETIM_KWH_191502, t1.AKTIF_TUKETIM_KWH_191503, 
+      t1.AKTIF_TUKETIM_KWH_191504, t1.AKTIF_TUKETIM_KWH_191505, t1.AKTIF_TUKETIM_KWH_191506, t1.AKTIF_TUKETIM_KWH_191507, 
+      t1.AKTIF_TUKETIM_KWH_191508, t1.AKTIF_TUKETIM_KWH_191509, t1.AKTIF_TUKETIM_KWH_191510, t1.AKTIF_TUKETIM_KWH_191511, 
+      t1.AKTIF_TUKETIM_KWH_191512, t1.AKTIF_TUKETIM_KWH_191601, t1.AKTIF_TUKETIM_KWH_191602, t1.AKTIF_TUKETIM_KWH_191603, 
+      t1.AKTIF_TUKETIM_KWH_191604, t1.AKTIF_TUKETIM_KWH_191605, t1.AKTIF_TUKETIM_KWH_191606, t1.AKTIF_TUKETIM_KWH_191607, 
+      t1.AKTIF_TUKETIM_KWH_191608, t1.AKTIF_TUKETIM_KWH_191609, t1.AKTIF_TUKETIM_KWH_191610, t1.AKTIF_TUKETIM_KWH_191611, 
+      t1.AKTIF_TUKETIM_KWH_191612, t1.AKTIF_TUKETIM_KWH_191701, t1.AKTIF_TUKETIM_KWH_191702, t1.AKTIF_TUKETIM_KWH_191703, 
+      t1.AKTIF_TUKETIM_KWH_191704, t1.AKTIF_TUKETIM_KWH_191705, t1.AKTIF_TUKETIM_KWH_191706, t1.AKTIF_TUKETIM_KWH_191707, 
+      t1.AKTIF_TUKETIM_KWH_191708, t1.AKTIF_TUKETIM_KWH_191709, t1.AKTIF_TUKETIM_KWH_191710, t1.AKTIF_TUKETIM_KWH_191711, 
+      t1.AKTIF_TUKETIM_KWH_191712, t1.AKTIF_TUKETIM_KWH_191801, t1.AKTIF_TUKETIM_KWH_191802, t1.AKTIF_TUKETIM_KWH_191803, 
+      t1.AKTIF_TUKETIM_KWH_191804, t1.AKTIF_TUKETIM_KWH_191805, t1.AKTIF_TUKETIM_KWH_191806, t1.AKTIF_TUKETIM_KWH_191807, 
+      t1.AKTIF_TUKETIM_KWH_191808, t1.AKTIF_TUKETIM_KWH_191809, t1.AKTIF_TUKETIM_KWH_191810, t1.AKTIF_TUKETIM_KWH_191811, 
+      t1.AKTIF_TUKETIM_KWH_191812, t1.AKTIF_TUKETIM_KWH_191901, t1.AKTIF_TUKETIM_KWH_191902, t1.AKTIF_TUKETIM_KWH_191903, 
+      t1.AKTIF_TUKETIM_KWH_191904, t1.AKTIF_TUKETIM_KWH_191905, t1.AKTIF_TUKETIM_KWH_191906, t1.AKTIF_TUKETIM_KWH_191907, 
+      t1.AKTIF_TUKETIM_KWH_191908, t1.AKTIF_TUKETIM_KWH_191909, t1.AKTIF_TUKETIM_KWH_191910, t1.AKTIF_TUKETIM_KWH_191911, 
+      t1.AKTIF_TUKETIM_KWH_191912, t1.AKTIF_TUKETIM_KWH_2018, t2.BPARTNER, t2.UCINSTALLA, t2.AKTIF_TUKETIM_KWH_2019 from 
+      MUSTERI_TRANSPOSED1 t1 left join MUSTERI_CONS_2019 t2 on (t1.BPARTNER = t2.BPARTNER) and (t1.UCINSTALLA = t2.UCINSTALLA)
+ SPDS_NOTE: Parallel Merge Join Method Selected
+28                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+
+WARNING: Variable BPARTNER already exists on file TMPLIB3.MUSTERI_TRANSPOSED2.
+WARNING: Variable UCINSTALLA already exists on file TMPLIB3.MUSTERI_TRANSPOSED2.
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/TMPLIB3/
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/TMPLIB3/
+
+NOTE: Table TMPLIB3.MUSTERI_TRANSPOSED2 created, with 14692021 rows and 1456 columns.
+
+262        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           29:35.41
+      cpu time            8:44.51
+      
+
+263        
+264        PROC SQL;
+265        	CREATE TABLE TMPLIB3.ConsAll1 AS
+266        		SELECT *
+267        			FROM TMPLIB3.MUSTERI_TRANSPOSED2 t1
+268        				LEFT JOIN TMPLIB3.MUSTERI_CONS_&y0. t2 ON (t1.BPARTNER = t2.BPARTNER AND (t1.UCINSTALLA =
+269        					t2.UCINSTALLA));
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/TMPLIB3/
+
+NOTE: Implicit SQL:  select t1.BPARTNER, t1.UCINSTALLA, t1._NAME_, t1.AKTIF_TUKETIM_KWH_201207, t1.AKTIF_TUKETIM_KWH_201208, 
+      t1.AKTIF_TUKETIM_KWH_200809, t1.AKTIF_TUKETIM_KWH_200810, t1.AKTIF_TUKETIM_KWH_200811, t1.AKTIF_TUKETIM_KWH_200812, 
+      t1.AKTIF_TUKETIM_KWH_200901, t1.AKTIF_TUKETIM_KWH_200902, t1.AKTIF_TUKETIM_KWH_200903, t1.AKTIF_TUKETIM_KWH_200904, 
+      t1.AKTIF_TUKETIM_KWH_200905, t1.AKTIF_TUKETIM_KWH_200906, t1.AKTIF_TUKETIM_KWH_200907, t1.AKTIF_TUKETIM_KWH_200908, 
+      t1.AKTIF_TUKETIM_KWH_200909, t1.AKTIF_TUKETIM_KWH_200910, t1.AKTIF_TUKETIM_KWH_200911, t1.AKTIF_TUKETIM_KWH_200912, 
+      t1.AKTIF_TUKETIM_KWH_201001, t1.AKTIF_TUKETIM_KWH_201002, t1.AKTIF_TUKETIM_KWH_201003, t1.AKTIF_TUKETIM_KWH_201004, 
+      t1.AKTIF_TUKETIM_KWH_201005, t1.AKTIF_TUKETIM_KWH_201006, t1.AKTIF_TUKETIM_KWH_201007, t1.AKTIF_TUKETIM_KWH_201008, 
+      t1.AKTIF_TUKETIM_KWH_201009, t1.AKTIF_TUKETIM_KWH_201010, t1.AKTIF_TUKETIM_KWH_201011, t1.AKTIF_TUKETIM_KWH_201012, 
+      t1.AKTIF_TUKETIM_KWH_201101, t1.AKTIF_TUKETIM_KWH_201102, t1.AKTIF_TUKETIM_KWH_201202, t1.AKTIF_TUKETIM_KWH_201203, 
+      t1.AKTIF_TUKETIM_KWH_201204, t1.AKTIF_TUKETIM_KWH_201205, t1.AKTIF_TUKETIM_KWH_201206, t1.AKTIF_TUKETIM_KWH_201112, 
+      t1.AKTIF_TUKETIM_KWH_201201, t1.AKTIF_TUKETIM_KWH_201209, t1.AKTIF_TUKETIM_KWH_201210, t1.AKTIF_TUKETIM_KWH_201211, 
+      t1.AKTIF_TUKETIM_KWH_201212, t1.AKTIF_TUKETIM_KWH_201301, t1.AKTIF_TUKETIM_KWH_201302, t1.AKTIF_TUKETIM_KWH_201303, 
+      t1.AKTIF_TUKETIM_KWH_201304, t1.AKTIF_TUKETIM_KWH_201305, t1.AKTIF_TUKETIM_KWH_201306, t1.AKTIF_TUKETIM_KWH_201307, 
+      t1.AKTIF_TUKETIM_KWH_200803, t1.AKTIF_TUKETIM_KWH_200804, t1.AKTIF_TUKETIM_KWH_200805, t1.AKTIF_TUKETIM_KWH_200806, 
+      t1.AKTIF_TUKETIM_KWH_200807, t1.AKTIF_TUKETIM_KWH_200808, t1.AKTIF_TUKETIM_KWH_201103, t1.AKTIF_TUKETIM_KWH_201104, 
+      t1.AKTIF_TUKETIM_KWH_201105, t1.AKTIF_TUKETIM_KWH_201106, t1.AKTIF_TUKETIM_KWH_201107, t1.AKTIF_TUKETIM_KWH_201108, 
+      t1.AKTIF_TUKETIM_KWH_201109, t1.AKTIF_TUKETIM_KWH_201110, t1.AKTIF_TUKETIM_KWH_200707, t1.AKTIF_TUKETIM_KWH_200708, 
+      t1.AKTIF_TUKETIM_KWH_200709, t1.AKTIF_TUKETIM_KWH_200710, t1.AKTIF_TUKETIM_KWH_200711, t1.AKTIF_TUKETIM_KWH_200712, 
+      t1.AKTIF_TUKETIM_KWH_200801, t1.AKTIF_TUKETIM_KWH_200802, t1.AKTIF_TUKETIM_KWH_201111, t1.AKTIF_TUKETIM_KWH_200605, 
+      t1.AKTIF_TUKETIM_KWH_200606, t1.AKTIF_TUKETIM_KWH_200607, t1.AKTIF_TUKETIM_KWH_200608, t1.AKTIF_TUKETIM_KWH_200609, 
+      t1.AKTIF_TUKETIM_KWH_200610, t1.AKTIF_TUKETIM_KWH_200611, t1.AKTIF_TUKETIM_KWH_200612, t1.AKTIF_TUKETIM_KWH_200701, 
+      t1.AKTIF_TUKETIM_KWH_200702, t1.AKTIF_TUKETIM_KWH_200703, t1.AKTIF_TUKETIM_KWH_200704, t1.AKTIF_TUKETIM_KWH_200705, 
+      t1.AKTIF_TUKETIM_KWH_200706, t1.AKTIF_TUKETIM_KWH_201308, t1.AKTIF_TUKETIM_KWH_201309, t1.AKTIF_TUKETIM_KWH_200604, 
+29                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_201310, t1.AKTIF_TUKETIM_KWH_200511, t1.AKTIF_TUKETIM_KWH_200512, t1.AKTIF_TUKETIM_KWH_200601, 
+      t1.AKTIF_TUKETIM_KWH_200602, t1.AKTIF_TUKETIM_KWH_200603, t1.AKTIF_TUKETIM_KWH_201311, t1.AKTIF_TUKETIM_KWH_201312, 
+      t1.AKTIF_TUKETIM_KWH_201401, t1.AKTIF_TUKETIM_KWH_201402, t1.AKTIF_TUKETIM_KWH_201403, t1.AKTIF_TUKETIM_KWH_201404, 
+      t1.AKTIF_TUKETIM_KWH_201405, t1.AKTIF_TUKETIM_KWH_201406, t1.AKTIF_TUKETIM_KWH_201407, t1.AKTIF_TUKETIM_KWH_200509, 
+      t1.AKTIF_TUKETIM_KWH_200510, t1.AKTIF_TUKETIM_KWH_200401, t1.AKTIF_TUKETIM_KWH_200402, t1.AKTIF_TUKETIM_KWH_200403, 
+      t1.AKTIF_TUKETIM_KWH_200404, t1.AKTIF_TUKETIM_KWH_200405, t1.AKTIF_TUKETIM_KWH_200406, t1.AKTIF_TUKETIM_KWH_200407, 
+      t1.AKTIF_TUKETIM_KWH_200408, t1.AKTIF_TUKETIM_KWH_200409, t1.AKTIF_TUKETIM_KWH_200410, t1.AKTIF_TUKETIM_KWH_200411, 
+      t1.AKTIF_TUKETIM_KWH_200412, t1.AKTIF_TUKETIM_KWH_200501, t1.AKTIF_TUKETIM_KWH_200502, t1.AKTIF_TUKETIM_KWH_200503, 
+      t1.AKTIF_TUKETIM_KWH_200504, t1.AKTIF_TUKETIM_KWH_200505, t1.AKTIF_TUKETIM_KWH_200506, t1.AKTIF_TUKETIM_KWH_200507, 
+      t1.AKTIF_TUKETIM_KWH_200508, t1.AKTIF_TUKETIM_KWH_200310, t1.AKTIF_TUKETIM_KWH_200311, t1.AKTIF_TUKETIM_KWH_200312, 
+      t1.AKTIF_TUKETIM_KWH_200001, t1.AKTIF_TUKETIM_KWH_200002, t1.AKTIF_TUKETIM_KWH_200003, t1.AKTIF_TUKETIM_KWH_200004, 
+      t1.AKTIF_TUKETIM_KWH_200005, t1.AKTIF_TUKETIM_KWH_200006, t1.AKTIF_TUKETIM_KWH_200007, t1.AKTIF_TUKETIM_KWH_200008, 
+      t1.AKTIF_TUKETIM_KWH_200009, t1.AKTIF_TUKETIM_KWH_200010, t1.AKTIF_TUKETIM_KWH_200011, t1.AKTIF_TUKETIM_KWH_200012, 
+      t1.AKTIF_TUKETIM_KWH_200101, t1.AKTIF_TUKETIM_KWH_200102, t1.AKTIF_TUKETIM_KWH_200103, t1.AKTIF_TUKETIM_KWH_200104, 
+      t1.AKTIF_TUKETIM_KWH_200105, t1.AKTIF_TUKETIM_KWH_200106, t1.AKTIF_TUKETIM_KWH_200107, t1.AKTIF_TUKETIM_KWH_200108, 
+      t1.AKTIF_TUKETIM_KWH_200109, t1.AKTIF_TUKETIM_KWH_200110, t1.AKTIF_TUKETIM_KWH_200111, t1.AKTIF_TUKETIM_KWH_200112, 
+      t1.AKTIF_TUKETIM_KWH_200201, t1.AKTIF_TUKETIM_KWH_200202, t1.AKTIF_TUKETIM_KWH_200203, t1.AKTIF_TUKETIM_KWH_200204, 
+      t1.AKTIF_TUKETIM_KWH_200205, t1.AKTIF_TUKETIM_KWH_200206, t1.AKTIF_TUKETIM_KWH_200207, t1.AKTIF_TUKETIM_KWH_200208, 
+      t1.AKTIF_TUKETIM_KWH_200209, t1.AKTIF_TUKETIM_KWH_200210, t1.AKTIF_TUKETIM_KWH_200211, t1.AKTIF_TUKETIM_KWH_200212, 
+      t1.AKTIF_TUKETIM_KWH_200301, t1.AKTIF_TUKETIM_KWH_200302, t1.AKTIF_TUKETIM_KWH_200303, t1.AKTIF_TUKETIM_KWH_200304, 
+      t1.AKTIF_TUKETIM_KWH_200305, t1.AKTIF_TUKETIM_KWH_200306, t1.AKTIF_TUKETIM_KWH_200307, t1.AKTIF_TUKETIM_KWH_200308, 
+      t1.AKTIF_TUKETIM_KWH_200309, t1.AKTIF_TUKETIM_KWH_201408, t1.AKTIF_TUKETIM_KWH_198501, t1.AKTIF_TUKETIM_KWH_198502, 
+      t1.AKTIF_TUKETIM_KWH_198503, t1.AKTIF_TUKETIM_KWH_198504, t1.AKTIF_TUKETIM_KWH_198505, t1.AKTIF_TUKETIM_KWH_198506, 
+      t1.AKTIF_TUKETIM_KWH_198507, t1.AKTIF_TUKETIM_KWH_198508, t1.AKTIF_TUKETIM_KWH_198509, t1.AKTIF_TUKETIM_KWH_198510, 
+      t1.AKTIF_TUKETIM_KWH_198511, t1.AKTIF_TUKETIM_KWH_198512, t1.AKTIF_TUKETIM_KWH_198601, t1.AKTIF_TUKETIM_KWH_198602, 
+      t1.AKTIF_TUKETIM_KWH_198603, t1.AKTIF_TUKETIM_KWH_198604, t1.AKTIF_TUKETIM_KWH_198605, t1.AKTIF_TUKETIM_KWH_198606, 
+      t1.AKTIF_TUKETIM_KWH_198607, t1.AKTIF_TUKETIM_KWH_198608, t1.AKTIF_TUKETIM_KWH_198609, t1.AKTIF_TUKETIM_KWH_198610, 
+      t1.AKTIF_TUKETIM_KWH_198611, t1.AKTIF_TUKETIM_KWH_198612, t1.AKTIF_TUKETIM_KWH_198701, t1.AKTIF_TUKETIM_KWH_198702, 
+      t1.AKTIF_TUKETIM_KWH_198703, t1.AKTIF_TUKETIM_KWH_198704, t1.AKTIF_TUKETIM_KWH_198705, t1.AKTIF_TUKETIM_KWH_198706, 
+      t1.AKTIF_TUKETIM_KWH_198707, t1.AKTIF_TUKETIM_KWH_198708, t1.AKTIF_TUKETIM_KWH_198709, t1.AKTIF_TUKETIM_KWH_198710, 
+      t1.AKTIF_TUKETIM_KWH_198711, t1.AKTIF_TUKETIM_KWH_198712, t1.AKTIF_TUKETIM_KWH_198801, t1.AKTIF_TUKETIM_KWH_198802, 
+      t1.AKTIF_TUKETIM_KWH_198803, t1.AKTIF_TUKETIM_KWH_198804, t1.AKTIF_TUKETIM_KWH_198805, t1.AKTIF_TUKETIM_KWH_198806, 
+      t1.AKTIF_TUKETIM_KWH_198807, t1.AKTIF_TUKETIM_KWH_198808, t1.AKTIF_TUKETIM_KWH_198809, t1.AKTIF_TUKETIM_KWH_198810, 
+      t1.AKTIF_TUKETIM_KWH_198811, t1.AKTIF_TUKETIM_KWH_198812, t1.AKTIF_TUKETIM_KWH_198901, t1.AKTIF_TUKETIM_KWH_198902, 
+      t1.AKTIF_TUKETIM_KWH_198903, t1.AKTIF_TUKETIM_KWH_198904, t1.AKTIF_TUKETIM_KWH_198905, t1.AKTIF_TUKETIM_KWH_198906, 
+      t1.AKTIF_TUKETIM_KWH_198907, t1.AKTIF_TUKETIM_KWH_198908, t1.AKTIF_TUKETIM_KWH_198909, t1.AKTIF_TUKETIM_KWH_198910, 
+      t1.AKTIF_TUKETIM_KWH_198911, t1.AKTIF_TUKETIM_KWH_198912, t1.AKTIF_TUKETIM_KWH_199001, t1.AKTIF_TUKETIM_KWH_199002, 
+      t1.AKTIF_TUKETIM_KWH_199003, t1.AKTIF_TUKETIM_KWH_199004, t1.AKTIF_TUKETIM_KWH_199005, t1.AKTIF_TUKETIM_KWH_199006, 
+      t1.AKTIF_TUKETIM_KWH_199007, t1.AKTIF_TUKETIM_KWH_199008, t1.AKTIF_TUKETIM_KWH_199009, t1.AKTIF_TUKETIM_KWH_199010, 
+      t1.AKTIF_TUKETIM_KWH_199011, t1.AKTIF_TUKETIM_KWH_199012, t1.AKTIF_TUKETIM_KWH_199101, t1.AKTIF_TUKETIM_KWH_199102, 
+      t1.AKTIF_TUKETIM_KWH_199103, t1.AKTIF_TUKETIM_KWH_199104, t1.AKTIF_TUKETIM_KWH_199105, t1.AKTIF_TUKETIM_KWH_199106, 
+      t1.AKTIF_TUKETIM_KWH_199107, t1.AKTIF_TUKETIM_KWH_199108, t1.AKTIF_TUKETIM_KWH_199109, t1.AKTIF_TUKETIM_KWH_199110, 
+      t1.AKTIF_TUKETIM_KWH_199111, t1.AKTIF_TUKETIM_KWH_199112, t1.AKTIF_TUKETIM_KWH_199201, t1.AKTIF_TUKETIM_KWH_199202, 
+      t1.AKTIF_TUKETIM_KWH_199203, t1.AKTIF_TUKETIM_KWH_199204, t1.AKTIF_TUKETIM_KWH_199205, t1.AKTIF_TUKETIM_KWH_199206, 
+      t1.AKTIF_TUKETIM_KWH_199207, t1.AKTIF_TUKETIM_KWH_199208, t1.AKTIF_TUKETIM_KWH_199209, t1.AKTIF_TUKETIM_KWH_199210, 
+      t1.AKTIF_TUKETIM_KWH_199211, t1.AKTIF_TUKETIM_KWH_199212, t1.AKTIF_TUKETIM_KWH_199301, t1.AKTIF_TUKETIM_KWH_199302, 
+      t1.AKTIF_TUKETIM_KWH_199303, t1.AKTIF_TUKETIM_KWH_199304, t1.AKTIF_TUKETIM_KWH_199305, t1.AKTIF_TUKETIM_KWH_199306, 
+      t1.AKTIF_TUKETIM_KWH_199307, t1.AKTIF_TUKETIM_KWH_199308, t1.AKTIF_TUKETIM_KWH_199309, t1.AKTIF_TUKETIM_KWH_199310, 
+      t1.AKTIF_TUKETIM_KWH_199311, t1.AKTIF_TUKETIM_KWH_199312, t1.AKTIF_TUKETIM_KWH_199401, t1.AKTIF_TUKETIM_KWH_199402, 
+      t1.AKTIF_TUKETIM_KWH_199403, t1.AKTIF_TUKETIM_KWH_199404, t1.AKTIF_TUKETIM_KWH_199405, t1.AKTIF_TUKETIM_KWH_199406, 
+      t1.AKTIF_TUKETIM_KWH_199407, t1.AKTIF_TUKETIM_KWH_199408, t1.AKTIF_TUKETIM_KWH_199409, t1.AKTIF_TUKETIM_KWH_199410, 
+      t1.AKTIF_TUKETIM_KWH_199411, t1.AKTIF_TUKETIM_KWH_199412, t1.AKTIF_TUKETIM_KWH_199501, t1.AKTIF_TUKETIM_KWH_199502, 
+      t1.AKTIF_TUKETIM_KWH_199503, t1.AKTIF_TUKETIM_KWH_199504, t1.AKTIF_TUKETIM_KWH_199505, t1.AKTIF_TUKETIM_KWH_199506, 
+      t1.AKTIF_TUKETIM_KWH_199507, t1.AKTIF_TUKETIM_KWH_199508, t1.AKTIF_TUKETIM_KWH_199509, t1.AKTIF_TUKETIM_KWH_199510, 
+      t1.AKTIF_TUKETIM_KWH_199511, t1.AKTIF_TUKETIM_KWH_199512, t1.AKTIF_TUKETIM_KWH_199601, t1.AKTIF_TUKETIM_KWH_199602, 
+      t1.AKTIF_TUKETIM_KWH_199603, t1.AKTIF_TUKETIM_KWH_199604, t1.AKTIF_TUKETIM_KWH_199605, t1.AKTIF_TUKETIM_KWH_199606, 
+      t1.AKTIF_TUKETIM_KWH_199607, t1.AKTIF_TUKETIM_KWH_199608, t1.AKTIF_TUKETIM_KWH_199609, t1.AKTIF_TUKETIM_KWH_199610, 
+      t1.AKTIF_TUKETIM_KWH_199611, t1.AKTIF_TUKETIM_KWH_199612, t1.AKTIF_TUKETIM_KWH_199701, t1.AKTIF_TUKETIM_KWH_199702, 
+30                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_199703, t1.AKTIF_TUKETIM_KWH_199704, t1.AKTIF_TUKETIM_KWH_199705, t1.AKTIF_TUKETIM_KWH_199706, 
+      t1.AKTIF_TUKETIM_KWH_199707, t1.AKTIF_TUKETIM_KWH_199708, t1.AKTIF_TUKETIM_KWH_199709, t1.AKTIF_TUKETIM_KWH_199710, 
+      t1.AKTIF_TUKETIM_KWH_199711, t1.AKTIF_TUKETIM_KWH_199712, t1.AKTIF_TUKETIM_KWH_199801, t1.AKTIF_TUKETIM_KWH_199802, 
+      t1.AKTIF_TUKETIM_KWH_199803, t1.AKTIF_TUKETIM_KWH_199804, t1.AKTIF_TUKETIM_KWH_199805, t1.AKTIF_TUKETIM_KWH_199806, 
+      t1.AKTIF_TUKETIM_KWH_199807, t1.AKTIF_TUKETIM_KWH_199808, t1.AKTIF_TUKETIM_KWH_199809, t1.AKTIF_TUKETIM_KWH_199810, 
+      t1.AKTIF_TUKETIM_KWH_199811, t1.AKTIF_TUKETIM_KWH_199812, t1.AKTIF_TUKETIM_KWH_199901, t1.AKTIF_TUKETIM_KWH_199902, 
+      t1.AKTIF_TUKETIM_KWH_199903, t1.AKTIF_TUKETIM_KWH_199904, t1.AKTIF_TUKETIM_KWH_199905, t1.AKTIF_TUKETIM_KWH_199906, 
+      t1.AKTIF_TUKETIM_KWH_199907, t1.AKTIF_TUKETIM_KWH_199908, t1.AKTIF_TUKETIM_KWH_199909, t1.AKTIF_TUKETIM_KWH_199910, 
+      t1.AKTIF_TUKETIM_KWH_199911, t1.AKTIF_TUKETIM_KWH_199912, t1.AKTIF_TUKETIM_KWH_201709, t1.AKTIF_TUKETIM_KWH_201710, 
+      t1.AKTIF_TUKETIM_KWH_201711, t1.AKTIF_TUKETIM_KWH_201712, t1.AKTIF_TUKETIM_KWH_201801, t1.AKTIF_TUKETIM_KWH_201802, 
+      t1.AKTIF_TUKETIM_KWH_201803, t1.AKTIF_TUKETIM_KWH_201804, t1.AKTIF_TUKETIM_KWH_201805, t1.AKTIF_TUKETIM_KWH_201806, 
+      t1.AKTIF_TUKETIM_KWH_201807, t1.AKTIF_TUKETIM_KWH_201808, t1.AKTIF_TUKETIM_KWH_201809, t1.AKTIF_TUKETIM_KWH_201810, 
+      t1.AKTIF_TUKETIM_KWH_201811, t1.AKTIF_TUKETIM_KWH_201812, t1.AKTIF_TUKETIM_KWH_201901, t1.AKTIF_TUKETIM_KWH_201902, 
+      t1.AKTIF_TUKETIM_KWH_201903, t1.AKTIF_TUKETIM_KWH_201904, t1.AKTIF_TUKETIM_KWH_201905, t1.AKTIF_TUKETIM_KWH_201906, 
+      t1.AKTIF_TUKETIM_KWH_201907, t1.AKTIF_TUKETIM_KWH_201908, t1.AKTIF_TUKETIM_KWH_201909, t1.AKTIF_TUKETIM_KWH_201910, 
+      t1.AKTIF_TUKETIM_KWH_201911, t1.AKTIF_TUKETIM_KWH_201912, t1.AKTIF_TUKETIM_KWH_202001, t1.AKTIF_TUKETIM_KWH_202002, 
+      t1.AKTIF_TUKETIM_KWH_202003, t1.AKTIF_TUKETIM_KWH_202004, t1.AKTIF_TUKETIM_KWH_202005, t1.AKTIF_TUKETIM_KWH_202006, 
+      t1.AKTIF_TUKETIM_KWH_202007, t1.AKTIF_TUKETIM_KWH_202008, t1.AKTIF_TUKETIM_KWH_202009, t1.AKTIF_TUKETIM_KWH_202010, 
+      t1.AKTIF_TUKETIM_KWH_201706, t1.AKTIF_TUKETIM_KWH_201707, t1.AKTIF_TUKETIM_KWH_201708, t1.AKTIF_TUKETIM_KWH_201409, 
+      t1.AKTIF_TUKETIM_KWH_201410, t1.AKTIF_TUKETIM_KWH_201411, t1.AKTIF_TUKETIM_KWH_201412, t1.AKTIF_TUKETIM_KWH_201501, 
+      t1.AKTIF_TUKETIM_KWH_201502, t1.AKTIF_TUKETIM_KWH_201503, t1.AKTIF_TUKETIM_KWH_201504, t1.AKTIF_TUKETIM_KWH_201505, 
+      t1.AKTIF_TUKETIM_KWH_201506, t1.AKTIF_TUKETIM_KWH_201507, t1.AKTIF_TUKETIM_KWH_201508, t1.AKTIF_TUKETIM_KWH_201509, 
+      t1.AKTIF_TUKETIM_KWH_201510, t1.AKTIF_TUKETIM_KWH_201511, t1.AKTIF_TUKETIM_KWH_201512, t1.AKTIF_TUKETIM_KWH_201601, 
+      t1.AKTIF_TUKETIM_KWH_201602, t1.AKTIF_TUKETIM_KWH_201603, t1.AKTIF_TUKETIM_KWH_201604, t1.AKTIF_TUKETIM_KWH_201605, 
+      t1.AKTIF_TUKETIM_KWH_201606, t1.AKTIF_TUKETIM_KWH_201607, t1.AKTIF_TUKETIM_KWH_201608, t1.AKTIF_TUKETIM_KWH_201609, 
+      t1.AKTIF_TUKETIM_KWH_201610, t1.AKTIF_TUKETIM_KWH_201611, t1.AKTIF_TUKETIM_KWH_201612, t1.AKTIF_TUKETIM_KWH_201701, 
+      t1.AKTIF_TUKETIM_KWH_201702, t1.AKTIF_TUKETIM_KWH_201703, t1.AKTIF_TUKETIM_KWH_201704, t1.AKTIF_TUKETIM_KWH_201705, 
+      t1.AKTIF_TUKETIM_KWH_202011, t1.AKTIF_TUKETIM_KWH_192001, t1.AKTIF_TUKETIM_KWH_192002, t1.AKTIF_TUKETIM_KWH_192003, 
+      t1.AKTIF_TUKETIM_KWH_192004, t1.AKTIF_TUKETIM_KWH_192005, t1.AKTIF_TUKETIM_KWH_192006, t1.AKTIF_TUKETIM_KWH_192007, 
+      t1.AKTIF_TUKETIM_KWH_192008, t1.AKTIF_TUKETIM_KWH_192009, t1.AKTIF_TUKETIM_KWH_192010, t1.AKTIF_TUKETIM_KWH_192011, 
+      t1.AKTIF_TUKETIM_KWH_192012, t1.AKTIF_TUKETIM_KWH_192101, t1.AKTIF_TUKETIM_KWH_192102, t1.AKTIF_TUKETIM_KWH_192103, 
+      t1.AKTIF_TUKETIM_KWH_192104, t1.AKTIF_TUKETIM_KWH_192105, t1.AKTIF_TUKETIM_KWH_192106, t1.AKTIF_TUKETIM_KWH_192107, 
+      t1.AKTIF_TUKETIM_KWH_192108, t1.AKTIF_TUKETIM_KWH_192109, t1.AKTIF_TUKETIM_KWH_192110, t1.AKTIF_TUKETIM_KWH_192111, 
+      t1.AKTIF_TUKETIM_KWH_192112, t1.AKTIF_TUKETIM_KWH_192201, t1.AKTIF_TUKETIM_KWH_192202, t1.AKTIF_TUKETIM_KWH_192203, 
+      t1.AKTIF_TUKETIM_KWH_192204, t1.AKTIF_TUKETIM_KWH_192205, t1.AKTIF_TUKETIM_KWH_192206, t1.AKTIF_TUKETIM_KWH_192207, 
+      t1.AKTIF_TUKETIM_KWH_192208, t1.AKTIF_TUKETIM_KWH_192209, t1.AKTIF_TUKETIM_KWH_192210, t1.AKTIF_TUKETIM_KWH_192211, 
+      t1.AKTIF_TUKETIM_KWH_192212, t1.AKTIF_TUKETIM_KWH_192301, t1.AKTIF_TUKETIM_KWH_192302, t1.AKTIF_TUKETIM_KWH_192303, 
+      t1.AKTIF_TUKETIM_KWH_192304, t1.AKTIF_TUKETIM_KWH_192305, t1.AKTIF_TUKETIM_KWH_192306, t1.AKTIF_TUKETIM_KWH_192307, 
+      t1.AKTIF_TUKETIM_KWH_192308, t1.AKTIF_TUKETIM_KWH_192309, t1.AKTIF_TUKETIM_KWH_192310, t1.AKTIF_TUKETIM_KWH_192311, 
+      t1.AKTIF_TUKETIM_KWH_192312, t1.AKTIF_TUKETIM_KWH_192401, t1.AKTIF_TUKETIM_KWH_192402, t1.AKTIF_TUKETIM_KWH_192403, 
+      t1.AKTIF_TUKETIM_KWH_192404, t1.AKTIF_TUKETIM_KWH_192405, t1.AKTIF_TUKETIM_KWH_192406, t1.AKTIF_TUKETIM_KWH_192407, 
+      t1.AKTIF_TUKETIM_KWH_192408, t1.AKTIF_TUKETIM_KWH_192409, t1.AKTIF_TUKETIM_KWH_192410, t1.AKTIF_TUKETIM_KWH_192411, 
+      t1.AKTIF_TUKETIM_KWH_192412, t1.AKTIF_TUKETIM_KWH_192501, t1.AKTIF_TUKETIM_KWH_192502, t1.AKTIF_TUKETIM_KWH_192503, 
+      t1.AKTIF_TUKETIM_KWH_192504, t1.AKTIF_TUKETIM_KWH_192505, t1.AKTIF_TUKETIM_KWH_192506, t1.AKTIF_TUKETIM_KWH_192507, 
+      t1.AKTIF_TUKETIM_KWH_192508, t1.AKTIF_TUKETIM_KWH_192509, t1.AKTIF_TUKETIM_KWH_192510, t1.AKTIF_TUKETIM_KWH_192511, 
+      t1.AKTIF_TUKETIM_KWH_192512, t1.AKTIF_TUKETIM_KWH_192601, t1.AKTIF_TUKETIM_KWH_192602, t1.AKTIF_TUKETIM_KWH_192603, 
+      t1.AKTIF_TUKETIM_KWH_192604, t1.AKTIF_TUKETIM_KWH_192605, t1.AKTIF_TUKETIM_KWH_192606, t1.AKTIF_TUKETIM_KWH_192607, 
+      t1.AKTIF_TUKETIM_KWH_192608, t1.AKTIF_TUKETIM_KWH_192609, t1.AKTIF_TUKETIM_KWH_192610, t1.AKTIF_TUKETIM_KWH_192611, 
+      t1.AKTIF_TUKETIM_KWH_192612, t1.AKTIF_TUKETIM_KWH_192701, t1.AKTIF_TUKETIM_KWH_192702, t1.AKTIF_TUKETIM_KWH_192703, 
+      t1.AKTIF_TUKETIM_KWH_192704, t1.AKTIF_TUKETIM_KWH_192705, t1.AKTIF_TUKETIM_KWH_192706, t1.AKTIF_TUKETIM_KWH_192707, 
+      t1.AKTIF_TUKETIM_KWH_192708, t1.AKTIF_TUKETIM_KWH_192709, t1.AKTIF_TUKETIM_KWH_192710, t1.AKTIF_TUKETIM_KWH_192711, 
+      t1.AKTIF_TUKETIM_KWH_192712, t1.AKTIF_TUKETIM_KWH_192801, t1.AKTIF_TUKETIM_KWH_192802, t1.AKTIF_TUKETIM_KWH_192803, 
+      t1.AKTIF_TUKETIM_KWH_192804, t1.AKTIF_TUKETIM_KWH_192805, t1.AKTIF_TUKETIM_KWH_192806, t1.AKTIF_TUKETIM_KWH_192807, 
+      t1.AKTIF_TUKETIM_KWH_192808, t1.AKTIF_TUKETIM_KWH_192809, t1.AKTIF_TUKETIM_KWH_192810, t1.AKTIF_TUKETIM_KWH_192811, 
+      t1.AKTIF_TUKETIM_KWH_192812, t1.AKTIF_TUKETIM_KWH_192901, t1.AKTIF_TUKETIM_KWH_192902, t1.AKTIF_TUKETIM_KWH_192903, 
+      t1.AKTIF_TUKETIM_KWH_192904, t1.AKTIF_TUKETIM_KWH_192905, t1.AKTIF_TUKETIM_KWH_192906, t1.AKTIF_TUKETIM_KWH_192907, 
+      t1.AKTIF_TUKETIM_KWH_192908, t1.AKTIF_TUKETIM_KWH_192909, t1.AKTIF_TUKETIM_KWH_192910, t1.AKTIF_TUKETIM_KWH_192911, 
+      t1.AKTIF_TUKETIM_KWH_192912, t1.AKTIF_TUKETIM_KWH_193001, t1.AKTIF_TUKETIM_KWH_193002, t1.AKTIF_TUKETIM_KWH_193003, 
+31                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_193004, t1.AKTIF_TUKETIM_KWH_193005, t1.AKTIF_TUKETIM_KWH_193006, t1.AKTIF_TUKETIM_KWH_193007, 
+      t1.AKTIF_TUKETIM_KWH_193008, t1.AKTIF_TUKETIM_KWH_193009, t1.AKTIF_TUKETIM_KWH_193010, t1.AKTIF_TUKETIM_KWH_193011, 
+      t1.AKTIF_TUKETIM_KWH_193012, t1.AKTIF_TUKETIM_KWH_193101, t1.AKTIF_TUKETIM_KWH_193102, t1.AKTIF_TUKETIM_KWH_193103, 
+      t1.AKTIF_TUKETIM_KWH_193104, t1.AKTIF_TUKETIM_KWH_193105, t1.AKTIF_TUKETIM_KWH_193106, t1.AKTIF_TUKETIM_KWH_193107, 
+      t1.AKTIF_TUKETIM_KWH_193108, t1.AKTIF_TUKETIM_KWH_193109, t1.AKTIF_TUKETIM_KWH_193110, t1.AKTIF_TUKETIM_KWH_193111, 
+      t1.AKTIF_TUKETIM_KWH_193112, t1.AKTIF_TUKETIM_KWH_193201, t1.AKTIF_TUKETIM_KWH_193202, t1.AKTIF_TUKETIM_KWH_193203, 
+      t1.AKTIF_TUKETIM_KWH_193204, t1.AKTIF_TUKETIM_KWH_193205, t1.AKTIF_TUKETIM_KWH_193206, t1.AKTIF_TUKETIM_KWH_193207, 
+      t1.AKTIF_TUKETIM_KWH_193208, t1.AKTIF_TUKETIM_KWH_193209, t1.AKTIF_TUKETIM_KWH_193210, t1.AKTIF_TUKETIM_KWH_193211, 
+      t1.AKTIF_TUKETIM_KWH_193212, t1.AKTIF_TUKETIM_KWH_193301, t1.AKTIF_TUKETIM_KWH_193302, t1.AKTIF_TUKETIM_KWH_193303, 
+      t1.AKTIF_TUKETIM_KWH_193304, t1.AKTIF_TUKETIM_KWH_193305, t1.AKTIF_TUKETIM_KWH_193306, t1.AKTIF_TUKETIM_KWH_193307, 
+      t1.AKTIF_TUKETIM_KWH_193308, t1.AKTIF_TUKETIM_KWH_193309, t1.AKTIF_TUKETIM_KWH_193310, t1.AKTIF_TUKETIM_KWH_193311, 
+      t1.AKTIF_TUKETIM_KWH_193312, t1.AKTIF_TUKETIM_KWH_193401, t1.AKTIF_TUKETIM_KWH_193402, t1.AKTIF_TUKETIM_KWH_193403, 
+      t1.AKTIF_TUKETIM_KWH_193404, t1.AKTIF_TUKETIM_KWH_193405, t1.AKTIF_TUKETIM_KWH_193406, t1.AKTIF_TUKETIM_KWH_193407, 
+      t1.AKTIF_TUKETIM_KWH_193408, t1.AKTIF_TUKETIM_KWH_193409, t1.AKTIF_TUKETIM_KWH_193410, t1.AKTIF_TUKETIM_KWH_193411, 
+      t1.AKTIF_TUKETIM_KWH_193412, t1.AKTIF_TUKETIM_KWH_193501, t1.AKTIF_TUKETIM_KWH_193502, t1.AKTIF_TUKETIM_KWH_193503, 
+      t1.AKTIF_TUKETIM_KWH_193504, t1.AKTIF_TUKETIM_KWH_193505, t1.AKTIF_TUKETIM_KWH_193506, t1.AKTIF_TUKETIM_KWH_193507, 
+      t1.AKTIF_TUKETIM_KWH_193508, t1.AKTIF_TUKETIM_KWH_193509, t1.AKTIF_TUKETIM_KWH_193510, t1.AKTIF_TUKETIM_KWH_193511, 
+      t1.AKTIF_TUKETIM_KWH_193512, t1.AKTIF_TUKETIM_KWH_193601, t1.AKTIF_TUKETIM_KWH_193602, t1.AKTIF_TUKETIM_KWH_193603, 
+      t1.AKTIF_TUKETIM_KWH_193604, t1.AKTIF_TUKETIM_KWH_193605, t1.AKTIF_TUKETIM_KWH_193606, t1.AKTIF_TUKETIM_KWH_193607, 
+      t1.AKTIF_TUKETIM_KWH_193608, t1.AKTIF_TUKETIM_KWH_193609, t1.AKTIF_TUKETIM_KWH_193610, t1.AKTIF_TUKETIM_KWH_193611, 
+      t1.AKTIF_TUKETIM_KWH_193612, t1.AKTIF_TUKETIM_KWH_193701, t1.AKTIF_TUKETIM_KWH_193702, t1.AKTIF_TUKETIM_KWH_193703, 
+      t1.AKTIF_TUKETIM_KWH_193704, t1.AKTIF_TUKETIM_KWH_193705, t1.AKTIF_TUKETIM_KWH_193706, t1.AKTIF_TUKETIM_KWH_193707, 
+      t1.AKTIF_TUKETIM_KWH_193708, t1.AKTIF_TUKETIM_KWH_193709, t1.AKTIF_TUKETIM_KWH_193710, t1.AKTIF_TUKETIM_KWH_193711, 
+      t1.AKTIF_TUKETIM_KWH_193712, t1.AKTIF_TUKETIM_KWH_193801, t1.AKTIF_TUKETIM_KWH_193802, t1.AKTIF_TUKETIM_KWH_193803, 
+      t1.AKTIF_TUKETIM_KWH_193804, t1.AKTIF_TUKETIM_KWH_193805, t1.AKTIF_TUKETIM_KWH_193806, t1.AKTIF_TUKETIM_KWH_193807, 
+      t1.AKTIF_TUKETIM_KWH_193808, t1.AKTIF_TUKETIM_KWH_193809, t1.AKTIF_TUKETIM_KWH_193810, t1.AKTIF_TUKETIM_KWH_193811, 
+      t1.AKTIF_TUKETIM_KWH_193812, t1.AKTIF_TUKETIM_KWH_193901, t1.AKTIF_TUKETIM_KWH_193902, t1.AKTIF_TUKETIM_KWH_193903, 
+      t1.AKTIF_TUKETIM_KWH_193904, t1.AKTIF_TUKETIM_KWH_193905, t1.AKTIF_TUKETIM_KWH_193906, t1.AKTIF_TUKETIM_KWH_193907, 
+      t1.AKTIF_TUKETIM_KWH_193908, t1.AKTIF_TUKETIM_KWH_193909, t1.AKTIF_TUKETIM_KWH_193910, t1.AKTIF_TUKETIM_KWH_193911, 
+      t1.AKTIF_TUKETIM_KWH_193912, t1.AKTIF_TUKETIM_KWH_194001, t1.AKTIF_TUKETIM_KWH_194002, t1.AKTIF_TUKETIM_KWH_194003, 
+      t1.AKTIF_TUKETIM_KWH_194004, t1.AKTIF_TUKETIM_KWH_194005, t1.AKTIF_TUKETIM_KWH_194006, t1.AKTIF_TUKETIM_KWH_194007, 
+      t1.AKTIF_TUKETIM_KWH_194008, t1.AKTIF_TUKETIM_KWH_194009, t1.AKTIF_TUKETIM_KWH_194010, t1.AKTIF_TUKETIM_KWH_194011, 
+      t1.AKTIF_TUKETIM_KWH_194012, t1.AKTIF_TUKETIM_KWH_194101, t1.AKTIF_TUKETIM_KWH_194102, t1.AKTIF_TUKETIM_KWH_194103, 
+      t1.AKTIF_TUKETIM_KWH_194104, t1.AKTIF_TUKETIM_KWH_194105, t1.AKTIF_TUKETIM_KWH_194106, t1.AKTIF_TUKETIM_KWH_194107, 
+      t1.AKTIF_TUKETIM_KWH_194108, t1.AKTIF_TUKETIM_KWH_194109, t1.AKTIF_TUKETIM_KWH_194110, t1.AKTIF_TUKETIM_KWH_194111, 
+      t1.AKTIF_TUKETIM_KWH_194112, t1.AKTIF_TUKETIM_KWH_194201, t1.AKTIF_TUKETIM_KWH_194202, t1.AKTIF_TUKETIM_KWH_194203, 
+      t1.AKTIF_TUKETIM_KWH_194204, t1.AKTIF_TUKETIM_KWH_194205, t1.AKTIF_TUKETIM_KWH_194206, t1.AKTIF_TUKETIM_KWH_194207, 
+      t1.AKTIF_TUKETIM_KWH_194208, t1.AKTIF_TUKETIM_KWH_194209, t1.AKTIF_TUKETIM_KWH_194210, t1.AKTIF_TUKETIM_KWH_194211, 
+      t1.AKTIF_TUKETIM_KWH_194212, t1.AKTIF_TUKETIM_KWH_194301, t1.AKTIF_TUKETIM_KWH_194302, t1.AKTIF_TUKETIM_KWH_194303, 
+      t1.AKTIF_TUKETIM_KWH_194304, t1.AKTIF_TUKETIM_KWH_194305, t1.AKTIF_TUKETIM_KWH_194306, t1.AKTIF_TUKETIM_KWH_194307, 
+      t1.AKTIF_TUKETIM_KWH_194308, t1.AKTIF_TUKETIM_KWH_194309, t1.AKTIF_TUKETIM_KWH_194310, t1.AKTIF_TUKETIM_KWH_194311, 
+      t1.AKTIF_TUKETIM_KWH_194312, t1.AKTIF_TUKETIM_KWH_194401, t1.AKTIF_TUKETIM_KWH_194402, t1.AKTIF_TUKETIM_KWH_194403, 
+      t1.AKTIF_TUKETIM_KWH_194404, t1.AKTIF_TUKETIM_KWH_194405, t1.AKTIF_TUKETIM_KWH_194406, t1.AKTIF_TUKETIM_KWH_194407, 
+      t1.AKTIF_TUKETIM_KWH_194408, t1.AKTIF_TUKETIM_KWH_194409, t1.AKTIF_TUKETIM_KWH_194410, t1.AKTIF_TUKETIM_KWH_194411, 
+      t1.AKTIF_TUKETIM_KWH_194412, t1.AKTIF_TUKETIM_KWH_194501, t1.AKTIF_TUKETIM_KWH_194502, t1.AKTIF_TUKETIM_KWH_194503, 
+      t1.AKTIF_TUKETIM_KWH_194504, t1.AKTIF_TUKETIM_KWH_194505, t1.AKTIF_TUKETIM_KWH_194506, t1.AKTIF_TUKETIM_KWH_194507, 
+      t1.AKTIF_TUKETIM_KWH_194508, t1.AKTIF_TUKETIM_KWH_194509, t1.AKTIF_TUKETIM_KWH_194510, t1.AKTIF_TUKETIM_KWH_194511, 
+      t1.AKTIF_TUKETIM_KWH_194512, t1.AKTIF_TUKETIM_KWH_194601, t1.AKTIF_TUKETIM_KWH_194602, t1.AKTIF_TUKETIM_KWH_194603, 
+      t1.AKTIF_TUKETIM_KWH_194604, t1.AKTIF_TUKETIM_KWH_194605, t1.AKTIF_TUKETIM_KWH_194606, t1.AKTIF_TUKETIM_KWH_194607, 
+      t1.AKTIF_TUKETIM_KWH_194608, t1.AKTIF_TUKETIM_KWH_194609, t1.AKTIF_TUKETIM_KWH_194610, t1.AKTIF_TUKETIM_KWH_194611, 
+      t1.AKTIF_TUKETIM_KWH_194612, t1.AKTIF_TUKETIM_KWH_194701, t1.AKTIF_TUKETIM_KWH_194702, t1.AKTIF_TUKETIM_KWH_194703, 
+      t1.AKTIF_TUKETIM_KWH_194704, t1.AKTIF_TUKETIM_KWH_194705, t1.AKTIF_TUKETIM_KWH_194706, t1.AKTIF_TUKETIM_KWH_194707, 
+      t1.AKTIF_TUKETIM_KWH_194708, t1.AKTIF_TUKETIM_KWH_194709, t1.AKTIF_TUKETIM_KWH_194710, t1.AKTIF_TUKETIM_KWH_194711, 
+      t1.AKTIF_TUKETIM_KWH_194712, t1.AKTIF_TUKETIM_KWH_194801, t1.AKTIF_TUKETIM_KWH_194802, t1.AKTIF_TUKETIM_KWH_194803, 
+      t1.AKTIF_TUKETIM_KWH_194804, t1.AKTIF_TUKETIM_KWH_194805, t1.AKTIF_TUKETIM_KWH_194806, t1.AKTIF_TUKETIM_KWH_194807, 
+      t1.AKTIF_TUKETIM_KWH_194808, t1.AKTIF_TUKETIM_KWH_194809, t1.AKTIF_TUKETIM_KWH_194810, t1.AKTIF_TUKETIM_KWH_194811, 
+      t1.AKTIF_TUKETIM_KWH_194812, t1.AKTIF_TUKETIM_KWH_194901, t1.AKTIF_TUKETIM_KWH_194902, t1.AKTIF_TUKETIM_KWH_194903, 
+      t1.AKTIF_TUKETIM_KWH_194904, t1.AKTIF_TUKETIM_KWH_194905, t1.AKTIF_TUKETIM_KWH_194906, t1.AKTIF_TUKETIM_KWH_194907, 
+32                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_194908, t1.AKTIF_TUKETIM_KWH_194909, t1.AKTIF_TUKETIM_KWH_194910, t1.AKTIF_TUKETIM_KWH_194911, 
+      t1.AKTIF_TUKETIM_KWH_194912, t1.AKTIF_TUKETIM_KWH_195001, t1.AKTIF_TUKETIM_KWH_195002, t1.AKTIF_TUKETIM_KWH_195003, 
+      t1.AKTIF_TUKETIM_KWH_195004, t1.AKTIF_TUKETIM_KWH_195005, t1.AKTIF_TUKETIM_KWH_195006, t1.AKTIF_TUKETIM_KWH_195007, 
+      t1.AKTIF_TUKETIM_KWH_195008, t1.AKTIF_TUKETIM_KWH_195009, t1.AKTIF_TUKETIM_KWH_195010, t1.AKTIF_TUKETIM_KWH_195011, 
+      t1.AKTIF_TUKETIM_KWH_195012, t1.AKTIF_TUKETIM_KWH_195101, t1.AKTIF_TUKETIM_KWH_195102, t1.AKTIF_TUKETIM_KWH_195103, 
+      t1.AKTIF_TUKETIM_KWH_195104, t1.AKTIF_TUKETIM_KWH_195105, t1.AKTIF_TUKETIM_KWH_195106, t1.AKTIF_TUKETIM_KWH_195107, 
+      t1.AKTIF_TUKETIM_KWH_195108, t1.AKTIF_TUKETIM_KWH_195109, t1.AKTIF_TUKETIM_KWH_195110, t1.AKTIF_TUKETIM_KWH_195111, 
+      t1.AKTIF_TUKETIM_KWH_195112, t1.AKTIF_TUKETIM_KWH_195201, t1.AKTIF_TUKETIM_KWH_195202, t1.AKTIF_TUKETIM_KWH_195203, 
+      t1.AKTIF_TUKETIM_KWH_195204, t1.AKTIF_TUKETIM_KWH_195205, t1.AKTIF_TUKETIM_KWH_195206, t1.AKTIF_TUKETIM_KWH_195207, 
+      t1.AKTIF_TUKETIM_KWH_195208, t1.AKTIF_TUKETIM_KWH_195209, t1.AKTIF_TUKETIM_KWH_195210, t1.AKTIF_TUKETIM_KWH_195211, 
+      t1.AKTIF_TUKETIM_KWH_195212, t1.AKTIF_TUKETIM_KWH_195301, t1.AKTIF_TUKETIM_KWH_195302, t1.AKTIF_TUKETIM_KWH_195303, 
+      t1.AKTIF_TUKETIM_KWH_195304, t1.AKTIF_TUKETIM_KWH_195305, t1.AKTIF_TUKETIM_KWH_195306, t1.AKTIF_TUKETIM_KWH_195307, 
+      t1.AKTIF_TUKETIM_KWH_195308, t1.AKTIF_TUKETIM_KWH_195309, t1.AKTIF_TUKETIM_KWH_195310, t1.AKTIF_TUKETIM_KWH_195311, 
+      t1.AKTIF_TUKETIM_KWH_195312, t1.AKTIF_TUKETIM_KWH_195401, t1.AKTIF_TUKETIM_KWH_195402, t1.AKTIF_TUKETIM_KWH_195403, 
+      t1.AKTIF_TUKETIM_KWH_195404, t1.AKTIF_TUKETIM_KWH_195405, t1.AKTIF_TUKETIM_KWH_195406, t1.AKTIF_TUKETIM_KWH_195407, 
+      t1.AKTIF_TUKETIM_KWH_195408, t1.AKTIF_TUKETIM_KWH_195409, t1.AKTIF_TUKETIM_KWH_195410, t1.AKTIF_TUKETIM_KWH_195411, 
+      t1.AKTIF_TUKETIM_KWH_195412, t1.AKTIF_TUKETIM_KWH_195501, t1.AKTIF_TUKETIM_KWH_195502, t1.AKTIF_TUKETIM_KWH_195503, 
+      t1.AKTIF_TUKETIM_KWH_195504, t1.AKTIF_TUKETIM_KWH_195505, t1.AKTIF_TUKETIM_KWH_195506, t1.AKTIF_TUKETIM_KWH_195507, 
+      t1.AKTIF_TUKETIM_KWH_195508, t1.AKTIF_TUKETIM_KWH_195509, t1.AKTIF_TUKETIM_KWH_195510, t1.AKTIF_TUKETIM_KWH_195511, 
+      t1.AKTIF_TUKETIM_KWH_195512, t1.AKTIF_TUKETIM_KWH_195601, t1.AKTIF_TUKETIM_KWH_195602, t1.AKTIF_TUKETIM_KWH_195603, 
+      t1.AKTIF_TUKETIM_KWH_195604, t1.AKTIF_TUKETIM_KWH_195605, t1.AKTIF_TUKETIM_KWH_195606, t1.AKTIF_TUKETIM_KWH_195607, 
+      t1.AKTIF_TUKETIM_KWH_195608, t1.AKTIF_TUKETIM_KWH_195609, t1.AKTIF_TUKETIM_KWH_195610, t1.AKTIF_TUKETIM_KWH_195611, 
+      t1.AKTIF_TUKETIM_KWH_195612, t1.AKTIF_TUKETIM_KWH_195701, t1.AKTIF_TUKETIM_KWH_195702, t1.AKTIF_TUKETIM_KWH_195703, 
+      t1.AKTIF_TUKETIM_KWH_195704, t1.AKTIF_TUKETIM_KWH_195705, t1.AKTIF_TUKETIM_KWH_195706, t1.AKTIF_TUKETIM_KWH_195707, 
+      t1.AKTIF_TUKETIM_KWH_195708, t1.AKTIF_TUKETIM_KWH_195709, t1.AKTIF_TUKETIM_KWH_195710, t1.AKTIF_TUKETIM_KWH_195711, 
+      t1.AKTIF_TUKETIM_KWH_195712, t1.AKTIF_TUKETIM_KWH_195801, t1.AKTIF_TUKETIM_KWH_195802, t1.AKTIF_TUKETIM_KWH_195803, 
+      t1.AKTIF_TUKETIM_KWH_195804, t1.AKTIF_TUKETIM_KWH_195805, t1.AKTIF_TUKETIM_KWH_195806, t1.AKTIF_TUKETIM_KWH_195807, 
+      t1.AKTIF_TUKETIM_KWH_195808, t1.AKTIF_TUKETIM_KWH_195809, t1.AKTIF_TUKETIM_KWH_195810, t1.AKTIF_TUKETIM_KWH_195811, 
+      t1.AKTIF_TUKETIM_KWH_195812, t1.AKTIF_TUKETIM_KWH_195901, t1.AKTIF_TUKETIM_KWH_195902, t1.AKTIF_TUKETIM_KWH_195903, 
+      t1.AKTIF_TUKETIM_KWH_195904, t1.AKTIF_TUKETIM_KWH_195905, t1.AKTIF_TUKETIM_KWH_195906, t1.AKTIF_TUKETIM_KWH_195907, 
+      t1.AKTIF_TUKETIM_KWH_195908, t1.AKTIF_TUKETIM_KWH_195909, t1.AKTIF_TUKETIM_KWH_195910, t1.AKTIF_TUKETIM_KWH_195911, 
+      t1.AKTIF_TUKETIM_KWH_195912, t1.AKTIF_TUKETIM_KWH_196001, t1.AKTIF_TUKETIM_KWH_196002, t1.AKTIF_TUKETIM_KWH_196003, 
+      t1.AKTIF_TUKETIM_KWH_196004, t1.AKTIF_TUKETIM_KWH_196005, t1.AKTIF_TUKETIM_KWH_196006, t1.AKTIF_TUKETIM_KWH_196007, 
+      t1.AKTIF_TUKETIM_KWH_196008, t1.AKTIF_TUKETIM_KWH_196009, t1.AKTIF_TUKETIM_KWH_196010, t1.AKTIF_TUKETIM_KWH_196011, 
+      t1.AKTIF_TUKETIM_KWH_196012, t1.AKTIF_TUKETIM_KWH_196101, t1.AKTIF_TUKETIM_KWH_196102, t1.AKTIF_TUKETIM_KWH_196103, 
+      t1.AKTIF_TUKETIM_KWH_196104, t1.AKTIF_TUKETIM_KWH_196105, t1.AKTIF_TUKETIM_KWH_196106, t1.AKTIF_TUKETIM_KWH_196107, 
+      t1.AKTIF_TUKETIM_KWH_196108, t1.AKTIF_TUKETIM_KWH_196109, t1.AKTIF_TUKETIM_KWH_196110, t1.AKTIF_TUKETIM_KWH_196111, 
+      t1.AKTIF_TUKETIM_KWH_196112, t1.AKTIF_TUKETIM_KWH_196201, t1.AKTIF_TUKETIM_KWH_196202, t1.AKTIF_TUKETIM_KWH_196203, 
+      t1.AKTIF_TUKETIM_KWH_196204, t1.AKTIF_TUKETIM_KWH_196205, t1.AKTIF_TUKETIM_KWH_196206, t1.AKTIF_TUKETIM_KWH_196207, 
+      t1.AKTIF_TUKETIM_KWH_196208, t1.AKTIF_TUKETIM_KWH_196209, t1.AKTIF_TUKETIM_KWH_196210, t1.AKTIF_TUKETIM_KWH_196211, 
+      t1.AKTIF_TUKETIM_KWH_196212, t1.AKTIF_TUKETIM_KWH_196301, t1.AKTIF_TUKETIM_KWH_196302, t1.AKTIF_TUKETIM_KWH_196303, 
+      t1.AKTIF_TUKETIM_KWH_196304, t1.AKTIF_TUKETIM_KWH_196305, t1.AKTIF_TUKETIM_KWH_196306, t1.AKTIF_TUKETIM_KWH_196307, 
+      t1.AKTIF_TUKETIM_KWH_196308, t1.AKTIF_TUKETIM_KWH_196309, t1.AKTIF_TUKETIM_KWH_196310, t1.AKTIF_TUKETIM_KWH_196311, 
+      t1.AKTIF_TUKETIM_KWH_196312, t1.AKTIF_TUKETIM_KWH_196401, t1.AKTIF_TUKETIM_KWH_196402, t1.AKTIF_TUKETIM_KWH_196403, 
+      t1.AKTIF_TUKETIM_KWH_196404, t1.AKTIF_TUKETIM_KWH_196405, t1.AKTIF_TUKETIM_KWH_196406, t1.AKTIF_TUKETIM_KWH_196407, 
+      t1.AKTIF_TUKETIM_KWH_196408, t1.AKTIF_TUKETIM_KWH_196409, t1.AKTIF_TUKETIM_KWH_196410, t1.AKTIF_TUKETIM_KWH_196411, 
+      t1.AKTIF_TUKETIM_KWH_196412, t1.AKTIF_TUKETIM_KWH_196501, t1.AKTIF_TUKETIM_KWH_196502, t1.AKTIF_TUKETIM_KWH_196503, 
+      t1.AKTIF_TUKETIM_KWH_196504, t1.AKTIF_TUKETIM_KWH_196505, t1.AKTIF_TUKETIM_KWH_196506, t1.AKTIF_TUKETIM_KWH_196507, 
+      t1.AKTIF_TUKETIM_KWH_196508, t1.AKTIF_TUKETIM_KWH_196509, t1.AKTIF_TUKETIM_KWH_196510, t1.AKTIF_TUKETIM_KWH_196511, 
+      t1.AKTIF_TUKETIM_KWH_196512, t1.AKTIF_TUKETIM_KWH_196601, t1.AKTIF_TUKETIM_KWH_196602, t1.AKTIF_TUKETIM_KWH_196603, 
+      t1.AKTIF_TUKETIM_KWH_196604, t1.AKTIF_TUKETIM_KWH_196605, t1.AKTIF_TUKETIM_KWH_196606, t1.AKTIF_TUKETIM_KWH_196607, 
+      t1.AKTIF_TUKETIM_KWH_196608, t1.AKTIF_TUKETIM_KWH_196609, t1.AKTIF_TUKETIM_KWH_196610, t1.AKTIF_TUKETIM_KWH_196611, 
+      t1.AKTIF_TUKETIM_KWH_196612, t1.AKTIF_TUKETIM_KWH_196701, t1.AKTIF_TUKETIM_KWH_196702, t1.AKTIF_TUKETIM_KWH_196703, 
+      t1.AKTIF_TUKETIM_KWH_196704, t1.AKTIF_TUKETIM_KWH_196705, t1.AKTIF_TUKETIM_KWH_196706, t1.AKTIF_TUKETIM_KWH_196707, 
+      t1.AKTIF_TUKETIM_KWH_196708, t1.AKTIF_TUKETIM_KWH_196709, t1.AKTIF_TUKETIM_KWH_196710, t1.AKTIF_TUKETIM_KWH_196711, 
+      t1.AKTIF_TUKETIM_KWH_196712, t1.AKTIF_TUKETIM_KWH_196801, t1.AKTIF_TUKETIM_KWH_196802, t1.AKTIF_TUKETIM_KWH_196803, 
+      t1.AKTIF_TUKETIM_KWH_196804, t1.AKTIF_TUKETIM_KWH_196805, t1.AKTIF_TUKETIM_KWH_196806, t1.AKTIF_TUKETIM_KWH_196807, 
+      t1.AKTIF_TUKETIM_KWH_196808, t1.AKTIF_TUKETIM_KWH_196809, t1.AKTIF_TUKETIM_KWH_196810, t1.AKTIF_TUKETIM_KWH_196811, 
+33                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_196812, t1.AKTIF_TUKETIM_KWH_196901, t1.AKTIF_TUKETIM_KWH_196902, t1.AKTIF_TUKETIM_KWH_196903, 
+      t1.AKTIF_TUKETIM_KWH_196904, t1.AKTIF_TUKETIM_KWH_196905, t1.AKTIF_TUKETIM_KWH_196906, t1.AKTIF_TUKETIM_KWH_196907, 
+      t1.AKTIF_TUKETIM_KWH_196908, t1.AKTIF_TUKETIM_KWH_196909, t1.AKTIF_TUKETIM_KWH_196910, t1.AKTIF_TUKETIM_KWH_196911, 
+      t1.AKTIF_TUKETIM_KWH_196912, t1.AKTIF_TUKETIM_KWH_197001, t1.AKTIF_TUKETIM_KWH_197002, t1.AKTIF_TUKETIM_KWH_197003, 
+      t1.AKTIF_TUKETIM_KWH_197004, t1.AKTIF_TUKETIM_KWH_197005, t1.AKTIF_TUKETIM_KWH_197006, t1.AKTIF_TUKETIM_KWH_197007, 
+      t1.AKTIF_TUKETIM_KWH_197008, t1.AKTIF_TUKETIM_KWH_197009, t1.AKTIF_TUKETIM_KWH_197010, t1.AKTIF_TUKETIM_KWH_197011, 
+      t1.AKTIF_TUKETIM_KWH_197012, t1.AKTIF_TUKETIM_KWH_197101, t1.AKTIF_TUKETIM_KWH_197102, t1.AKTIF_TUKETIM_KWH_197103, 
+      t1.AKTIF_TUKETIM_KWH_197104, t1.AKTIF_TUKETIM_KWH_197105, t1.AKTIF_TUKETIM_KWH_197106, t1.AKTIF_TUKETIM_KWH_197107, 
+      t1.AKTIF_TUKETIM_KWH_197108, t1.AKTIF_TUKETIM_KWH_197109, t1.AKTIF_TUKETIM_KWH_197110, t1.AKTIF_TUKETIM_KWH_197111, 
+      t1.AKTIF_TUKETIM_KWH_197112, t1.AKTIF_TUKETIM_KWH_197201, t1.AKTIF_TUKETIM_KWH_197202, t1.AKTIF_TUKETIM_KWH_197203, 
+      t1.AKTIF_TUKETIM_KWH_197204, t1.AKTIF_TUKETIM_KWH_197205, t1.AKTIF_TUKETIM_KWH_197206, t1.AKTIF_TUKETIM_KWH_197207, 
+      t1.AKTIF_TUKETIM_KWH_197208, t1.AKTIF_TUKETIM_KWH_197209, t1.AKTIF_TUKETIM_KWH_197210, t1.AKTIF_TUKETIM_KWH_197211, 
+      t1.AKTIF_TUKETIM_KWH_197212, t1.AKTIF_TUKETIM_KWH_197301, t1.AKTIF_TUKETIM_KWH_197302, t1.AKTIF_TUKETIM_KWH_197303, 
+      t1.AKTIF_TUKETIM_KWH_197304, t1.AKTIF_TUKETIM_KWH_197305, t1.AKTIF_TUKETIM_KWH_197306, t1.AKTIF_TUKETIM_KWH_197307, 
+      t1.AKTIF_TUKETIM_KWH_197308, t1.AKTIF_TUKETIM_KWH_197309, t1.AKTIF_TUKETIM_KWH_197310, t1.AKTIF_TUKETIM_KWH_197311, 
+      t1.AKTIF_TUKETIM_KWH_197312, t1.AKTIF_TUKETIM_KWH_197401, t1.AKTIF_TUKETIM_KWH_197402, t1.AKTIF_TUKETIM_KWH_197403, 
+      t1.AKTIF_TUKETIM_KWH_197404, t1.AKTIF_TUKETIM_KWH_197405, t1.AKTIF_TUKETIM_KWH_197406, t1.AKTIF_TUKETIM_KWH_197407, 
+      t1.AKTIF_TUKETIM_KWH_197408, t1.AKTIF_TUKETIM_KWH_197409, t1.AKTIF_TUKETIM_KWH_197410, t1.AKTIF_TUKETIM_KWH_197411, 
+      t1.AKTIF_TUKETIM_KWH_197412, t1.AKTIF_TUKETIM_KWH_197501, t1.AKTIF_TUKETIM_KWH_197502, t1.AKTIF_TUKETIM_KWH_197503, 
+      t1.AKTIF_TUKETIM_KWH_197504, t1.AKTIF_TUKETIM_KWH_197505, t1.AKTIF_TUKETIM_KWH_197506, t1.AKTIF_TUKETIM_KWH_197507, 
+      t1.AKTIF_TUKETIM_KWH_197508, t1.AKTIF_TUKETIM_KWH_197509, t1.AKTIF_TUKETIM_KWH_197510, t1.AKTIF_TUKETIM_KWH_197511, 
+      t1.AKTIF_TUKETIM_KWH_197512, t1.AKTIF_TUKETIM_KWH_197601, t1.AKTIF_TUKETIM_KWH_197602, t1.AKTIF_TUKETIM_KWH_197603, 
+      t1.AKTIF_TUKETIM_KWH_197604, t1.AKTIF_TUKETIM_KWH_197605, t1.AKTIF_TUKETIM_KWH_197606, t1.AKTIF_TUKETIM_KWH_197607, 
+      t1.AKTIF_TUKETIM_KWH_197608, t1.AKTIF_TUKETIM_KWH_197609, t1.AKTIF_TUKETIM_KWH_197610, t1.AKTIF_TUKETIM_KWH_197611, 
+      t1.AKTIF_TUKETIM_KWH_197612, t1.AKTIF_TUKETIM_KWH_197701, t1.AKTIF_TUKETIM_KWH_197702, t1.AKTIF_TUKETIM_KWH_197703, 
+      t1.AKTIF_TUKETIM_KWH_197704, t1.AKTIF_TUKETIM_KWH_197705, t1.AKTIF_TUKETIM_KWH_197706, t1.AKTIF_TUKETIM_KWH_197707, 
+      t1.AKTIF_TUKETIM_KWH_197708, t1.AKTIF_TUKETIM_KWH_197709, t1.AKTIF_TUKETIM_KWH_197710, t1.AKTIF_TUKETIM_KWH_197711, 
+      t1.AKTIF_TUKETIM_KWH_197712, t1.AKTIF_TUKETIM_KWH_197801, t1.AKTIF_TUKETIM_KWH_197802, t1.AKTIF_TUKETIM_KWH_197803, 
+      t1.AKTIF_TUKETIM_KWH_197804, t1.AKTIF_TUKETIM_KWH_197805, t1.AKTIF_TUKETIM_KWH_197806, t1.AKTIF_TUKETIM_KWH_197807, 
+      t1.AKTIF_TUKETIM_KWH_197808, t1.AKTIF_TUKETIM_KWH_197809, t1.AKTIF_TUKETIM_KWH_197810, t1.AKTIF_TUKETIM_KWH_197811, 
+      t1.AKTIF_TUKETIM_KWH_197812, t1.AKTIF_TUKETIM_KWH_197901, t1.AKTIF_TUKETIM_KWH_197902, t1.AKTIF_TUKETIM_KWH_197903, 
+      t1.AKTIF_TUKETIM_KWH_197904, t1.AKTIF_TUKETIM_KWH_197905, t1.AKTIF_TUKETIM_KWH_197906, t1.AKTIF_TUKETIM_KWH_197907, 
+      t1.AKTIF_TUKETIM_KWH_197908, t1.AKTIF_TUKETIM_KWH_197909, t1.AKTIF_TUKETIM_KWH_197910, t1.AKTIF_TUKETIM_KWH_197911, 
+      t1.AKTIF_TUKETIM_KWH_197912, t1.AKTIF_TUKETIM_KWH_198001, t1.AKTIF_TUKETIM_KWH_198002, t1.AKTIF_TUKETIM_KWH_198003, 
+      t1.AKTIF_TUKETIM_KWH_198004, t1.AKTIF_TUKETIM_KWH_198005, t1.AKTIF_TUKETIM_KWH_198006, t1.AKTIF_TUKETIM_KWH_198007, 
+      t1.AKTIF_TUKETIM_KWH_198008, t1.AKTIF_TUKETIM_KWH_198009, t1.AKTIF_TUKETIM_KWH_198010, t1.AKTIF_TUKETIM_KWH_198011, 
+      t1.AKTIF_TUKETIM_KWH_198012, t1.AKTIF_TUKETIM_KWH_198101, t1.AKTIF_TUKETIM_KWH_198102, t1.AKTIF_TUKETIM_KWH_198103, 
+      t1.AKTIF_TUKETIM_KWH_198104, t1.AKTIF_TUKETIM_KWH_198105, t1.AKTIF_TUKETIM_KWH_198106, t1.AKTIF_TUKETIM_KWH_198107, 
+      t1.AKTIF_TUKETIM_KWH_198108, t1.AKTIF_TUKETIM_KWH_198109, t1.AKTIF_TUKETIM_KWH_198110, t1.AKTIF_TUKETIM_KWH_198111, 
+      t1.AKTIF_TUKETIM_KWH_198112, t1.AKTIF_TUKETIM_KWH_198201, t1.AKTIF_TUKETIM_KWH_198202, t1.AKTIF_TUKETIM_KWH_198203, 
+      t1.AKTIF_TUKETIM_KWH_198204, t1.AKTIF_TUKETIM_KWH_198205, t1.AKTIF_TUKETIM_KWH_198206, t1.AKTIF_TUKETIM_KWH_198207, 
+      t1.AKTIF_TUKETIM_KWH_198208, t1.AKTIF_TUKETIM_KWH_198209, t1.AKTIF_TUKETIM_KWH_198210, t1.AKTIF_TUKETIM_KWH_198211, 
+      t1.AKTIF_TUKETIM_KWH_198212, t1.AKTIF_TUKETIM_KWH_198301, t1.AKTIF_TUKETIM_KWH_198302, t1.AKTIF_TUKETIM_KWH_198303, 
+      t1.AKTIF_TUKETIM_KWH_198304, t1.AKTIF_TUKETIM_KWH_198305, t1.AKTIF_TUKETIM_KWH_198306, t1.AKTIF_TUKETIM_KWH_198307, 
+      t1.AKTIF_TUKETIM_KWH_198308, t1.AKTIF_TUKETIM_KWH_198309, t1.AKTIF_TUKETIM_KWH_198310, t1.AKTIF_TUKETIM_KWH_198311, 
+      t1.AKTIF_TUKETIM_KWH_198312, t1.AKTIF_TUKETIM_KWH_198401, t1.AKTIF_TUKETIM_KWH_198402, t1.AKTIF_TUKETIM_KWH_198403, 
+      t1.AKTIF_TUKETIM_KWH_198404, t1.AKTIF_TUKETIM_KWH_198405, t1.AKTIF_TUKETIM_KWH_198406, t1.AKTIF_TUKETIM_KWH_198407, 
+      t1.AKTIF_TUKETIM_KWH_198408, t1.AKTIF_TUKETIM_KWH_198409, t1.AKTIF_TUKETIM_KWH_198410, t1.AKTIF_TUKETIM_KWH_198411, 
+      t1.AKTIF_TUKETIM_KWH_198412, t1.AKTIF_TUKETIM_KWH_190001, t1.AKTIF_TUKETIM_KWH_190002, t1.AKTIF_TUKETIM_KWH_190003, 
+      t1.AKTIF_TUKETIM_KWH_190004, t1.AKTIF_TUKETIM_KWH_190005, t1.AKTIF_TUKETIM_KWH_190006, t1.AKTIF_TUKETIM_KWH_190007, 
+      t1.AKTIF_TUKETIM_KWH_190008, t1.AKTIF_TUKETIM_KWH_190009, t1.AKTIF_TUKETIM_KWH_190010, t1.AKTIF_TUKETIM_KWH_190011, 
+      t1.AKTIF_TUKETIM_KWH_190012, t1.AKTIF_TUKETIM_KWH_190101, t1.AKTIF_TUKETIM_KWH_190102, t1.AKTIF_TUKETIM_KWH_190103, 
+      t1.AKTIF_TUKETIM_KWH_190104, t1.AKTIF_TUKETIM_KWH_190105, t1.AKTIF_TUKETIM_KWH_190106, t1.AKTIF_TUKETIM_KWH_190107, 
+      t1.AKTIF_TUKETIM_KWH_190108, t1.AKTIF_TUKETIM_KWH_190109, t1.AKTIF_TUKETIM_KWH_190110, t1.AKTIF_TUKETIM_KWH_190111, 
+      t1.AKTIF_TUKETIM_KWH_190112, t1.AKTIF_TUKETIM_KWH_190201, t1.AKTIF_TUKETIM_KWH_190202, t1.AKTIF_TUKETIM_KWH_190203, 
+      t1.AKTIF_TUKETIM_KWH_190204, t1.AKTIF_TUKETIM_KWH_190205, t1.AKTIF_TUKETIM_KWH_190206, t1.AKTIF_TUKETIM_KWH_190207, 
+      t1.AKTIF_TUKETIM_KWH_190208, t1.AKTIF_TUKETIM_KWH_190209, t1.AKTIF_TUKETIM_KWH_190210, t1.AKTIF_TUKETIM_KWH_190211, 
+      t1.AKTIF_TUKETIM_KWH_190212, t1.AKTIF_TUKETIM_KWH_190301, t1.AKTIF_TUKETIM_KWH_190302, t1.AKTIF_TUKETIM_KWH_190303, 
+34                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+      t1.AKTIF_TUKETIM_KWH_190304, t1.AKTIF_TUKETIM_KWH_190305, t1.AKTIF_TUKETIM_KWH_190306, t1.AKTIF_TUKETIM_KWH_190307, 
+      t1.AKTIF_TUKETIM_KWH_190308, t1.AKTIF_TUKETIM_KWH_190309, t1.AKTIF_TUKETIM_KWH_190310, t1.AKTIF_TUKETIM_KWH_190311, 
+      t1.AKTIF_TUKETIM_KWH_190312, t1.AKTIF_TUKETIM_KWH_190401, t1.AKTIF_TUKETIM_KWH_190402, t1.AKTIF_TUKETIM_KWH_190403, 
+      t1.AKTIF_TUKETIM_KWH_190404, t1.AKTIF_TUKETIM_KWH_190405, t1.AKTIF_TUKETIM_KWH_190406, t1.AKTIF_TUKETIM_KWH_190407, 
+      t1.AKTIF_TUKETIM_KWH_190408, t1.AKTIF_TUKETIM_KWH_190409, t1.AKTIF_TUKETIM_KWH_190410, t1.AKTIF_TUKETIM_KWH_190411, 
+      t1.AKTIF_TUKETIM_KWH_190412, t1.AKTIF_TUKETIM_KWH_190501, t1.AKTIF_TUKETIM_KWH_190502, t1.AKTIF_TUKETIM_KWH_190503, 
+      t1.AKTIF_TUKETIM_KWH_190504, t1.AKTIF_TUKETIM_KWH_190505, t1.AKTIF_TUKETIM_KWH_190506, t1.AKTIF_TUKETIM_KWH_190507, 
+      t1.AKTIF_TUKETIM_KWH_190508, t1.AKTIF_TUKETIM_KWH_190509, t1.AKTIF_TUKETIM_KWH_190510, t1.AKTIF_TUKETIM_KWH_190511, 
+      t1.AKTIF_TUKETIM_KWH_190512, t1.AKTIF_TUKETIM_KWH_190601, t1.AKTIF_TUKETIM_KWH_190602, t1.AKTIF_TUKETIM_KWH_190603, 
+      t1.AKTIF_TUKETIM_KWH_190604, t1.AKTIF_TUKETIM_KWH_190605, t1.AKTIF_TUKETIM_KWH_190606, t1.AKTIF_TUKETIM_KWH_190607, 
+      t1.AKTIF_TUKETIM_KWH_190608, t1.AKTIF_TUKETIM_KWH_190609, t1.AKTIF_TUKETIM_KWH_190610, t1.AKTIF_TUKETIM_KWH_190611, 
+      t1.AKTIF_TUKETIM_KWH_190612, t1.AKTIF_TUKETIM_KWH_190701, t1.AKTIF_TUKETIM_KWH_190702, t1.AKTIF_TUKETIM_KWH_190703, 
+      t1.AKTIF_TUKETIM_KWH_190704, t1.AKTIF_TUKETIM_KWH_190705, t1.AKTIF_TUKETIM_KWH_190706, t1.AKTIF_TUKETIM_KWH_190707, 
+      t1.AKTIF_TUKETIM_KWH_190708, t1.AKTIF_TUKETIM_KWH_190709, t1.AKTIF_TUKETIM_KWH_190710, t1.AKTIF_TUKETIM_KWH_190711, 
+      t1.AKTIF_TUKETIM_KWH_190712, t1.AKTIF_TUKETIM_KWH_190801, t1.AKTIF_TUKETIM_KWH_190802, t1.AKTIF_TUKETIM_KWH_190803, 
+      t1.AKTIF_TUKETIM_KWH_190804, t1.AKTIF_TUKETIM_KWH_190805, t1.AKTIF_TUKETIM_KWH_190806, t1.AKTIF_TUKETIM_KWH_190807, 
+      t1.AKTIF_TUKETIM_KWH_190808, t1.AKTIF_TUKETIM_KWH_190809, t1.AKTIF_TUKETIM_KWH_190810, t1.AKTIF_TUKETIM_KWH_190811, 
+      t1.AKTIF_TUKETIM_KWH_190812, t1.AKTIF_TUKETIM_KWH_190901, t1.AKTIF_TUKETIM_KWH_190902, t1.AKTIF_TUKETIM_KWH_190903, 
+      t1.AKTIF_TUKETIM_KWH_190904, t1.AKTIF_TUKETIM_KWH_190905, t1.AKTIF_TUKETIM_KWH_190906, t1.AKTIF_TUKETIM_KWH_190907, 
+      t1.AKTIF_TUKETIM_KWH_190908, t1.AKTIF_TUKETIM_KWH_190909, t1.AKTIF_TUKETIM_KWH_190910, t1.AKTIF_TUKETIM_KWH_190911, 
+      t1.AKTIF_TUKETIM_KWH_190912, t1.AKTIF_TUKETIM_KWH_191001, t1.AKTIF_TUKETIM_KWH_191002, t1.AKTIF_TUKETIM_KWH_191003, 
+      t1.AKTIF_TUKETIM_KWH_191004, t1.AKTIF_TUKETIM_KWH_191005, t1.AKTIF_TUKETIM_KWH_191006, t1.AKTIF_TUKETIM_KWH_191007, 
+      t1.AKTIF_TUKETIM_KWH_191008, t1.AKTIF_TUKETIM_KWH_191009, t1.AKTIF_TUKETIM_KWH_191010, t1.AKTIF_TUKETIM_KWH_191011, 
+      t1.AKTIF_TUKETIM_KWH_191012, t1.AKTIF_TUKETIM_KWH_191101, t1.AKTIF_TUKETIM_KWH_191102, t1.AKTIF_TUKETIM_KWH_191103, 
+      t1.AKTIF_TUKETIM_KWH_191104, t1.AKTIF_TUKETIM_KWH_191105, t1.AKTIF_TUKETIM_KWH_191106, t1.AKTIF_TUKETIM_KWH_191107, 
+      t1.AKTIF_TUKETIM_KWH_191108, t1.AKTIF_TUKETIM_KWH_191109, t1.AKTIF_TUKETIM_KWH_191110, t1.AKTIF_TUKETIM_KWH_191111, 
+      t1.AKTIF_TUKETIM_KWH_191112, t1.AKTIF_TUKETIM_KWH_191201, t1.AKTIF_TUKETIM_KWH_191202, t1.AKTIF_TUKETIM_KWH_191203, 
+      t1.AKTIF_TUKETIM_KWH_191204, t1.AKTIF_TUKETIM_KWH_191205, t1.AKTIF_TUKETIM_KWH_191206, t1.AKTIF_TUKETIM_KWH_191207, 
+      t1.AKTIF_TUKETIM_KWH_191208, t1.AKTIF_TUKETIM_KWH_191209, t1.AKTIF_TUKETIM_KWH_191210, t1.AKTIF_TUKETIM_KWH_191211, 
+      t1.AKTIF_TUKETIM_KWH_191212, t1.AKTIF_TUKETIM_KWH_191301, t1.AKTIF_TUKETIM_KWH_191302, t1.AKTIF_TUKETIM_KWH_191303, 
+      t1.AKTIF_TUKETIM_KWH_191304, t1.AKTIF_TUKETIM_KWH_191305, t1.AKTIF_TUKETIM_KWH_191306, t1.AKTIF_TUKETIM_KWH_191307, 
+      t1.AKTIF_TUKETIM_KWH_191308, t1.AKTIF_TUKETIM_KWH_191309, t1.AKTIF_TUKETIM_KWH_191310, t1.AKTIF_TUKETIM_KWH_191311, 
+      t1.AKTIF_TUKETIM_KWH_191312, t1.AKTIF_TUKETIM_KWH_191401, t1.AKTIF_TUKETIM_KWH_191402, t1.AKTIF_TUKETIM_KWH_191403, 
+      t1.AKTIF_TUKETIM_KWH_191404, t1.AKTIF_TUKETIM_KWH_191405, t1.AKTIF_TUKETIM_KWH_191406, t1.AKTIF_TUKETIM_KWH_191407, 
+      t1.AKTIF_TUKETIM_KWH_191408, t1.AKTIF_TUKETIM_KWH_191409, t1.AKTIF_TUKETIM_KWH_191410, t1.AKTIF_TUKETIM_KWH_191411, 
+      t1.AKTIF_TUKETIM_KWH_191412, t1.AKTIF_TUKETIM_KWH_191501, t1.AKTIF_TUKETIM_KWH_191502, t1.AKTIF_TUKETIM_KWH_191503, 
+      t1.AKTIF_TUKETIM_KWH_191504, t1.AKTIF_TUKETIM_KWH_191505, t1.AKTIF_TUKETIM_KWH_191506, t1.AKTIF_TUKETIM_KWH_191507, 
+      t1.AKTIF_TUKETIM_KWH_191508, t1.AKTIF_TUKETIM_KWH_191509, t1.AKTIF_TUKETIM_KWH_191510, t1.AKTIF_TUKETIM_KWH_191511, 
+      t1.AKTIF_TUKETIM_KWH_191512, t1.AKTIF_TUKETIM_KWH_191601, t1.AKTIF_TUKETIM_KWH_191602, t1.AKTIF_TUKETIM_KWH_191603, 
+      t1.AKTIF_TUKETIM_KWH_191604, t1.AKTIF_TUKETIM_KWH_191605, t1.AKTIF_TUKETIM_KWH_191606, t1.AKTIF_TUKETIM_KWH_191607, 
+      t1.AKTIF_TUKETIM_KWH_191608, t1.AKTIF_TUKETIM_KWH_191609, t1.AKTIF_TUKETIM_KWH_191610, t1.AKTIF_TUKETIM_KWH_191611, 
+      t1.AKTIF_TUKETIM_KWH_191612, t1.AKTIF_TUKETIM_KWH_191701, t1.AKTIF_TUKETIM_KWH_191702, t1.AKTIF_TUKETIM_KWH_191703, 
+      t1.AKTIF_TUKETIM_KWH_191704, t1.AKTIF_TUKETIM_KWH_191705, t1.AKTIF_TUKETIM_KWH_191706, t1.AKTIF_TUKETIM_KWH_191707, 
+      t1.AKTIF_TUKETIM_KWH_191708, t1.AKTIF_TUKETIM_KWH_191709, t1.AKTIF_TUKETIM_KWH_191710, t1.AKTIF_TUKETIM_KWH_191711, 
+      t1.AKTIF_TUKETIM_KWH_191712, t1.AKTIF_TUKETIM_KWH_191801, t1.AKTIF_TUKETIM_KWH_191802, t1.AKTIF_TUKETIM_KWH_191803, 
+      t1.AKTIF_TUKETIM_KWH_191804, t1.AKTIF_TUKETIM_KWH_191805, t1.AKTIF_TUKETIM_KWH_191806, t1.AKTIF_TUKETIM_KWH_191807, 
+      t1.AKTIF_TUKETIM_KWH_191808, t1.AKTIF_TUKETIM_KWH_191809, t1.AKTIF_TUKETIM_KWH_191810, t1.AKTIF_TUKETIM_KWH_191811, 
+      t1.AKTIF_TUKETIM_KWH_191812, t1.AKTIF_TUKETIM_KWH_191901, t1.AKTIF_TUKETIM_KWH_191902, t1.AKTIF_TUKETIM_KWH_191903, 
+      t1.AKTIF_TUKETIM_KWH_191904, t1.AKTIF_TUKETIM_KWH_191905, t1.AKTIF_TUKETIM_KWH_191906, t1.AKTIF_TUKETIM_KWH_191907, 
+      t1.AKTIF_TUKETIM_KWH_191908, t1.AKTIF_TUKETIM_KWH_191909, t1.AKTIF_TUKETIM_KWH_191910, t1.AKTIF_TUKETIM_KWH_191911, 
+      t1.AKTIF_TUKETIM_KWH_191912, t1.AKTIF_TUKETIM_KWH_2018, t1.AKTIF_TUKETIM_KWH_2019, t2.BPARTNER, t2.UCINSTALLA, 
+      t2.AKTIF_TUKETIM_KWH_2020 from MUSTERI_TRANSPOSED2 t1 left join MUSTERI_CONS_2020 t2 on (t1.BPARTNER = t2.BPARTNER) and 
+      (t1.UCINSTALLA = t2.UCINSTALLA)
+ SPDS_NOTE: Parallel Merge Join Method Selected
+
+WARNING: Variable BPARTNER already exists on file TMPLIB3.CONSALL1.
+WARNING: Variable UCINSTALLA already exists on file TMPLIB3.CONSALL1.
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+35                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/TMPLIB3/
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :9044714/spdsmeta1/TMPLIB3/
+
+NOTE: Table TMPLIB3.CONSALL1 created, with 14692021 rows and 1457 columns.
+
+270        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           23:34.79
+      cpu time            9:13.45
+      
+
+271        
+272        DATA TMPLIB3.ConsAll;
+273        	SET TMPLIB3.ConsAll1(RENAME=(
+274        		AKTIF_TUKETIM_KWH_&m0.=AKTIF_TUKETIM_KWH_m0
+275        		AKTIF_TUKETIM_KWH_&m1.=AKTIF_TUKETIM_KWH_m1
+276        		AKTIF_TUKETIM_KWH_&m2.=AKTIF_TUKETIM_KWH_m2
+277        		AKTIF_TUKETIM_KWH_&m3.=AKTIF_TUKETIM_KWH_m3
+278        		AKTIF_TUKETIM_KWH_&m4.=AKTIF_TUKETIM_KWH_m4
+279        		AKTIF_TUKETIM_KWH_&m5.=AKTIF_TUKETIM_KWH_m5
+280        		AKTIF_TUKETIM_KWH_&m6.=AKTIF_TUKETIM_KWH_m6
+281        		AKTIF_TUKETIM_KWH_&m7.=AKTIF_TUKETIM_KWH_m7
+282        		AKTIF_TUKETIM_KWH_&m8.=AKTIF_TUKETIM_KWH_m8
+283        		AKTIF_TUKETIM_KWH_&m9.=AKTIF_TUKETIM_KWH_m9
+284        		AKTIF_TUKETIM_KWH_&m10.=AKTIF_TUKETIM_KWH_m10
+285        		AKTIF_TUKETIM_KWH_&m11.=AKTIF_TUKETIM_KWH_m11
+286        		AKTIF_TUKETIM_KWH_&m12.=AKTIF_TUKETIM_KWH_m12
+287        		AKTIF_TUKETIM_KWH_&m13.=AKTIF_TUKETIM_KWH_m13
+288        		AKTIF_TUKETIM_KWH_&m14.=AKTIF_TUKETIM_KWH_m14
+289        		AKTIF_TUKETIM_KWH_&m15.=AKTIF_TUKETIM_KWH_m15
+290        		AKTIF_TUKETIM_KWH_&m16.=AKTIF_TUKETIM_KWH_m16
+291        		AKTIF_TUKETIM_KWH_&m17.=AKTIF_TUKETIM_KWH_m17
+292        		AKTIF_TUKETIM_KWH_&m18.=AKTIF_TUKETIM_KWH_m18
+293        		AKTIF_TUKETIM_KWH_&m19.=AKTIF_TUKETIM_KWH_m19
+294        		AKTIF_TUKETIM_KWH_&m20.=AKTIF_TUKETIM_KWH_m20
+295        		AKTIF_TUKETIM_KWH_&m21.=AKTIF_TUKETIM_KWH_m21
+296        		AKTIF_TUKETIM_KWH_&m22.=AKTIF_TUKETIM_KWH_m22
+297        		AKTIF_TUKETIM_KWH_&m23.=AKTIF_TUKETIM_KWH_m23
+298        		AKTIF_TUKETIM_KWH_&m24.=AKTIF_TUKETIM_KWH_m24
+299        		));
+300        RUN;
+
+NOTE: There were 14692021 observations read from the data set TMPLIB3.CONSALL1.
+NOTE: The data set TMPLIB3.CONSALL has 14692021 observations and 1457 variables.
+NOTE: DATA statement used (Total process time):
+      real time           15:25.99
+      cpu time            8:24.93
+      
+
+301        
+302        proc delete data=
+303        	TMPLIB3.MUSTERI_CONS
+304        	TMPLIB3.MUSTERI_TRANSPOSED2
+305        	TMPLIB3.MUSTERI_TRANSPOSED1
+306        	TMPLIB3.MUSTERI_CONS_&y0.
+36                                                         The SAS System                             07:06 Sunday, October 18, 2020
+
+307        	TMPLIB3.MUSTERI_CONS_&y1.
+308        	TMPLIB3.MUSTERI_CONS_&y2.
+309        	TMPLIB3.MUSTERI_CONSTRANSPOSED
+310        	TMPLIB3.ConsAll1
+311        ;
+312        run;
+
+NOTE: Deleting TMPLIB3.MUSTERI_CONS (memtype=DATA).
+NOTE: Deleting TMPLIB3.MUSTERI_TRANSPOSED2 (memtype=DATA).
+NOTE: Deleting TMPLIB3.MUSTERI_TRANSPOSED1 (memtype=DATA).
+NOTE: Deleting TMPLIB3.MUSTERI_CONS_2020 (memtype=DATA).
+NOTE: Deleting TMPLIB3.MUSTERI_CONS_2019 (memtype=DATA).
+NOTE: Deleting TMPLIB3.MUSTERI_CONS_2018 (memtype=DATA).
+NOTE: Deleting TMPLIB3.MUSTERI_CONSTRANSPOSED (memtype=DATA).
+NOTE: Deleting TMPLIB3.CONSALL1 (memtype=DATA).
+NOTE: PROCEDURE DELETE used (Total process time):
+      real time           7.70 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           3:04:18.19
+      cpu time            1:15:19.73
+      

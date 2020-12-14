@@ -1,0 +1,958 @@
+NOTE: Log file opened at  Tue, 8 Jan 2019 05:20:00.476
+1                                                          The SAS System                             05:20 Tuesday, January 8, 2019
+
+NOTE: Copyright (c) 2002-2012 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M4) 
+      Licensed to ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD., Site 70166440.
+NOTE: This session is executing on the AIX 7.1 (AIX 64) platform.
+
+
+
+WARNING: Your system is scheduled to expire on January 30, 2019, which is 22 days from now. The SAS System will no longer function 
+         on or after that date. Please contact your SAS Installation Representative to obtain your updated SAS Installation Data 
+         (SID) file, which includes SETINIT information.
+To locate the name of your SAS Installation Representative go to http://support.sas.com/repfinder and provide your site number 
+70166440 and company name as ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD.. On the SAS REP list provided, locate the REP for 
+operating system AIX 64.
+NOTE: Additional host information:
+
+IBM AIX AIX 64 1 7 00C9C0174C00 
+
+You are running SAS 9. Some SAS 8 files will be automatically converted 
+by the V9 engine; others are incompatible.  Please see 
+http://support.sas.com/rnd/migration/planning/platform/64bit.html
+
+PROC MIGRATE will preserve current SAS file attributes and is 
+recommended for converting all your SAS libraries from any 
+SAS 8 release to SAS 9.  For details and examples, please see
+http://support.sas.com/rnd/migration/index.html
+
+
+This message is contained in the SAS news file, and is presented upon
+initialization.  Edit the file "news" in the "misc/base" directory to
+display site-specific news and information in the program log.
+The command line option "-nonews" will prevent this display.
+
+
+
+
+NOTE: SAS initialization used:
+      real time           0.07 seconds
+      cpu time            0.02 seconds
+      
+WARNING: The Base SAS Software product with which IOM CLSID:6E56FD51-CFC1-11D5-87BD-00C04F38F0DB is associated will be expiring 
+         soon, and is currently in warning mode to indicate this upcoming expiration. Please run PROC SETINIT to obtain more 
+         information on your warning period.
+NOTE: This is a SPD 5.3  Engine 
+      executing SAS (r) 9.4 (TS1M4) on the AIX platform.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.235.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+2                                                          The SAS System                             05:20 Tuesday, January 8, 2019
+
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: Libref DATARIR successfully assigned from logical server.
+NOTE: Libref DASHLIBD successfully assigned from logical server.
+NOTE: Libref DMLIB successfully assigned from logical server.
+NOTE: Libref PODSLIB1 successfully assigned from logical server.
+NOTE: Libref ODSLIB successfully assigned from logical server.
+WARNING: Libref ENCODLIB may not have assigned correctly from logical server.
+NOTE: Library ENCODLIB does not exist.
+NOTE: Libref TMPLIB successfully assigned from logical server.
+NOTE: Libref TMPLIB2 successfully assigned from logical server.
+NOTE: Libref PODSLIB3 successfully assigned from logical server.
+NOTE: Libref STATLIB successfully assigned from logical server.
+NOTE: Libref STPSAMP successfully assigned from logical server.
+NOTE: Libref SMHOME successfully assigned from logical server.
+NOTE: Libref SASDATA successfully assigned from logical server.
+NOTE: Libref SASDATA successfully assigned from logical server.
+NOTE: Libref PODSLIB2 successfully assigned from logical server.
+NOTE: Libref OKMDM successfully assigned from logical server.
+NOTE: Libref ODSLIB3 successfully assigned from logical server.
+NOTE: Libref ODSLIB2 successfully assigned from logical server.
+WARNING: Libref HANARWP may not have assigned correctly from logical server.
+NOTE: The product with which the engine SAPHANA is associated will be expiring soon, and is currently in warning mode to indicate 
+this upcoming expiration.  Please run PROC SETINIT to obtain more information on your warning period.
+NOTE: Libref HANADWP successfully assigned from logical server.
+NOTE: Libref EXPORT successfully assigned from logical server.
+NOTE: Libref TRNLIB2 successfully assigned from logical server.
+NOTE: Libref RISU successfully assigned from logical server.
+NOTE: Libref PILIB successfully assigned from logical server.
+NOTE: Libref NEDLIB successfully assigned from logical server.
+NOTE: Libref MIGLIB successfully assigned from logical server.
+NOTE: Libref TRNLIB successfully assigned from logical server.
+NOTE: Libref QLIKLIB successfully assigned from logical server.
+WARNING: Libref SMARTHMT may not have assigned correctly from logical server.
+NOTE: The product with which the engine ORACLE is associated will be expiring soon, and is currently in warning mode to indicate 
+this upcoming expiration.  Please run PROC SETINIT to obtain more information on your warning period.
+NOTE: Libref SMARTHMP successfully assigned from logical server.
+NOTE: Libref DQ_ORCL successfully assigned from logical server.
+WARNING: Libref SQLKODA may not have assigned correctly from logical server.
+NOTE: The product with which the engine SQLSVR is associated will be expiring soon, and is currently in warning mode to indicate 
+this upcoming expiration.  Please run PROC SETINIT to obtain more information on your warning period.
+NOTE: Libref ZGRLIB successfully assigned from logical server.
+
+NOTE: AUTOEXEC processing beginning; file is /sas/config/Lev1/SASApp/BatchServer/autoexec.sas.
+
+
+NOTE: AUTOEXEC processing completed.
+
+1          LIBNAME SMSPRD ORACLE  PATH=SMSPRD  SCHEMA=SMARTMESSAGE_5038  USER=USRSMSETL
+1        ! PASSWORD=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ;
+NOTE: Libref SMSPRD was successfully assigned as follows: 
+      Engine:        ORACLE 
+      Physical Name: SMSPRD
+2          LIBNAME SMSPRD2 ORACLE  PATH=SMSPRD  SCHEMA=connector_sm  USER=USRSMSETL
+2        ! PASSWORD=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ;
+NOTE: Libref SMSPRD2 was successfully assigned as follows: 
+      Engine:        ORACLE 
+3                                                          The SAS System                             05:20 Tuesday, January 8, 2019
+
+      Physical Name: SMSPRD
+3          LIBNAME NEDLIB SASSPDS 'NEDLIB' server=eedpa0.5400 user='anonymous';
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: Libref NEDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :28573698/spdsmeta/NEDLIB/
+4          LIBNAME DMLIB SASSPDS 'DMLIB' server=eedpa0.5400 user='anonymous';
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: Libref DMLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :28573698/spdsmeta/DMLIB/
+5          LIBNAME PODSLIB1 SASSPDS 'PODSLIB1' server=eedpa0.5400 user='anonymous';
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.236.
+NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :28573698/spdsmeta/PODSLIB1/
+6          libname rmcdm sasspds 'rmcdm' server=eempa0.5400 user='anonymous';
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.235.
+NOTE: Libref RMCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :11337828/spdsmeta/rmc/rmcdm/
+7          libname vydm sasspds 'vydm' server=eempa0.5400 user='anonymous';
+NOTE: User anonymous(ACL Group ) connected to SPD(AIX) 5.3 server at 10.166.0.235.
+NOTE: Libref VYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :11337828/spdsmeta/VYDM/
+8          LIBNAME RISUH SASIOHNA  SERVER="ephana.enerjisa.local"  INSTANCE=30   SCHEMA=RISU DIRECT_EXE=DELETE USER=RISU
+8        ! PASSWORD=XXXXXXXXXX ;
+NOTE: Libref RISUH was successfully assigned as follows: 
+      Engine:        SAPHANA 
+      Physical Name: ephana.enerjisa.local
+9          
+10         proc sql;
+11            connect to oracle as dbcon
+12                (user=USRSMSETL PASSWORD=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX path='SMSPRD' );
+13         	create table NEDLIB.ODC_MESSAGE_CON_DELTA as
+14         	select
+15         		ID format 10. informat 10. length 8,
+16                 CAMPAIGNID format 10. informat 10. length 8,
+17         		Put(SMMESSAGEID, $HEX32.) as SMMESSAGEID ,
+18                 RECIPIENTADDRESS format $50. informat $50. length 50,
+19                 STATUS format 2. informat 2. length 3,
+20                 CREATEDDATE format DATETIME19. informat DATETIME19. length 8,
+21                 EXTCUSTOMERNO format $60. informat $60. length 60,
+22                 SENTDATE format DATETIME19. informat DATETIME19. length 8,
+23                 MODIFIEDDATE format DATETIME19. informat DATETIME19. length 8
+24            from connection to dbcon
+25            		(select *
+26         			from CONNECTOR_SM.MESSAGE m
+27         			where ( trunc(sysdate) - trunc(m.CREATEDDATE) ) <= 3) ;
+NOTE: Table NEDLIB.ODC_MESSAGE_CON_DELTA created, with 757278 rows and 9 columns.
+
+28         		disconnect from dbcon;
+29         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           2:46.66
+      cpu time            3.18 seconds
+      
+4                                                          The SAS System                             05:20 Tuesday, January 8, 2019
+
+
+30         
+31         proc sql;
+32         delete
+33         from NEDLIB.ODC_MESSAGE_CON_DELTA
+34         where ID in (select ID from NEDLIB.ODC_MESSAGE_CON_v1)
+35         ;
+NOTE: 213416 rows were deleted from NEDLIB.ODC_MESSAGE_CON_DELTA.
+
+36         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           9:32.98
+      cpu time            2:40.42
+      
+
+37         
+38         proc sql;
+39            connect to oracle as dbcon
+40                (user=USRSMSETL PASSWORD=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX path='SMSPRD' );
+41         create table NEDLIB.ODC_CAMPAIGN_CON as
+42         SELECT ID  format 10. informat 10. length 8,
+43                   EXTCAMPAIGNNAME  format $55. informat $55. length 55,
+44         		  Put(SMCAMPAIGNID, $HEX32.) as SMCAMPAIGNID,
+45          		  Put(SMJOBID, $HEX32.) as SMJOBID,
+46                   CAMPAIGNTYPE format 1. informat 1. length 3,
+47                   CREATEDDATE format DATETIME19. informat DATETIME19. length 8,
+48         		  startdate format DATETIME19. informat DATETIME19. length 8
+49         from connection to dbcon
+50            		(select *
+51         			from CONNECTOR_SM.CAMPAIGN ) ;
+NOTE: Table NEDLIB.ODC_CAMPAIGN_CON created, with 1357 rows and 7 columns.
+
+52         	disconnect from dbcon;
+53         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.22 seconds
+      cpu time            0.01 seconds
+      
+
+54         
+55         proc sql;
+56            connect to oracle as dbcon
+57                (user=USRSMSETL PASSWORD=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX path='SMSPRD' );
+58            CREATE TABLE NEDLIB.ODC_MESSAGE_5038_DELTA AS
+59            SELECT
+60         		  Put(MESSAGEID, $HEX32.) as MESSAGEID ,
+61         		  Put(MESSAGEJOB, $HEX32.) as MESSAGEJOB ,
+62         		  Put(MESSAGEFROM, $HEX32.) as MESSAGEFROM,
+63         		  MESSAGETYPE format 1. informat 1. length 3,
+64                   TARGETADDRESS format $50. informat $50. length 50,
+65                   STATUS format 2. informat 2. length 3,
+66                   CREATEDDATE format DATETIME19. informat DATETIME19. length 8,
+67                   SENTDATE format DATETIME19. informat DATETIME19. length 8,
+68                   RESULTCODE format $26. informat $26. length 26,
+69         		  EXTERNALID format $60. informat $60. length 60
+70            from connection to dbcon
+71            		(select *
+72         			from SMARTMESSAGE_5038.MESSAGE m
+5                                                          The SAS System                             05:20 Tuesday, January 8, 2019
+
+73         			where ( trunc(sysdate) - trunc(m.CREATEDDATE) ) <= 3) ;
+NOTE: Table NEDLIB.ODC_MESSAGE_5038_DELTA created, with 726400 rows and 10 columns.
+
+74         		disconnect from dbcon;
+75         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           2:13.77
+      cpu time            2.52 seconds
+      
+
+76         
+77         
+78         proc sql;
+79         delete
+80         from NEDLIB.ODC_MESSAGE_5038_DELTA
+81         where MESSAGEID in (select MESSAGEID from NEDLIB.ODC_MESSAGE_5038_v1)
+82         ;
+NOTE: 213502 rows were deleted from NEDLIB.ODC_MESSAGE_5038_DELTA.
+
+83         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           47:58.17
+      cpu time            16:37.96
+      
+
+84         
+85         proc sql;
+86            connect to oracle as dbcon
+87                (user=USRSMSETL PASSWORD=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX path='SMSPRD' );
+88            CREATE TABLE NEDLIB.ODC_MESSAGEJOB_5038 AS
+89            SELECT
+90         Put(MESSAGEJOBID, $HEX32.) as MESSAGEJOBID ,
+91         Put(CAMPAIGN, $HEX32.) as CAMPAIGN
+92               from connection to dbcon
+93            		(select *
+94         			from SMARTMESSAGE_5038.MESSAGEJOB m) ;
+NOTE: Table NEDLIB.ODC_MESSAGEJOB_5038 created, with 10914 rows and 2 columns.
+
+95         		disconnect from dbcon;
+96         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.37 seconds
+      cpu time            0.04 seconds
+      
+
+97         
+98         proc sql;
+99            connect to oracle as dbcon
+100               (user=USRSMSETL PASSWORD=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX path='SMSPRD' );
+101           CREATE TABLE NEDLIB.ODC_CAMPAIGN_5038 AS
+102           SELECT
+103           Put(CAMPAIGNID, $HEX32.) as CAMPAIGNID,
+104                  CAMPAIGNTYPE format 1. informat 1. length 3,
+105                  CAMPAIGNMETHOD format 2. informat 2. length 3,
+106                  NAME format $55. informat $55. length 55,
+107                  MESSAGEXML format $150. informat $150. length 150,
+108        		  CREATEDATETIME format DATETIME19. informat DATETIME19. length 8
+109        from connection to dbcon
+6                                                          The SAS System                             05:20 Tuesday, January 8, 2019
+
+110           		(select *
+111        			from SMARTMESSAGE_5038.CAMPAIGN ) ;
+NOTE: The data value for column MESSAGEXML (MESSAGEXML) was truncated or was out of range 486 times when retrieving that data from 
+      the DBMS.
+NOTE: Table NEDLIB.ODC_CAMPAIGN_5038 created, with 10709 rows and 6 columns.
+
+112        	disconnect from dbcon;
+113        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.64 seconds
+      cpu time            0.07 seconds
+      
+
+114        
+115        proc sql;
+116           connect to oracle as dbcon
+117               (user=USRSMSETL PASSWORD=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX path='SMSPRD' );
+118           CREATE TABLE NEDLIB.ODC_MESSAGEFROM_5038 AS
+119           SELECT
+120            Put(MESSAGEFROMID, $HEX32.) as MESSAGEFROMID,
+121            Put(ACCOUNT, $HEX32.) as ACCOUNT,
+122                  NAME format $50. informat $50. length 50,
+123                  ADDRESS format $50. informat $50. length 50
+124        from connection to dbcon
+125           		(select *
+126        			from SMARTMESSAGE_5038.messagefrom ) ;
+NOTE: Table NEDLIB.ODC_MESSAGEFROM_5038 created, with 80 rows and 4 columns.
+
+127        	disconnect from dbcon;
+128        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.05 seconds
+      cpu time            0.01 seconds
+      
+
+129        
+130        proc sql;
+131           connect to oracle as dbcon
+132               (user=USRSMSETL PASSWORD=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX path='SMSPRD' );
+133           CREATE TABLE NEDLIB.ODC_LINK_5038 AS
+134           SELECT
+135        Put(LINKID, $HEX32.) as LINKID ,
+136        Put(CAMPAIGN, $HEX32.) as CAMPAIGN ,
+137                  EXPLANATION format $200. informat $200. length 200,
+138                  LINKDISPLAY format $200. informat $200. length 200,
+139                  LINKDATA format $200. informat $200. length 200,
+140                  ISTRACEABLE format 1. informat 1. length 3,
+141                  ISACTIVE format 1. informat 1. length 3,
+142                  LINKTAG format $10. informat $10. length 10
+143        from connection to dbcon
+144           		(select *
+145        			from SMARTMESSAGE_5038.LINK ) ;
+NOTE: Table NEDLIB.ODC_LINK_5038 created, with 3031 rows and 8 columns.
+
+146        	disconnect from dbcon;
+147        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.18 seconds
+7                                                          The SAS System                             05:20 Tuesday, January 8, 2019
+
+      cpu time            0.02 seconds
+      
+
+148        
+149        proc sql;
+150           connect to oracle as dbcon
+151               (user=USRSMSETL PASSWORD=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX path='SMSPRD' );
+152           CREATE TABLE NEDLIB.ODC_LINKCLICKHISTORY_5038 AS
+153           SELECT
+154           Put(LINKCLICKHISTORYID, $HEX32.) as LINKCLICKHISTORYID ,
+155           Put(MESSAGEJOB, $HEX32.) as MESSAGEJOB ,
+156           Put(MESSAGE, $HEX32.) as MESSAGE ,
+157           Put(LINK, $HEX32.) as LINK ,
+158           Put(MEMBER, $HEX32.) as MEMBER ,
+159                  CREATEDDATE format DATETIME19. informat DATETIME19. length 8,
+160                  CLICKEDDATE format DATETIME19. informat DATETIME19. length 8,
+161                  TARGETADDRESS format $100. informat $100. length 100,
+162                  TARGETADDRESSINFO format $20. informat $20. length 20,
+163                  IPADDRESS format $20. informat $20. length 20,
+164                  DEVICE format $20. informat $20. length 20,
+165                  OS format $20. informat $20. length 20,
+166                  BROWSER format $20. informat $20. length 20,
+167                  BROWSERVERSION format $20. informat $20. length 20,
+168                  DYNAMICPARAMETERURL format $50. informat $50. length 50
+169        from connection to dbcon
+170           		(select *
+171        			from SMARTMESSAGE_5038.LINKCLICKHISTORY ) ;
+NOTE: Table NEDLIB.ODC_LINKCLICKHISTORY_5038 created, with 86720 rows and 15 columns.
+
+172        	disconnect from dbcon;
+173        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           1.93 seconds
+      cpu time            0.38 seconds
+      
+
+174        
+175        
+176        %let xDate=%sysfunc(putn(%sysevalf(%sysfunc(today()) - 3), date9.));
+177        %put &xDate;
+05JAN2019
+178        
+179        
+180        data nedlib.RCP_ZADK_SMS_MESSAGE_delta;
+181        set podslib1.RCP_ZADK_SMS_MESSAGE(where = (SMS_ID not eq '' and STATUS='B' and CREATE_AT >= "&xDate"d));
+182        run;
+
+NOTE: There were 483122 observations read from the data set PODSLIB1.RCP_ZADK_SMS_MESSAGE.
+      WHERE (SMS_ID not = ' ') and (STATUS='B') and (CREATE_AT>='05JAN2019'D);
+NOTE: The data set NEDLIB.RCP_ZADK_SMS_MESSAGE_DELTA has 483122 observations and 23 variables.
+NOTE: DATA statement used (Total process time):
+      real time           56.39 seconds
+      cpu time            0.61 seconds
+      
+
+183        
+184        data nedlib.RCP_ZADK_EML_MESSAGE_delta;
+185        set podslib1.RCP_ZADK_EML_MESSAGE(where = (EMAIL_ID not eq '' and STATUS='B' and CREATE_AT >= "&xDate"d));
+8                                                          The SAS System                             05:20 Tuesday, January 8, 2019
+
+186        run;
+
+NOTE: There were 18589 observations read from the data set PODSLIB1.RCP_ZADK_EML_MESSAGE.
+      WHERE (EMAIL_ID not = ' ') and (STATUS='B') and (CREATE_AT>='05JAN2019'D);
+NOTE: The data set NEDLIB.RCP_ZADK_EML_MESSAGE_DELTA has 18589 observations and 27 variables.
+NOTE: DATA statement used (Total process time):
+      real time           6.32 seconds
+      cpu time            0.03 seconds
+      
+
+187        
+188        proc sql;
+189        create table nedlib.odc_message_all_delta as
+190        select
+191        msg.MESSAGEID 	 as 	msg_MESSAGEID 	,
+192        msg.MESSAGEJOB 	 as 	msg_MESSAGEJOB 	,
+193        msg.MESSAGETYPE 	 as 	msg_MESSAGETYPE 	,
+194        msg.TARGETADDRESS 	 as 	msg_TARGETADDRESS 	,
+195        msg.STATUS 	 as 	msg_STATUS 	,
+196        msg.CREATEDDATE 	 as 	msg_CREATEDDATE 	,
+197        msg.SENTDATE 	 as 	msg_SENTDATE 	,
+198        msg.RESULTCODE 	 as 	msg_RESULTCODE 	,
+199        msg.EXTERNALID   as msg_EXTERNALID,
+200        mj.MESSAGEJOBID 	 as 	mj_MESSAGEJOBID 	,
+201        mj.CAMPAIGN 	 as 	mj_CAMPAIGN 	,
+202        c.CAMPAIGNID 	 as 	c_CAMPAIGNID 	,
+203        c.CAMPAIGNMETHOD 	 as 	c_CAMPAIGNMETHOD 	,
+204        case
+205        when compress(put(c.CAMPAIGNMETHOD,3.))='0' then  'Manuel Gönderim'
+206        when compress(put(c.CAMPAIGNMETHOD,3.))='1' then  'Hýzlý Kampanya'
+207        when compress(put(c.CAMPAIGNMETHOD,3.))='2' then  'Web Service'
+208        when compress(put(c.CAMPAIGNMETHOD,3.))='3' then  'Ýnteraktif Kampanya'
+209        when compress(put(c.CAMPAIGNMETHOD,3.))='4' then  'SysInc'
+210        when compress(put(c.CAMPAIGNMETHOD,3.))='5' then  'Bilgilendirme'
+211        when compress(put(c.CAMPAIGNMETHOD,3.))='6' then  'Tavsiye'
+212        when compress(put(c.CAMPAIGNMETHOD,3.))='7' then  'SAP Gönderim'
+213        when compress(put(c.CAMPAIGNMETHOD,3.))='8' then  'ExcellAddin'
+214        when compress(put(c.CAMPAIGNMETHOD,3.))='9' then  'OSTCKN'
+215        when compress(put(c.CAMPAIGNMETHOD,3.))='10' then  'TCKN'
+216        when compress(put(c.CAMPAIGNMETHOD,3.))='11'  then 'System'
+217        else '' end as c_CAMPAIGNMETHOD_TEXT,
+218        c.NAME 	 as 	c_NAME 	,
+219        c.MESSAGEXML 	 as 	c_MESSAGEXML 	,
+220        c.CREATEDATETIME 	 as 	c_CREATEDATETIME ,
+221        mf.ADDRESS 	 as 	mf_ADDRESS 		
+222        from nedlib.odc_message_5038_delta msg
+223        inner join nedlib.odc_messagejob_5038 mj  on msg.MessageJob=mj.MessageJobID
+224        inner join nedlib.odc_CAMPAIGN_5038 c on mj.CAMPAIGN=c.CAMPAIGNID
+225        inner join nedlib.odc_messagefrom_5038 mf on msg.MessageFrom=mf.MessageFromID
+226        ;
+NOTE: Table NEDLIB.ODC_MESSAGE_ALL_DELTA created, with 512898 rows and 18 columns.
+
+227        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           2.59 seconds
+      cpu time            1.03 seconds
+      
+
+9                                                          The SAS System                             05:20 Tuesday, January 8, 2019
+
+228        
+229        proc sql;
+230        create table nedlib.odc_message_sms_delta as
+231        select
+232        msg_MESSAGEID,
+233        msg_TARGETADDRESS,
+234        msg_STATUS,
+235        msg_CREATEDDATE,
+236        msg_SENTDATE,
+237        msg_RESULTCODE,
+238        msg_EXTERNALID,
+239        c_CAMPAIGNMETHOD,
+240        c_CAMPAIGNMETHOD_TEXT,
+241        c_NAME,
+242        c_MESSAGEXML
+243        from nedlib.odc_message_all_delta
+244        where msg_MESSAGETYPE=3 ;
+NOTE: Table NEDLIB.ODC_MESSAGE_SMS_DELTA created, with 453858 rows and 11 columns.
+
+245        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           1.52 seconds
+      cpu time            0.55 seconds
+      
+
+246        
+247        proc sql;
+248        create table nedlib.odc_message_email_delta as
+249        select
+250        msg_MESSAGEID,
+251        msg_TARGETADDRESS,
+252        msg_STATUS,
+253        msg_CREATEDDATE,
+254        msg_SENTDATE,
+255        msg_RESULTCODE,
+256        msg_EXTERNALID,
+257        c_CAMPAIGNMETHOD,
+258        c_CAMPAIGNMETHOD_TEXT,
+259        c_NAME,
+260        c_MESSAGEXML,
+261        mf_ADDRESS
+262        from nedlib.odc_message_all_delta
+263        where msg_MESSAGETYPE=0 ;
+NOTE: Table NEDLIB.ODC_MESSAGE_EMAIL_DELTA created, with 59040 rows and 12 columns.
+
+264        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.21 seconds
+      cpu time            0.07 seconds
+      
+
+265        
+266        proc sql;
+267        create table nedlib.odc_sap_message_sms_delta as
+268        select
+269        t2.msg_MESSAGEID as ODC_msg_MESSAGEID,
+270        t2.msg_TARGETADDRESS as ODC_msg_TARGETADDRESS,
+271        t2.msg_STATUS as ODC_msg_STATUS,
+10                                                         The SAS System                             05:20 Tuesday, January 8, 2019
+
+272        t2.msg_CREATEDDATE as ODC_msg_CREATEDDATE,
+273        t2.msg_SENTDATE as ODC_msg_SENTDATE,
+274        t2.msg_EXTERNALID as ODC_msg_EXTERNALID,
+275        t2.c_CAMPAIGNMETHOD as ODC_c_CAMPAIGNMETHOD,
+276        t2.c_CAMPAIGNMETHOD_TEXT as ODC_c_CAMPAIGNMETHOD_TEXT,
+277        t2.c_NAME as ODC_c_NAME,
+278        t2.c_MESSAGEXML as ODC_c_MESSAGEXML,
+279        t1.SMS_ID as SAP_SMS_ID,
+280        t1.PARTNER as SAP_PARTNER,
+281        t1.MSG_MAIN_TYP as SAP_MSG_MAIN_TYP,
+282        t1.MSG_SUB_TYP as SAP_MSG_SUB_TYP,
+283        t1.SEND_DATE as SAP_SEND_DATE,
+284        t1.SEND_TIME as SAP_SEND_TIME,
+285        t1.VKONT as SAP_VKONT,
+286        t1.STATUS as SAP_STATUS,
+287        		  case
+288        when t1.STATUS = '3' then '[QUEUE] Gönderim kuyruðunda bekleyen mesaj '
+289        when t1.STATUS = '4' then '[REQUEUE] Tekrar denenmek için gönderim kuyruðunda bekleyen mesaj '
+290        when t1.STATUS = '6' then '[SENT] SmartMessage tarafýndan SMTP veya operatöre teslim edilmiþ mesaj '
+291        when t1.STATUS = '8' then '[PENDING] Henüz raporu oluþmadý þeklinde rapor alýnmýþ mesaj '
+292        when t1.STATUS = '7' then '[OPENED] E-Posta için okunmuþ, SMS için iletilmiþ mesaj '
+293        when t1.STATUS = '1' then '[FAILED] Gönderim de hata almýþ mesaj '
+294        when t1.STATUS = '10' then '[FAILURE] (sadece SMS için) Operatörden hata aldýðýna dair rapor alýnmýþ mesaj '
+295        when t1.STATUS = '2' then '[HARD BOUNCE] Üye E-Posta adresi ya da cep telefonu numarasýnýn geçerli olmamasý vb. kalýcý
+295      ! bir nedenden dolayý ulaþtýrýlamamýþ mesaj '
+296        when t1.STATUS = '5' then '[SOFT BOUNCE] (sadece E-Posta için) Mailbox kotasýnýn dolu olmasý vb. geçici bir nedenden
+296      ! dolayý ulaþtýrýlamamýþ mesaj '
+297        when t1.STATUS = '0' then '[EXPIRED] Sistem kaynaklý sebeplerden zaman aþýmýna uðramýþ mesaj '
+298        when t1.STATUS = '9' then '[EXPIRED] (sadece SMS için) Zaman aþýmýna uðramýþ mesaj '
+299        when t1.STATUS = '11' then '[BLACKLIST] (sadece E-posta için) Kullanýcý tarafýndan yasaklanmýþ alan adý filtresine
+299      ! takýlmýþ mesaj '
+300        when t1.STATUS = '12' then '[BADMAIL] (sadece E-Posta için) Bouncer tarafýndan belirlenen BadMail '
+301        when t1.STATUS = '13' then '[BADMAIL] (sadece E-Posta için) Kullanýcý tarafýndan belirlenen BadMail '
+302        when t1.STATUS = '14' then '[DUPLICATE] Yinelenen gönderim adresi filtresine takýlmýþ mesaj '
+303        when t1.STATUS = '15' then '[UNKNOWN] Uzun zamandýr bilgi alýnmadýðý için rapor durumu bilinmeyen mesaj '
+304        when t1.STATUS = '16' then '[JUNK] (sadece E-Posta için) Hedef okuyucu tarafýndan önemsiz E-Posta olarak iþaretlenmiþ
+304      ! mesaj '
+305        when t1.STATUS = '18' then '[FAILED via OPTIMIZATION] Optimizasyon kampanyasýndan gönderilen mesaj, gerçek kampanyadan
+305      ! gönderilemeyeceði için, gerçek kampanyada FLO statüsüne sahip mesaj '
+306        when t1.STATUS = '17' then '[FAILED via TIME QUOTA] Belli bir zamanda gönderilebilecek mesaj sayýsý limitine takýlan
+306      ! mesaj '
+307        when t1.STATUS = '19' then '[Already Junk] Daha önce bir epostayý junk iþaretlemiþ kiþiye tekrar eposta gönderilirse bu
+307      ! durum oluþacaktýr.'
+308        else ''
+309        end as STATUS_TEXT
+310        FROM NEDLIB.odc_message_sms_delta t2
+311        LEFT OUTER JOIN NEDLIB.RCP_ZADK_SMS_MESSAGE_delta t1 on  t2.msg_EXTERNALID = t1.SMS_ID
+312        ;
+NOTE: Table NEDLIB.ODC_SAP_MESSAGE_SMS_DELTA created, with 453858 rows and 19 columns.
+
+313        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           3.94 seconds
+      cpu time            1.88 seconds
+      
+
+314        
+315        proc sql;
+11                                                         The SAS System                             05:20 Tuesday, January 8, 2019
+
+316        create table nedlib.odc_sap_message_email_delta as
+317        select
+318        t2.msg_MESSAGEID as ODC_msg_MESSAGEID,
+319        t2.msg_TARGETADDRESS as ODC_msg_TARGETADDRESS,
+320        t2.msg_STATUS as ODC_msg_STATUS,
+321        t2.msg_CREATEDDATE as ODC_msg_CREATEDDATE,
+322        t2.msg_SENTDATE as ODC_msg_SENTDATE,
+323        t2.msg_EXTERNALID as ODC_msg_EXTERNALID,
+324        t2.c_CAMPAIGNMETHOD as ODC_c_CAMPAIGNMETHOD,
+325        t2.c_CAMPAIGNMETHOD_TEXT as ODC_c_CAMPAIGNMETHOD_TEXT,
+326        t2.c_NAME as ODC_c_NAME,
+327        t2.c_MESSAGEXML as ODC_c_MESSAGEXML,
+328        t2.mf_ADDRESS as ODC_mf_ADDRESS,
+329        t1.EMAIL_ID as SAP_EMAIL_ID,
+330        t1.PARTNER as SAP_PARTNER,
+331        t1.MSG_MAIN_TYP as SAP_MSG_MAIN_TYP,
+332        t1.MSG_SUB_TYP as SAP_MSG_SUB_TYP,
+333        t1.SEND_DATE as SAP_SEND_DATE,
+334        t1.SEND_TIME as SAP_SEND_TIME,
+335        t1.VKONT as SAP_VKONT,
+336        t1.STATUS as SAP_STATUS,
+337        		  case
+338        when t1.STATUS = '3' then '[QUEUE] Gönderim kuyruðunda bekleyen mesaj '
+339        when t1.STATUS = '4' then '[REQUEUE] Tekrar denenmek için gönderim kuyruðunda bekleyen mesaj '
+340        when t1.STATUS = '6' then '[SENT] SmartMessage tarafýndan SMTP veya operatöre teslim edilmiþ mesaj '
+341        when t1.STATUS = '8' then '[PENDING] Henüz raporu oluþmadý þeklinde rapor alýnmýþ mesaj '
+342        when t1.STATUS = '7' then '[OPENED] E-Posta için okunmuþ, SMS için iletilmiþ mesaj '
+343        when t1.STATUS = '1' then '[FAILED] Gönderim de hata almýþ mesaj '
+344        when t1.STATUS = '10' then '[FAILURE] (sadece SMS için) Operatörden hata aldýðýna dair rapor alýnmýþ mesaj '
+345        when t1.STATUS = '2' then '[HARD BOUNCE] Üye E-Posta adresi ya da cep telefonu numarasýnýn geçerli olmamasý vb. kalýcý
+345      ! bir nedenden dolayý ulaþtýrýlamamýþ mesaj '
+346        when t1.STATUS = '5' then '[SOFT BOUNCE] (sadece E-Posta için) Mailbox kotasýnýn dolu olmasý vb. geçici bir nedenden
+346      ! dolayý ulaþtýrýlamamýþ mesaj '
+347        when t1.STATUS = '0' then '[EXPIRED] Sistem kaynaklý sebeplerden zaman aþýmýna uðramýþ mesaj '
+348        when t1.STATUS = '9' then '[EXPIRED] (sadece SMS için) Zaman aþýmýna uðramýþ mesaj '
+349        when t1.STATUS = '11' then '[BLACKLIST] (sadece E-posta için) Kullanýcý tarafýndan yasaklanmýþ alan adý filtresine
+349      ! takýlmýþ mesaj '
+350        when t1.STATUS = '12' then '[BADMAIL] (sadece E-Posta için) Bouncer tarafýndan belirlenen BadMail '
+351        when t1.STATUS = '13' then '[BADMAIL] (sadece E-Posta için) Kullanýcý tarafýndan belirlenen BadMail '
+352        when t1.STATUS = '14' then '[DUPLICATE] Yinelenen gönderim adresi filtresine takýlmýþ mesaj '
+353        when t1.STATUS = '15' then '[UNKNOWN] Uzun zamandýr bilgi alýnmadýðý için rapor durumu bilinmeyen mesaj '
+354        when t1.STATUS = '16' then '[JUNK] (sadece E-Posta için) Hedef okuyucu tarafýndan önemsiz E-Posta olarak iþaretlenmiþ
+354      ! mesaj '
+355        when t1.STATUS = '18' then '[FAILED via OPTIMIZATION] Optimizasyon kampanyasýndan gönderilen mesaj, gerçek kampanyadan
+355      ! gönderilemeyeceði için, gerçek kampanyada FLO statüsüne sahip mesaj '
+356        when t1.STATUS = '17' then '[FAILED via TIME QUOTA] Belli bir zamanda gönderilebilecek mesaj sayýsý limitine takýlan
+356      ! mesaj '
+357        when t1.STATUS = '19' then '[Already Junk] Daha önce bir epostayý junk iþaretlemiþ kiþiye tekrar eposta gönderilirse bu
+357      ! durum oluþacaktýr.'
+358        else ''
+359        end as STATUS_TEXT
+360        FROM NEDLIB.odc_message_email_delta t2
+361        LEFT OUTER JOIN NEDLIB.RCP_ZADK_EML_MESSAGE_delta t1 on t2.msg_EXTERNALID=t1.EMAIL_ID
+362        ;
+NOTE: Table NEDLIB.ODC_SAP_MESSAGE_EMAIL_DELTA created, with 59040 rows and 20 columns.
+
+363        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+12                                                         The SAS System                             05:20 Tuesday, January 8, 2019
+
+      real time           0.46 seconds
+      cpu time            0.24 seconds
+      
+
+364        
+365        proc sql;
+366        create table nedlib.e_arsiv_odc_result_delta as
+367         select
+368        t2.msg_EXTERNALID as ODC_EXTERNALID,
+369        t2.msg_MESSAGEJOB as ODC_MESSAGEJOB,
+370        t2.msg_MESSAGETYPE as ODC_MESSAGETYPE,
+371        t2.msg_TARGETADDRESS as ODC_TARGETADDRESS,
+372        /*t2.msg_TARGETADDRESSINFO as ODC_TARGETADDRESSINFO,*/
+373        t2.msg_STATUS as ODC_STATUS,
+374        case
+375        when t2.msg_STATUS = 3 then '[QUEUE] Gönderim kuyruðunda bekleyen mesaj '
+376        when t2.msg_STATUS = 4 then '[REQUEUE] Tekrar denenmek için gönderim kuyruðunda bekleyen mesaj '
+377        when t2.msg_STATUS = 6 then '[SENT] SmartMessage tarafýndan SMTP veya operatöre teslim edilmiþ mesaj '
+378        when t2.msg_STATUS = 8 then '[PENDING] Henüz raporu oluþmadý þeklinde rapor alýnmýþ mesaj '
+379        when t2.msg_STATUS = 7 then '[OPENED] E-Posta için okunmuþ, SMS için iletilmiþ mesaj '
+380        when t2.msg_STATUS = 1 then '[FAILED] Gönderim de hata almýþ mesaj '
+381        when t2.msg_STATUS = 10 then '[FAILURE] (sadece SMS için) Operatörden hata aldýðýna dair rapor alýnmýþ mesaj '
+382        when t2.msg_STATUS = 2 then '[HARD BOUNCE] Üye E-Posta adresi ya da cep telefonu numarasýnýn geçerli olmamasý vb. kalýcý
+382      ! bir nedenden dolayý ulaþtýrýlamamýþ mesaj '
+383        when t2.msg_STATUS = 5 then '[SOFT BOUNCE] (sadece E-Posta için) Mailbox kotasýnýn dolu olmasý vb. geçici bir nedenden
+383      ! dolayý ulaþtýrýlamamýþ mesaj '
+384        when t2.msg_STATUS = 0 then '[EXPIRED] Sistem kaynaklý sebeplerden zaman aþýmýna uðramýþ mesaj '
+385        when t2.msg_STATUS = 9 then '[EXPIRED] (sadece SMS için) Zaman aþýmýna uðramýþ mesaj '
+386        when t2.msg_STATUS = 11 then '[BLACKLIST] (sadece E-posta için) Kullanýcý tarafýndan yasaklanmýþ alan adý filtresine
+386      ! takýlmýþ mesaj '
+387        when t2.msg_STATUS = 12 then '[BADMAIL] (sadece E-Posta için) Bouncer tarafýndan belirlenen BadMail '
+388        when t2.msg_STATUS = 13 then '[BADMAIL] (sadece E-Posta için) Kullanýcý tarafýndan belirlenen BadMail '
+389        when t2.msg_STATUS = 14 then '[DUPLICATE] Yinelenen gönderim adresi filtresine takýlmýþ mesaj '
+390        when t2.msg_STATUS = 15 then '[UNKNOWN] Uzun zamandýr bilgi alýnmadýðý için rapor durumu bilinmeyen mesaj '
+391        when t2.msg_STATUS = 16 then '[JUNK] (sadece E-Posta için) Hedef okuyucu tarafýndan önemsiz E-Posta olarak iþaretlenmiþ
+391      ! mesaj '
+392        when t2.msg_STATUS = 18 then '[FAILED via OPTIMIZATION] Optimizasyon kampanyasýndan gönderilen mesaj, gerçek kampanyadan
+392      ! gönderilemeyeceði için, gerçek kampanyada FLO statüsüne sahip mesaj '
+393        when t2.msg_STATUS = 17 then '[FAILED via TIME QUOTA] Belli bir zamanda gönderilebilecek mesaj sayýsý limitine takýlan
+393      ! mesaj '
+394        when t2.msg_STATUS = 19 then '[Already Junk] Daha önce bir epostayý junk iþaretlemiþ kiþiye tekrar eposta gönderilirse bu
+394      !  durum oluþacaktýr.'
+395        else ''
+396        end as ODC_STATUS_TEXT,
+397        t2.msg_CREATEDDATE as ODC_CREATEDDATE,
+398        t2.msg_SENTDATE as ODC_SENTDATE
+399        /*t2.msg_PLANNEDSENDINGDATE as ODC_PLANNEDSENDINGDATE,
+400        t2.msg_RESULTEXPLANATION as ODC_RESULTEXPLANATION,
+401        t2.msg_STATUSCHANGEDDATE as ODC_STATUSCHANGEDDATE,
+402        t2.msg_PREVIOUSSTATUS as ODC_PREVIOUSSTATUS*/
+403                    from  NEDLIB.ODC_MESSAGE_ALL_delta t2
+404                    where t2.msg_MESSAGEJOB = 'F615AAF05F8D7741957DA7AD011F6DC4'
+405        ;
+NOTE: Table NEDLIB.E_ARSIV_ODC_RESULT_DELTA created, with 0 rows and 8 columns.
+
+406        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.05 seconds
+13                                                         The SAS System                             05:20 Tuesday, January 8, 2019
+
+      cpu time            0.00 seconds
+      
+
+407        
+408        proc sql;
+409        create table NEDLIB.ODC_LINK_REPORT_v1 as
+410        select
+411        c.CAMPAIGNID,
+412        c.NAME as CAMPAIGN_NAME ,
+413        c.CAMPAIGNMETHOD,
+414        l.EXPLANATION,
+415        lh.MESSAGE,
+416        lh.CREATEDDATE,
+417        lh.CLICKEDDATE,
+418        lh.TARGETADDRESS,
+419        lh.DEVICE,
+420        lh.OS
+421        from NEDLIB.ODC_LINK_5038_v1 l
+422        left outer join NEDLIB.ODC_LINKCLICKHISTORY_5038_v1 lh on l.LINKID=lh.LINK
+423        left outer join NEDLIB.ODC_CAMPAIGN_5038_v1 c on l.CAMPAIGN=c.CAMPAIGNID
+424        ;
+NOTE: Table NEDLIB.ODC_LINK_REPORT_V1 created, with 77091 rows and 10 columns.
+
+425        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.89 seconds
+      cpu time            0.29 seconds
+      
+
+426        
+427        proc sql;
+428        create table nedlib.ODC_MESSAGE_SMS_EMAIL_CON_delta as
+429        select t1.*,
+430        t2.ID as connector_campID,
+431        t2.EXTCAMPAIGNNAME as Connector_Camp_Adi,
+432        t2.startdate as Camp_Baslama_Tarihi,
+433        IFC(t2.CAMPAIGNTYPE=1,'SMS','EMAIL') AS CAMPAIGNTYPE
+434        from NEDLIB.ODC_MESSAGE_CON_delta t1
+435        left join nedlib.ODC_CAMPAIGN_CON t2 on (t1.CAMPAIGNID= t2.ID)
+436        ;
+NOTE: Table NEDLIB.ODC_MESSAGE_SMS_EMAIL_CON_DELTA created, with 543862 rows and 13 columns.
+
+437        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           2.25 seconds
+      cpu time            1.04 seconds
+      
+
+438        
+439        proc sql;
+440        create table nedlib.ODC_CONNECTOR_SMS_delta AS
+441        SELECT t1.*
+442        from nedlib.ODC_MESSAGE_SMS_EMAIL_CON_delta t1
+443        where t1.CAMPAIGNTYPE='SMS'
+444        ;
+NOTE: Parallel WHERE evaluation suppressed due to sort order on table(see SPDSEV1T/SPDSEV2T macro variables).
+NOTE: Table NEDLIB.ODC_CONNECTOR_SMS_DELTA created, with 520751 rows and 13 columns.
+
+14                                                         The SAS System                             05:20 Tuesday, January 8, 2019
+
+445        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           1.11 seconds
+      cpu time            0.46 seconds
+      
+
+446        
+447        proc sql;
+448        create table nedlib.ODC_CONNECTOR_EMAIL_delta AS
+449        SELECT t1.*
+450        from nedlib.ODC_MESSAGE_SMS_EMAIL_CON_delta t1
+451        where t1.CAMPAIGNTYPE='EMAIL'
+452        ;
+NOTE: Parallel WHERE evaluation suppressed due to sort order on table(see SPDSEV1T/SPDSEV2T macro variables).
+NOTE: Table NEDLIB.ODC_CONNECTOR_EMAIL_DELTA created, with 23111 rows and 13 columns.
+
+453        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.10 seconds
+      cpu time            0.03 seconds
+      
+
+454        
+455        /*
+456        proc sql;
+457        insert into nedlib.odc_sap_message_sms_v1
+458        select *
+459        from nedlib.odc_sap_message_sms_delta;
+460        
+461        insert into vydm.odc_sap_message_sms
+462        select *
+463        from nedlib.odc_sap_message_sms_delta;
+464        
+465        quit;
+466        */
+467        
+468        /*data vydm.odc_sap_message_sms ;
+469        set nedlib.odc_sap_message_sms_v1 ;
+470        run;*/
+471        
+472        
+473        /*proc sql;
+474        insert into nedlib.odc_sap_message_email_v1
+475        select *
+476        from nedlib.odc_sap_message_email_delta;
+477        
+478        insert into vydm.odc_sap_message_email
+479        select *
+480        from nedlib.odc_sap_message_email_delta;
+481        
+482        quit;*/
+483        
+484        /*data vydm.odc_sap_message_email ;
+485        set nedlib.odc_sap_message_email_v1 ;
+486        run;*/
+487        
+488        
+489        /*proc sql;
+15                                                         The SAS System                             05:20 Tuesday, January 8, 2019
+
+490        insert into nedlib.e_arsiv_odc_result_v1
+491        select *
+492        from nedlib.e_arsiv_odc_result_delta;
+493        
+494        insert into vydm.e_arsiv_odc_result
+495        select *
+496        from nedlib.e_arsiv_odc_result_delta;
+497        
+498        quit;*/
+499        
+500        /*data vydm.e_arsiv_odc_result ;
+501        set nedlib.e_arsiv_odc_result_v1 ;
+502        run;*/
+503        
+504        /*data vydm.ODC_LINK_REPORT ;
+505        set NEDLIB.ODC_LINK_REPORT_v1 ;
+506        run;*/
+507        
+508        
+509        /*proc sql;
+510        insert into nedlib.ODC_CONNECTOR_SMS_v1
+511        select *
+512        from nedlib.ODC_CONNECTOR_SMS_delta;
+513        
+514        insert into vydm.ODC_CONNECTOR_SMS
+515        select *
+516        from nedlib.ODC_CONNECTOR_SMS_delta;
+517        
+518        quit;*/
+519        
+520        /*data vydm.ODC_CONNECTOR_SMS ;
+521        set NEDLIB.ODC_CONNECTOR_SMS_v1 ;
+522        run;*/
+523        
+524        /*proc sql;
+525        insert into nedlib.ODC_CONNECTOR_EMAIL_v1
+526        select *
+527        from nedlib.ODC_CONNECTOR_EMAIL_delta;
+528        
+529        insert into vydm.ODC_CONNECTOR_EMAIL
+530        select *
+531        from nedlib.ODC_CONNECTOR_EMAIL_delta;
+532        
+533        quit;*/
+534        
+535        /*data vydm.ODC_CONNECTOR_EMAIL ;
+536        set NEDLIB.ODC_CONNECTOR_EMAIL_v1 ;
+537        run;*/
+538        
+539        /*22.05.2018-- Hanaya yazilan tablolar*/
+540        
+541        /*proc sql;
+542        insert into NEDLIB.ODC_MESSAGE_CON_v1
+543        select *
+544        from NEDLIB.ODC_MESSAGE_CON_DELTA
+545        ;
+546        quit;*/
+547        
+16                                                         The SAS System                             05:20 Tuesday, January 8, 2019
+
+548        /*proc sql;
+549        insert into NEDLIB.ODC_MESSAGE_5038_v1
+550        select *
+551        from NEDLIB.ODC_MESSAGE_5038_DELTA ;
+552        quit;*/
+553        
+554        /*proc sql;
+555        delete from RISUH.ZSAS_ODC_SAP_MESSAGE_EMAIL;
+556        quit;*/
+557        
+558        /*proc sql;
+559        Insert into RISUH.ZSAS_ODC_SAP_MESSAGE_EMAIL
+560        Select
+561        ODC_msg_MESSAGEID,
+562        ODC_msg_TARGETADDRESS,
+563        ODC_msg_STATUS ,
+564        ODC_msg_CREATEDDATE,
+565        ODC_msg_SENTDATE,
+566        ODC_c_CAMPAIGNMETHOD,
+567        ODC_c_CAMPAIGNMETHOD_TEXT,
+568        SAP_EMAIL_ID,
+569        SAP_MSG_MAIN_TYP,
+570        SAP_MSG_SUB_TYP
+571        from nedlib.ODC_SAP_MESSAGE_EMAIL_delta ;
+572        quit; */
+573        
+574        /*proc sql;
+575        delete from RISUH.ZSAS_ODC_SAP_MESSAGE_SMS;
+576        quit;*/
+577        
+578        /*proc sql;
+579        Insert into RISUH.ZSAS_ODC_SAP_MESSAGE_SMS
+580        Select
+581        ODC_msg_MESSAGEID,
+582        ODC_msg_TARGETADDRESS,
+583        ODC_msg_STATUS ,
+584        ODC_msg_CREATEDDATE,
+585        ODC_msg_SENTDATE,
+586        ODC_c_CAMPAIGNMETHOD,
+587        ODC_c_CAMPAIGNMETHOD_TEXT,
+588        SAP_SMS_ID,
+589        SAP_MSG_MAIN_TYP,
+590        SAP_MSG_SUB_TYP
+591        from nedlib.odc_sap_message_sms_delta ;
+592        quit; */
+593        
+594        
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           1:03:52.25
+      cpu time            19:31.05
+      
+
+

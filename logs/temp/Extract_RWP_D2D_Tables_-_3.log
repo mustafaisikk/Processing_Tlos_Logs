@@ -1,0 +1,1176 @@
+NOTE: Log file opened at  Wed, 2 Dec 2020 10:29:45.422
+1                                                          The SAS System                          10:29 Wednesday, December 2, 2020
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, 
+       model number, and serial number are not included in the setinit data 
+       used to initialize the SAS System library in use. This is permitted if 
+       this processor is a designated backup processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial 
+numbers:
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name 
+ERSDPA0.
+NOTE: Copyright (c) 2016 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M6) 
+      Licensed to ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD., Site 70166440.
+NOTE: This session is executing on the AIX 7.2 (AIX 64) platform.
+
+
+
+NOTE: Analytical products:
+      
+      SAS/STAT 15.1
+      SAS/ETS 15.1
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, model number, and serial number are not included in the 
+       setinit data used to initialize the SAS System library in use. This is permitted if this processor is a designated backup 
+       processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial numbers:
+
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name ERSDPA0.
+
+WARNING: Your system is scheduled to expire on January 5, 2021, which is 34 days from now. The SAS System will no longer function 
+         on or after that date. Please contact your SAS Installation Representative to obtain your updated SAS Installation Data 
+         (SID) file, which includes SETINIT information.
+To locate the name of your SAS Installation Representative go to http://support.sas.com/repfinder and provide your site number 
+70166440 and company name as ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD.. On the SAS REP list provided, locate the REP for 
+operating system AIX 64.
+NOTE: Additional host information:
+
+IBM AIX AIX 64 2 7 00C9C0374C00 
+
+You are running SAS 9. Some SAS 8 files will be automatically converted 
+by the V9 engine; others are incompatible.  Please see 
+http://support.sas.com/rnd/migration/planning/platform/64bit.html
+
+PROC MIGRATE will preserve current SAS file attributes and is 
+recommended for converting all your SAS libraries from any 
+SAS 8 release to SAS 9.  For details and examples, please see
+http://support.sas.com/rnd/migration/index.html
+
+
+This message is contained in the SAS news file, and is presented upon
+initialization.  Edit the file "news" in the "misc/base" directory to
+display site-specific news and information in the program log.
+The command line option "-nonews" will prevent this display.
+
+
+
+
+NOTE: SAS initialization used:
+2                                                          The SAS System                          10:29 Wednesday, December 2, 2020
+
+      real time           0.11 seconds
+      cpu time            0.02 seconds
+      
+WARNING: The Base SAS Software product with which IOM CLSID:6E56FD51-CFC1-11D5-87BD-00C04F38F0DB is associated will be expiring 
+         soon, and is currently in warning mode to indicate this upcoming expiration. Please run PROC SETINIT to obtain more 
+         information on your warning period.
+NOTE: This is a SPD 5.4  Engine 
+      executing SAS (r) 9.4 (TS1M6) on the AIX platform.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+3                                                          The SAS System                          10:29 Wednesday, December 2, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+4                                                          The SAS System                          10:29 Wednesday, December 2, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SASDATA successfully assigned from logical server.
+NOTE: Libref STPSAMP successfully assigned from logical server.
+NOTE: Libref MIGLIB successfully assigned from logical server.
+NOTE: Libref TRNLIB2 successfully assigned from logical server.
+NOTE: Libref TRNLIB successfully assigned from logical server.
+NOTE: Libref NEDLIB successfully assigned from logical server.
+NOTE: Libref PILIB successfully assigned from logical server.
+NOTE: Libref DMLIB successfully assigned from logical server.
+NOTE: Libref TMPLIB3 successfully assigned from logical server.
+NOTE: Libref TMPLIB4 successfully assigned from logical server.
+NOTE: Libref ODSLIB successfully assigned from logical server.
+NOTE: Libref ODSLIB2 successfully assigned from logical server.
+NOTE: Libref ODSLIB3 successfully assigned from logical server.
+NOTE: Libref PODSLIB1 successfully assigned from logical server.
+NOTE: Libref PODSLIB2 successfully assigned from logical server.
+NOTE: Libref PODSLIB3 successfully assigned from logical server.
+NOTE: Libref DASHLIBD successfully assigned from logical server.
+NOTE: Libref QLIKLIB successfully assigned from logical server.
+WARNING: Libref SQLKODA may not have assigned correctly from logical server.
+NOTE: The product with which the engine SQLSVR is associated will be expiring soon, and is currently in warning mode to indicate 
+this upcoming expiration.  Please run PROC SETINIT to obtain more information on your warning period.
+WARNING: Libref RISU may not have assigned correctly from logical server.
+NOTE: The product with which the engine SAPHANA is associated will be expiring soon, and is currently in warning mode to indicate 
+this upcoming expiration.  Please run PROC SETINIT to obtain more information on your warning period.
+WARNING: Libref DQ_ORCL may not have assigned correctly from logical server.
+NOTE: The product with which the engine ORACLE is associated will be expiring soon, and is currently in warning mode to indicate 
+this upcoming expiration.  Please run PROC SETINIT to obtain more information on your warning period.
+NOTE: Library ZGRLIB does not exist.
+NOTE: Libref HANARWP successfully assigned from logical server.
+NOTE: Libref BFLIB successfully assigned from logical server.
+NOTE: Libref PILIB2 successfully assigned from logical server.
+NOTE: Libref TMPLIB2 successfully assigned from logical server.
+NOTE: Libref DMLIB2 successfully assigned from logical server.
+NOTE: Libref ARCLIB successfully assigned from logical server.
+NOTE: Libref IADM successfully assigned from logical server.
+NOTE: Libref IATMP successfully assigned from logical server.
+NOTE: Libref AUTODIAL successfully assigned from logical server.
+NOTE: Libref BCSDM successfully assigned from logical server.
+NOTE: Libref BLDM successfully assigned from logical server.
+NOTE: Libref BLTMP successfully assigned from logical server.
+NOTE: Libref BADM successfully assigned from logical server.
+NOTE: Libref BATMP successfully assigned from logical server.
+NOTE: Libref CCDM successfully assigned from logical server.
+NOTE: Libref CCDM2 successfully assigned from logical server.
+NOTE: Libref CMPDM successfully assigned from logical server.
+5                                                          The SAS System                          10:29 Wednesday, December 2, 2020
+
+NOTE: Libref CPSFRC successfully assigned from logical server.
+NOTE: Libref CPSHRLY successfully assigned from logical server.
+NOTE: Libref CPSREG successfully assigned from logical server.
+NOTE: Libref CPSUST successfully assigned from logical server.
+NOTE: Libref CXDM successfully assigned from logical server.
+NOTE: Libref DBALIB successfully assigned from logical server.
+NOTE: Libref DSTDM successfully assigned from logical server.
+NOTE: Libref DSTTMP successfully assigned from logical server.
+NOTE: Libref DYMDM successfully assigned from logical server.
+NOTE: Libref DYMTMP successfully assigned from logical server.
+NOTE: Libref EAP_ETY successfully assigned from logical server.
+NOTE: Libref EAP_PAY successfully assigned from logical server.
+NOTE: Libref EAP_PR successfully assigned from logical server.
+NOTE: Libref EPYDM successfully assigned from logical server.
+NOTE: Libref EPYTMP successfully assigned from logical server.
+NOTE: Libref ETSDM successfully assigned from logical server.
+NOTE: Libref FADM successfully assigned from logical server.
+NOTE: Libref FPCLIB successfully assigned from logical server.
+NOTE: Libref FPCTMP successfully assigned from logical server.
+NOTE: Libref HRDM successfully assigned from logical server.
+NOTE: Libref KMHMDM successfully assigned from logical server.
+NOTE: Libref CSSLIB successfully assigned from logical server.
+NOTE: Libref MDLIB successfully assigned from logical server.
+NOTE: Libref MHMAYEDS successfully assigned from logical server.
+NOTE: Libref MHMDM successfully assigned from logical server.
+NOTE: Libref MIGLIB2 successfully assigned from logical server.
+NOTE: Libref MSADM successfully assigned from logical server.
+NOTE: Libref MSATMP successfully assigned from logical server.
+NOTE: Libref MTHEO successfully assigned from logical server.
+NOTE: Libref MTHKA successfully assigned from logical server.
+NOTE: Libref MTHMA successfully assigned from logical server.
+NOTE: Libref MTHSO successfully assigned from logical server.
+NOTE: Libref MTHTMP successfully assigned from logical server.
+NOTE: Libref D2DLIB successfully assigned from logical server.
+NOTE: Libref OKMDM successfully assigned from logical server.
+NOTE: Libref OKMTMP successfully assigned from logical server.
+NOTE: Libref PMDM successfully assigned from logical server.
+NOTE: Libref CNPRCDM successfully assigned from logical server.
+NOTE: Libref CNPRCTMP successfully assigned from logical server.
+NOTE: Libref EDULIB successfully assigned from logical server.
+NOTE: Libref PRCDM successfully assigned from logical server.
+NOTE: Libref PRCDM2 successfully assigned from logical server.
+NOTE: Libref PRCTMP successfully assigned from logical server.
+NOTE: Libref PRFTBLIB successfully assigned from logical server.
+NOTE: Libref TMPLIB successfully assigned from logical server.
+NOTE: Libref FRCARC successfully assigned from logical server.
+NOTE: Libref FRCPRD successfully assigned from logical server.
+NOTE: Libref PRCHARC successfully assigned from logical server.
+NOTE: Libref PRCHPRD successfully assigned from logical server.
+NOTE: Libref PRICARC successfully assigned from logical server.
+NOTE: Libref PRICPRD successfully assigned from logical server.
+NOTE: Libref QL_SALES successfully assigned from logical server.
+NOTE: Libref RAPOUT successfully assigned from logical server.
+NOTE: Libref RAPREF successfully assigned from logical server.
+NOTE: Libref RAPTEST successfully assigned from logical server.
+NOTE: Libref RAPTMP successfully assigned from logical server.
+NOTE: Libref RAPVAS successfully assigned from logical server.
+NOTE: Libref REFCPS successfully assigned from logical server.
+6                                                          The SAS System                          10:29 Wednesday, December 2, 2020
+
+NOTE: Libref RMCDM successfully assigned from logical server.
+NOTE: Libref RMCTMP successfully assigned from logical server.
+NOTE: Libref SDLIB successfully assigned from logical server.
+NOTE: Libref SOMLIB successfully assigned from logical server.
+NOTE: Libref SHFDM successfully assigned from logical server.
+NOTE: Libref SODM successfully assigned from logical server.
+NOTE: Libref SOPDM successfully assigned from logical server.
+NOTE: Libref SOSUF successfully assigned from logical server.
+NOTE: Libref SOTMP successfully assigned from logical server.
+NOTE: Libref SPDM successfully assigned from logical server.
+NOTE: Libref SSIMDM successfully assigned from logical server.
+NOTE: Libref STLF successfully assigned from logical server.
+NOTE: Libref SMDM successfully assigned from logical server.
+NOTE: Libref SMTMP successfully assigned from logical server.
+NOTE: Libref TALDM successfully assigned from logical server.
+NOTE: Libref TKDM successfully assigned from logical server.
+NOTE: Libref TSDM successfully assigned from logical server.
+NOTE: Libref QVYDM successfully assigned from logical server.
+NOTE: Libref STJVYDM successfully assigned from logical server.
+NOTE: Libref VYDM successfully assigned from logical server.
+NOTE: Libref VYDMKVKK successfully assigned from logical server.
+NOTE: Libref OGMDM successfully assigned from logical server.
+NOTE: Libref OGMTMP successfully assigned from logical server.
+NOTE: Libref CRLIB successfully assigned from logical server.
+NOTE: Libref RASTMP successfully assigned from logical server.
+NOTE: Libref SOSEC successfully assigned from logical server.
+NOTE: Libref STATLIB successfully assigned from logical server.
+ERROR: Libref SMARTHMP failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12514: TNS: Dinleyici þu anda baðlantý açýklayýcýsýnda belirtilen hizmeti tanýmýyor..
+ERROR: Libref SMARTHMT failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12514: TNS: Dinleyici þu anda baðlantý açýklayýcýsýnda belirtilen hizmeti tanýmýyor..
+ERROR: Libref SMSPRD failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12170: TNS: Baðlantý zaman aþýmý oluþtu.
+NOTE: Libref RAPARCH successfully assigned from logical server.
+NOTE: Libref SAHOL successfully assigned from logical server.
+NOTE: Libref MKVR successfully assigned from logical server.
+NOTE: Libref RODQLIK successfully assigned from logical server.
+NOTE: Libref UTFLIB successfully assigned from logical server.
+
+NOTE: AUTOEXEC processing beginning; file is /sas/config/Lev1/SASApp/BatchServer/autoexec.sas.
+
+
+NOTE: AUTOEXEC processing completed.
+
+1          /****************************************************************************
+2           * Job:             Extract RWP D2D Tables - 3            A57BXQB4.BT00008C *
+3           * Description:                                                             *
+4           *                                                                          *
+5           * Metadata Server: ersupa0.enerjisa.local                                  *
+6           * Port:            8561                                                    *
+7           * Location:        /Data Integration/Jobs/9. Extraction_Tr/3. Master Data  *
+8           *                   - RWP                                                  *
+9           *                                                                          *
+10          * Server:          SASApp                                A57BXQB4.AS000002 *
+11          *                                                                          *
+12          * Source Table:    _BIC_AZCRMACT00 - -                   A57BXQB4.BE0001TZ *
+13          *                   SAPrwp./BIC/AZCRMACT00                                 *
+14          * Target Table:    RWP_AZCRMACT00 -                      A57BXQB4.BE0001U0 *
+7                                                          The SAS System                          10:29 Wednesday, December 2, 2020
+
+15          *                   PODSLIB1.RWP_AZCRMACT00                                *
+16          *                                                                          *
+17          * Generated on:    Thursday, May 28, 2020 4:11:15 PM EEST                  *
+18          * Generated by:    sas                                                     *
+19          * Version:         SAS Data Integration Studio 4.902                       *
+20          ****************************************************************************/
+21         
+22         /* Generate the process id for job  */
+23         %put Process ID: &SYSJOBID;
+Process ID: 6881924
+24         
+25         /* General macro variables  */
+26         %let jobID = %quote(A57BXQB4.BT00008C);
+27         %let etls_jobName = %nrquote(Extract RWP D2D Tables - 3);
+28         %let etls_userID = %nrquote(sas);
+29         
+30         /* Setup to capture return codes  */
+31         %global job_rc trans_rc sqlrc;
+32         %let sysrc = 0;
+33         %let job_rc = 0;
+34         %let trans_rc = 0;
+35         %let sqlrc = 0;
+36         %global etls_stepStartTime;
+37         /* initialize syserr to 0 */
+38         data _null_; run;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+39         
+40         %macro rcSet(error);
+41            %if (&error gt &trans_rc) %then
+42               %let trans_rc = &error;
+43            %if (&error gt &job_rc) %then
+44               %let job_rc = &error;
+45         %mend rcSet;
+46         
+47         %macro rcSetDS(error);
+48            if &error gt input(symget('trans_rc'),12.) then
+49               call symput('trans_rc',trim(left(put(&error,12.))));
+50            if &error gt input(symget('job_rc'),12.) then
+51               call symput('job_rc',trim(left(put(&error,12.))));
+52         %mend rcSetDS;
+53         
+54         /* Create metadata macro variables */
+55         %let IOMServer      = %nrquote(SASApp);
+56         %let metaPort       = %nrquote(8561);
+57         %let metaServer     = %nrquote(ersupa0.enerjisa.local);
+58         
+59         /* Setup for capturing job status  */
+60         %let etls_startTime = %sysfunc(datetime(),datetime.);
+61         %let etls_recordsBefore = 0;
+62         %let etls_recordsAfter = 0;
+63         %let etls_lib = 0;
+64         %let etls_table = 0;
+65         
+8                                                          The SAS System                          10:29 Wednesday, December 2, 2020
+
+66         %global etls_debug;
+67         %macro etls_setDebug;
+68            %if %str(&etls_debug) ne 0 %then
+69               OPTIONS MPRINT%str(;);
+70         %mend;
+71         %etls_setDebug;
+72         
+73         /*==========================================================================*
+74          * Step:            Table Loader                          A57BXQB4.BV00013L *
+75          * Transform:       Table Loader (Version 2.1)                              *
+76          * Description:                                                             *
+77          *                                                                          *
+78          * Source Table:    _BIC_AZCRMACT00 - -                   A57BXQB4.BE0001TZ *
+79          *                   SAPrwp./BIC/AZCRMACT00                                 *
+80          * Target Table:    RWP_AZCRMACT00 -                      A57BXQB4.BE0001U0 *
+81          *                   PODSLIB1.RWP_AZCRMACT00                                *
+82          *==========================================================================*/
+83         
+84         %let transformID = %quote(A57BXQB4.BV00013L);
+85         %let trans_rc = 0;
+86         %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+87         
+88         /* Access the data for RWP  */
+89         LIBNAME SAPrwp SASIOSR3  ashost="errwpa0.enerjisa.retail"  sysnr=30  BatchMode=1  trace=0  language=EN  Client=500
+89       ! AUTHDOMAIN="RWP" ;
+NOTE:  Credential obtained from SAS metadata server.
+NOTE: Libref SAPRWP was successfully assigned as follows: 
+      Engine:        R3 
+      Physical Name: errwpa0.enerjisa.retail
+90         %rcSet(&syslibrc);
+91         
+92         %let SYSLAST = %nrquote(SAPrwp."/BIC/AZCRMACT00"n);
+93         
+94         %global etls_sql_pushDown;
+95         %let etls_sql_pushDown = -1;
+96         option DBIDIRECTEXEC;
+97         
+98         %global etls_tableExist;
+99         %global etls_numIndex;
+100        %global etls_lastTable;
+101        %let etls_tableExist = -1;
+102        %let etls_numIndex = -1;
+103        %let etls_lastTable = &SYSLAST;
+104        
+105        /*---- Define load data macro  ----*/
+106        
+107        /* --------------------------------------------------------------
+108           Load Technique Selection: Replace - EntireTable
+109           Constraint and index action selections: 'ASIS','ASIS','ASIS','ASIS'
+110           Additional options selections...
+111              Set unmapped to missing on updates: false
+112           -------------------------------------------------------------- */
+113        %macro etls_loader;
+114        
+115           %let etls_tableOptions = ;
+116        
+117           /* Determine if the target table exists  */
+118           %let etls_tableExist = %eval(%sysfunc(exist(PODSLIB1."RWP_AZCRMACT00"n, DATA)) or
+9                                                          The SAS System                          10:29 Wednesday, December 2, 2020
+
+119                 %sysfunc(exist(PODSLIB1."RWP_AZCRMACT00"n, VIEW)));
+120        
+121           %if &etls_tableExist %then
+122           %do;/* table exists  */
+123              %let etls_hasPreExistingConstraint=0;
+124        
+125              proc datasets lib = work nolist nowarn memtype = (data view);
+126                 delete etls_commands etls_commands_F;
+127              quit;
+128        
+129              %let etls_otherTablesReferToThisTable=0;
+130        
+131              %macro etls_CIContents(table=,workTableOut=,inDSOptions=);
+132                 %put NOTE: Building table listing Constraints and Indexes for: &table;
+133                 proc datasets lib=work nolist; delete &workTableOut; quit;
+134                 proc contents data=&table&inDSOptions out2=&workTableOut noprint; run;
+135        
+136                 data &workTableOut;
+137                    length name $60 type $20 icown idxUnique idxNoMiss $3 recreate $600;
+138                    name = '';
+139                    type = '';
+140                    icown = '';
+141                    idxUnique = '';
+142                    idxNoMiss = '';
+143                    recreate = '';
+144                    set &workTableOut;
+145                    ref = '';
+146                    type=upcase(type);
+147                    if type eq 'REFERENTIAL' then
+148                    do;
+149                       put "WARNING%QUOTE(:) Target table is referenced by constraints in"
+150                            " another table: " ref;
+151                       call symput('etls_otherTablesReferToThisTable','1');
+152                       delete;
+153                    end;
+154                    if type='INDEX' and ICOwn eq 'YES' then delete;
+155                 run;
+156                 %rcSet(&syserr);
+157        
+158              %mend etls_CIContents;
+159        
+160              %etls_CIContents(table=PODSLIB1."RWP_AZCRMACT00"n, workTableOut=etls_commands, inDSOptions=);
+161        
+162              %if &etls_otherTablesReferToThisTable %then
+163                 %put WARNING%QUOTE(:) Replacing entire table will fail. Consider an alternate load technique or revising
+163      ! constraints.;
+164              %else
+165              %do; /* okay - remove foreign keys  */
+166        
+167                 data etls_commands_F;
+168                    set etls_commands;
+169                    if upcase(type)="FOREIGN KEY" then
+170                    do;
+171                       command='ic delete '||trim(name)||';';
+172                       output etls_commands_F;
+173                    end;
+174                 run;
+175        
+10                                                         The SAS System                          10:29 Wednesday, December 2, 2020
+
+176                 %put %str(NOTE: Removing foreign keys before dropping table...);
+177                 data _null_;
+178                    set etls_commands_F end=eof;
+179                    if _n_=1 then
+180                       call execute('proc datasets nolist lib=PODSLIB1;modify "RWP_AZCRMACT00"n;');
+181                    call execute(command);
+182                    if eof then call execute('; quit;');
+183                 run;
+184                 %rcSet(&syserr);
+185        
+186           %end; /* okay - remove foreign keys  */
+187        
+188           proc datasets lib = work nolist nowarn memtype = (data view);
+189              delete etls_commands etls_commands_F;
+190           quit;
+191        
+192           /*---- Drop a table  ----*/
+193           %put %str(NOTE: Dropping table ...);
+194           proc datasets lib = PODSLIB1 nolist nowarn memtype = (data view);
+195              delete "RWP_AZCRMACT00"n;
+196           quit;
+197        
+198           %rcSet(&syserr);
+199        
+200           %let etls_tableExist = 0;
+201        
+202        %end; /* table exists  */
+203        
+204        /*---- Create a new table  ----*/
+205        %if (&etls_tableExist eq 0) %then
+206        %do;  /* if table does not exist  */
+207        
+208           %put %str(NOTE: Creating table ...);
+209        
+210           data PODSLIB1."RWP_AZCRMACT00"n
+211                   (COMPRESS = YES);
+212              attrib "CRM_OBJ_ID"n length = $10
+213                 format = $10.
+214                 label = 'Transaction Number';
+215              attrib "CRM_ACGUID"n length = $32
+216                 format = $32.
+217                 label = 'GUID for an Activity';
+218              attrib "RECORDMODE"n length = $1
+219                 format = $1.
+220                 label = 'BW Delta Process: Record Mode';
+221              attrib "CALDAY"n length = 8
+222                 format = DATE9.
+223                 label = 'Calendar day';
+224              attrib "CRM_DUR"n length = 8
+225                 format = BEST12.
+226                 label = 'Total Duration in Minutes';
+227              attrib "CRM_DURFTF"n length = 8
+228                 format = BEST12.
+229                 label = 'Face to Face Duration in Minutes';
+230              attrib "CRM_NO_ACT"n length = 8
+231                 format = 19.3
+232                 label = 'Number of Activities';
+233              attrib "CALDAY_K_D"n length = 8
+11                                                         The SAS System                          10:29 Wednesday, December 2, 2020
+
+234                 format = DATE9.
+235                 label = 'Calendar Day as Key Figure';
+236              attrib "CRM_REFIT"n length = 8
+237                 format = 19.3
+238                 label = 'Number of Items for an Activity';
+239              attrib "BP_ACTIVIT"n length = $10
+240                 format = $10.
+241                 label = 'Contact Partner';
+242              attrib "BP_CONTPER"n length = $10
+243                 format = $10.
+244                 label = 'Contact Persons';
+245              attrib "BP_EMPLO"n length = $10
+246                 format = $10.
+247                 label = 'Responsible Employee';
+248              attrib "BP_RESPPER"n length = $10
+249                 format = $10.
+250                 label = 'Employee Responsible';
+251              attrib "CRMPU_OG_R"n length = $8
+252                 format = $8.
+253                 label = 'Responsible Organizational Unit in Purchasing';
+254              attrib "CRMSA_OG_R"n length = $8
+255                 format = $8.
+256                 label = 'Responsible Organizational Unit in Sales';
+257              attrib "CRMSE_OG_R"n length = $8
+258                 format = $8.
+259                 label = 'Responsible Organizational Unit (Service)';
+260              attrib "CRMSRVTGRP"n length = $8
+261                 format = $8.
+262                 label = 'Executing CRM Service Organization';
+263              attrib "CRM_ACFR"n length = 8
+264                 format = DATE9.
+265                 label = 'Actual Date From';
+266              attrib "CRM_ACTO"n length = 8
+267                 format = DATE9.
+268                 label = 'Actual Date To';
+269              attrib "CRM_CAT"n length = $3
+270                 format = $3.
+271                 label = 'Category';
+272              attrib "CRM_DIRECT"n length = $1
+273                 format = $1.
+274                 label = 'Direction';
+275              attrib "CRM_MKTELM"n length = $24
+276                 format = $24.
+277                 label = 'CRM Marketing Element (Campaign and Marketing Plan)';
+278              attrib "CRM_OBJECT"n length = $3
+279                 format = $3.
+280                 label = 'Target';
+281              attrib "CRM_OPPGUI"n length = $32
+282                 format = $32.
+283                 label = 'Opportunity guid';
+284              attrib "CRM_PBWDAT"n length = 8
+285                 format = DATE9.
+286                 label = 'Posting Date for BW Reporting';
+287              attrib "CRM_PLFR"n length = 8
+288                 format = DATE9.
+289                 label = 'Planned Date From';
+290              attrib "CRM_PLTO"n length = 8
+291                 format = DATE9.
+12                                                         The SAS System                          10:29 Wednesday, December 2, 2020
+
+292                 label = 'Planned Date To';
+293              attrib "CRM_PRIO_A"n length = $1
+294                 format = $1.
+295                 label = 'Priority';
+296              attrib "CRM_RCA"n length = $2
+297                 format = $2.
+298                 label = 'Current Catalog: Reasons';
+299              attrib "CRM_RCO"n length = $4
+300                 format = $4.
+301                 label = 'Current Code: Reasons';
+302              attrib "CRM_RG"n length = $8
+303                 format = $8.
+304                 label = 'Current Code Group: Reasons';
+305              attrib "CRM_RSN_CO"n length = $4
+306                 format = $4.
+307                 label = 'Activity Reason (Code)';
+308              attrib "CRM_RSN_GR"n length = $8
+309                 format = $8.
+310                 label = 'Activity Reason (Code Group)';
+311              attrib "CRM_RSN_TY"n length = $2
+312                 format = $2.
+313                 label = 'Activity Reason (Catalog)';
+314              attrib "CRM_SALGRP"n length = $8
+315                 format = $8.
+316                 label = 'CRM Sales Group';
+317              attrib "CRM_SALOFF"n length = $8
+318                 format = $8.
+319                 label = 'CRM Sales Office';
+320              attrib "CRM_SALORG"n length = $8
+321                 format = $8.
+322                 label = 'Sales Organization CRM';
+323              attrib "CRM_SRVORG"n length = $8
+324                 format = $8.
+325                 label = 'CRM Service Organization';
+326              attrib "CRM_SYSTA3"n length = $5
+327                 format = $5.
+328                 label = 'Move-out from System Status';
+329              attrib "DISTR_CHAN"n length = $2
+330                 format = $2.
+331                 label = 'Distribution Channel';
+332              attrib "DIVISION"n length = $2
+333                 format = $2.
+334                 label = 'Division';
+335              attrib "VERSION"n length = $3
+336                 format = $3.
+337                 label = 'Version';
+338              attrib "VTYPE"n length = $3
+339                 format = $3.
+340                 label = 'Value Type for Reporting';
+341              attrib "SOURSYSTEM"n length = $2
+342                 format = $2.
+343                 label = 'Source system ID';
+344              attrib "CRM_DESCR"n length = $40
+345                 format = $40.
+346                 label = 'Description of a Transaction';
+347              attrib "BBP_PURGRP"n length = $8
+348                 format = $8.
+349                 label = 'Purchasing Group';
+13                                                         The SAS System                          10:29 Wednesday, December 2, 2020
+
+350              attrib "BBP_PURORG"n length = $8
+351                 format = $8.
+352                 label = 'Purchasing Organization';
+353              attrib "CRM_STSMA"n length = $8
+354                 format = $8.
+355                 label = 'Status Profile';
+356              attrib "CRM_USSTAT"n length = $5
+357                 format = $5.
+358                 label = 'User Status';
+359              attrib "STAONESYS1"n length = $2
+360                 format = $2.
+361                 label = 'CRM Status Planned (One Order)';
+362              attrib "STAONESYS0"n length = $2
+363                 format = $2.
+364                 label = 'CRM Status Life Cycle (One Order)';
+365              attrib "CRM_EXC_CC"n length = $10
+366                 format = $10.
+367                 label = 'Executing Interaction Center';
+368              attrib "LOGSYS"n length = $10
+369                 format = $10.
+370                 label = 'Source System';
+371              attrib "CRM_PREDOC"n length = $32
+372                 format = $32.
+373                 label = 'CRM Preceding Document';
+374              attrib "CRM_PREOTP"n length = $10
+375                 format = $10.
+376                 label = 'Object Type for Predecessor';
+377              attrib "PRELOGSYS"n length = $10
+378                 format = $10.
+379                 label = 'Source System of Preceding Doc.';
+380              attrib "CRMPLEAGUI"n length = $32
+381                 format = $32.
+382                 label = 'GUID of Preceding Lead';
+383              attrib "CRM_LEADCR"n length = 8
+384                 format = DATE9.
+385                 label = 'Lead Was Created at This Time';
+386              attrib "CRMPOPPGUI"n length = $32
+387                 format = $32.
+388                 label = 'GUID of Preceding Opportunity';
+389              attrib "CRM_OPPCRD"n length = 8
+390                 format = DATE9.
+391                 label = 'Opportunity was Created at This Time';
+392              attrib "CRM_PRCCAT"n length = $3
+393                 format = $3.
+394                 label = 'Process Category';
+395              attrib "CRM_PCAT"n length = $2
+396                 format = $2.
+397                 label = 'Process Catalog';
+398              attrib "CRM_PGR"n length = $8
+399                 format = $8.
+400                 label = 'Process Code Group';
+401              attrib "CRM_PC"n length = $4
+402                 format = $4.
+403                 label = 'Process Code';
+404              attrib "CRM_PRCOJT"n length = $10
+405                 format = $10.
+406                 label = 'Process: Object Category';
+407              attrib "STAONESYS8"n length = $2
+14                                                         The SAS System                          10:29 Wednesday, December 2, 2020
+
+408                 format = $2.
+409                 label = 'CRM Status: Rejected(One Order)';
+410              attrib "STAONEUSS0"n length = $2
+411                 format = $2.
+412                 label = 'Contacts User Status: Life Cycle Status';
+413              attrib "CRM_OBJTYP"n length = $10
+414                 format = $10.
+415                 label = 'Business Transaction Object Type';
+416              attrib "CRM_TR"n length = $32
+417                 format = $32.
+418                 label = 'Territory';
+419              attrib "CRM_ACTTIM"n length = 8
+420                 format = TIME8.
+421                 label = 'Activity time (Planned/Actual from)';
+422              attrib "CRM_IOBJID"n length = $40
+423                 format = $40.
+424                 label = 'Individual Object ID';
+425              attrib "CRM_IOBJGU"n length = $32
+426                 format = $32.
+427                 label = 'Individual Object GUID';
+428              attrib "CRM_COPRID"n length = $40
+429                 format = $40.
+430                 label = 'Configured Product ID';
+431              attrib "CRM_COPRGU"n length = $32
+432                 format = $32.
+433                 label = 'Configured Product GUID';
+434              attrib "PROD_ID"n length = $40
+435                 format = $40.
+436                 label = 'Product ID';
+437              attrib "CRM_PROD"n length = $32
+438                 format = $32.
+439                 label = 'Product';
+440              attrib "PROD_OBJFA"n length = $4
+441                 format = $4.
+442                 label = 'Product: Object Family';
+443              attrib "CRM_EXACID"n length = $20
+444                 format = $20.
+445                 label = 'External Transaction Number';
+446              attrib "STATECSYS2"n length = $2
+447                 format = $2.
+448                 label = 'CRM Status: Incorrect';
+449              attrib "CRM_PRCTYP"n length = $4
+450                 format = $4.
+451                 label = 'Business Transaction Type';
+452              attrib "STAONESYSA"n length = $2
+453                 format = $2.
+454                 label = 'BW Status Group Object Interaction Object';
+455              attrib "CRM_ACTONL"n length = $1
+456                 format = $1.
+457                 label = 'Flag for Standalone Activity';
+458              attrib "CRM_CALDTO"n length = 8
+459                 format = DATE9.
+460                 label = 'Calendar Day To';
+461              attrib "CRM_SALESP"n length = $10
+462                 format = $10.
+463                 label = 'Channel Partners';
+464              attrib "CRM_ENDCST"n length = $10
+465                 format = $10.
+15                                                         The SAS System                          10:29 Wednesday, December 2, 2020
+
+466                 label = 'End Customer for Channel Management';
+467              attrib "CRM_RESPCP"n length = $10
+468                 format = $10.
+469                 label = 'Responsible At Channel Partner for Channel Management';
+470              attrib "CRMCC_CAT"n length = $32
+471                 format = $32.
+472                 label = 'Multilevel Categorization - Category GUID';
+473              attrib "CRM_PRIV"n length = $1
+474                 format = $1.
+475                 label = 'Document is private';
+476              attrib "STAONEACTI"n length = $2
+477                 format = $2.
+478                 label = 'User Status Activity';
+479              attrib "LANGU"n length = $1
+480                 format = $1.
+481                 label = 'Language Key';
+482              attrib "_BIC_ZOPEND"n length = 8
+483                 format = DATE9.
+484                 label = 'Open Date';
+485              attrib "_BIC_ZEPDKD"n length = 8
+486                 format = DATE9.
+487                 label = 'EPDK Date';
+488              attrib "_BIC_ZPAIDD"n length = 8
+489                 format = DATE9.
+490                 label = 'Paid Date';
+491              attrib "_BIC_ZPLAND"n length = 8
+492                 format = DATE9.
+493                 label = 'Plan Date';
+494              attrib "_BIC_ZD2DTRH"n length = 8
+495                 format = DATE9.;
+496              attrib "_BIC_ZEXACTID"n length = $20
+497                 format = $20.;
+498              attrib "_BIC_ZTERIMZM"n length = $10
+499                 format = $10.;
+500              attrib "_BIC_ZMUSTTIPC"n length = $2
+501                 format = $2.;
+502              attrib "_BIC_ZSAYSERI"n length = $18
+503                 format = $18.;
+504              attrib "_BIC_ZEXT_UI"n length = $50
+505                 format = $50.
+506                 label = 'Meter ETSO Code';
+507              attrib "_BIC_ZINT_UI"n length = $22
+508                 format = $22.;
+509              attrib "CREATEDON"n length = 8
+510                 format = DATE9.
+511                 label = 'Date on which the record was created';
+512              attrib "CRM_CHD_AT"n length = 8
+513                 format = DATE9.
+514                 label = 'Time of Last Change to the Transaction';
+515              attrib "_BIC_ZCRMOBJID"n length = $10
+516                 format = $10.;
+517              attrib "CACONT_ACC"n length = $12
+518                 format = $12.
+519                 label = 'Contract Account (Partner-Independent Data)';
+520              attrib "_BIC_ZPOD_GUID"n length = $22
+521                 format = $22.;
+522              attrib "UCCONTRACT"n length = $10
+523                 format = $10.
+16                                                         The SAS System                          10:29 Wednesday, December 2, 2020
+
+524                 label = 'Contract Number: Utilities Industry';
+525              attrib "_BIC_ZCCREBY"n length = $12
+526                 format = $12.
+527                 label = 'Created By';
+528              attrib "UCINSTALLA"n length = $10
+529                 format = $10.
+530                 label = 'Installation Number: Utilities Industry';
+531              attrib "UCRATEFAKT"n length = $10
+532                 format = $10.
+533                 label = 'Rate Fact Group';
+534              attrib "_BIC_ZD2D_ADR"n length = $100
+535                 format = $100.;
+536              call missing(of _all_);
+537              stop;
+538           run;
+539        
+540           %rcSet(&syserr);
+541        
+542        %end;  /* if table does not exist  */
+543        
+544        /*---- Append  ----*/
+545        %put %str(NOTE: Appending data ...);
+546        
+547        proc append base = PODSLIB1."RWP_AZCRMACT00"n(COMPRESS = YES)
+548           data = &etls_lastTable (&etls_tableOptions)  force ;
+549         run;
+550        
+551        %rcSet(&syserr);
+552        
+553        %mend etls_loader;
+554        %etls_loader;
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete etls_commands etls_commands_F;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.07 seconds
+      cpu time            0.02 seconds
+      
+
+NOTE: Building table listing Constraints and Indexes for: PODSLIB1."RWP_AZCRMACT00"n
+MPRINT(ETLS_CICONTENTS):   proc datasets lib=work nolist;
+MPRINT(ETLS_CICONTENTS):   delete etls_commands;
+MPRINT(ETLS_CICONTENTS):   quit;
+
+NOTE: The file WORK.ETLS_COMMANDS (memtype=DATA) was not found, but appears on a DELETE statement.
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_CICONTENTS):   proc contents data=PODSLIB1."RWP_AZCRMACT00"n out2=etls_commands noprint;
+MPRINT(ETLS_CICONTENTS):   run;
+
+NOTE: The data set WORK.ETLS_COMMANDS has 0 observations and 0 variables.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.00 seconds
+17                                                         The SAS System                          10:29 Wednesday, December 2, 2020
+
+      
+
+MPRINT(ETLS_CICONTENTS):   data etls_commands;
+MPRINT(ETLS_CICONTENTS):   length name $60 type $20 icown idxUnique idxNoMiss $3 recreate $600;
+MPRINT(ETLS_CICONTENTS):   name = '';
+MPRINT(ETLS_CICONTENTS):   type = '';
+MPRINT(ETLS_CICONTENTS):   icown = '';
+MPRINT(ETLS_CICONTENTS):   idxUnique = '';
+MPRINT(ETLS_CICONTENTS):   idxNoMiss = '';
+MPRINT(ETLS_CICONTENTS):   recreate = '';
+MPRINT(ETLS_CICONTENTS):   set etls_commands;
+MPRINT(ETLS_CICONTENTS):   ref = '';
+MPRINT(ETLS_CICONTENTS):   type=upcase(type);
+MPRINT(ETLS_CICONTENTS):   if type eq 'REFERENTIAL' then do;
+MPRINT(ETLS_CICONTENTS):   put "WARNING: Target table is referenced by constraints in" " another table: " ref;
+MPRINT(ETLS_CICONTENTS):   call symput('etls_otherTablesReferToThisTable','1');
+MPRINT(ETLS_CICONTENTS):   delete;
+MPRINT(ETLS_CICONTENTS):   end;
+MPRINT(ETLS_CICONTENTS):   if type='INDEX' and ICOwn eq 'YES' then delete;
+MPRINT(ETLS_CICONTENTS):   run;
+
+NOTE: There were 0 observations read from the data set WORK.ETLS_COMMANDS.
+NOTE: The data set WORK.ETLS_COMMANDS has 0 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+MPRINT(ETLS_CICONTENTS):  ;
+MPRINT(ETLS_LOADER):  ;
+MPRINT(ETLS_LOADER):   data etls_commands_F;
+MPRINT(ETLS_LOADER):   set etls_commands;
+MPRINT(ETLS_LOADER):   if upcase(type)="FOREIGN KEY" then do;
+MPRINT(ETLS_LOADER):   command='ic delete '||trim(name)||';';
+MPRINT(ETLS_LOADER):   output etls_commands_F;
+MPRINT(ETLS_LOADER):   end;
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: There were 0 observations read from the data set WORK.ETLS_COMMANDS.
+NOTE: The data set WORK.ETLS_COMMANDS_F has 0 observations and 8 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Removing foreign keys before dropping table...
+MPRINT(ETLS_LOADER):   data _null_;
+MPRINT(ETLS_LOADER):   set etls_commands_F end=eof;
+MPRINT(ETLS_LOADER):   if _n_=1 then call execute('proc datasets nolist lib=PODSLIB1;modify "RWP_AZCRMACT00"n;');
+MPRINT(ETLS_LOADER):   call execute(command);
+MPRINT(ETLS_LOADER):   if eof then call execute('; quit;');
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: There were 0 observations read from the data set WORK.ETLS_COMMANDS_F.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+18                                                         The SAS System                          10:29 Wednesday, December 2, 2020
+
+
+MPRINT(ETLS_LOADER):  ;
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete etls_commands etls_commands_F;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: Deleting WORK.ETLS_COMMANDS (memtype=DATA).
+NOTE: Deleting WORK.ETLS_COMMANDS_F (memtype=DATA).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Dropping table ...
+MPRINT(ETLS_LOADER):   proc datasets lib = PODSLIB1 nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete "RWP_AZCRMACT00"n;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: Deleting PODSLIB1.RWP_AZCRMACT00 (memtype=DATA).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           12.40 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_LOADER):  ;
+NOTE: Creating table ...
+MPRINT(ETLS_LOADER):   data PODSLIB1."RWP_AZCRMACT00"n (COMPRESS = YES);
+MPRINT(ETLS_LOADER):   attrib "CRM_OBJ_ID"n length = $10 format = $10. label = 'Transaction Number';
+MPRINT(ETLS_LOADER):   attrib "CRM_ACGUID"n length = $32 format = $32. label = 'GUID for an Activity';
+MPRINT(ETLS_LOADER):   attrib "RECORDMODE"n length = $1 format = $1. label = 'BW Delta Process: Record Mode';
+MPRINT(ETLS_LOADER):   attrib "CALDAY"n length = 8 format = DATE9. label = 'Calendar day';
+MPRINT(ETLS_LOADER):   attrib "CRM_DUR"n length = 8 format = BEST12. label = 'Total Duration in Minutes';
+MPRINT(ETLS_LOADER):   attrib "CRM_DURFTF"n length = 8 format = BEST12. label = 'Face to Face Duration in Minutes';
+MPRINT(ETLS_LOADER):   attrib "CRM_NO_ACT"n length = 8 format = 19.3 label = 'Number of Activities';
+MPRINT(ETLS_LOADER):   attrib "CALDAY_K_D"n length = 8 format = DATE9. label = 'Calendar Day as Key Figure';
+MPRINT(ETLS_LOADER):   attrib "CRM_REFIT"n length = 8 format = 19.3 label = 'Number of Items for an Activity';
+MPRINT(ETLS_LOADER):   attrib "BP_ACTIVIT"n length = $10 format = $10. label = 'Contact Partner';
+MPRINT(ETLS_LOADER):   attrib "BP_CONTPER"n length = $10 format = $10. label = 'Contact Persons';
+MPRINT(ETLS_LOADER):   attrib "BP_EMPLO"n length = $10 format = $10. label = 'Responsible Employee';
+MPRINT(ETLS_LOADER):   attrib "BP_RESPPER"n length = $10 format = $10. label = 'Employee Responsible';
+MPRINT(ETLS_LOADER):   attrib "CRMPU_OG_R"n length = $8 format = $8. label = 'Responsible Organizational Unit in Purchasing';
+MPRINT(ETLS_LOADER):   attrib "CRMSA_OG_R"n length = $8 format = $8. label = 'Responsible Organizational Unit in Sales';
+MPRINT(ETLS_LOADER):   attrib "CRMSE_OG_R"n length = $8 format = $8. label = 'Responsible Organizational Unit (Service)';
+MPRINT(ETLS_LOADER):   attrib "CRMSRVTGRP"n length = $8 format = $8. label = 'Executing CRM Service Organization';
+MPRINT(ETLS_LOADER):   attrib "CRM_ACFR"n length = 8 format = DATE9. label = 'Actual Date From';
+MPRINT(ETLS_LOADER):   attrib "CRM_ACTO"n length = 8 format = DATE9. label = 'Actual Date To';
+MPRINT(ETLS_LOADER):   attrib "CRM_CAT"n length = $3 format = $3. label = 'Category';
+MPRINT(ETLS_LOADER):   attrib "CRM_DIRECT"n length = $1 format = $1. label = 'Direction';
+MPRINT(ETLS_LOADER):   attrib "CRM_MKTELM"n length = $24 format = $24. label = 'CRM Marketing Element (Campaign and Marketing 
+Plan)';
+MPRINT(ETLS_LOADER):   attrib "CRM_OBJECT"n length = $3 format = $3. label = 'Target';
+MPRINT(ETLS_LOADER):   attrib "CRM_OPPGUI"n length = $32 format = $32. label = 'Opportunity guid';
+MPRINT(ETLS_LOADER):   attrib "CRM_PBWDAT"n length = 8 format = DATE9. label = 'Posting Date for BW Reporting';
+MPRINT(ETLS_LOADER):   attrib "CRM_PLFR"n length = 8 format = DATE9. label = 'Planned Date From';
+MPRINT(ETLS_LOADER):   attrib "CRM_PLTO"n length = 8 format = DATE9. label = 'Planned Date To';
+MPRINT(ETLS_LOADER):   attrib "CRM_PRIO_A"n length = $1 format = $1. label = 'Priority';
+MPRINT(ETLS_LOADER):   attrib "CRM_RCA"n length = $2 format = $2. label = 'Current Catalog: Reasons';
+MPRINT(ETLS_LOADER):   attrib "CRM_RCO"n length = $4 format = $4. label = 'Current Code: Reasons';
+19                                                         The SAS System                          10:29 Wednesday, December 2, 2020
+
+MPRINT(ETLS_LOADER):   attrib "CRM_RG"n length = $8 format = $8. label = 'Current Code Group: Reasons';
+MPRINT(ETLS_LOADER):   attrib "CRM_RSN_CO"n length = $4 format = $4. label = 'Activity Reason (Code)';
+MPRINT(ETLS_LOADER):   attrib "CRM_RSN_GR"n length = $8 format = $8. label = 'Activity Reason (Code Group)';
+MPRINT(ETLS_LOADER):   attrib "CRM_RSN_TY"n length = $2 format = $2. label = 'Activity Reason (Catalog)';
+MPRINT(ETLS_LOADER):   attrib "CRM_SALGRP"n length = $8 format = $8. label = 'CRM Sales Group';
+MPRINT(ETLS_LOADER):   attrib "CRM_SALOFF"n length = $8 format = $8. label = 'CRM Sales Office';
+MPRINT(ETLS_LOADER):   attrib "CRM_SALORG"n length = $8 format = $8. label = 'Sales Organization CRM';
+MPRINT(ETLS_LOADER):   attrib "CRM_SRVORG"n length = $8 format = $8. label = 'CRM Service Organization';
+MPRINT(ETLS_LOADER):   attrib "CRM_SYSTA3"n length = $5 format = $5. label = 'Move-out from System Status';
+MPRINT(ETLS_LOADER):   attrib "DISTR_CHAN"n length = $2 format = $2. label = 'Distribution Channel';
+MPRINT(ETLS_LOADER):   attrib "DIVISION"n length = $2 format = $2. label = 'Division';
+MPRINT(ETLS_LOADER):   attrib "VERSION"n length = $3 format = $3. label = 'Version';
+MPRINT(ETLS_LOADER):   attrib "VTYPE"n length = $3 format = $3. label = 'Value Type for Reporting';
+MPRINT(ETLS_LOADER):   attrib "SOURSYSTEM"n length = $2 format = $2. label = 'Source system ID';
+MPRINT(ETLS_LOADER):   attrib "CRM_DESCR"n length = $40 format = $40. label = 'Description of a Transaction';
+MPRINT(ETLS_LOADER):   attrib "BBP_PURGRP"n length = $8 format = $8. label = 'Purchasing Group';
+MPRINT(ETLS_LOADER):   attrib "BBP_PURORG"n length = $8 format = $8. label = 'Purchasing Organization';
+MPRINT(ETLS_LOADER):   attrib "CRM_STSMA"n length = $8 format = $8. label = 'Status Profile';
+MPRINT(ETLS_LOADER):   attrib "CRM_USSTAT"n length = $5 format = $5. label = 'User Status';
+MPRINT(ETLS_LOADER):   attrib "STAONESYS1"n length = $2 format = $2. label = 'CRM Status Planned (One Order)';
+MPRINT(ETLS_LOADER):   attrib "STAONESYS0"n length = $2 format = $2. label = 'CRM Status Life Cycle (One Order)';
+MPRINT(ETLS_LOADER):   attrib "CRM_EXC_CC"n length = $10 format = $10. label = 'Executing Interaction Center';
+MPRINT(ETLS_LOADER):   attrib "LOGSYS"n length = $10 format = $10. label = 'Source System';
+MPRINT(ETLS_LOADER):   attrib "CRM_PREDOC"n length = $32 format = $32. label = 'CRM Preceding Document';
+MPRINT(ETLS_LOADER):   attrib "CRM_PREOTP"n length = $10 format = $10. label = 'Object Type for Predecessor';
+MPRINT(ETLS_LOADER):   attrib "PRELOGSYS"n length = $10 format = $10. label = 'Source System of Preceding Doc.';
+MPRINT(ETLS_LOADER):   attrib "CRMPLEAGUI"n length = $32 format = $32. label = 'GUID of Preceding Lead';
+MPRINT(ETLS_LOADER):   attrib "CRM_LEADCR"n length = 8 format = DATE9. label = 'Lead Was Created at This Time';
+MPRINT(ETLS_LOADER):   attrib "CRMPOPPGUI"n length = $32 format = $32. label = 'GUID of Preceding Opportunity';
+MPRINT(ETLS_LOADER):   attrib "CRM_OPPCRD"n length = 8 format = DATE9. label = 'Opportunity was Created at This Time';
+MPRINT(ETLS_LOADER):   attrib "CRM_PRCCAT"n length = $3 format = $3. label = 'Process Category';
+MPRINT(ETLS_LOADER):   attrib "CRM_PCAT"n length = $2 format = $2. label = 'Process Catalog';
+MPRINT(ETLS_LOADER):   attrib "CRM_PGR"n length = $8 format = $8. label = 'Process Code Group';
+MPRINT(ETLS_LOADER):   attrib "CRM_PC"n length = $4 format = $4. label = 'Process Code';
+MPRINT(ETLS_LOADER):   attrib "CRM_PRCOJT"n length = $10 format = $10. label = 'Process: Object Category';
+MPRINT(ETLS_LOADER):   attrib "STAONESYS8"n length = $2 format = $2. label = 'CRM Status: Rejected(One Order)';
+MPRINT(ETLS_LOADER):   attrib "STAONEUSS0"n length = $2 format = $2. label = 'Contacts User Status: Life Cycle Status';
+MPRINT(ETLS_LOADER):   attrib "CRM_OBJTYP"n length = $10 format = $10. label = 'Business Transaction Object Type';
+MPRINT(ETLS_LOADER):   attrib "CRM_TR"n length = $32 format = $32. label = 'Territory';
+MPRINT(ETLS_LOADER):   attrib "CRM_ACTTIM"n length = 8 format = TIME8. label = 'Activity time (Planned/Actual from)';
+MPRINT(ETLS_LOADER):   attrib "CRM_IOBJID"n length = $40 format = $40. label = 'Individual Object ID';
+MPRINT(ETLS_LOADER):   attrib "CRM_IOBJGU"n length = $32 format = $32. label = 'Individual Object GUID';
+MPRINT(ETLS_LOADER):   attrib "CRM_COPRID"n length = $40 format = $40. label = 'Configured Product ID';
+MPRINT(ETLS_LOADER):   attrib "CRM_COPRGU"n length = $32 format = $32. label = 'Configured Product GUID';
+MPRINT(ETLS_LOADER):   attrib "PROD_ID"n length = $40 format = $40. label = 'Product ID';
+MPRINT(ETLS_LOADER):   attrib "CRM_PROD"n length = $32 format = $32. label = 'Product';
+MPRINT(ETLS_LOADER):   attrib "PROD_OBJFA"n length = $4 format = $4. label = 'Product: Object Family';
+MPRINT(ETLS_LOADER):   attrib "CRM_EXACID"n length = $20 format = $20. label = 'External Transaction Number';
+MPRINT(ETLS_LOADER):   attrib "STATECSYS2"n length = $2 format = $2. label = 'CRM Status: Incorrect';
+MPRINT(ETLS_LOADER):   attrib "CRM_PRCTYP"n length = $4 format = $4. label = 'Business Transaction Type';
+MPRINT(ETLS_LOADER):   attrib "STAONESYSA"n length = $2 format = $2. label = 'BW Status Group Object Interaction Object';
+MPRINT(ETLS_LOADER):   attrib "CRM_ACTONL"n length = $1 format = $1. label = 'Flag for Standalone Activity';
+MPRINT(ETLS_LOADER):   attrib "CRM_CALDTO"n length = 8 format = DATE9. label = 'Calendar Day To';
+MPRINT(ETLS_LOADER):   attrib "CRM_SALESP"n length = $10 format = $10. label = 'Channel Partners';
+MPRINT(ETLS_LOADER):   attrib "CRM_ENDCST"n length = $10 format = $10. label = 'End Customer for Channel Management';
+MPRINT(ETLS_LOADER):   attrib "CRM_RESPCP"n length = $10 format = $10. label = 'Responsible At Channel Partner for Channel 
+Management';
+MPRINT(ETLS_LOADER):   attrib "CRMCC_CAT"n length = $32 format = $32. label = 'Multilevel Categorization - Category GUID';
+20                                                         The SAS System                          10:29 Wednesday, December 2, 2020
+
+MPRINT(ETLS_LOADER):   attrib "CRM_PRIV"n length = $1 format = $1. label = 'Document is private';
+MPRINT(ETLS_LOADER):   attrib "STAONEACTI"n length = $2 format = $2. label = 'User Status Activity';
+MPRINT(ETLS_LOADER):   attrib "LANGU"n length = $1 format = $1. label = 'Language Key';
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZOPEND"n length = 8 format = DATE9. label = 'Open Date';
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZEPDKD"n length = 8 format = DATE9. label = 'EPDK Date';
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZPAIDD"n length = 8 format = DATE9. label = 'Paid Date';
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZPLAND"n length = 8 format = DATE9. label = 'Plan Date';
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZD2DTRH"n length = 8 format = DATE9.;
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZEXACTID"n length = $20 format = $20.;
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZTERIMZM"n length = $10 format = $10.;
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZMUSTTIPC"n length = $2 format = $2.;
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZSAYSERI"n length = $18 format = $18.;
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZEXT_UI"n length = $50 format = $50. label = 'Meter ETSO Code';
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZINT_UI"n length = $22 format = $22.;
+MPRINT(ETLS_LOADER):   attrib "CREATEDON"n length = 8 format = DATE9. label = 'Date on which the record was created';
+MPRINT(ETLS_LOADER):   attrib "CRM_CHD_AT"n length = 8 format = DATE9. label = 'Time of Last Change to the Transaction';
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZCRMOBJID"n length = $10 format = $10.;
+MPRINT(ETLS_LOADER):   attrib "CACONT_ACC"n length = $12 format = $12. label = 'Contract Account (Partner-Independent Data)';
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZPOD_GUID"n length = $22 format = $22.;
+MPRINT(ETLS_LOADER):   attrib "UCCONTRACT"n length = $10 format = $10. label = 'Contract Number: Utilities Industry';
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZCCREBY"n length = $12 format = $12. label = 'Created By';
+MPRINT(ETLS_LOADER):   attrib "UCINSTALLA"n length = $10 format = $10. label = 'Installation Number: Utilities Industry';
+MPRINT(ETLS_LOADER):   attrib "UCRATEFAKT"n length = $10 format = $10. label = 'Rate Fact Group';
+MPRINT(ETLS_LOADER):   attrib "_BIC_ZD2D_ADR"n length = $100 format = $100.;
+MPRINT(ETLS_LOADER):   call missing(of _all_);
+MPRINT(ETLS_LOADER):   stop;
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: The data set PODSLIB1.RWP_AZCRMACT00 has 0 observations and 111 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.07 seconds
+      cpu time            0.01 seconds
+      

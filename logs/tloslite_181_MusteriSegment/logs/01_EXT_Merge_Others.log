@@ -1,0 +1,1389 @@
+1                                                          The SAS System                             03:06 Sunday, October 18, 2020
+
+NOTE: Unable to open SASUSER.REGSTRY. WORK.REGSTRY will be opened instead.
+NOTE: All registry changes will be lost at the end of the session.
+
+WARNING: Unable to copy SASUSER registry to WORK registry. Because of this, you will not see registry customizations during this 
+         session.
+ERROR: The SAS System is executing on a processor (CPU) whose model name, 
+       model number, and serial number are not included in the setinit data 
+       used to initialize the SAS System library in use. This is permitted if 
+       this processor is a designated backup processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial 
+numbers:
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name 
+ERSDPA0.
+NOTE: Unable to open SASUSER.PROFILE. WORK.PROFILE will be opened instead.
+NOTE: All profile changes will be lost at the end of the session.
+NOTE: Copyright (c) 2016 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M6) 
+      Licensed to ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD., Site 70166440.
+NOTE: This session is executing on the AIX 7.2 (AIX 64) platform.
+
+
+
+NOTE: Analytical products:
+      
+      SAS/STAT 15.1
+      SAS/ETS 15.1
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, model number, and serial number are not included in the 
+       setinit data used to initialize the SAS System library in use. This is permitted if this processor is a designated backup 
+       processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial numbers:
+
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name ERSDPA0.
+
+NOTE: Additional host information:
+
+IBM AIX AIX 64 2 7 00C9C0374C00 
+
+You are running SAS 9. Some SAS 8 files will be automatically converted 
+by the V9 engine; others are incompatible.  Please see 
+http://support.sas.com/rnd/migration/planning/platform/64bit.html
+
+PROC MIGRATE will preserve current SAS file attributes and is 
+recommended for converting all your SAS libraries from any 
+SAS 8 release to SAS 9.  For details and examples, please see
+http://support.sas.com/rnd/migration/index.html
+
+
+This message is contained in the SAS news file, and is presented upon
+initialization.  Edit the file "news" in the "misc/base" directory to
+display site-specific news and information in the program log.
+The command line option "-nonews" will prevent this display.
+
+
+
+
+2                                                          The SAS System                             03:06 Sunday, October 18, 2020
+
+NOTE: SAS initialization used:
+      real time           0.04 seconds
+      cpu time            0.02 seconds
+      
+
+NOTE: AUTOEXEC processing beginning; file is /bidm/sascodes/Musteri_Sayisi/Autoexec.sas.
+
+
+NOTE: AUTOEXEC processing completed.
+
+1          %include "/sas/sascodes/Autoexec_File/Autoexec.sas";
+NOTE: This is a SPD 5.4  Engine 
+      executing SAS (r) 9.4 (TS1M6) on the AIX platform.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta1/TMPLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta1/PODSLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DMLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta1/DMLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TRNLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta1/TRNLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta1/ODSLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB4 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta1/TMPLIB4/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta1/FADM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref VYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/VYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/ODSLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref NEDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/NEDLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/smdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+3                                                          The SAS System                             03:06 Sunday, October 18, 2020
+
+NOTE: Libref TRNLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/TRNLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MSATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/MSATMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OKMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/okmtmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MIGLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/MIGLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref REFCPS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/REFCPS/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_ETY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/EAP_ETY/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/PODSLIB1/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/tmplib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CRLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/crlib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OKMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/okmdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/CCDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RMCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/rmcdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/smtmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOSEC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/sosec/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+4                                                          The SAS System                             03:06 Sunday, October 18, 2020
+
+      Physical Name: :7799626/spdsmeta2/PODSLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MHMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/MHMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CCDM2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/CCDM2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RASTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/rastmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SODM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/sodm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref D2DLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/D2DLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/ODSLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPREF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/rapref/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOMLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/SOMLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRICARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/PRICARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MIGLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/MIGLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/sotmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/TSDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TALDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/taldm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSUST was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/CPSUST/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+5                                                          The SAS System                             03:06 Sunday, October 18, 2020
+
+NOTE: Libref STJVYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/STJVYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QLIKLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/QLIKLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/badm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EDULIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/edulib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref STLF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/STLF/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DASHLIBD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/DASHLIBD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BFLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/bflib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/batmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/sopdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref KKLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/kklib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MHMAYEDS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/MHMAYEDS/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHEO was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/MTHEO/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/prcdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BLDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/bldm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+6                                                          The SAS System                             03:06 Sunday, October 18, 2020
+
+      Physical Name: :7799626/spdsmeta2/raptmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRFTBLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/prftblib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPOUT was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/rapout/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPTEST was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/RAPTEST/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DMLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/DMLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BCSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/BCSDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref IATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/iatmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOSUF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/sosuf/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPARCH was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/raparch/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RMCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/rmctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHKA was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/MTHKA/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EPYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/EPYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DSTDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/DSTDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DYMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/DYMTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/MDLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+7                                                          The SAS System                             03:06 Sunday, October 18, 2020
+
+NOTE: Libref DSTTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/DSTTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/tmplib2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PILIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/PILIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BLTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/bltmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref AUTODIAL was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/AUTODIAL/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRICPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/PRICPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSREG was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/CPSREG/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CXDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/CXDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSFRC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/CPSFRC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/SDLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CMPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/CMPDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/PMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MSADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/MSADM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FPCLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/fpclib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DBALIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+8                                                          The SAS System                             03:06 Sunday, October 18, 2020
+
+      Physical Name: :7799626/spdsmeta2/DBALIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSHRLY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/CPSHRLY/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCDM2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/PRCDM2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ARCLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/ARCLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QL_SALES was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/QL_SALES/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ETSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/etsdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EPYTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/EPYTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HRDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/HRDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CNPRCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/cnprctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DI_SMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/DI_SMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PREFLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/PREFLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TRNLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/TRNLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB33 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/TMPLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SHFDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/SHFDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/SPDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+9                                                          The SAS System                             03:06 Sunday, October 18, 2020
+
+NOTE: Libref SSIMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/SSIMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TKDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/TKDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_PR was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/EAP_PR/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_PAY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/EAP_PAY/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref KMHMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/KMHMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QVYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/QVYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref VYDMKVKK was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/VYDMKVKK/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OGMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/OGMTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OGMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/OGMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/prctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CNPRCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/cnprcdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref IADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/iadm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMTMP2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/smtmp2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ETSTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/etstmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BITMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+10                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+      Physical Name: :7799626/spdsmeta2/bitmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BIDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/bidm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/hslib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RASDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/rasdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPVAS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/rapvas/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FPCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/fpctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FRCPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/FRCPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FRCARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/FRCARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCHPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/PRCHPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCHARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/PRCHARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HDGPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/HDGPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HDGARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/HDGARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PILIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/PILIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHSO was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/MTHSO/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHMA was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/MTHMA/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+11                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+NOTE: Libref MTHTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/MTHTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DYMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/DYMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CSSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/CSSLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SAHOL was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/SAHOL/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MKVR was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :7799626/spdsmeta2/MKVR/
+137        PROC SQL;
+138        	CREATE TABLE TMPLIB3.MUS_SEG7 AS
+139        		SELECT t1.VERTRAG,
+140        			t1.ANLAGE,
+141        			t2.VSTELLE
+142        		FROM TMPLIB3.SEGMENT_MUSTERI_V2_1 t1
+143        			LEFT JOIN PODSLIB1.RIP_EANL t2 ON (t1.ANLAGE = t2.ANLAGE);
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4  Server at 10.166.0.39.
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+
+NOTE: Implicit SQL:  select t1.VERTRAG, t1.ANLAGE, t2.VSTELLE from TMPLIB3.SEGMENT_MUSTERI_V2_1 t1 left join PODSLIB1.RIP_EANL t2 
+      on t1.ANLAGE = t2.ANLAGE
+ SPDS_NOTE: Parallel Merge Join Method Selected
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+NOTE: Table TMPLIB3.MUS_SEG7 created, with 15671177 rows and 3 columns.
+
+144        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           27.31 seconds
+      cpu time            3.37 seconds
+12                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+      
+
+145        
+146        PROC SQL;
+147        	CREATE TABLE TMPLIB3.MUS_SEG9 AS
+148        		SELECT t1.*,
+149        			t2.HAUS,
+150        			t2.VBSART,
+151        			t2.ZZESKIADRES,
+152        			T2.HAUS
+153        		FROM TMPLIB3.MUS_SEG7 t1
+154        			INNER JOIN PODSLIB1.RIP_EVBS t2 ON (t1.VSTELLE = t2.VSTELLE);
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+
+NOTE: Implicit SQL:  select t1.VERTRAG, t1.ANLAGE, t1.VSTELLE, t2.HAUS, t2.VBSART, t2.ZZESKIADRES, t2.HAUS from TMPLIB3.MUS_SEG7 t1 
+      inner join PODSLIB1.RIP_EVBS t2 on t1.VSTELLE = t2.VSTELLE
+ SPDS_NOTE: Parallel Merge Join Method Selected
+
+WARNING: Variable HAUS already exists on file TMPLIB3.MUS_SEG9.
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+NOTE: Table TMPLIB3.MUS_SEG9 created, with 15567484 rows and 6 columns.
+
+155        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           40.64 seconds
+      cpu time            7.72 seconds
+      
+
+156        
+157        PROC SQL;
+158        	CREATE TABLE TMPLIB3.MUS_SEG10_1 AS
+159        		SELECT t1.*,
+160        			t2.ILOAN
+161        		FROM TMPLIB3.MUS_SEG9 t1
+162        			INNER JOIN PODSLIB1.RIP_IFLOT t2 ON (t1.HAUS = t2.TPLNR);
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+13                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+
+NOTE: Implicit SQL:  select t1.VERTRAG, t1.ANLAGE, t1.VSTELLE, t1.HAUS, t1.VBSART, t1.ZZESKIADRES, t2.ILOAN from TMPLIB3.MUS_SEG9 
+      t1 inner join PODSLIB1.RIP_IFLOT t2 on t1.HAUS = t2.TPLNR
+ SPDS_NOTE: Parallel Merge Join Method Selected
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+NOTE: Table TMPLIB3.MUS_SEG10_1 created, with 15567484 rows and 7 columns.
+
+163        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           28.28 seconds
+      cpu time            8.74 seconds
+      
+
+164        
+165        PROC SQL;
+166        	CREATE TABLE TMPLIB3.MUS_SEG10 AS
+167        		SELECT t1.*,
+168        			t2.ADRNR
+169        		FROM TMPLIB3.MUS_SEG10_1 t1
+170        			INNER JOIN PODSLIB1.RIP_ILOA t2 ON (t1.ILOAN = t2.ILOAN /*AND (t2.SPRAS="T")*/);
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+
+NOTE: Implicit SQL:  select t1.VERTRAG, t1.ANLAGE, t1.VSTELLE, t1.HAUS, t1.VBSART, t1.ZZESKIADRES, t1.ILOAN, t2.ADRNR from 
+      TMPLIB3.MUS_SEG10_1 t1 inner join PODSLIB1.RIP_ILOA t2 on t1.ILOAN = t2.ILOAN
+ SPDS_NOTE: Parallel Merge Join Method Selected
+14                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+NOTE: Table TMPLIB3.MUS_SEG10 created, with 15567484 rows and 8 columns.
+
+171        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           27.62 seconds
+      cpu time            9.59 seconds
+      
+
+172        
+173        PROC SQL;
+174        	CREATE TABLE TMPLIB3.MUS_SEG11 AS
+175        		SELECT t1.*,
+176        			t2.REGION,
+177        			t2.COUNTY_CODE,
+178        			t2.COUNTY,
+179        			t3.BEZEI
+180        		
+181        		FROM TMPLIB3.MUS_SEG10 t1
+182        			INNER JOIN PODSLIB1.RIP_ADRC t2 ON (t1.ADRNR = t2.ADDRNUMBER)
+183        			INNER JOIN PODSLIB1.RIP_T005U t3 ON (t2.REGION = t3.BLAND AND (t3.SPRAS="T" AND t3.LAND1="TR"))
+184        ;
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+
+NOTE: Implicit SQL:  select t1.VERTRAG, t1.ANLAGE, t1.VSTELLE, t1.HAUS, t1.VBSART, t1.ZZESKIADRES, t1.ILOAN, t1.ADRNR, t2.REGION, 
+      t2.COUNTY_CODE, t2.COUNTY, t3.BEZEI from TMPLIB3.MUS_SEG10 t1 inner join PODSLIB1.RIP_ADRC t2 on t1.ADRNR = t2.ADDRNUMBER 
+      inner join PODSLIB1.RIP_T005U t3 on t2.REGION = t3.BLAND where (t3.SPRAS = 'T') and (t3.LAND1 = 'TR')
+NOTE: Table TMPLIB3.MUS_SEG11 created, with 15567484 rows and 12 columns.
+
+185        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           5:11.49
+      cpu time            14.02 seconds
+      
+
+186        
+15                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+187        PROC SQL;
+188        	CREATE TABLE TMPLIB3.MUS_SEG13 AS
+189        		SELECT DISTINCT t1.VERTRAG,
+190        			t1.ZZMUSTERI_TIPI,
+191        					t1.ZZPOLICEno,
+192        			t1.STAGRUVER,
+193        			t1.INVOICING_PARTY,
+194        			t1.BUKRS,
+195        			t1.EINZDAT,
+196        			t1.AUSZDAT,
+197        			t1.AEDAT,
+198        			t1.ERDAT,
+199        			t1.STRAT,
+200        			t1.VBEGINN,
+201        			t1.VENDE,
+202        			t1.ABRSPERR,
+203        			t1.VKONTO,
+204        			t1.ANLAGE,
+205        			t1.EBVTY,
+206        			t1.KTOKL,
+207        			t1.GPART,
+208        			t1.DEKLERASYON_BELGE_NO, t1.DEKLERASYON_ALINMA_TARIHI,  	t1.VERSIYON_BILGISI,
+209        			t1.DEKLERASYON_DURUMU,
+210        			t1.DEK_ALINMA_SAATI,
+211        			t1.BARKOD_BILGISI,
+212        			t1.ZZFLD000003,
+213        			t1.BIRTHDT,
+214        			t1.DEATHDT,
+215        			t1.IDNUMBER,
+216        			t1.ANA_MUSTERI_NO,
+217        /*			t1.KAYNAK, */
+218        			t1.MUHATAP_VKN,
+219        			t1.MUHATAP_VD,
+220        			t1.MUHATAP_SATIS_UZMANI,
+221        			t1.ANA_MUSTERI_KAM,
+222        			t1.OLCEK,
+223        			t1.AKLASSE,
+224        			t1.KONDIGR,
+225        			t1.TARIFTYP,
+226        			t1.TARIFART,
+227        			t2.REGION,
+228        			t2.BEZEI,
+229        			t2.COUNTY_CODE,
+230        			t2.COUNTY,
+231        			t2.ZZESKIADRES,
+232        			t2.VBSART,
+233        			T2.HAUS
+234        		FROM TMPLIB3.SEGMENT_MUSTERI_V2_1 t1
+235        			LEFT JOIN TMPLIB3.MUS_SEG11 t2 ON (t1.VERTRAG = t2.VERTRAG);
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+16                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+
+NOTE: Implicit SQL:  select distinct t1.VERTRAG, t1.ZZMUSTERI_TIPI, t1.ZZPOLICENO, t1.STAGRUVER, t1.INVOICING_PARTY, t1.BUKRS, 
+      t1.EINZDAT, t1.AUSZDAT, t1.AEDAT, t1.ERDAT, t1.STRAT, t1.VBEGINN, t1.VENDE, t1.ABRSPERR, t1.VKONTO, t1.ANLAGE, t1.EBVTY, 
+      t1.KTOKL, t1.GPART, t1.DEKLERASYON_BELGE_NO, t1.DEKLERASYON_ALINMA_TARIHI, t1.VERSIYON_BILGISI, t1.DEKLERASYON_DURUMU, 
+      t1.DEK_ALINMA_SAATI, t1.BARKOD_BILGISI, t1.ZZFLD000003, t1.BIRTHDT, t1.DEATHDT, t1.IDNUMBER, t1.ANA_MUSTERI_NO, 
+      t1.MUHATAP_VKN, t1.MUHATAP_VD, t1.MUHATAP_SATIS_UZMANI, t1.ANA_MUSTERI_KAM, t1.OLCEK, t1.AKLASSE, t1.KONDIGR, t1.TARIFTYP, 
+      t1.TARIFART, t2.REGION, t2.BEZEI, t2.COUNTY_CODE, t2.COUNTY, t2.ZZESKIADRES, t2.VBSART, t2.HAUS from SEGMENT_MUSTERI_V2_1 t1 
+      left join MUS_SEG11 t2 on t1.VERTRAG = t2.VERTRAG
+ SPDS_NOTE: Parallel Merge Join Method Selected
+
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+NOTE: Table TMPLIB3.MUS_SEG13 created, with 15671177 rows and 46 columns.
+
+236        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           6:18.48
+      cpu time            30.82 seconds
+      
+
+237        
+238        PROC SQL;
+239        	CREATE TABLE TMPLIB3.MUS_SEG14A AS
+240        		SELECT DISTINCT t1.VERTRAG,
+241        			t1.ZZMUSTERI_TIPI,
+242        					t1.ZZPOLICEno,
+243        			t1.STAGRUVER,
+244        			t1.INVOICING_PARTY,
+245        			t1.BUKRS,
+246        			t1.EINZDAT,
+247        			t1.AUSZDAT,
+248        			t1.AEDAT,
+249        			t1.ERDAT,
+250        			t1.STRAT,
+251        			t1.VBEGINN,
+252        			t1.VENDE,
+253        			t1.ABRSPERR,
+254        			t1.VKONTO,
+255        			t1.ANLAGE,
+256        			t1.EBVTY,
+257        			t1.KTOKL,
+258        			t1.GPART,
+259        			t1.DEKLERASYON_BELGE_NO, t1.DEKLERASYON_ALINMA_TARIHI,  	t1.VERSIYON_BILGISI,
+260        			t1.DEKLERASYON_DURUMU,
+261        			t1.DEK_ALINMA_SAATI,
+262        			t1.BARKOD_BILGISI,
+263        			t1.ZZFLD000003,
+264        			t1.BIRTHDT,
+265        			t1.DEATHDT,
+266        			t1.IDNUMBER,
+267        			t1.ANA_MUSTERI_NO,
+268        /*			t1.KAYNAK, */
+269        			t1.MUHATAP_VKN,
+17                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+270        			t1.MUHATAP_VD,
+271        			t1.MUHATAP_SATIS_UZMANI,
+272        			t1.ANA_MUSTERI_KAM,
+273        			t1.OLCEK,
+274        			t1.AKLASSE,
+275        			t1.KONDIGR,
+276        			t1.TARIFTYP,
+277        			t1.TARIFART,
+278        			t1.REGION,
+279        			t1.BEZEI,
+280        			t1.COUNTY_CODE,
+281        			t1.COUNTY,
+282        			t1.ZZESKIADRES,
+283        			t2.ABLEINH,
+284        			t1.VBSART,
+285        			T1.HAUS
+286        		FROM TMPLIB3.MUS_SEG13 t1
+287        			INNER JOIN PODSLIB1.RIP_EANLH t2 ON (t1.ANLAGE = t2.ANLAGE AND (t2.BIS='31DEC9999'd));
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+
+NOTE: Implicit SQL:  select distinct t1.VERTRAG, t1.ZZMUSTERI_TIPI, t1.ZZPOLICENO, t1.STAGRUVER, t1.INVOICING_PARTY, t1.BUKRS, 
+      t1.EINZDAT, t1.AUSZDAT, t1.AEDAT, t1.ERDAT, t1.STRAT, t1.VBEGINN, t1.VENDE, t1.ABRSPERR, t1.VKONTO, t1.ANLAGE, t1.EBVTY, 
+      t1.KTOKL, t1.GPART, t1.DEKLERASYON_BELGE_NO, t1.DEKLERASYON_ALINMA_TARIHI, t1.VERSIYON_BILGISI, t1.DEKLERASYON_DURUMU, 
+      t1.DEK_ALINMA_SAATI, t1.BARKOD_BILGISI, t1.ZZFLD000003, t1.BIRTHDT, t1.DEATHDT, t1.IDNUMBER, t1.ANA_MUSTERI_NO, 
+      t1.MUHATAP_VKN, t1.MUHATAP_VD, t1.MUHATAP_SATIS_UZMANI, t1.ANA_MUSTERI_KAM, t1.OLCEK, t1.AKLASSE, t1.KONDIGR, t1.TARIFTYP, 
+      t1.TARIFART, t1.REGION, t1.BEZEI, t1.COUNTY_CODE, t1.COUNTY, t1.ZZESKIADRES, t2.ABLEINH, t1.VBSART, t1.HAUS from 
+      TMPLIB3.MUS_SEG13 t1 inner join PODSLIB1.RIP_EANLH t2 on t1.ANLAGE = t2.ANLAGE where t2.BIS = '31DEC9999'd
+ SPDS_NOTE: Parallel Merge Join Method Selected
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+NOTE: Table TMPLIB3.MUS_SEG14A created, with 15567484 rows and 47 columns.
+
+288        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           6:52.81
+      cpu time            30.51 seconds
+      
+18                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+
+289        
+290        PROC SQL;
+291        	CREATE TABLE TMPLIB3.MUS_SEG14B AS
+292        		SELECT DISTINCT t1.VERTRAG,
+293        			t3.REGPOLIT
+294        		FROM TMPLIB3.MUS_SEG14A t1
+295        			INNER JOIN PODSLIB1.RIP_ZWM_MRU_ADRC t3 ON (t1.ABLEINH = t3.ABLEINH)
+296        	;
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+
+NOTE: Implicit SQL:  select distinct t1.VERTRAG, t3.REGPOLIT from TMPLIB3.MUS_SEG14A t1 inner join PODSLIB1.RIP_ZWM_MRU_ADRC t3 on 
+      t1.ABLEINH = t3.ABLEINH
+ SPDS_NOTE: Parallel Merge Join Method Selected
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+NOTE: Table TMPLIB3.MUS_SEG14B created, with 15547041 rows and 2 columns.
+
+297        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           57.28 seconds
+      cpu time            2.44 seconds
+      
+
+298        
+299        PROC SQL;
+300        	CREATE TABLE TMPLIB3.MUS_SEG14C AS
+301        		SELECT DISTINCT t1.VERTRAG,
+302        			t4.UEBPOLIT
+303        		FROM TMPLIB3.MUS_SEG14B t1
+304        			INNER JOIN PODSLIB1.RIP_TE227 t4 ON (t1.REGPOLIT = t4.REGPOLIT);
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+19                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+
+NOTE: Implicit SQL:  select distinct t1.VERTRAG, t4.UEBPOLIT from TMPLIB3.MUS_SEG14B t1 inner join PODSLIB1.RIP_TE227 t4 on 
+      t1.REGPOLIT = t4.REGPOLIT
+NOTE: Table TMPLIB3.MUS_SEG14C created, with 15545305 rows and 2 columns.
+
+305        
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           38.90 seconds
+      cpu time            2.39 seconds
+      
+
+306        PROC SQL;
+307        	CREATE TABLE TMPLIB3.MUS_SEG14D AS
+308        		SELECT DISTINCT t1.VERTRAG,
+309        			t5.REGNAME
+310        		FROM TMPLIB3.MUS_SEG14C t1
+311        			INNER JOIN PODSLIB1.RIP_TE227T t5 ON (t1.UEBPOLIT = t5.REGPOLIT AND (t5.SPRAS='T'));
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+
+NOTE: Implicit SQL:  select distinct t1.VERTRAG, t5.REGNAME from TMPLIB3.MUS_SEG14C t1 inner join PODSLIB1.RIP_TE227T t5 on 
+      t1.UEBPOLIT = t5.REGPOLIT where t5.SPRAS = 'T'
+NOTE: Table TMPLIB3.MUS_SEG14D created, with 15545305 rows and 2 columns.
+
+312        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           42.71 seconds
+      cpu time            3.21 seconds
+      
+
+313        
+314        data TMPLIB3.MUS_SEG14;
+315        	merge TMPLIB3.MUS_SEG13(in=s1)
+316        		TMPLIB3.MUS_SEG14D;
+317        	by VERTRAG;
+318        
+319        	if s1;
+320        run;
+
+NOTE: There were 15671177 observations read from the data set TMPLIB3.MUS_SEG13.
+20                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+NOTE: There were 15545305 observations read from the data set TMPLIB3.MUS_SEG14D.
+NOTE: The data set TMPLIB3.MUS_SEG14 has 15671177 observations and 47 variables.
+NOTE: DATA statement used (Total process time):
+      real time           2:03.21
+      cpu time            35.31 seconds
+      
+
+321        
+322        PROC SQL;
+323        	CREATE TABLE TMPLIB3.MUS_SEG15 AS
+324        		SELECT DISTINCT t1.VERTRAG,
+325        			t1.ZZMUSTERI_TIPI,
+326        					t1.ZZPOLICEno,
+327        			t1.STAGRUVER,
+328        			t1.INVOICING_PARTY,
+329        			t1.BUKRS,
+330        			t1.EINZDAT,
+331        			t1.AUSZDAT,
+332        			t1.AEDAT,
+333        			t1.ERDAT,
+334        			t1.STRAT,
+335        			t1.VBEGINN,
+336        			t1.VENDE,
+337        			t1.ABRSPERR,
+338        			t1.VKONTO,
+339        			t1.ANLAGE,
+340        			t1.EBVTY,
+341        			t1.KTOKL,
+342        			t1.GPART,
+343        		    t1.DEKLERASYON_BELGE_NO, t1.DEKLERASYON_ALINMA_TARIHI,  	t1.VERSIYON_BILGISI,
+344        			t1.DEKLERASYON_DURUMU,
+345        			t1.DEK_ALINMA_SAATI,
+346        			t1.BARKOD_BILGISI,
+347        			t1.ZZFLD000003,
+348        			t1.BIRTHDT,
+349        			t1.DEATHDT,
+350        			t1.IDNUMBER,
+351        			t1.ANA_MUSTERI_NO,
+352        /*			t1.KAYNAK, */
+353        			t1.MUHATAP_VKN,
+354        			t1.MUHATAP_VD,
+355        			t1.MUHATAP_SATIS_UZMANI,
+356        			t1.ANA_MUSTERI_KAM,
+357        			t1.OLCEK,
+358        			t1.AKLASSE,
+359        			t1.KONDIGR,
+360        			t1.TARIFTYP,
+361        			t1.TARIFART,
+362        			t1.REGION,
+363        			t1.BEZEI,
+364        			t1.COUNTY_CODE,
+365        			t1.COUNTY,
+366        			t1.ZZESKIADRES,
+367        			t1.REGNAME,
+368        			T1.HAUS,
+369        			/* USULSUZ_DURUMU */
+370        	(CASE
+371        		WHEN t2.OPERAND='USULSUZ' and t2.BIS='31DEC9999'd THEN 'X'
+21                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+372        		ELSE ''
+373        		END)
+374        	AS USULSUZ_DURUMU, t1.VBSART FROM TMPLIB3.MUS_SEG14 t1 LEFT JOIN PODSLIB1.RIP_ETTIFN t2 ON (t1.ANLAGE = t2.ANLAGE AND
+374      ! (t2.OPERAND='USULSUZ' and t2.BIS='31DEC9999'd));
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+
+NOTE: Implicit SQL:  select distinct t1.VERTRAG, t1.ZZMUSTERI_TIPI, t1.ZZPOLICENO, t1.STAGRUVER, t1.INVOICING_PARTY, t1.BUKRS, 
+      t1.EINZDAT, t1.AUSZDAT, t1.AEDAT, t1.ERDAT, t1.STRAT, t1.VBEGINN, t1.VENDE, t1.ABRSPERR, t1.VKONTO, t1.ANLAGE, t1.EBVTY, 
+      t1.KTOKL, t1.GPART, t1.DEKLERASYON_BELGE_NO, t1.DEKLERASYON_ALINMA_TARIHI, t1.VERSIYON_BILGISI, t1.DEKLERASYON_DURUMU, 
+      t1.DEK_ALINMA_SAATI, t1.BARKOD_BILGISI, t1.ZZFLD000003, t1.BIRTHDT, t1.DEATHDT, t1.IDNUMBER, t1.ANA_MUSTERI_NO, 
+      t1.MUHATAP_VKN, t1.MUHATAP_VD, t1.MUHATAP_SATIS_UZMANI, t1.ANA_MUSTERI_KAM, t1.OLCEK, t1.AKLASSE, t1.KONDIGR, t1.TARIFTYP, 
+      t1.TARIFART, t1.REGION, t1.BEZEI, t1.COUNTY_CODE, t1.COUNTY, t1.ZZESKIADRES, t1.REGNAME, t1.HAUS, case  when (t2.OPERAND = 
+      'USULSUZ') and (t2.BIS = '31DEC9999'd) then 'X' else ' ' end as USULSUZ_DURUMU, t1.VBSART from TMPLIB3.MUS_SEG14 t1 left join 
+      PODSLIB1.RIP_ETTIFN t2 on (t1.ANLAGE = t2.ANLAGE) and ((t2.OPERAND = 'USULSUZ') and (t2.BIS = '31DEC9999'd))
+NOTE: Table TMPLIB3.MUS_SEG15 created, with 15671177 rows and 48 columns.
+
+375        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           7:47.58
+      cpu time            31.76 seconds
+      
+
+376        
+377        PROC SQL;
+378        	CREATE TABLE TMPLIB3.SEGMENT_MUSTERI_V2_2 AS
+379        		SELECT DISTINCT t1.VERTRAG,
+380        			t1.ZZMUSTERI_TIPI,
+381        					t1.ZZPOLICEno,
+382        			t1.STAGRUVER,
+383        			t1.INVOICING_PARTY,
+384        			t1.BUKRS,
+385        			t1.EINZDAT,
+386        			t1.AUSZDAT,
+387        			t1.AEDAT,
+388        			t1.ERDAT,
+389        			t1.STRAT,
+390        			t1.VBEGINN,
+391        			t1.VENDE,
+392        			t1.ABRSPERR,
+393        			t1.VKONTO,
+394        			t1.ANLAGE,
+395        			t1.EBVTY,
+396        			t1.KTOKL,
+397        			t1.GPART,
+398        		  t1.DEKLERASYON_BELGE_NO, t1.DEKLERASYON_ALINMA_TARIHI, 	t1.VERSIYON_BILGISI,
+399        			t1.DEKLERASYON_DURUMU,
+22                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+400        			t1.DEK_ALINMA_SAATI,
+401        			t1.BARKOD_BILGISI,
+402        			t1.ZZFLD000003,
+403        			t1.BIRTHDT,
+404        			t1.DEATHDT,
+405        			t1.IDNUMBER,
+406        			t1.ANA_MUSTERI_NO,
+407        /*			t1.KAYNAK, */
+408        			t1.MUHATAP_VKN,
+409        			t1.MUHATAP_VD,
+410        			t1.MUHATAP_SATIS_UZMANI,
+411        			t1.ANA_MUSTERI_KAM,
+412        			t1.OLCEK,
+413        			t1.AKLASSE,
+414        			t1.KONDIGR,
+415        			t1.TARIFTYP,
+416        			t1.TARIFART,
+417        			t1.REGION,
+418        			t1.BEZEI,
+419        			t1.COUNTY_CODE,
+420        			t1.COUNTY,
+421        			t1.ZZESKIADRES,
+422        			t1.REGNAME,
+423        			t1.USULSUZ_DURUMU,
+424        			t1.VBSART,
+425        			T1.HAUS,
+426        			t2._BIC_ZKS_OZET AS SBT_KONS_SEG_OZT,
+427        			t2._BIC_ZFS_SEG2 AS SBT_FONKS_MHTP_SEG,
+428        			t2._BIC_ZZKONSEGM AS SBT_KONS_SEG,
+429        			t2._BIC_ZKS_DETAY AS SBT_KONS_SEG_DET,
+430        			t3._BIC_ZKS_DETAY AS SBT_TSST_SEG_DET,
+431        			t2._BIC_ZOLC_SEG AS SBT_OLC_VS_SEG,
+432        			t2._BIC_ZREALSEGO AS GNCL_KONS_SEG_OZT,
+433        			t2._BIC_ZREALSEG AS GNCL_KONS_SEG,
+434        			t2._BIC_ZREALSEGD AS GNCL_KONS_SEG_DET,
+435        			t3._BIC_ZREALSEGD AS GNCL_TSST_SEG_DET,
+436        			t2._BIC_ZGOLC_SEG AS GNCL_OLC_VS_SEG,
+437        			t2._BIC_ZFS_SEG1 AS FONKS_MUHATAP_SEGMENT
+438        		FROM TMPLIB3.MUS_SEG15 t1
+439        			LEFT JOIN PODSLIB1.RWP_MBPARTNER t2 ON (t1.GPART = t2.BPARTNER)
+440        			LEFT JOIN PODSLIB1.RWP_MUCINSTALLA t3 ON (t1.ANLAGE = t3.UCINSTALLA);
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Physical Name: TMPLIB3
+ SPDS_NOTE: Libref X0000001 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+
+NOTE: Implicit SQL:  select distinct t1.VERTRAG, t1.ZZMUSTERI_TIPI, t1.ZZPOLICENO, t1.STAGRUVER, t1.INVOICING_PARTY, t1.BUKRS, 
+      t1.EINZDAT, t1.AUSZDAT, t1.AEDAT, t1.ERDAT, t1.STRAT, t1.VBEGINN, t1.VENDE, t1.ABRSPERR, t1.VKONTO, t1.ANLAGE, t1.EBVTY, 
+      t1.KTOKL, t1.GPART, t1.DEKLERASYON_BELGE_NO, t1.DEKLERASYON_ALINMA_TARIHI, t1.VERSIYON_BILGISI, t1.DEKLERASYON_DURUMU, 
+23                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+      t1.DEK_ALINMA_SAATI, t1.BARKOD_BILGISI, t1.ZZFLD000003, t1.BIRTHDT, t1.DEATHDT, t1.IDNUMBER, t1.ANA_MUSTERI_NO, 
+      t1.MUHATAP_VKN, t1.MUHATAP_VD, t1.MUHATAP_SATIS_UZMANI, t1.ANA_MUSTERI_KAM, t1.OLCEK, t1.AKLASSE, t1.KONDIGR, t1.TARIFTYP, 
+      t1.TARIFART, t1.REGION, t1.BEZEI, t1.COUNTY_CODE, t1.COUNTY, t1.ZZESKIADRES, t1.REGNAME, t1.USULSUZ_DURUMU, t1.VBSART, 
+      t1.HAUS, t2._BIC_ZKS_OZET as SBT_KONS_SEG_OZT, t2._BIC_ZFS_SEG2 as SBT_FONKS_MHTP_SEG, t2._BIC_ZZKONSEGM as SBT_KONS_SEG, 
+      t2._BIC_ZKS_DETAY as SBT_KONS_SEG_DET, t3._BIC_ZKS_DETAY as SBT_TSST_SEG_DET, t2._BIC_ZOLC_SEG as SBT_OLC_VS_SEG, 
+      t2._BIC_ZREALSEGO as GNCL_KONS_SEG_OZT, t2._BIC_ZREALSEG as GNCL_KONS_SEG, t2._BIC_ZREALSEGD as GNCL_KONS_SEG_DET, 
+      t3._BIC_ZREALSEGD as GNCL_TSST_SEG_DET, t2._BIC_ZGOLC_SEG as GNCL_OLC_VS_SEG, t2._BIC_ZFS_SEG1 as FONKS_MUHATAP_SEGMENT from 
+      TMPLIB3.MUS_SEG15 t1 left join PODSLIB1.RWP_MBPARTNER t2 on t1.GPART = t2.BPARTNER left join PODSLIB1.RWP_MUCINSTALLA t3 on 
+      t1.ANLAGE = t3.UCINSTALLA
+ SPDS_NOTE: Parallel Merge Join Method Selected
+
+ SPDS_NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta1/TMPLIB3/
+ SPDS_NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+            Engine:        SPDSENG 
+            Physical Name: :8782614/spdsmeta2/PODSLIB1/
+
+NOTE: Table TMPLIB3.SEGMENT_MUSTERI_V2_2 created, with 31342258 rows and 60 columns.
+
+441        QUIT;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           1:50:44.08
+      cpu time            1:10.78
+      
+
+442        
+443        proc sql;
+444        	drop table TMPLIB3.MUS_SEG7;
+NOTE: Table TMPLIB3.MUS_SEG7 has been dropped.
+445        /*	drop table TMPLIB3.MUS_SEG8;*/
+446        	drop table TMPLIB3.MUS_SEG9;
+NOTE: Table TMPLIB3.MUS_SEG9 has been dropped.
+447        	drop table TMPLIB3.MUS_SEG10;
+NOTE: Table TMPLIB3.MUS_SEG10 has been dropped.
+448        	drop table TMPLIB3.MUS_SEG11;
+NOTE: Table TMPLIB3.MUS_SEG11 has been dropped.
+449        /*	drop table TMPLIB3.MUS_SEG12;*/
+450        	drop table TMPLIB3.MUS_SEG13;
+NOTE: Table TMPLIB3.MUS_SEG13 has been dropped.
+451        	drop table TMPLIB3.MUS_SEG14;
+NOTE: Table TMPLIB3.MUS_SEG14 has been dropped.
+452        	drop table TMPLIB3.MUS_SEG14A;
+NOTE: Table TMPLIB3.MUS_SEG14A has been dropped.
+453        	drop table TMPLIB3.MUS_SEG14B;
+NOTE: Table TMPLIB3.MUS_SEG14B has been dropped.
+454        	drop table TMPLIB3.MUS_SEG14C;
+NOTE: Table TMPLIB3.MUS_SEG14C has been dropped.
+455        	drop table TMPLIB3.MUS_SEG14D;
+NOTE: Table TMPLIB3.MUS_SEG14D has been dropped.
+456        	drop table TMPLIB3.MUS_SEG15;
+NOTE: Table TMPLIB3.MUS_SEG15 has been dropped.
+457        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.21 seconds
+      cpu time            0.00 seconds
+      
+
+24                                                         The SAS System                             03:06 Sunday, October 18, 2020
+
+458        
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           2:23:46.26
+      cpu time            4:11.33
+      

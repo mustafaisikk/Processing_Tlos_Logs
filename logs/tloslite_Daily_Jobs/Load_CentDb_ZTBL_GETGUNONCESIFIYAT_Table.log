@@ -1,0 +1,1048 @@
+NOTE: Log file opened at  Tue, 3 Nov 2020 06:00:00.851
+1                                                          The SAS System                            06:00 Tuesday, November 3, 2020
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, 
+       model number, and serial number are not included in the setinit data 
+       used to initialize the SAS System library in use. This is permitted if 
+       this processor is a designated backup processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial 
+numbers:
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name 
+ERSDPA0.
+NOTE: Copyright (c) 2016 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M6) 
+      Licensed to ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD., Site 70166440.
+NOTE: This session is executing on the AIX 7.2 (AIX 64) platform.
+
+
+
+NOTE: Analytical products:
+      
+      SAS/STAT 15.1
+      SAS/ETS 15.1
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, model number, and serial number are not included in the 
+       setinit data used to initialize the SAS System library in use. This is permitted if this processor is a designated backup 
+       processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial numbers:
+
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name ERSDPA0.
+
+NOTE: Additional host information:
+
+IBM AIX AIX 64 2 7 00C9C0374C00 
+
+You are running SAS 9. Some SAS 8 files will be automatically converted 
+by the V9 engine; others are incompatible.  Please see 
+http://support.sas.com/rnd/migration/planning/platform/64bit.html
+
+PROC MIGRATE will preserve current SAS file attributes and is 
+recommended for converting all your SAS libraries from any 
+SAS 8 release to SAS 9.  For details and examples, please see
+http://support.sas.com/rnd/migration/index.html
+
+
+This message is contained in the SAS news file, and is presented upon
+initialization.  Edit the file "news" in the "misc/base" directory to
+display site-specific news and information in the program log.
+The command line option "-nonews" will prevent this display.
+
+
+
+
+NOTE: SAS initialization used:
+      real time           0.04 seconds
+      cpu time            0.02 seconds
+      
+NOTE: This is a SPD 5.4  Engine 
+      executing SAS (r) 9.4 (TS1M6) on the AIX platform.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+2                                                          The SAS System                            06:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+3                                                          The SAS System                            06:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+4                                                          The SAS System                            06:00 Tuesday, November 3, 2020
+
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SASDATA successfully assigned from logical server.
+NOTE: Libref STPSAMP successfully assigned from logical server.
+NOTE: Libref MIGLIB successfully assigned from logical server.
+NOTE: Libref TRNLIB2 successfully assigned from logical server.
+NOTE: Libref TRNLIB successfully assigned from logical server.
+NOTE: Libref NEDLIB successfully assigned from logical server.
+NOTE: Libref PILIB successfully assigned from logical server.
+NOTE: Libref DMLIB successfully assigned from logical server.
+NOTE: Libref TMPLIB3 successfully assigned from logical server.
+NOTE: Libref TMPLIB4 successfully assigned from logical server.
+NOTE: Libref ODSLIB successfully assigned from logical server.
+NOTE: Libref ODSLIB2 successfully assigned from logical server.
+NOTE: Libref ODSLIB3 successfully assigned from logical server.
+NOTE: Libref PODSLIB1 successfully assigned from logical server.
+NOTE: Libref PODSLIB2 successfully assigned from logical server.
+NOTE: Libref PODSLIB3 successfully assigned from logical server.
+NOTE: Libref DASHLIBD successfully assigned from logical server.
+NOTE: Libref QLIKLIB successfully assigned from logical server.
+NOTE: Libref SQLKODA successfully assigned from logical server.
+NOTE: Libref RISU successfully assigned from logical server.
+NOTE: Libref DQ_ORCL successfully assigned from logical server.
+NOTE: Library ZGRLIB does not exist.
+NOTE: Libref HANARWP successfully assigned from logical server.
+NOTE: Libref BFLIB successfully assigned from logical server.
+NOTE: Libref PILIB2 successfully assigned from logical server.
+NOTE: Libref TMPLIB2 successfully assigned from logical server.
+NOTE: Libref DMLIB2 successfully assigned from logical server.
+NOTE: Libref ARCLIB successfully assigned from logical server.
+NOTE: Libref IADM successfully assigned from logical server.
+NOTE: Libref IATMP successfully assigned from logical server.
+NOTE: Libref AUTODIAL successfully assigned from logical server.
+NOTE: Libref BCSDM successfully assigned from logical server.
+NOTE: Libref BLDM successfully assigned from logical server.
+NOTE: Libref BLTMP successfully assigned from logical server.
+NOTE: Libref BADM successfully assigned from logical server.
+NOTE: Libref BATMP successfully assigned from logical server.
+NOTE: Libref CCDM successfully assigned from logical server.
+NOTE: Libref CCDM2 successfully assigned from logical server.
+NOTE: Libref CMPDM successfully assigned from logical server.
+NOTE: Libref CPSFRC successfully assigned from logical server.
+NOTE: Libref CPSHRLY successfully assigned from logical server.
+NOTE: Libref CPSREG successfully assigned from logical server.
+NOTE: Libref CPSUST successfully assigned from logical server.
+NOTE: Libref CXDM successfully assigned from logical server.
+NOTE: Libref DBALIB successfully assigned from logical server.
+NOTE: Libref DSTDM successfully assigned from logical server.
+NOTE: Libref DSTTMP successfully assigned from logical server.
+NOTE: Libref DYMDM successfully assigned from logical server.
+NOTE: Libref DYMTMP successfully assigned from logical server.
+NOTE: Libref EAP_ETY successfully assigned from logical server.
+NOTE: Libref EAP_PAY successfully assigned from logical server.
+NOTE: Libref EAP_PR successfully assigned from logical server.
+NOTE: Libref EPYDM successfully assigned from logical server.
+NOTE: Libref EPYTMP successfully assigned from logical server.
+5                                                          The SAS System                            06:00 Tuesday, November 3, 2020
+
+NOTE: Libref ETSDM successfully assigned from logical server.
+NOTE: Libref FADM successfully assigned from logical server.
+NOTE: Libref FPCLIB successfully assigned from logical server.
+NOTE: Libref FPCTMP successfully assigned from logical server.
+NOTE: Libref HRDM successfully assigned from logical server.
+NOTE: Libref KMHMDM successfully assigned from logical server.
+NOTE: Libref CSSLIB successfully assigned from logical server.
+NOTE: Libref MDLIB successfully assigned from logical server.
+NOTE: Libref MHMAYEDS successfully assigned from logical server.
+NOTE: Libref MHMDM successfully assigned from logical server.
+NOTE: Libref MIGLIB2 successfully assigned from logical server.
+NOTE: Libref MSADM successfully assigned from logical server.
+NOTE: Libref MSATMP successfully assigned from logical server.
+NOTE: Libref MTHEO successfully assigned from logical server.
+NOTE: Libref MTHKA successfully assigned from logical server.
+NOTE: Libref MTHMA successfully assigned from logical server.
+NOTE: Libref MTHSO successfully assigned from logical server.
+NOTE: Libref MTHTMP successfully assigned from logical server.
+NOTE: Libref D2DLIB successfully assigned from logical server.
+NOTE: Libref OKMDM successfully assigned from logical server.
+NOTE: Libref OKMTMP successfully assigned from logical server.
+NOTE: Libref PMDM successfully assigned from logical server.
+NOTE: Libref CNPRCDM successfully assigned from logical server.
+NOTE: Libref CNPRCTMP successfully assigned from logical server.
+NOTE: Libref EDULIB successfully assigned from logical server.
+NOTE: Libref PRCDM successfully assigned from logical server.
+NOTE: Libref PRCDM2 successfully assigned from logical server.
+NOTE: Libref PRCTMP successfully assigned from logical server.
+NOTE: Libref PRFTBLIB successfully assigned from logical server.
+NOTE: Libref TMPLIB successfully assigned from logical server.
+NOTE: Libref FRCARC successfully assigned from logical server.
+NOTE: Libref FRCPRD successfully assigned from logical server.
+NOTE: Libref PRCHARC successfully assigned from logical server.
+NOTE: Libref PRCHPRD successfully assigned from logical server.
+NOTE: Libref PRICARC successfully assigned from logical server.
+NOTE: Libref PRICPRD successfully assigned from logical server.
+NOTE: Libref QL_SALES successfully assigned from logical server.
+NOTE: Libref RAPOUT successfully assigned from logical server.
+NOTE: Libref RAPREF successfully assigned from logical server.
+NOTE: Libref RAPTEST successfully assigned from logical server.
+NOTE: Libref RAPTMP successfully assigned from logical server.
+NOTE: Libref RAPVAS successfully assigned from logical server.
+NOTE: Libref REFCPS successfully assigned from logical server.
+NOTE: Libref RMCDM successfully assigned from logical server.
+NOTE: Libref RMCTMP successfully assigned from logical server.
+NOTE: Libref SDLIB successfully assigned from logical server.
+NOTE: Libref SOMLIB successfully assigned from logical server.
+NOTE: Libref SHFDM successfully assigned from logical server.
+NOTE: Libref SODM successfully assigned from logical server.
+NOTE: Libref SOPDM successfully assigned from logical server.
+NOTE: Libref SOSUF successfully assigned from logical server.
+NOTE: Libref SOTMP successfully assigned from logical server.
+NOTE: Libref SPDM successfully assigned from logical server.
+NOTE: Libref SSIMDM successfully assigned from logical server.
+NOTE: Libref STLF successfully assigned from logical server.
+NOTE: Libref SMDM successfully assigned from logical server.
+NOTE: Libref SMTMP successfully assigned from logical server.
+NOTE: Libref TALDM successfully assigned from logical server.
+6                                                          The SAS System                            06:00 Tuesday, November 3, 2020
+
+NOTE: Libref TKDM successfully assigned from logical server.
+NOTE: Libref TSDM successfully assigned from logical server.
+NOTE: Libref QVYDM successfully assigned from logical server.
+NOTE: Libref STJVYDM successfully assigned from logical server.
+NOTE: Libref VYDM successfully assigned from logical server.
+NOTE: Libref VYDMKVKK successfully assigned from logical server.
+NOTE: Libref OGMDM successfully assigned from logical server.
+NOTE: Libref OGMTMP successfully assigned from logical server.
+NOTE: Libref CRLIB successfully assigned from logical server.
+NOTE: Libref RASTMP successfully assigned from logical server.
+NOTE: Libref SOSEC successfully assigned from logical server.
+NOTE: Libref STATLIB successfully assigned from logical server.
+ERROR: Libref SMARTHMP failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12514: TNS: Dinleyici þu anda baðlantý açýklayýcýsýnda belirtilen hizmeti tanýmýyor..
+ERROR: Libref SMARTHMT failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12514: TNS: Dinleyici þu anda baðlantý açýklayýcýsýnda belirtilen hizmeti tanýmýyor..
+ERROR: Libref SMSPRD failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12170: TNS: Baðlantý zaman aþýmý oluþtu.
+NOTE: Libref RAPARCH successfully assigned from logical server.
+NOTE: Libref SAHOL successfully assigned from logical server.
+NOTE: Libref MKVR successfully assigned from logical server.
+NOTE: Libref RODQLIK successfully assigned from logical server.
+NOTE: Libref UTFLIB successfully assigned from logical server.
+
+NOTE: AUTOEXEC processing beginning; file is /sas/config/Lev1/SASApp/BatchServer/autoexec.sas.
+
+
+NOTE: AUTOEXEC processing completed.
+
+1          /****************************************************************************
+2           * Job:             Load CentDb ZTBL_GETGUNONCESIFIYAT    A57BXQB4.BT0000IL *
+3           *                   Table                                                  *
+4           * Description:                                                             *
+5           *                                                                          *
+6           * Metadata Server: ersupa0.enerjisa.local                                  *
+7           * Port:            8561                                                    *
+8           * Location:        /Data Integration/Jobs/RFC                              *
+9           *                   Jobs/RIP/ZBIL_HOURLY_PRC_UPD                           *
+10          *                                                                          *
+11          * Server:          SASApp                                A57BXQB4.AS000002 *
+12          *                                                                          *
+13          * Source Tables:   ZTBL_GETGUNONCESIFIYAT -              A57BXQB4.BE000490 *
+14          *                   TMPLIB3.ZTBL_GETGUNONCESIFIYAT                         *
+15          *                  IT_PRICE - TMPLIB3.IT_PRICE           A57BXQB4.BE000491 *
+16          * Target Tables:   IT_PRICE - TMPLIB3.IT_PRICE           A57BXQB4.BE000491 *
+17          *                  ZTBL_GETGUNONCESIFIYAT -              A57BXQB4.BE000490 *
+18          *                   TMPLIB3.ZTBL_GETGUNONCESIFIYAT                         *
+19          *                                                                          *
+20          * Generated on:    Monday, July 13, 2020 11:16:55 AM EET                   *
+21          * Generated by:    sas                                                     *
+22          * Version:         SAS Data Integration Studio 4.904                       *
+23          ****************************************************************************/
+24         
+25         /* Generate the process id for job  */
+26         %put Process ID: &SYSJOBID;
+Process ID: 15728900
+27         
+28         /* General macro variables  */
+7                                                          The SAS System                            06:00 Tuesday, November 3, 2020
+
+29         %let jobID = %quote(A57BXQB4.BT0000IL);
+30         %let etls_jobName = %nrquote(Load CentDb ZTBL_GETGUNONCESIFIYAT Table);
+31         %let etls_userID = %nrquote(sas);
+32         
+33         /* Setup to capture return codes  */
+34         %global job_rc trans_rc sqlrc;
+35         %let sysrc = 0;
+36         %let job_rc = 0;
+37         %let trans_rc = 0;
+38         %let sqlrc = 0;
+39         %global etls_stepStartTime;
+40         /* initialize syserr to 0 */
+41         data _null_; run;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+42         
+43         %macro rcSet(error);
+44            %if (&error gt &trans_rc) %then
+45               %let trans_rc = &error;
+46            %if (&error gt &job_rc) %then
+47               %let job_rc = &error;
+48         %mend rcSet;
+49         
+50         %macro rcSetDS(error);
+51            if &error gt input(symget('trans_rc'),12.) then
+52               call symput('trans_rc',trim(left(put(&error,12.))));
+53            if &error gt input(symget('job_rc'),12.) then
+54               call symput('job_rc',trim(left(put(&error,12.))));
+55         %mend rcSetDS;
+56         
+57         /* Create metadata macro variables */
+58         %let IOMServer      = %nrquote(SASApp);
+59         %let metaPort       = %nrquote(8561);
+60         %let metaServer     = %nrquote(ersupa0.enerjisa.local);
+61         
+62         /* Setup for capturing job status  */
+63         %let etls_startTime = %sysfunc(datetime(),datetime.);
+64         %let etls_recordsBefore = 0;
+65         %let etls_recordsAfter = 0;
+66         %let etls_lib = 0;
+67         %let etls_table = 0;
+68         
+69         %global etls_debug;
+70         %macro etls_setDebug;
+71            %if %str(&etls_debug) ne 0 %then
+72               OPTIONS MPRINT%str(;);
+73         %mend;
+74         %etls_setDebug;
+75         
+76         /*---- Start of User Written Code  ----*/
+77         
+78         LIBNAME Centdb SQLSVR  Datasrc=sqlpiprod  SCHEMA=dbo  USER=usretl
+78       ! PASSWORD=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ;
+NOTE: Libref CENTDB was successfully assigned as follows: 
+8                                                          The SAS System                            06:00 Tuesday, November 3, 2020
+
+      Engine:        SQLSVR 
+      Physical Name: sqlpiprod
+79         
+80         
+81         data tmplib3.ZTBL_GETGUNONCESIFIYAT(drop= Date_today);
+82         set CENTDB.tbl_GetGunOncesiFiyat;
+83         Date_today = intnx('month',today(),-0,'b');
+84         if Date_today <= BillingDate then output;
+85         run;
+
+NOTE: There were 48360 observations read from the data set CENTDB.tbl_GetGunOncesiFiyat.
+NOTE: The data set TMPLIB3.ZTBL_GETGUNONCESIFIYAT has 72 observations and 21 variables.
+NOTE: Compressing data set TMPLIB3.ZTBL_GETGUNONCESIFIYAT decreased size by 94.79 percent.
+NOTE: DATA statement used (Total process time):
+      real time           1.53 seconds
+      cpu time            0.70 seconds
+      
+
+86         
+87         /*proc delete data=tmplib.ZTBL_GETGUNONCESIFIYAT;
+88         run;*/
+89         
+90         
+91         /*---- End of User Written Code  ----*/
+92         
+93         /*==========================================================================*
+94          * Step:            Table Loader                          A57BXQB4.BV0002VR *
+95          * Transform:       Table Loader (Version 2.1)                              *
+96          * Description:                                                             *
+97          *                                                                          *
+98          * Source Table:    ZTBL_GETGUNONCESIFIYAT -              A57BXQB4.BE000490 *
+99          *                   TMPLIB3.ZTBL_GETGUNONCESIFIYAT                         *
+100         * Target Table:    IT_PRICE - TMPLIB3.IT_PRICE           A57BXQB4.BE000491 *
+101         *==========================================================================*/
+102        
+103        %let transformID = %quote(A57BXQB4.BV0002VR);
+104        %let trans_rc = 0;
+105        %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+106        
+107        %let SYSLAST = %nrquote(TMPLIB3.ZTBL_GETGUNONCESIFIYAT);
+108        
+109        %global etls_sql_pushDown;
+110        %let etls_sql_pushDown = -1;
+111        option DBIDIRECTEXEC;
+112        
+113        %global etls_tableExist;
+114        %global etls_numIndex;
+115        %global etls_lastTable;
+116        %let etls_tableExist = -1;
+117        %let etls_numIndex = -1;
+118        %let etls_lastTable = &SYSLAST;
+119        
+120        /*---- Define load data macro  ----*/
+121        
+122        /* --------------------------------------------------------------
+123           Load Technique Selection: Replace - EntireTable
+124           Constraint and index action selections: 'ASIS','ASIS','ASIS','ASIS'
+125           Additional options selections...
+9                                                          The SAS System                            06:00 Tuesday, November 3, 2020
+
+126              Set unmapped to missing on updates: false
+127           -------------------------------------------------------------- */
+128        %macro etls_loader;
+129        
+130           %let etls_tableOptions = ;
+131        
+132           /*---- Map the columns  ----*/
+133           proc datasets lib = work nolist nowarn memtype = (data view);
+134              delete W17OHV1HJ;
+135           quit;
+136        
+137           data _null_;
+138              put "NOTE: The following column(s) do not have a column mapping, so the"
+139                   " value(s) will be set to missing: MANDT";
+140           run;
+141        
+142           %put %str(NOTE: Mapping columns ...);
+143           proc sql;
+144              create view work.W17OHV1HJ as
+145                 select
+146                    . as MANDT length = 8
+147                       format = 3.,
+148                    BillingDate as DATUM,
+149                    (input(Pos,3. )) as ZHOUR length = 8
+150                       format = 3.,
+151                    (input(SettlementAmount ,19.8)/1000) as PRSBTR length = 8
+152                       format = 19.8
+153              from &etls_lastTable
+154              ;
+155           quit;
+156        
+157           %let SYSLAST = work.W17OHV1HJ;
+158        
+159           %let etls_lastTable = &SYSLAST;
+160           %let etls_tableOptions = ;
+161        
+162           /* Determine if the target table exists  */
+163           %let etls_tableExist = %eval(%sysfunc(exist(TMPLIB3.IT_PRICE, DATA)) or
+164                 %sysfunc(exist(TMPLIB3.IT_PRICE, VIEW)));
+165        
+166           %if &etls_tableExist %then
+167           %do;/* table exists  */
+168              %let etls_hasPreExistingConstraint=0;
+169        
+170              proc datasets lib = work nolist nowarn memtype = (data view);
+171                 delete etls_commands etls_commands_F;
+172              quit;
+173        
+174              %let etls_otherTablesReferToThisTable=0;
+175        
+176              %macro etls_CIContents(table=,workTableOut=,inDSOptions=);
+177                 %put NOTE: Building table listing Constraints and Indexes for: &table;
+178                 proc datasets lib=work nolist; delete &workTableOut; quit;
+179                 proc contents data=&table&inDSOptions out2=&workTableOut noprint; run;
+180        
+181                 data &workTableOut;
+182                    length name $60 type $20 icown idxUnique idxNoMiss $3 recreate $600;
+183                    name = '';
+10                                                         The SAS System                            06:00 Tuesday, November 3, 2020
+
+184                    type = '';
+185                    icown = '';
+186                    idxUnique = '';
+187                    idxNoMiss = '';
+188                    recreate = '';
+189                    set &workTableOut;
+190                    ref = '';
+191                    type=upcase(type);
+192                    if type eq 'REFERENTIAL' then
+193                    do;
+194                       put "WARNING%QUOTE(:) Target table is referenced by constraints in"
+195                            " another table: " ref;
+196                       call symput('etls_otherTablesReferToThisTable','1');
+197                       delete;
+198                    end;
+199                    if type='INDEX' and ICOwn eq 'YES' then delete;
+200                 run;
+201                 %rcSet(&syserr);
+202        
+203              %mend etls_CIContents;
+204        
+205              %etls_CIContents(table=TMPLIB3.IT_PRICE, workTableOut=etls_commands, inDSOptions=);
+206        
+207              %if &etls_otherTablesReferToThisTable %then
+208                 %put WARNING%QUOTE(:) Replacing entire table will fail. Consider an alternate load technique or revising
+208      ! constraints.;
+209              %else
+210              %do; /* okay - remove foreign keys  */
+211        
+212                 data etls_commands_F;
+213                    set etls_commands;
+214                    if upcase(type)="FOREIGN KEY" then
+215                    do;
+216                       command='ic delete '||trim(name)||';';
+217                       output etls_commands_F;
+218                    end;
+219                 run;
+220        
+221                 %put %str(NOTE: Removing foreign keys before dropping table...);
+222                 data _null_;
+223                    set etls_commands_F end=eof;
+224                    if _n_=1 then
+225                       call execute('proc datasets nolist lib=TMPLIB3;modify IT_PRICE;');
+226                    call execute(command);
+227                    if eof then call execute('; quit;');
+228                 run;
+229                 %rcSet(&syserr);
+230        
+231           %end; /* okay - remove foreign keys  */
+232        
+233           proc datasets lib = work nolist nowarn memtype = (data view);
+234              delete etls_commands etls_commands_F;
+235           quit;
+236        
+237           /*---- Drop a table  ----*/
+238           %put %str(NOTE: Dropping table ...);
+239           proc datasets lib = TMPLIB3 nolist nowarn memtype = (data view);
+240              delete IT_PRICE;
+11                                                         The SAS System                            06:00 Tuesday, November 3, 2020
+
+241           quit;
+242        
+243           %rcSet(&syserr);
+244        
+245           %let etls_tableExist = 0;
+246        
+247        %end; /* table exists  */
+248        
+249        /*---- Create a new table  ----*/
+250        %if (&etls_tableExist eq 0) %then
+251        %do;  /* if table does not exist  */
+252        
+253           %put %str(NOTE: Creating table ...);
+254        
+255           data TMPLIB3.IT_PRICE
+256                   (label = 'ZBIL : Saatlik Fiyt Manuel Yükleme Tablosu');
+257              attrib MANDT length = 8
+258                 format = 3.
+259                 label = 'Üst birim';
+260              attrib DATUM length = 8
+261                 format = DATE9.
+262                 label = 'Tarih';
+263              attrib ZHOUR length = 8
+264                 format = 3.
+265                 label = 'Saat (1-24)';
+266              attrib PRSBTR length = 8
+267                 format = 19.8
+268                 label = 'Fiyat tutarý';
+269              call missing(of _all_);
+270              stop;
+271           run;
+272        
+273           %rcSet(&syserr);
+274        
+275        %end;  /* if table does not exist  */
+276        
+277        /*---- Append  ----*/
+278        %put %str(NOTE: Appending data ...);
+279        
+280        proc append base = TMPLIB3.IT_PRICE
+281           data = &etls_lastTable (&etls_tableOptions)  force ;
+282         run;
+283        
+284        %rcSet(&syserr);
+285        
+286        proc datasets lib = work nolist nowarn memtype = (data view);
+287           delete W17OHV1HJ;
+288        quit;
+289        
+290        %mend etls_loader;
+291        %etls_loader;
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete W17OHV1HJ;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+12                                                         The SAS System                            06:00 Tuesday, November 3, 2020
+
+      
+
+MPRINT(ETLS_LOADER):   data _null_;
+MPRINT(ETLS_LOADER):   put "NOTE: The following column(s) do not have a column mapping, so the" " value(s) will be set to missing: 
+MANDT";
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: The following column(s) do not have a column mapping, so the value(s) will be set to missing: MANDT
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Mapping columns ...
+MPRINT(ETLS_LOADER):   proc sql;
+MPRINT(ETLS_LOADER):   create view work.W17OHV1HJ as select . as MANDT length = 8 format = 3., BillingDate as DATUM, (input(Pos,3. 
+)) as ZHOUR length = 8 format = 3., (input(SettlementAmount ,19.8)/1000) as PRSBTR length = 8 format = 19.8 from 
+TMPLIB3.ZTBL_GETGUNONCESIFIYAT ;
+NOTE: SQL view WORK.W17OHV1HJ has been defined.
+MPRINT(ETLS_LOADER):   quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete etls_commands etls_commands_F;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Building table listing Constraints and Indexes for: TMPLIB3.IT_PRICE
+MPRINT(ETLS_CICONTENTS):   proc datasets lib=work nolist;
+MPRINT(ETLS_CICONTENTS):   delete etls_commands;
+MPRINT(ETLS_CICONTENTS):   quit;
+
+NOTE: The file WORK.ETLS_COMMANDS (memtype=DATA) was not found, but appears on a DELETE statement.
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_CICONTENTS):   proc contents data=TMPLIB3.IT_PRICE out2=etls_commands noprint;
+MPRINT(ETLS_CICONTENTS):   run;
+
+NOTE: The data set WORK.ETLS_COMMANDS has 0 observations and 0 variables.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+MPRINT(ETLS_CICONTENTS):   data etls_commands;
+MPRINT(ETLS_CICONTENTS):   length name $60 type $20 icown idxUnique idxNoMiss $3 recreate $600;
+MPRINT(ETLS_CICONTENTS):   name = '';
+MPRINT(ETLS_CICONTENTS):   type = '';
+13                                                         The SAS System                            06:00 Tuesday, November 3, 2020
+
+MPRINT(ETLS_CICONTENTS):   icown = '';
+MPRINT(ETLS_CICONTENTS):   idxUnique = '';
+MPRINT(ETLS_CICONTENTS):   idxNoMiss = '';
+MPRINT(ETLS_CICONTENTS):   recreate = '';
+MPRINT(ETLS_CICONTENTS):   set etls_commands;
+MPRINT(ETLS_CICONTENTS):   ref = '';
+MPRINT(ETLS_CICONTENTS):   type=upcase(type);
+MPRINT(ETLS_CICONTENTS):   if type eq 'REFERENTIAL' then do;
+MPRINT(ETLS_CICONTENTS):   put "WARNING: Target table is referenced by constraints in" " another table: " ref;
+MPRINT(ETLS_CICONTENTS):   call symput('etls_otherTablesReferToThisTable','1');
+MPRINT(ETLS_CICONTENTS):   delete;
+MPRINT(ETLS_CICONTENTS):   end;
+MPRINT(ETLS_CICONTENTS):   if type='INDEX' and ICOwn eq 'YES' then delete;
+MPRINT(ETLS_CICONTENTS):   run;
+
+NOTE: There were 0 observations read from the data set WORK.ETLS_COMMANDS.
+NOTE: The data set WORK.ETLS_COMMANDS has 0 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+MPRINT(ETLS_CICONTENTS):  ;
+MPRINT(ETLS_LOADER):  ;
+MPRINT(ETLS_LOADER):   data etls_commands_F;
+MPRINT(ETLS_LOADER):   set etls_commands;
+MPRINT(ETLS_LOADER):   if upcase(type)="FOREIGN KEY" then do;
+MPRINT(ETLS_LOADER):   command='ic delete '||trim(name)||';';
+MPRINT(ETLS_LOADER):   output etls_commands_F;
+MPRINT(ETLS_LOADER):   end;
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: There were 0 observations read from the data set WORK.ETLS_COMMANDS.
+NOTE: The data set WORK.ETLS_COMMANDS_F has 0 observations and 8 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Removing foreign keys before dropping table...
+MPRINT(ETLS_LOADER):   data _null_;
+MPRINT(ETLS_LOADER):   set etls_commands_F end=eof;
+MPRINT(ETLS_LOADER):   if _n_=1 then call execute('proc datasets nolist lib=TMPLIB3;modify IT_PRICE;');
+MPRINT(ETLS_LOADER):   call execute(command);
+MPRINT(ETLS_LOADER):   if eof then call execute('; quit;');
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: There were 0 observations read from the data set WORK.ETLS_COMMANDS_F.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_LOADER):  ;
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete etls_commands etls_commands_F;
+MPRINT(ETLS_LOADER):   quit;
+
+14                                                         The SAS System                            06:00 Tuesday, November 3, 2020
+
+NOTE: Deleting WORK.ETLS_COMMANDS (memtype=DATA).
+NOTE: Deleting WORK.ETLS_COMMANDS_F (memtype=DATA).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: Dropping table ...
+MPRINT(ETLS_LOADER):   proc datasets lib = TMPLIB3 nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete IT_PRICE;
+MPRINT(ETLS_LOADER):   quit;
+
+NOTE: Deleting TMPLIB3.IT_PRICE (memtype=DATA).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           19.30 seconds
+      cpu time            0.03 seconds
+      
+
+MPRINT(ETLS_LOADER):  ;
+NOTE: Creating table ...
+MPRINT(ETLS_LOADER):   data TMPLIB3.IT_PRICE (label = 'ZBIL : Saatlik Fiyt Manuel Yükleme Tablosu');
+MPRINT(ETLS_LOADER):   attrib MANDT length = 8 format = 3. label = 'Üst birim';
+MPRINT(ETLS_LOADER):   attrib DATUM length = 8 format = DATE9. label = 'Tarih';
+MPRINT(ETLS_LOADER):   attrib ZHOUR length = 8 format = 3. label = 'Saat (1-24)';
+MPRINT(ETLS_LOADER):   attrib PRSBTR length = 8 format = 19.8 label = 'Fiyat tutarý';
+MPRINT(ETLS_LOADER):   call missing(of _all_);
+MPRINT(ETLS_LOADER):   stop;
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: The data set TMPLIB3.IT_PRICE has 0 observations and 4 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_LOADER):  ;
+NOTE: Appending data ...
+MPRINT(ETLS_LOADER):   proc append base = TMPLIB3.IT_PRICE data = WORK.W17OHV1HJ () force ;
+MPRINT(ETLS_LOADER):   run;
+
+NOTE: Appending WORK.W17OHV1HJ to TMPLIB3.IT_PRICE.
+NOTE: There were 72 observations read from the data set WORK.W17OHV1HJ.
+NOTE: 72 observations added.
+NOTE: The data set TMPLIB3.IT_PRICE has 72 observations and 4 variables.
+NOTE: Compressing data set TMPLIB3.IT_PRICE decreased size by 29.25 percent.
+NOTE: PROCEDURE APPEND used (Total process time):
+      real time           0.11 seconds
+      cpu time            0.01 seconds
+      
+
+MPRINT(ETLS_LOADER):  ;
+MPRINT(ETLS_LOADER):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_LOADER):   delete W17OHV1HJ;
+MPRINT(ETLS_LOADER):   quit;
+NOTE: Deleting WORK.W17OHV1HJ (memtype=VIEW).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+15                                                         The SAS System                            06:00 Tuesday, November 3, 2020
+
+      
+
+292        
+293        %let etls_recCheckExist = 0;
+294        %let etls_recnt = 0;
+295        %macro etls_recordCheck;
+296           %let etls_recCheckExist = %eval(%sysfunc(exist(TMPLIB3.IT_PRICE, DATA)) or
+297                 %sysfunc(exist(TMPLIB3.IT_PRICE, VIEW)));
+298        
+299           %if (&etls_recCheckExist) %then
+300           %do;
+301              %local etls_syntaxcheck;
+302              %let etls_syntaxcheck = %sysfunc(getoption(syntaxcheck));
+303              /* Turn off syntaxcheck option to perform following steps  */
+304              options nosyntaxcheck;
+305        
+306              proc contents data = TMPLIB3.IT_PRICE out = work.etls_contents(keep = nobs) noprint;
+307              run;
+308        
+309              data _null_;
+310                 set work.etls_contents (obs = 1);
+311                 call symput("etls_recnt", left(put(nobs,32.)));
+312              run;
+313        
+314              proc datasets lib = work nolist nowarn memtype = (data view);
+315                 delete etls_contents;
+316              quit;
+317        
+318              /* Reset syntaxcheck option to previous setting  */
+319              options &etls_syntaxcheck;
+320           %end;
+321        %mend etls_recordCheck;
+322        %etls_recordCheck;
+MPRINT(ETLS_RECORDCHECK):   options nosyntaxcheck;
+MPRINT(ETLS_RECORDCHECK):   proc contents data = TMPLIB3.IT_PRICE out = work.etls_contents(keep = nobs) noprint;
+MPRINT(ETLS_RECORDCHECK):   run;
+
+NOTE: The data set WORK.ETLS_CONTENTS has 4 observations and 1 variables.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   data _null_;
+MPRINT(ETLS_RECORDCHECK):   set work.etls_contents (obs = 1);
+MPRINT(ETLS_RECORDCHECK):   call symput("etls_recnt", left(put(nobs,32.)));
+MPRINT(ETLS_RECORDCHECK):   run;
+
+NOTE: There were 1 observations read from the data set WORK.ETLS_CONTENTS.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_RECORDCHECK):   delete etls_contents;
+MPRINT(ETLS_RECORDCHECK):   quit;
+
+16                                                         The SAS System                            06:00 Tuesday, November 3, 2020
+
+NOTE: Deleting WORK.ETLS_CONTENTS (memtype=DATA).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   options SYNTAXCHECK;
+323        
+324        
+325        
+326        /** Step end Table Loader **/
+327        
+328        /*==========================================================================*
+329         * Step:            ZBIL_HOURLY_PRC_UPD                   A57BXQB4.BV0002VS *
+330         * Transform:       SAP CallRFC Transformation                              *
+331         * Description:                                                             *
+332         *                                                                          *
+333         * Source Table:    IT_PRICE - TMPLIB3.IT_PRICE           A57BXQB4.BE000491 *
+334         *==========================================================================*/
+335        
+336        %let transformID = %quote(A57BXQB4.BV0002VS);
+337        %let trans_rc = 0;
+338        %let etls_stepStartTime = %sysfunc(datetime(), datetime20.);
+339        
+340        %let etls_recCheckExist = 0;
+341        %let etls_recnt = 0;
+342        %macro etls_recordCheck;
+343           %let etls_recCheckExist = %eval(%sysfunc(exist(TMPLIB3.IT_PRICE, DATA)) or
+344                 %sysfunc(exist(TMPLIB3.IT_PRICE, VIEW)));
+345        
+346           %if (&etls_recCheckExist) %then
+347           %do;
+348              %local etls_syntaxcheck;
+349              %let etls_syntaxcheck = %sysfunc(getoption(syntaxcheck));
+350              /* Turn off syntaxcheck option to perform following steps  */
+351              options nosyntaxcheck;
+352        
+353              proc contents data = TMPLIB3.IT_PRICE out = work.etls_contents(keep = nobs) noprint;
+354              run;
+355        
+356              data _null_;
+357                 set work.etls_contents (obs = 1);
+358                 call symput("etls_recnt", left(put(nobs,32.)));
+359              run;
+360        
+361              proc datasets lib = work nolist nowarn memtype = (data view);
+362                 delete etls_contents;
+363              quit;
+364        
+365              /* Reset syntaxcheck option to previous setting  */
+366              options &etls_syntaxcheck;
+367           %end;
+368        %mend etls_recordCheck;
+369        %etls_recordCheck;
+MPRINT(ETLS_RECORDCHECK):   options nosyntaxcheck;
+MPRINT(ETLS_RECORDCHECK):   proc contents data = TMPLIB3.IT_PRICE out = work.etls_contents(keep = nobs) noprint;
+MPRINT(ETLS_RECORDCHECK):   run;
+
+17                                                         The SAS System                            06:00 Tuesday, November 3, 2020
+
+NOTE: The data set WORK.ETLS_CONTENTS has 4 observations and 1 variables.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   data _null_;
+MPRINT(ETLS_RECORDCHECK):   set work.etls_contents (obs = 1);
+MPRINT(ETLS_RECORDCHECK):   call symput("etls_recnt", left(put(nobs,32.)));
+MPRINT(ETLS_RECORDCHECK):   run;
+
+NOTE: There were 1 observations read from the data set WORK.ETLS_CONTENTS.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   proc datasets lib = work nolist nowarn memtype = (data view);
+MPRINT(ETLS_RECORDCHECK):   delete etls_contents;
+MPRINT(ETLS_RECORDCHECK):   quit;
+
+NOTE: Deleting WORK.ETLS_CONTENTS (memtype=DATA).
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLS_RECORDCHECK):   options SYNTAXCHECK;
+370        
+371        %let SYSLAST = %nrquote(TMPLIB3.IT_PRICE);
+372        
+373        /* Access the data for RIP  */
+374        LIBNAME SAPrip SASIOSR3  sysnr=11  ashost="erripa0.enerjisa.retail"  BatchMode=1  trace=0  language=EN  Client=500
+374      ! AUTHDOMAIN="RIE" ;
+NOTE:  Credential obtained from SAS metadata server.
+NOTE: Libref SAPRIP was successfully assigned as follows: 
+      Engine:        R3 
+      Physical Name: erripa0.enerjisa.retail
+375        %rcSet(&syslibrc);
+376        
+377        %macro etlsSAP_callrfc;
+378        
+379        
+380           /* Execute proc callrfc for module ZBIL_HOURLY_PRC_UPD  */
+381           proc callrfc libref=SAPrip;
+382              call function 'ZBIL_HOURLY_PRC_UPD'
+383                 INTABLES
+384                    IT_PRICE = TMPLIB3.IT_PRICE
+385              ;
+386           run;
+387        
+388           %rcSet(&syserr);
+389        
+390        %mend etlsSAP_callrfc;
+391        %etlsSAP_callrfc;
+MPRINT(ETLSSAP_CALLRFC):   proc callrfc libref=SAPrip;
+MPRINT(ETLSSAP_CALLRFC):   call function 'ZBIL_HOURLY_PRC_UPD' INTABLES IT_PRICE = TMPLIB3.IT_PRICE ;
+NOTE: The data set TMPLIB3.IT_PRICE has 72 observations and 4 variables.
+18                                                         The SAS System                            06:00 Tuesday, November 3, 2020
+
+MPRINT(ETLSSAP_CALLRFC):   run;
+
+NOTE: PROCEDURE CALLRFC used (Total process time):
+      real time           0.31 seconds
+      cpu time            0.00 seconds
+      
+
+MPRINT(ETLSSAP_CALLRFC):  ;
+392        
+393        
+394        
+395        /** Step end ZBIL_HOURLY_PRC_UPD **/
+396        
+397        %let etls_endTime = %sysfunc(datetime(),datetime.);
+398        
+
+ERROR: Errors printed on page 6.
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           1:47.15
+      cpu time            2.01 seconds
+      
+
+

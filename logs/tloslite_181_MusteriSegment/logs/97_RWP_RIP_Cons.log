@@ -1,0 +1,1174 @@
+1                                                          The SAS System                             00:00 Sunday, October 18, 2020
+
+NOTE: Unable to open SASUSER.REGSTRY. WORK.REGSTRY will be opened instead.
+NOTE: All registry changes will be lost at the end of the session.
+
+WARNING: Unable to copy SASUSER registry to WORK registry. Because of this, you will not see registry customizations during this 
+         session.
+ERROR: The SAS System is executing on a processor (CPU) whose model name, 
+       model number, and serial number are not included in the setinit data 
+       used to initialize the SAS System library in use. This is permitted if 
+       this processor is a designated backup processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial 
+numbers:
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name 
+ERSDPA0.
+NOTE: Unable to open SASUSER.PROFILE. WORK.PROFILE will be opened instead.
+NOTE: All profile changes will be lost at the end of the session.
+NOTE: Copyright (c) 2016 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M6) 
+      Licensed to ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD., Site 70166440.
+NOTE: This session is executing on the AIX 7.2 (AIX 64) platform.
+
+
+
+NOTE: Analytical products:
+      
+      SAS/STAT 15.1
+      SAS/ETS 15.1
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, model number, and serial number are not included in the 
+       setinit data used to initialize the SAS System library in use. This is permitted if this processor is a designated backup 
+       processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial numbers:
+
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name ERSDPA0.
+
+NOTE: Additional host information:
+
+IBM AIX AIX 64 2 7 00C9C0374C00 
+
+You are running SAS 9. Some SAS 8 files will be automatically converted 
+by the V9 engine; others are incompatible.  Please see 
+http://support.sas.com/rnd/migration/planning/platform/64bit.html
+
+PROC MIGRATE will preserve current SAS file attributes and is 
+recommended for converting all your SAS libraries from any 
+SAS 8 release to SAS 9.  For details and examples, please see
+http://support.sas.com/rnd/migration/index.html
+
+
+This message is contained in the SAS news file, and is presented upon
+initialization.  Edit the file "news" in the "misc/base" directory to
+display site-specific news and information in the program log.
+The command line option "-nonews" will prevent this display.
+
+
+
+
+2                                                          The SAS System                             00:00 Sunday, October 18, 2020
+
+NOTE: SAS initialization used:
+      real time           0.05 seconds
+      cpu time            0.02 seconds
+      
+
+NOTE: AUTOEXEC processing beginning; file is /bidm/sascodes/Musteri_Sayisi/Autoexec.sas.
+
+
+NOTE: AUTOEXEC processing completed.
+
+1          %include "/sas/sascodes/Autoexec_File/Autoexec.sas";
+NOTE: This is a SPD 5.4  Engine 
+      executing SAS (r) 9.4 (TS1M6) on the AIX platform.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta1/TMPLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta1/PODSLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DMLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta1/DMLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TRNLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta1/TRNLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta1/ODSLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB4 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta1/TMPLIB4/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta1/FADM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref VYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/VYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/ODSLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref NEDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/NEDLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/smdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+3                                                          The SAS System                             00:00 Sunday, October 18, 2020
+
+NOTE: Libref TRNLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/TRNLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MSATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/MSATMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OKMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/okmtmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MIGLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/MIGLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref REFCPS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/REFCPS/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_ETY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/EAP_ETY/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB1 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/PODSLIB1/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/tmplib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CRLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/crlib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OKMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/okmdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/CCDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RMCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/rmcdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/smtmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOSEC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/sosec/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PODSLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+4                                                          The SAS System                             00:00 Sunday, October 18, 2020
+
+      Physical Name: :8454852/spdsmeta2/PODSLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MHMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/MHMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CCDM2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/CCDM2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RASTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/rastmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SODM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/sodm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref D2DLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/D2DLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ODSLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/ODSLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPREF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/rapref/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOMLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/SOMLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRICARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/PRICARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MIGLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/MIGLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/sotmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/TSDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TALDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/taldm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSUST was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/CPSUST/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+5                                                          The SAS System                             00:00 Sunday, October 18, 2020
+
+NOTE: Libref STJVYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/STJVYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QLIKLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/QLIKLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/badm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EDULIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/edulib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref STLF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/STLF/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DASHLIBD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/DASHLIBD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BFLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/bflib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/batmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/sopdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref KKLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/kklib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MHMAYEDS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/MHMAYEDS/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHEO was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/MTHEO/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/prcdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BLDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/bldm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+6                                                          The SAS System                             00:00 Sunday, October 18, 2020
+
+      Physical Name: :8454852/spdsmeta2/raptmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRFTBLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/prftblib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPOUT was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/rapout/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPTEST was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/RAPTEST/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DMLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/DMLIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BCSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/BCSDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref IATMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/iatmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SOSUF was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/sosuf/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPARCH was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/raparch/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RMCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/rmctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHKA was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/MTHKA/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EPYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/EPYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DSTDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/DSTDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DYMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/DYMTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/MDLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+7                                                          The SAS System                             00:00 Sunday, October 18, 2020
+
+NOTE: Libref DSTTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/DSTTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/tmplib2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PILIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/PILIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BLTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/bltmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref AUTODIAL was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/AUTODIAL/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRICPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/PRICPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSREG was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/CPSREG/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CXDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/CXDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSFRC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/CPSFRC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SDLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/SDLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CMPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/CMPDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/PMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MSADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/MSADM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FPCLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/fpclib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DBALIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+8                                                          The SAS System                             00:00 Sunday, October 18, 2020
+
+      Physical Name: :8454852/spdsmeta2/DBALIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CPSHRLY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/CPSHRLY/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCDM2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/PRCDM2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ARCLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/ARCLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QL_SALES was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/QL_SALES/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ETSDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/etsdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EPYTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/EPYTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HRDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/HRDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CNPRCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/cnprctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DI_SMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/DI_SMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PREFLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/PREFLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TRNLIB3 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/TRNLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TMPLIB33 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/TMPLIB3/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SHFDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/SHFDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SPDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/SPDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+9                                                          The SAS System                             00:00 Sunday, October 18, 2020
+
+NOTE: Libref SSIMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/SSIMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref TKDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/TKDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_PR was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/EAP_PR/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref EAP_PAY was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/EAP_PAY/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref KMHMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/KMHMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref QVYDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/QVYDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref VYDMKVKK was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/VYDMKVKK/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OGMTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/OGMTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref OGMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/OGMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/prctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CNPRCDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/cnprcdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref IADM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/iadm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SMTMP2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/smtmp2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref ETSTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/etstmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BITMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+10                                                         The SAS System                             00:00 Sunday, October 18, 2020
+
+      Physical Name: :8454852/spdsmeta2/bitmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref BIDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/bidm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/hslib/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RASDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/rasdm/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref RAPVAS was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/rapvas/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FPCTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/fpctmp/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FRCPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/FRCPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref FRCARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/FRCARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCHPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/PRCHPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PRCHARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/PRCHARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HDGPRD was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/HDGPRD/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref HDGARC was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/HDGARC/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref PILIB2 was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/PILIB2/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHSO was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/MTHSO/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MTHMA was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/MTHMA/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+11                                                         The SAS System                             00:00 Sunday, October 18, 2020
+
+NOTE: Libref MTHTMP was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/MTHTMP/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref DYMDM was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/DYMDM/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref CSSLIB was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/CSSLIB/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SAHOL was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/SAHOL/
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref MKVR was successfully assigned as follows: 
+      Engine:        SASSPDS 
+      Physical Name: :8454852/spdsmeta2/MKVR/
+137        /*tablo adlarını değiştir*/
+138        %let SC=R; /* RIP */
+139        %let BSC=R; /* BW RWP */
+140        
+141        data _null_;
+142        	z=input(put(intnx('MONTH',"&sysdate"d,-36),yymmn6.),$6.);
+143        
+144        	t=CAT(SUBSTR(z,1,4),'0',SUBSTR(z,5,2));
+145        	call symput('m00',input(put(intnx('MONTH',"&sysdate"d,-36),yymmn6.),$6.));
+146        	call symput('m0',t);
+147        run;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+148        
+149        %put &m0 &m00;
+2017010                                                                                                                             
+                                                                     201710
+150        
+151        %macro MST_Sayac_okuma(text, Quarter, Systm);
+152        
+153        	data TMPLIB4.MST_TMP_INVOICE_FILTERED;
+154        		set
+155        			PODSLIB3.&Systm._YFBI01&Quarter.
+156        			(in=s1
+157        			keep=  UCINSTALLA BPARTNER UCBILL_CLA UC_INVDOC CALMONTH FISCPER UCSGR_AMT UCSGR_QNT UCQUANT
+158        			VAR_VR  UC_DATEFRO UC_DATETO UC_POSTREL _BIC_ZUC_DOCTY
+159        			rename=(UCINSTALLA=Installation_id)
+160        			where =
+161        			( UC_POSTREL='X' and FISCPER>="&m0." and
+162        			(
+163        			(UCSGR_QNT in ('A_T0','A_T1','A_T2','A_T3','A_TTUK','A_T0K2','A_T1K2','A_T2K2','A_T3K2'))
+164        			OR
+165        			(UCSGR_AMT = 'ILETIM' AND UCBILL_CLA = '0002')
+166        				)
+167        				AND
+12                                                         The SAS System                             00:00 Sunday, October 18, 2020
+
+168        				(_BIC_ZUC_DOCTY not in ('TF'))
+169        					)
+170        					);
+171        	run;
+172        
+173        	data TMPLIB4.&Systm._MUC_INVDOC_FILTERED;
+174        		set podslib1.&Systm._MUC_INVDOC(keep=UC_INVDOC _BIC_ZREVINV
+175        			where=(_BIC_ZREVINV NOT = ''));
+176        		rename
+177        			_BIC_ZREVINV=UC_INVDOC2
+178        		;
+179        	run;
+180        
+181        	data TMPLIB4.MST_TMP_INVOICE_FILTERED2;
+182        		merge
+183        			TMPLIB4.MST_TMP_INVOICE_FILTERED(in=s1)
+184        			TMPLIB4.&Systm._MUC_INVDOC_FILTERED(in=s2 keep=UC_INVDOC)
+185        			TMPLIB4.&Systm._MUC_INVDOC_FILTERED(in=s3 keep=UC_INVDOC2 rename=(UC_INVDOC2=UC_INVDOC));
+186        		by UC_INVDOC
+187        		;
+188        
+189        		if s1 and not s2 and not s3;
+190        	run;
+191        
+192        	data TMPLIB4.MST_Sayac_okuma_&Systm._&Quarter.;
+193        		Length check_t0 check_t1 3;
+194        		Length
+195        			Tahakkuk_Kullanim_T0
+196        			Tahakkuk_Kullanim_T1
+197        			Tahakkuk_Kullanim_T2
+198        			Tahakkuk_Kullanim_T3
+199        			Consumption_T0_ALL
+200        			Date1
+201        			Date2
+202        			8;
+203        		Format
+204        			Date1
+205        			Date2
+206        			Date9.;
+207        		Retain
+208        			Tahakkuk_Kullanim_T0
+209        			Tahakkuk_Kullanim_T1
+210        			Tahakkuk_Kullanim_T2
+211        			Tahakkuk_Kullanim_T3
+212        			check_t0
+213        			check_t1
+214        			Consumption_T0_ALL
+215        			Date1
+216        			Date2
+217        		;
+218        		set TMPLIB4.MST_TMP_INVOICE_FILTERED2;
+219        		by  BPARTNER Installation_id CALMONTH UC_DATEFRO; /*Partner ekle*/
+220        
+221        		if first.BPARTNER or first.Installation_id or first.CALMONTH then
+222        			do;
+223        				/*Partner ekle*/
+224        				Consumption_T0_ALL=0;
+225        				Tahakkuk_Kullanim_T0=0;
+13                                                         The SAS System                             00:00 Sunday, October 18, 2020
+
+226        				Tahakkuk_Kullanim_T1=0;
+227        				Tahakkuk_Kullanim_T2=0;
+228        				Tahakkuk_Kullanim_T3=0;
+229        				check_t0=0;
+230        				check_t1=0;
+231        				Date1=UC_DATEFRO;
+232        			end;
+233        
+234        		if UCSGR_AMT in ('A_T0','A_TTUK','ILETIM','A_T0K2') then
+235        			Tahakkuk_Kullanim_T0=Sum(Tahakkuk_Kullanim_T0,UCQUANT);
+236        		else if UCSGR_QNT in('A_T1','A_T1K2') then
+237        			Tahakkuk_Kullanim_T1=Sum(Tahakkuk_Kullanim_T1,UCQUANT);
+238        		else if UCSGR_QNT in('A_T2','A_T2K2') then
+239        			Tahakkuk_Kullanim_T2=Sum(Tahakkuk_Kullanim_T2,UCQUANT);
+240        		else if UCSGR_QNT in('A_T3','A_T3K2') then
+241        			Tahakkuk_Kullanim_T3=Sum(Tahakkuk_Kullanim_T3,UCQUANT);
+242        
+243        		if UCSGR_QNT in('A_T1','A_T1K2','A_T2','A_T2K2','A_T3','A_T3K2') then
+244        			do;
+245        				Consumption_T0_ALL=Sum(Consumption_T0_ALL,UCQUANT);
+246        			end;
+247        
+248        		if UCSGR_AMT in ('A_T0','A_TTUK','ILETIM','A_T0K2') then
+249        			check_t0=1;
+250        
+251        		if UCSGR_AMT in ('A_T1','A_T1K2','A_T2','A_T2K2','A_T3','A_T3K2') then
+252        			check_t1=1;
+253        
+254        		if last.BPARTNER or last.Installation_id or last.CALMONTH then
+255        			do;
+256        				/*Partner*/
+257        				Date2=UC_DATETO;
+258        
+259        				if check_t0=1 and check_t1=1 then
+260        					do;
+261        						Tahakkuk_Kullanim_T0=Sum(Tahakkuk_Kullanim_T0,Consumption_T0_ALL);
+262        					end;
+263        
+264        				if check_t0=0 and check_t1=1 then
+265        					do;
+266        						Tahakkuk_Kullanim_T0 = Consumption_T0_ALL;
+267        					end;
+268        
+269        				output;
+270        			end;
+271        
+272        		drop
+273        			check_t0
+274        			check_t1
+275        			Consumption_T0_ALL
+276        			UCSGR_AMT
+277        			UCQUANT
+278        			UCSGR_QNT
+279        			UC_INVDOC
+280        			UC_DATETO
+281        			UC_DATEFRO
+282        			VAR_VR
+283        			UC_POSTREL
+14                                                         The SAS System                             00:00 Sunday, October 18, 2020
+
+284        			FISCPER
+285        			UCBILL_CLA
+286        			_BIC_ZUC_DOCTY
+287        			Tahakkuk_Kullanim_T1
+288        			Tahakkuk_Kullanim_T2
+289        			Tahakkuk_Kullanim_T3
+290        		;
+291        	run;
+292        
+293        	%put &text. &Quarter. &Systm. calisti........;
+294        %mend MST_Sayac_okuma;
+295        
+296        data quarters;
+297        	var1='Q1';
+298        	sys1='RWP';
+299        	output;
+300        	var1='Q2';
+301        	sys1='RWP';
+302        	output;
+303        	var1='Q3';
+304        	sys1='RWP';
+305        	output;
+306        	var1='Q4';
+307        	sys1='RWP';
+308        	output;
+309        run;
+
+NOTE: The data set WORK.QUARTERS has 4 observations and 2 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+310        
+311        data _null_;
+312        	set quarters;
+313        	call execute('%MST_Sayac_okuma(macro processing..,'|| var1 || ',' || sys1 || ')');
+314        run;
+
+macro processing.. Q1 RWP calisti........
+macro processing.. Q2 RWP calisti........
+macro processing.. Q3 RWP calisti........
+macro processing.. Q4 RWP calisti........
+NOTE: There were 4 observations read from the data set WORK.QUARTERS.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: CALL EXECUTE generated line.
+1         + data TMPLIB4.MST_TMP_INVOICE_FILTERED;   set     PODSLIB3.RWP_YFBI01Q1    (in=s1     keep=  UCINSTALLA BPARTNER 
+UCBILL_CLA UC_INVDOC CALMONTH FISCPER UCSGR_AMT UCSGR_QNT UCQUANT    VAR_VR  UC_DATEFRO UC_DATETO UC_POSTREL _BIC_ZUC_DOCTY    
+rename=
+2         +(UCINSTALLA=Installation_id)    where =    ( UC_POSTREL='X' and FISCPER>="2017010
+3         +                   " and    (    (UCSGR_QNT in 
+('A_T0','A_T1','A_T2','A_T3','A_TTUK','A_T0K2','A_T1K2','A_T2K2','A_T3K2'))    OR    (UCSGR_AMT = 'ILETIM' AND UCBILL_CLA = '0002') 
+    )     AND     (_BIC_ZUC_DOCTY not in ('TF'))      )      );  run;
+
+15                                                         The SAS System                             00:00 Sunday, October 18, 2020
+
+NOTE: There were 188301313 observations read from the data set PODSLIB3.RWP_YFBI01Q1.
+      WHERE (UC_POSTREL='X') and (FISCPER>='2017010') and (UCSGR_QNT in ('A_T0', 'A_T0K2', 'A_T1', 'A_T1K2', 'A_T2', 'A_T2K2', 
+      'A_T3', 'A_T3K2', 'A_TTUK') or ((UCSGR_AMT='ILETIM') and (UCBILL_CLA='0002'))) and (_BIC_ZUC_DOCTY not = 'TF');
+NOTE: The data set TMPLIB4.MST_TMP_INVOICE_FILTERED has 188301313 observations and 14 variables.
+NOTE: DATA statement used (Total process time):
+      real time           12:40.39
+      cpu time            1:58.34
+      
+
+3         +
+   data    
+4         + TMPLIB4.RWP_MUC_INVDOC_FILTERED;   set podslib1.RWP_MUC_INVDOC(keep=UC_INVDOC _BIC_ZREVINV      where=(_BIC_ZREVINV NOT 
+= ''));   rename     _BIC_ZREVINV=UC_INVDOC2   ;  run;
+
+NOTE: There were 1346160 observations read from the data set PODSLIB1.RWP_MUC_INVDOC.
+      WHERE _BIC_ZREVINV not = ' ';
+NOTE: The data set TMPLIB4.RWP_MUC_INVDOC_FILTERED has 1346160 observations and 2 variables.
+NOTE: DATA statement used (Total process time):
+      real time           38.30 seconds
+      cpu time            0.29 seconds
+      
+
+4         +
+data TMPLIB4.MST_TMP_INVOICE_FILTERED2;   merge
+5         + TMPLIB4.MST_TMP_INVOICE_FILTERED(in=s1)    TMPLIB4.RWP_MUC_INVDOC_FILTERED(in=s2 keep=UC_INVDOC)    
+TMPLIB4.RWP_MUC_INVDOC_FILTERED(in=s3 keep=UC_INVDOC2 rename=(UC_INVDOC2=UC_INVDOC));   by UC_INVDOC   ;    if s1 and not s2 and 
+not s3;  run;
+
+NOTE: There were 188301313 observations read from the data set TMPLIB4.MST_TMP_INVOICE_FILTERED.
+NOTE: There were 1346160 observations read from the data set TMPLIB4.RWP_MUC_INVDOC_FILTERED.
+NOTE: There were 1346160 observations read from the data set TMPLIB4.RWP_MUC_INVDOC_FILTERED.
+NOTE: The data set TMPLIB4.MST_TMP_INVOICE_FILTERED2 has 187977274 observations and 14 variables.
+NOTE: DATA statement used (Total process time):
+      real time           4:48.65
+      cpu time            2:01.14
+      
+
+5         +
+   data    
+6         + TMPLIB4.MST_Sayac_okuma_RWP_Q1;   Length check_t0 check_t1 3;   Length     Tahakkuk_Kullanim_T0    Tahakkuk_Kullanim_T1 
+   Tahakkuk_Kullanim_T2    Tahakkuk_Kullanim_T3    Consumption_T0_ALL    Date1    Date2    8;   Format    Date1    Date2    Date9.;
+7         + Retain     Tahakkuk_Kullanim_T0    Tahakkuk_Kullanim_T1    Tahakkuk_Kullanim_T2    Tahakkuk_Kullanim_T3    check_t0     
+check_t1    Consumption_T0_ALL    Date1    Date2   ;   set TMPLIB4.MST_TMP_INVOICE_FILTERED2;   by  BPARTNER Installation_id 
+CALMONTH
+8         + UC_DATEFRO;     if first.BPARTNER or first.Installation_id or first.CALMONTH then    do;          Consumption_T0_ALL=0; 
+    Tahakkuk_Kullanim_T0=0;     Tahakkuk_Kullanim_T1=0;     Tahakkuk_Kullanim_T2=0;     Tahakkuk_Kullanim_T3=0;     check_t0=0;
+9         + check_t1=0;     Date1=UC_DATEFRO;    end;    if UCSGR_AMT in ('A_T0','A_TTUK','ILETIM','A_T0K2') then    
+Tahakkuk_Kullanim_T0=Sum(Tahakkuk_Kullanim_T0,UCQUANT);   else if UCSGR_QNT in('A_T1','A_T1K2') then    Tahakkuk_Kullanim_T1=Sum
+10        +(Tahakkuk_Kullanim_T1,UCQUANT);   else if UCSGR_QNT in('A_T2','A_T2K2') then    
+Tahakkuk_Kullanim_T2=Sum(Tahakkuk_Kullanim_T2,UCQUANT);   else if UCSGR_QNT in('A_T3','A_T3K2') then    
+Tahakkuk_Kullanim_T3=Sum(Tahakkuk_Kullanim_T3,UCQUANT);    if UCSGR_QNT
+11        + in('A_T1','A_T1K2','A_T2','A_T2K2','A_T3','A_T3K2') then    do;     Consumption_T0_ALL=Sum(Consumption_T0_ALL,UCQUANT); 
+   end;    if UCSGR_AMT in ('A_T0','A_TTUK','ILETIM','A_T0K2') then    check_t0=1;    if UCSGR_AMT in
+12        +('A_T1','A_T1K2','A_T2','A_T2K2','A_T3','A_T3K2') then    check_t1=1;    if last.BPARTNER or last.Installation_id or 
+last.CALMONTH then    do;          Date2=UC_DATETO;      if check_t0=1 and check_t1=1 then      do;       Tahakkuk_Kullanim_T0=Sum
+13        +(Tahakkuk_Kullanim_T0,Consumption_T0_ALL);      end;      if check_t0=0 and check_t1=1 then      do;       
+Tahakkuk_Kullanim_T0 = Consumption_T0_ALL;      end;      output;    end;    drop     check_t0     check_t1    Consumption_T0_ALL   
+ UCSGR_AMT
+16                                                         The SAS System                             00:00 Sunday, October 18, 2020
+
+14        + UCQUANT    UCSGR_QNT    UC_INVDOC    UC_DATETO    UC_DATEFRO    VAR_VR    UC_POSTREL    FISCPER    UCBILL_CLA    
+_BIC_ZUC_DOCTY    Tahakkuk_Kullanim_T1    Tahakkuk_Kullanim_T2    Tahakkuk_Kullanim_T3   ;  run;
+
+NOTE: There were 187977274 observations read from the data set TMPLIB4.MST_TMP_INVOICE_FILTERED2.
+NOTE: The data set TMPLIB4.MST_SAYAC_OKUMA_RWP_Q1 has 87497989 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           4:29.11
+      cpu time            1:47.74
+      
+
+15        + data TMPLIB4.MST_TMP_INVOICE_FILTERED;   set     PODSLIB3.RWP_YFBI01Q2    (in=s1     keep=  UCINSTALLA BPARTNER 
+UCBILL_CLA UC_INVDOC CALMONTH FISCPER UCSGR_AMT UCSGR_QNT UCQUANT    VAR_VR  UC_DATEFRO UC_DATETO UC_POSTREL _BIC_ZUC_DOCTY    
+rename=
+16        +(UCINSTALLA=Installation_id)    where =    ( UC_POSTREL='X' and FISCPER>="2017010
+17        +                   " and    (    (UCSGR_QNT in 
+('A_T0','A_T1','A_T2','A_T3','A_TTUK','A_T0K2','A_T1K2','A_T2K2','A_T3K2'))    OR    (UCSGR_AMT = 'ILETIM' AND UCBILL_CLA = '0002') 
+    )     AND     (_BIC_ZUC_DOCTY not in ('TF'))      )      );  run;
+
+NOTE: There were 185596286 observations read from the data set PODSLIB3.RWP_YFBI01Q2.
+      WHERE (UC_POSTREL='X') and (FISCPER>='2017010') and (UCSGR_QNT in ('A_T0', 'A_T0K2', 'A_T1', 'A_T1K2', 'A_T2', 'A_T2K2', 
+      'A_T3', 'A_T3K2', 'A_TTUK') or ((UCSGR_AMT='ILETIM') and (UCBILL_CLA='0002'))) and (_BIC_ZUC_DOCTY not = 'TF');
+NOTE: The data set TMPLIB4.MST_TMP_INVOICE_FILTERED has 185596286 observations and 14 variables.
+NOTE: DATA statement used (Total process time):
+      real time           12:28.85
+      cpu time            1:50.15
+      
+
+17        +
+   data    
+18        + TMPLIB4.RWP_MUC_INVDOC_FILTERED;   set podslib1.RWP_MUC_INVDOC(keep=UC_INVDOC _BIC_ZREVINV      where=(_BIC_ZREVINV NOT 
+= ''));   rename     _BIC_ZREVINV=UC_INVDOC2   ;  run;
+
+NOTE: There were 1346160 observations read from the data set PODSLIB1.RWP_MUC_INVDOC.
+      WHERE _BIC_ZREVINV not = ' ';
+NOTE: The data set TMPLIB4.RWP_MUC_INVDOC_FILTERED has 1346160 observations and 2 variables.
+NOTE: DATA statement used (Total process time):
+      real time           38.63 seconds
+      cpu time            0.31 seconds
+      
+
+18        +
+data TMPLIB4.MST_TMP_INVOICE_FILTERED2;   merge
+19        + TMPLIB4.MST_TMP_INVOICE_FILTERED(in=s1)    TMPLIB4.RWP_MUC_INVDOC_FILTERED(in=s2 keep=UC_INVDOC)    
+TMPLIB4.RWP_MUC_INVDOC_FILTERED(in=s3 keep=UC_INVDOC2 rename=(UC_INVDOC2=UC_INVDOC));   by UC_INVDOC   ;    if s1 and not s2 and 
+not s3;  run;
+
+NOTE: There were 185596286 observations read from the data set TMPLIB4.MST_TMP_INVOICE_FILTERED.
+NOTE: There were 1346160 observations read from the data set TMPLIB4.RWP_MUC_INVDOC_FILTERED.
+NOTE: There were 1346160 observations read from the data set TMPLIB4.RWP_MUC_INVDOC_FILTERED.
+NOTE: The data set TMPLIB4.MST_TMP_INVOICE_FILTERED2 has 185293839 observations and 14 variables.
+NOTE: DATA statement used (Total process time):
+      real time           4:58.29
+      cpu time            2:00.61
+      
+
+19        +
+   data    
+20        + TMPLIB4.MST_Sayac_okuma_RWP_Q2;   Length check_t0 check_t1 3;   Length     Tahakkuk_Kullanim_T0    Tahakkuk_Kullanim_T1 
+17                                                         The SAS System                             00:00 Sunday, October 18, 2020
+
+   Tahakkuk_Kullanim_T2    Tahakkuk_Kullanim_T3    Consumption_T0_ALL    Date1    Date2    8;   Format    Date1    Date2    Date9.;
+21        + Retain     Tahakkuk_Kullanim_T0    Tahakkuk_Kullanim_T1    Tahakkuk_Kullanim_T2    Tahakkuk_Kullanim_T3    check_t0     
+check_t1    Consumption_T0_ALL    Date1    Date2   ;   set TMPLIB4.MST_TMP_INVOICE_FILTERED2;   by  BPARTNER Installation_id 
+CALMONTH
+22        + UC_DATEFRO;     if first.BPARTNER or first.Installation_id or first.CALMONTH then    do;          Consumption_T0_ALL=0; 
+    Tahakkuk_Kullanim_T0=0;     Tahakkuk_Kullanim_T1=0;     Tahakkuk_Kullanim_T2=0;     Tahakkuk_Kullanim_T3=0;     check_t0=0;
+23        + check_t1=0;     Date1=UC_DATEFRO;    end;    if UCSGR_AMT in ('A_T0','A_TTUK','ILETIM','A_T0K2') then    
+Tahakkuk_Kullanim_T0=Sum(Tahakkuk_Kullanim_T0,UCQUANT);   else if UCSGR_QNT in('A_T1','A_T1K2') then    Tahakkuk_Kullanim_T1=Sum
+24        +(Tahakkuk_Kullanim_T1,UCQUANT);   else if UCSGR_QNT in('A_T2','A_T2K2') then    
+Tahakkuk_Kullanim_T2=Sum(Tahakkuk_Kullanim_T2,UCQUANT);   else if UCSGR_QNT in('A_T3','A_T3K2') then    
+Tahakkuk_Kullanim_T3=Sum(Tahakkuk_Kullanim_T3,UCQUANT);    if UCSGR_QNT
+25        + in('A_T1','A_T1K2','A_T2','A_T2K2','A_T3','A_T3K2') then    do;     Consumption_T0_ALL=Sum(Consumption_T0_ALL,UCQUANT); 
+   end;    if UCSGR_AMT in ('A_T0','A_TTUK','ILETIM','A_T0K2') then    check_t0=1;    if UCSGR_AMT in
+26        +('A_T1','A_T1K2','A_T2','A_T2K2','A_T3','A_T3K2') then    check_t1=1;    if last.BPARTNER or last.Installation_id or 
+last.CALMONTH then    do;          Date2=UC_DATETO;      if check_t0=1 and check_t1=1 then      do;       Tahakkuk_Kullanim_T0=Sum
+27        +(Tahakkuk_Kullanim_T0,Consumption_T0_ALL);      end;      if check_t0=0 and check_t1=1 then      do;       
+Tahakkuk_Kullanim_T0 = Consumption_T0_ALL;      end;      output;    end;    drop     check_t0     check_t1    Consumption_T0_ALL   
+ UCSGR_AMT
+28        + UCQUANT    UCSGR_QNT    UC_INVDOC    UC_DATETO    UC_DATEFRO    VAR_VR    UC_POSTREL    FISCPER    UCBILL_CLA    
+_BIC_ZUC_DOCTY    Tahakkuk_Kullanim_T1    Tahakkuk_Kullanim_T2    Tahakkuk_Kullanim_T3   ;  run;
+
+NOTE: There were 185293839 observations read from the data set TMPLIB4.MST_TMP_INVOICE_FILTERED2.
+NOTE: The data set TMPLIB4.MST_SAYAC_OKUMA_RWP_Q2 has 88856125 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           4:46.53
+      cpu time            1:46.48
+      
+
+29        + data TMPLIB4.MST_TMP_INVOICE_FILTERED;   set     PODSLIB3.RWP_YFBI01Q3    (in=s1     keep=  UCINSTALLA BPARTNER 
+UCBILL_CLA UC_INVDOC CALMONTH FISCPER UCSGR_AMT UCSGR_QNT UCQUANT    VAR_VR  UC_DATEFRO UC_DATETO UC_POSTREL _BIC_ZUC_DOCTY    
+rename=
+30        +(UCINSTALLA=Installation_id)    where =    ( UC_POSTREL='X' and FISCPER>="2017010
+31        +                   " and    (    (UCSGR_QNT in 
+('A_T0','A_T1','A_T2','A_T3','A_TTUK','A_T0K2','A_T1K2','A_T2K2','A_T3K2'))    OR    (UCSGR_AMT = 'ILETIM' AND UCBILL_CLA = '0002') 
+    )     AND     (_BIC_ZUC_DOCTY not in ('TF'))      )      );  run;
+
+NOTE: There were 194198225 observations read from the data set PODSLIB3.RWP_YFBI01Q3.
+      WHERE (UC_POSTREL='X') and (FISCPER>='2017010') and (UCSGR_QNT in ('A_T0', 'A_T0K2', 'A_T1', 'A_T1K2', 'A_T2', 'A_T2K2', 
+      'A_T3', 'A_T3K2', 'A_TTUK') or ((UCSGR_AMT='ILETIM') and (UCBILL_CLA='0002'))) and (_BIC_ZUC_DOCTY not = 'TF');
+NOTE: The data set TMPLIB4.MST_TMP_INVOICE_FILTERED has 194198225 observations and 14 variables.
+NOTE: DATA statement used (Total process time):
+      real time           13:01.17
+      cpu time            1:56.37
+      
+
+31        +
+   data    
+32        + TMPLIB4.RWP_MUC_INVDOC_FILTERED;   set podslib1.RWP_MUC_INVDOC(keep=UC_INVDOC _BIC_ZREVINV      where=(_BIC_ZREVINV NOT 
+= ''));   rename     _BIC_ZREVINV=UC_INVDOC2   ;  run;
+
+NOTE: There were 1346160 observations read from the data set PODSLIB1.RWP_MUC_INVDOC.
+      WHERE _BIC_ZREVINV not = ' ';
+NOTE: The data set TMPLIB4.RWP_MUC_INVDOC_FILTERED has 1346160 observations and 2 variables.
+NOTE: DATA statement used (Total process time):
+      real time           35.36 seconds
+      cpu time            0.30 seconds
+      
+
+18                                                         The SAS System                             00:00 Sunday, October 18, 2020
+
+32        +
+data TMPLIB4.MST_TMP_INVOICE_FILTERED2;   merge
+33        + TMPLIB4.MST_TMP_INVOICE_FILTERED(in=s1)    TMPLIB4.RWP_MUC_INVDOC_FILTERED(in=s2 keep=UC_INVDOC)    
+TMPLIB4.RWP_MUC_INVDOC_FILTERED(in=s3 keep=UC_INVDOC2 rename=(UC_INVDOC2=UC_INVDOC));   by UC_INVDOC   ;    if s1 and not s2 and 
+not s3;  run;
+
+NOTE: There were 194198225 observations read from the data set TMPLIB4.MST_TMP_INVOICE_FILTERED.
+NOTE: There were 1346160 observations read from the data set TMPLIB4.RWP_MUC_INVDOC_FILTERED.
+NOTE: There were 1346160 observations read from the data set TMPLIB4.RWP_MUC_INVDOC_FILTERED.
+NOTE: The data set TMPLIB4.MST_TMP_INVOICE_FILTERED2 has 193892149 observations and 14 variables.
+NOTE: DATA statement used (Total process time):
+      real time           5:17.83
+      cpu time            2:06.75
+      
+
+33        +
+   data    
+34        + TMPLIB4.MST_Sayac_okuma_RWP_Q3;   Length check_t0 check_t1 3;   Length     Tahakkuk_Kullanim_T0    Tahakkuk_Kullanim_T1 
+   Tahakkuk_Kullanim_T2    Tahakkuk_Kullanim_T3    Consumption_T0_ALL    Date1    Date2    8;   Format    Date1    Date2    Date9.;
+35        + Retain     Tahakkuk_Kullanim_T0    Tahakkuk_Kullanim_T1    Tahakkuk_Kullanim_T2    Tahakkuk_Kullanim_T3    check_t0     
+check_t1    Consumption_T0_ALL    Date1    Date2   ;   set TMPLIB4.MST_TMP_INVOICE_FILTERED2;   by  BPARTNER Installation_id 
+CALMONTH
+36        + UC_DATEFRO;     if first.BPARTNER or first.Installation_id or first.CALMONTH then    do;          Consumption_T0_ALL=0; 
+    Tahakkuk_Kullanim_T0=0;     Tahakkuk_Kullanim_T1=0;     Tahakkuk_Kullanim_T2=0;     Tahakkuk_Kullanim_T3=0;     check_t0=0;
+37        + check_t1=0;     Date1=UC_DATEFRO;    end;    if UCSGR_AMT in ('A_T0','A_TTUK','ILETIM','A_T0K2') then    
+Tahakkuk_Kullanim_T0=Sum(Tahakkuk_Kullanim_T0,UCQUANT);   else if UCSGR_QNT in('A_T1','A_T1K2') then    Tahakkuk_Kullanim_T1=Sum
+38        +(Tahakkuk_Kullanim_T1,UCQUANT);   else if UCSGR_QNT in('A_T2','A_T2K2') then    
+Tahakkuk_Kullanim_T2=Sum(Tahakkuk_Kullanim_T2,UCQUANT);   else if UCSGR_QNT in('A_T3','A_T3K2') then    
+Tahakkuk_Kullanim_T3=Sum(Tahakkuk_Kullanim_T3,UCQUANT);    if UCSGR_QNT
+39        + in('A_T1','A_T1K2','A_T2','A_T2K2','A_T3','A_T3K2') then    do;     Consumption_T0_ALL=Sum(Consumption_T0_ALL,UCQUANT); 
+   end;    if UCSGR_AMT in ('A_T0','A_TTUK','ILETIM','A_T0K2') then    check_t0=1;    if UCSGR_AMT in
+40        +('A_T1','A_T1K2','A_T2','A_T2K2','A_T3','A_T3K2') then    check_t1=1;    if last.BPARTNER or last.Installation_id or 
+last.CALMONTH then    do;          Date2=UC_DATETO;      if check_t0=1 and check_t1=1 then      do;       Tahakkuk_Kullanim_T0=Sum
+41        +(Tahakkuk_Kullanim_T0,Consumption_T0_ALL);      end;      if check_t0=0 and check_t1=1 then      do;       
+Tahakkuk_Kullanim_T0 = Consumption_T0_ALL;      end;      output;    end;    drop     check_t0     check_t1    Consumption_T0_ALL   
+ UCSGR_AMT
+42        + UCQUANT    UCSGR_QNT    UC_INVDOC    UC_DATETO    UC_DATEFRO    VAR_VR    UC_POSTREL    FISCPER    UCBILL_CLA    
+_BIC_ZUC_DOCTY    Tahakkuk_Kullanim_T1    Tahakkuk_Kullanim_T2    Tahakkuk_Kullanim_T3   ;  run;
+
+NOTE: There were 193892149 observations read from the data set TMPLIB4.MST_TMP_INVOICE_FILTERED2.
+NOTE: The data set TMPLIB4.MST_SAYAC_OKUMA_RWP_Q3 has 98578509 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           5:07.70
+      cpu time            1:53.43
+      
+
+43        + data TMPLIB4.MST_TMP_INVOICE_FILTERED;   set     PODSLIB3.RWP_YFBI01Q4    (in=s1     keep=  UCINSTALLA BPARTNER 
+UCBILL_CLA UC_INVDOC CALMONTH FISCPER UCSGR_AMT UCSGR_QNT UCQUANT    VAR_VR  UC_DATEFRO UC_DATETO UC_POSTREL _BIC_ZUC_DOCTY    
+rename=
+44        +(UCINSTALLA=Installation_id)    where =    ( UC_POSTREL='X' and FISCPER>="2017010
+45        +                   " and    (    (UCSGR_QNT in 
+('A_T0','A_T1','A_T2','A_T3','A_TTUK','A_T0K2','A_T1K2','A_T2K2','A_T3K2'))    OR    (UCSGR_AMT = 'ILETIM' AND UCBILL_CLA = '0002') 
+    )     AND     (_BIC_ZUC_DOCTY not in ('TF'))      )      );  run;
+
+NOTE: There were 187236115 observations read from the data set PODSLIB3.RWP_YFBI01Q4.
+      WHERE (UC_POSTREL='X') and (FISCPER>='2017010') and (UCSGR_QNT in ('A_T0', 'A_T0K2', 'A_T1', 'A_T1K2', 'A_T2', 'A_T2K2', 
+      'A_T3', 'A_T3K2', 'A_TTUK') or ((UCSGR_AMT='ILETIM') and (UCBILL_CLA='0002'))) and (_BIC_ZUC_DOCTY not = 'TF');
+NOTE: The data set TMPLIB4.MST_TMP_INVOICE_FILTERED has 187236115 observations and 14 variables.
+19                                                         The SAS System                             00:00 Sunday, October 18, 2020
+
+NOTE: DATA statement used (Total process time):
+      real time           12:29.78
+      cpu time            1:45.55
+      
+
+45        +
+   data    
+46        + TMPLIB4.RWP_MUC_INVDOC_FILTERED;   set podslib1.RWP_MUC_INVDOC(keep=UC_INVDOC _BIC_ZREVINV      where=(_BIC_ZREVINV NOT 
+= ''));   rename     _BIC_ZREVINV=UC_INVDOC2   ;  run;
+
+NOTE: There were 1346160 observations read from the data set PODSLIB1.RWP_MUC_INVDOC.
+      WHERE _BIC_ZREVINV not = ' ';
+NOTE: The data set TMPLIB4.RWP_MUC_INVDOC_FILTERED has 1346160 observations and 2 variables.
+NOTE: DATA statement used (Total process time):
+      real time           35.79 seconds
+      cpu time            0.25 seconds
+      
+
+46        +
+data TMPLIB4.MST_TMP_INVOICE_FILTERED2;   merge
+47        + TMPLIB4.MST_TMP_INVOICE_FILTERED(in=s1)    TMPLIB4.RWP_MUC_INVDOC_FILTERED(in=s2 keep=UC_INVDOC)    
+TMPLIB4.RWP_MUC_INVDOC_FILTERED(in=s3 keep=UC_INVDOC2 rename=(UC_INVDOC2=UC_INVDOC));   by UC_INVDOC   ;    if s1 and not s2 and 
+not s3;  run;
+
+NOTE: There were 187236115 observations read from the data set TMPLIB4.MST_TMP_INVOICE_FILTERED.
+NOTE: There were 1346160 observations read from the data set TMPLIB4.RWP_MUC_INVDOC_FILTERED.
+NOTE: There were 1346160 observations read from the data set TMPLIB4.RWP_MUC_INVDOC_FILTERED.
+NOTE: The data set TMPLIB4.MST_TMP_INVOICE_FILTERED2 has 186905279 observations and 14 variables.
+NOTE: DATA statement used (Total process time):
+      real time           4:47.70
+      cpu time            1:55.95
+      
+
+47        +
+   data    
+48        + TMPLIB4.MST_Sayac_okuma_RWP_Q4;   Length check_t0 check_t1 3;   Length     Tahakkuk_Kullanim_T0    Tahakkuk_Kullanim_T1 
+   Tahakkuk_Kullanim_T2    Tahakkuk_Kullanim_T3    Consumption_T0_ALL    Date1    Date2    8;   Format    Date1    Date2    Date9.;
+49        + Retain     Tahakkuk_Kullanim_T0    Tahakkuk_Kullanim_T1    Tahakkuk_Kullanim_T2    Tahakkuk_Kullanim_T3    check_t0     
+check_t1    Consumption_T0_ALL    Date1    Date2   ;   set TMPLIB4.MST_TMP_INVOICE_FILTERED2;   by  BPARTNER Installation_id 
+CALMONTH
+50        + UC_DATEFRO;     if first.BPARTNER or first.Installation_id or first.CALMONTH then    do;          Consumption_T0_ALL=0; 
+    Tahakkuk_Kullanim_T0=0;     Tahakkuk_Kullanim_T1=0;     Tahakkuk_Kullanim_T2=0;     Tahakkuk_Kullanim_T3=0;     check_t0=0;
+51        + check_t1=0;     Date1=UC_DATEFRO;    end;    if UCSGR_AMT in ('A_T0','A_TTUK','ILETIM','A_T0K2') then    
+Tahakkuk_Kullanim_T0=Sum(Tahakkuk_Kullanim_T0,UCQUANT);   else if UCSGR_QNT in('A_T1','A_T1K2') then    Tahakkuk_Kullanim_T1=Sum
+52        +(Tahakkuk_Kullanim_T1,UCQUANT);   else if UCSGR_QNT in('A_T2','A_T2K2') then    
+Tahakkuk_Kullanim_T2=Sum(Tahakkuk_Kullanim_T2,UCQUANT);   else if UCSGR_QNT in('A_T3','A_T3K2') then    
+Tahakkuk_Kullanim_T3=Sum(Tahakkuk_Kullanim_T3,UCQUANT);    if UCSGR_QNT
+53        + in('A_T1','A_T1K2','A_T2','A_T2K2','A_T3','A_T3K2') then    do;     Consumption_T0_ALL=Sum(Consumption_T0_ALL,UCQUANT); 
+   end;    if UCSGR_AMT in ('A_T0','A_TTUK','ILETIM','A_T0K2') then    check_t0=1;    if UCSGR_AMT in
+54        +('A_T1','A_T1K2','A_T2','A_T2K2','A_T3','A_T3K2') then    check_t1=1;    if last.BPARTNER or last.Installation_id or 
+last.CALMONTH then    do;          Date2=UC_DATETO;      if check_t0=1 and check_t1=1 then      do;       Tahakkuk_Kullanim_T0=Sum
+55        +(Tahakkuk_Kullanim_T0,Consumption_T0_ALL);      end;      if check_t0=0 and check_t1=1 then      do;       
+Tahakkuk_Kullanim_T0 = Consumption_T0_ALL;      end;      output;    end;    drop     check_t0     check_t1    Consumption_T0_ALL   
+ UCSGR_AMT
+56        + UCQUANT    UCSGR_QNT    UC_INVDOC    UC_DATETO    UC_DATEFRO    VAR_VR    UC_POSTREL    FISCPER    UCBILL_CLA    
+_BIC_ZUC_DOCTY    Tahakkuk_Kullanim_T1    Tahakkuk_Kullanim_T2    Tahakkuk_Kullanim_T3   ;  run;
+
+NOTE: There were 186905279 observations read from the data set TMPLIB4.MST_TMP_INVOICE_FILTERED2.
+20                                                         The SAS System                             00:00 Sunday, October 18, 2020
+
+NOTE: The data set TMPLIB4.MST_SAYAC_OKUMA_RWP_Q4 has 90583544 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           4:36.77
+      cpu time            1:44.90
+      
+
+315        
+316        /* SAP Birleştirme Kodları */
+317        data trnlib2.MST_RIP_Consumption_All;
+318        	set
+319        		TMPLIB4.MST_Sayac_okuma_RWP_Q1
+320        		TMPLIB4.MST_Sayac_okuma_RWP_Q2
+321        		TMPLIB4.MST_Sayac_okuma_RWP_Q3
+322        		TMPLIB4.MST_Sayac_okuma_RWP_Q4;
+323        	by Installation_id BPARTNER CALMONTH;
+324        run;
+
+NOTE: There were 87497989 observations read from the data set TMPLIB4.MST_SAYAC_OKUMA_RWP_Q1.
+NOTE: There were 88856125 observations read from the data set TMPLIB4.MST_SAYAC_OKUMA_RWP_Q2.
+NOTE: There were 98578509 observations read from the data set TMPLIB4.MST_SAYAC_OKUMA_RWP_Q3.
+NOTE: There were 90583544 observations read from the data set TMPLIB4.MST_SAYAC_OKUMA_RWP_Q4.
+NOTE: The data set TRNLIB2.MST_RIP_CONSUMPTION_ALL has 365516167 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           8:32.14
+      cpu time            3:17.92
+      
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           1:41:01.57
+      cpu time            26:07.22
+      

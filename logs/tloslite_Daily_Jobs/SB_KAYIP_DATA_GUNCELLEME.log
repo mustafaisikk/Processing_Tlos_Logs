@@ -1,0 +1,692 @@
+NOTE: Log file opened at Mon, 27 Jul 2020 09:31:01.943
+1                                                          The SAS System                                09:31 Monday, July 27, 2020
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, 
+       model number, and serial number are not included in the setinit data 
+       used to initialize the SAS System library in use. This is permitted if 
+       this processor is a designated backup processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial 
+numbers:
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name 
+ERSDPA0.
+NOTE: Copyright (c) 2016 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M6) 
+      Licensed to ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD., Site 70166440.
+NOTE: This session is executing on the AIX 7.2 (AIX 64) platform.
+
+
+
+NOTE: Analytical products:
+      
+      SAS/STAT 15.1
+      SAS/ETS 15.1
+
+ERROR: The SAS System is executing on a processor (CPU) whose model name, model number, and serial number are not included in the 
+       setinit data used to initialize the SAS System library in use. This is permitted if this processor is a designated backup 
+       processor for a licensed CPU.
+For this site, the SAS system is licensed for the following CPU serial numbers:
+
+Model  **EEDPA0* Serial Number +4
+ERROR: The requested node name EEDPA0 does not match the actual node name ERSDPA0.
+
+WARNING: Your system is scheduled to expire on July 30, 2020, which is 3 days from now. The SAS System will no longer function on 
+         or after that date. Please contact your SAS Installation Representative to obtain your updated SAS Installation Data (SID) 
+         file, which includes SETINIT information.
+To locate the name of your SAS Installation Representative go to http://support.sas.com/repfinder and provide your site number 
+70166440 and company name as ENERJISA -TOROSLAR - DATA MANAGEMENT ADV PROD.. On the SAS REP list provided, locate the REP for 
+operating system AIX 64.
+NOTE: Additional host information:
+
+IBM AIX AIX 64 2 7 00C9C0374C00 
+
+You are running SAS 9. Some SAS 8 files will be automatically converted 
+by the V9 engine; others are incompatible.  Please see 
+http://support.sas.com/rnd/migration/planning/platform/64bit.html
+
+PROC MIGRATE will preserve current SAS file attributes and is 
+recommended for converting all your SAS libraries from any 
+SAS 8 release to SAS 9.  For details and examples, please see
+http://support.sas.com/rnd/migration/index.html
+
+
+This message is contained in the SAS news file, and is presented upon
+initialization.  Edit the file "news" in the "misc/base" directory to
+display site-specific news and information in the program log.
+The command line option "-nonews" will prevent this display.
+
+
+
+
+NOTE: SAS initialization used:
+2                                                          The SAS System                                09:31 Monday, July 27, 2020
+
+      real time           0.05 seconds
+      cpu time            0.02 seconds
+      
+WARNING: The Base SAS Software product with which IOM CLSID:6E56FD51-CFC1-11D5-87BD-00C04F38F0DB is associated will be expiring 
+         soon, and is currently in warning mode to indicate this upcoming expiration. Please run PROC SETINIT to obtain more 
+         information on your warning period.
+NOTE: This is a SPD 5.4  Engine 
+      executing SAS (r) 9.4 (TS1M6) on the AIX platform.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+3                                                          The SAS System                                09:31 Monday, July 27, 2020
+
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+4                                                          The SAS System                                09:31 Monday, July 27, 2020
+
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+5                                                          The SAS System                                09:31 Monday, July 27, 2020
+
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+6                                                          The SAS System                                09:31 Monday, July 27, 2020
+
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+WARNING: SPD server setinit date is going to expire in 22 days.
+NOTE: User sas(ACL Group ) connected to SPD(AIX) 5.4 server at 10.166.0.39.
+NOTE: Libref SASDATA successfully assigned from logical server.
+NOTE: Libref STPSAMP successfully assigned from logical server.
+NOTE: Libref MIGLIB successfully assigned from logical server.
+NOTE: Libref TRNLIB2 successfully assigned from logical server.
+NOTE: Libref TRNLIB successfully assigned from logical server.
+NOTE: Libref NEDLIB successfully assigned from logical server.
+NOTE: Libref PILIB successfully assigned from logical server.
+NOTE: Libref DMLIB successfully assigned from logical server.
+NOTE: Libref TMPLIB3 successfully assigned from logical server.
+NOTE: Libref TMPLIB4 successfully assigned from logical server.
+NOTE: Libref ODSLIB successfully assigned from logical server.
+NOTE: Libref ODSLIB2 successfully assigned from logical server.
+NOTE: Libref ODSLIB3 successfully assigned from logical server.
+NOTE: Libref PODSLIB1 successfully assigned from logical server.
+NOTE: Libref PODSLIB2 successfully assigned from logical server.
+NOTE: Libref PODSLIB3 successfully assigned from logical server.
+NOTE: Libref DASHLIBD successfully assigned from logical server.
+NOTE: Libref QLIKLIB successfully assigned from logical server.
+NOTE: Libref SQLKODA successfully assigned from logical server.
+NOTE: Libref RISU successfully assigned from logical server.
+NOTE: Libref DQ_ORCL successfully assigned from logical server.
+NOTE: Library ZGRLIB does not exist.
+NOTE: Libref HANARWP successfully assigned from logical server.
+NOTE: Libref BFLIB successfully assigned from logical server.
+NOTE: Libref PILIB2 successfully assigned from logical server.
+NOTE: Libref TMPLIB2 successfully assigned from logical server.
+NOTE: Libref DMLIB2 successfully assigned from logical server.
+NOTE: Libref ARCLIB successfully assigned from logical server.
+NOTE: Libref IADM successfully assigned from logical server.
+NOTE: Libref IATMP successfully assigned from logical server.
+NOTE: Libref AUTODIAL successfully assigned from logical server.
+NOTE: Libref BCSDM successfully assigned from logical server.
+NOTE: Libref BLDM successfully assigned from logical server.
+NOTE: Libref BLTMP successfully assigned from logical server.
+NOTE: Libref BADM successfully assigned from logical server.
+NOTE: Libref BATMP successfully assigned from logical server.
+NOTE: Libref CCDM successfully assigned from logical server.
+NOTE: Libref CCDM2 successfully assigned from logical server.
+NOTE: Libref CMPDM successfully assigned from logical server.
+NOTE: Libref CPSFRC successfully assigned from logical server.
+NOTE: Libref CPSHRLY successfully assigned from logical server.
+NOTE: Libref CPSREG successfully assigned from logical server.
+NOTE: Libref CPSUST successfully assigned from logical server.
+NOTE: Libref CXDM successfully assigned from logical server.
+7                                                          The SAS System                                09:31 Monday, July 27, 2020
+
+NOTE: Libref DBALIB successfully assigned from logical server.
+NOTE: Libref DSTDM successfully assigned from logical server.
+NOTE: Libref DSTTMP successfully assigned from logical server.
+NOTE: Libref DYMDM successfully assigned from logical server.
+NOTE: Libref DYMTMP successfully assigned from logical server.
+NOTE: Libref EAP_ETY successfully assigned from logical server.
+NOTE: Libref EAP_PAY successfully assigned from logical server.
+NOTE: Libref EAP_PR successfully assigned from logical server.
+NOTE: Libref EPYDM successfully assigned from logical server.
+NOTE: Libref EPYTMP successfully assigned from logical server.
+NOTE: Libref ETSDM successfully assigned from logical server.
+NOTE: Libref FADM successfully assigned from logical server.
+NOTE: Libref FPCLIB successfully assigned from logical server.
+NOTE: Libref FPCTMP successfully assigned from logical server.
+NOTE: Libref HRDM successfully assigned from logical server.
+NOTE: Libref KMHMDM successfully assigned from logical server.
+NOTE: Libref CSSLIB successfully assigned from logical server.
+NOTE: Libref MDLIB successfully assigned from logical server.
+NOTE: Libref MHMAYEDS successfully assigned from logical server.
+NOTE: Libref MHMDM successfully assigned from logical server.
+NOTE: Libref MIGLIB2 successfully assigned from logical server.
+NOTE: Libref MSADM successfully assigned from logical server.
+NOTE: Libref MSATMP successfully assigned from logical server.
+NOTE: Libref MTHEO successfully assigned from logical server.
+NOTE: Libref MTHKA successfully assigned from logical server.
+NOTE: Libref MTHMA successfully assigned from logical server.
+NOTE: Libref MTHSO successfully assigned from logical server.
+NOTE: Libref MTHTMP successfully assigned from logical server.
+NOTE: Libref D2DLIB successfully assigned from logical server.
+NOTE: Libref OKMDM successfully assigned from logical server.
+NOTE: Libref OKMTMP successfully assigned from logical server.
+NOTE: Libref PMDM successfully assigned from logical server.
+NOTE: Libref CNPRCDM successfully assigned from logical server.
+NOTE: Libref CNPRCTMP successfully assigned from logical server.
+NOTE: Libref EDULIB successfully assigned from logical server.
+NOTE: Libref PRCDM successfully assigned from logical server.
+NOTE: Libref PRCDM2 successfully assigned from logical server.
+NOTE: Libref PRCTMP successfully assigned from logical server.
+NOTE: Libref PRFTBLIB successfully assigned from logical server.
+NOTE: Libref TMPLIB successfully assigned from logical server.
+NOTE: Libref FRCARC successfully assigned from logical server.
+NOTE: Libref FRCPRD successfully assigned from logical server.
+NOTE: Libref PRCHARC successfully assigned from logical server.
+NOTE: Libref PRCHPRD successfully assigned from logical server.
+NOTE: Libref PRICARC successfully assigned from logical server.
+NOTE: Libref PRICPRD successfully assigned from logical server.
+NOTE: Libref QL_SALES successfully assigned from logical server.
+NOTE: Libref RAPOUT successfully assigned from logical server.
+NOTE: Libref RAPREF successfully assigned from logical server.
+NOTE: Libref RAPTEST successfully assigned from logical server.
+NOTE: Libref RAPTMP successfully assigned from logical server.
+NOTE: Libref RAPVAS successfully assigned from logical server.
+NOTE: Libref REFCPS successfully assigned from logical server.
+NOTE: Libref RMCDM successfully assigned from logical server.
+NOTE: Libref RMCTMP successfully assigned from logical server.
+NOTE: Libref SDLIB successfully assigned from logical server.
+NOTE: Libref SOMLIB successfully assigned from logical server.
+NOTE: Libref SHFDM successfully assigned from logical server.
+8                                                          The SAS System                                09:31 Monday, July 27, 2020
+
+NOTE: Libref SODM successfully assigned from logical server.
+NOTE: Libref SOPDM successfully assigned from logical server.
+NOTE: Libref SOSUF successfully assigned from logical server.
+NOTE: Libref SOTMP successfully assigned from logical server.
+NOTE: Libref SPDM successfully assigned from logical server.
+NOTE: Libref SSIMDM successfully assigned from logical server.
+NOTE: Libref STLF successfully assigned from logical server.
+NOTE: Libref SMDM successfully assigned from logical server.
+NOTE: Libref SMTMP successfully assigned from logical server.
+NOTE: Libref TALDM successfully assigned from logical server.
+NOTE: Libref TKDM successfully assigned from logical server.
+NOTE: Libref TSDM successfully assigned from logical server.
+NOTE: Libref QVYDM successfully assigned from logical server.
+NOTE: Libref STJVYDM successfully assigned from logical server.
+NOTE: Libref VYDM successfully assigned from logical server.
+NOTE: Libref VYDMKVKK successfully assigned from logical server.
+NOTE: Libref OGMDM successfully assigned from logical server.
+NOTE: Libref OGMTMP successfully assigned from logical server.
+NOTE: Libref CRLIB successfully assigned from logical server.
+NOTE: Libref RASTMP successfully assigned from logical server.
+NOTE: Libref SOSEC successfully assigned from logical server.
+NOTE: Libref STATLIB successfully assigned from logical server.
+ERROR: Libref SMARTHMP failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-28000: the account is locked.
+NOTE: Libref SMARTHMT successfully assigned from logical server.
+ERROR: Libref SMSPRD failed to assign from logical server.
+ERROR: ORACLE connection error: ORA-12170: TNS: Baðlantý zaman aþýmý oluþtu.
+NOTE: Libref RAPARCH successfully assigned from logical server.
+NOTE: Libref SAHOL successfully assigned from logical server.
+NOTE: Libref MKVR successfully assigned from logical server.
+
+NOTE: AUTOEXEC processing beginning; file is /sas/config/Lev1/SASApp/BatchServer/autoexec.sas.
+
+
+NOTE: AUTOEXEC processing completed.
+
+1          data date_macros;
+2          
+3          format bas  datetime27.6;
+4          bas = intnx('dtDay', datetime(), -1 , 'B') + 08.50 * 60 * 60;
+5          call symput("baslangic", bas);
+6          
+7          run;
+
+NOTE: Numeric values have been converted to character values at the places given by: (Line):(Column).
+      5:26   
+NOTE: The data set WORK.DATE_MACROS has 1 observations and 1 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.00 seconds
+      
+
+8          
+9          /* ak kesinti ve kayip data verilerini çekiyoruz*/
+10         data work.ak_kesinti_all_data;
+11         set qliklib.ak_kesinti_kayip_all;
+12         format  kes_bas datetime27.6 ;
+13         
+9                                                          The SAS System                                09:31 Monday, July 27, 2020
+
+14         kes_bas = INPUT(Kesinti_Baslangic,datetime27.6);
+15         
+16         run ;
+
+NOTE: There were 107188 observations read from the data set QLIKLIB.AK_KESINTI_KAYIP_ALL.
+NOTE: The data set WORK.AK_KESINTI_ALL_DATA has 107188 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.26 seconds
+      cpu time            0.09 seconds
+      
+
+17         
+18         
+19         
+20         /* Bu adýmda kesinti datalarýný alýyoruz */
+21         data kayip_all_data all_data;
+22         set work.ak_kesinti_all_data;
+23         if dataFrom='Kayip Data' and kes_bas < &baslangic. then do;
+24         output kayip_all_data;
+25         end;
+26         else  do;
+27         output all_data;
+28         end;
+29         run;
+
+NOTE: There were 107188 observations read from the data set WORK.AK_KESINTI_ALL_DATA.
+NOTE: The data set WORK.KAYIP_ALL_DATA has 1492 observations and 7 variables.
+NOTE: The data set WORK.ALL_DATA has 105696 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.05 seconds
+      cpu time            0.04 seconds
+      
+
+30         
+31         data all_data;
+32         set all_data;
+33         drop kes_bas;
+34         run;
+
+NOTE: There were 105696 observations read from the data set WORK.ALL_DATA.
+NOTE: The data set WORK.ALL_DATA has 105696 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.05 seconds
+      cpu time            0.03 seconds
+      
+
+35         /* Yeniden kesinti hesaplamak için sensordata_power ile joinleyip , guncel data almýþ oluyoruz */
+36         
+37         PROC SQL;
+38            CREATE TABLE WORK.ak_guncel_data AS
+39            SELECT *
+40               FROM work.kayip_all_data t1, SMARTHMP.SENSORDATA_POWER t2
+41               WHERE (t1.DEVICEID = t2.DEVICEID AND t1.kes_bas < t2.SDATE);
+ERROR: Libref SMARTHMP is not assigned.
+NOTE: PROC SQL set option NOEXEC and will continue to check the syntax of statements.
+42         QUIT;
+NOTE: The SAS System stopped processing this step because of errors.
+NOTE: PROCEDURE SQL used (Total process time):
+10                                                         The SAS System                                09:31 Monday, July 27, 2020
+
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+43         
+44         
+45         /* Kesinti hesaplama */
+
+
+46         PROC SQL;
+47            CREATE TABLE WORK.kayip_data_min_sdate AS
+48            SELECT t1.DeviceId,
+49                   t1.installationid,
+50                   t1.Kesinti_Baslangic,
+51                   t1.dataFrom,
+52                   t1.kes_bas,
+53                   /* MIN_of_SDATE */
+54                     (MIN(t1.SDATE)) FORMAT=DATETIME27.6 AS kes_bit
+55               FROM WORK.ak_guncel_data t1
+56               GROUP BY t1.DeviceId,
+57                        t1.installationid,
+58                        t1.Kesinti_Baslangic,
+59                        t1.dataFrom,
+60                        t1.kes_bas;
+ERROR: File WORK.AK_GUNCEL_DATA.DATA does not exist.
+NOTE: PROC SQL set option NOEXEC and will continue to check the syntax of statements.
+61         QUIT;
+NOTE: The SAS System stopped processing this step because of errors.
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+62         
+63         /* bas - bit arasýndaki fark */
+
+
+64         data kayip_data_fark;
+65         set WORK.kayip_data_min_sdate;
+ERROR: File WORK.KAYIP_DATA_MIN_SDATE.DATA does not exist.
+66         FARK = intck('second', kes_bas, kes_bit);
+67         run;
+
+NOTE: The SAS System stopped processing this step because of errors.
+NOTE: Due to ERROR(s) above, SAS set option OBS=0, enabling syntax check mode. 
+      This prevents execution of subsequent data modification statements.
+WARNING: The data set WORK.KAYIP_DATA_FARK may be incomplete.  When this step was stopped there were 0 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+68         
+69         /* 2 dk dan buyuk olan kesintiler */
+70         
+71         PROC SQL;
+NOTE: PROC SQL set option NOEXEC and will continue to check the syntax of statements.
+72            CREATE TABLE WORK.kayip_data_gt_2min AS
+73            SELECT t1.INSTALLATIONID,
+74                    t1.deviceId,
+11                                                         The SAS System                                09:31 Monday, July 27, 2020
+
+75                    t1.Kesinti_Baslangic,
+76                    t1.kes_bit,
+77                    t1.FARK,
+78         		   t1.dataFrom
+79               FROM WORK.kayip_data_fark t1
+80               WHERE t1.FARK > 120 or t1.FARK=.;
+NOTE: Statement not executed due to NOEXEC option.
+81         QUIT;
+NOTE: The SAS System stopped processing this step because of errors.
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+82         
+83         /* saniyenin time a dönüþtürülmesi */
+
+
+84         proc sql;
+NOTE: PROC SQL set option NOEXEC and will continue to check the syntax of statements.
+85         create table work.kayip_data_sure as
+86         select     t1.INSTALLATIONID,
+87                    t1.deviceId,
+88                    t1.Kesinti_Baslangic,
+89                    t1.kes_bit,
+90                    t1.fark FORMAT = time. as 'Kesinti_Suresi'n,
+91         		   t1.dataFrom
+92                    from WORK.kayip_data_gt_2min t1
+93         order by deviceid asc, Kesinti_Baslangic asc;
+NOTE: Statement not executed due to NOEXEC option.
+94         
+95         quit;
+NOTE: The SAS System stopped processing this step because of errors.
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+96         
+97         
+
+
+98         data kayip_all_result;
+99         retain INSTALLATIONID deviceId Kesinti_Baslangic Kesinti_Bitis  Kesinti_Suresi dataFrom;
+100        set work.kayip_data_sure;
+ERROR: File WORK.KAYIP_DATA_SURE.DATA does not exist.
+101        Kesinti_Bitis = put('kes_bit'n,datetime.);
+102        drop kes_bit;
+103        run;
+
+NOTE: The SAS System stopped processing this step because of errors.
+WARNING: The data set WORK.KAYIP_ALL_RESULT may be incomplete.  When this step was stopped there were 0 observations and 6 
+         variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+104        
+105        proc append data=work.kayip_all_result base=all_data;
+12                                                         The SAS System                                09:31 Monday, July 27, 2020
+
+106        run;
+
+NOTE: PROCEDURE APPEND used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.02 seconds
+      
+
+107        
+108        data all_data;
+109        set all_data;
+110        run;
+
+NOTE: The data set WORK.ALL_DATA has 0 observations and 6 variables.
+WARNING: Data set WORK.ALL_DATA was not replaced because this step was stopped.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+
+ERROR: Errors printed on pages 8,9,10,11.
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           1:26.97
+      cpu time            1.50 seconds
+      
+
+
