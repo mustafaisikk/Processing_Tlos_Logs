@@ -10,10 +10,12 @@ file_list = []
 last_query_list = []
 failed_data = []
 last_file = "first"
+in_logs_output_library = []
+all_local_max = []
 
 class query:
     def __init__(self, all_string, type, path, input_library, input_table, output_library, output_table, input_row,
-                 output_row,which_library):
+                 output_row,which_library,is_local_maximum):
         self.all_string = all_string
         self.type = type
         self.path = path
@@ -24,6 +26,7 @@ class query:
         self.input_row = input_row
         self.output_row = output_row
         self.which_library = which_library
+        self.is_local_maximum = is_local_maximum
 
 
 def get_table_and_library(table_and_library):
@@ -40,8 +43,8 @@ def read_directory_all_log_file(path):
     for file in files:
         if file.is_dir():
             read_directory_all_log_file(file)
-#file.name.find(str(last_file)) == -1
-        elif file.is_file() and (last_file.replace(".log","") not in file.name) and is_there_before(file):
+#file.name.find(str(last_file)) == -1  ( bir alt satırdaki koşul içi and is_there_before(file)
+        elif file.is_file() and (last_file.replace(".log","") not in file.name):
             if file.name.split(".")[1] == "log":
                 file_list.append(file.path)
                 last_file = file.name
@@ -239,6 +242,11 @@ def create_query_list(query_list, path):
                 if len(value) > 0:
                     output_library, output_table = get_table_and_library(value[0])
 
+                if len(output_library) == 0:
+                    value = re.findall("DATA (\w+\.?\w*)[ ]*;", _query)
+                    if len(value) > 0:
+                        output_library, output_table = get_table_and_library(value[0])
+
             value = re.findall("READ FROM THE DATA SET (\w+\.?\w*)", _query)
             if len(value) > 0:#(\w+\.?\w*)
                 for var in value:
@@ -275,16 +283,37 @@ def create_query_list(query_list, path):
                 input_library.append("HARD CODED")
                 input_table.append("HARD CODED")
 
-        which_library = find_which_library(output_library)
+        # which_library = find_which_library(output_library)
         # last_query_list.append(
         #     query(_query, type, path, input_library, input_table, output_library, output_table, input_row,output_row))
 
         make_test(query(_query, type, path, input_library, input_table, output_library, output_table, input_row,
-                        output_row,which_library))
+                        output_row,"",""))
 
+
+def which_library_is_maximum(libs):
+    global last_query_list
+
+    for query in last_query_list:
+        for i in range(0, len(query.input_library)):
+            temp = query.input_library[i]+"."+query.input_table[i]
+            if temp in libs:
+                libs.remove(temp)
+
+    return libs
+
+def update_query_list(libs):
+    global last_query_list
+
+    for query in last_query_list:
+        temp = query.output_library + "." + query.output_table
+        if temp in libs:
+            query.is_local_maximum = "Maximum"
+            all_local_max.append(query)
 
 def create_xlsx_file():
     global last_query_list
+    global in_logs_output_library
     wb = Workbook()
     ws = wb.active
     ws.title = "Addictions"
@@ -292,23 +321,27 @@ def create_xlsx_file():
     ws.append([""])
     ws.append(
         ["", "PATH", "Input_Table_Library", "Input_Table", "Output_Table_Library", "Output_Table", "Input_Row_Num",
-         "Output_Row_Num","Which Library"])
+         "Output_Row_Num","Which Library","Is_Local_Maximum"])
     ws.append([""])
 
     for file in file_list:
         read_log_file(file)
-
+        distintc_lib = list(dict.fromkeys(in_logs_output_library))
+        local_maximum = which_library_is_maximum(distintc_lib)
+        update_query_list(local_maximum)
+        print("")
+        in_logs_output_library = []
         for query in last_query_list:
             for i in range(len(query.input_library)):
                 if len(query.input_row) > i:
                     ws.append(
                         ["", query.path, query.input_library[i], query.input_table[i], query.output_library,
                          query.output_table,
-                         query.input_row[i],query.output_row,query.which_library])
+                         query.input_row[i],query.output_row,query.which_library,query.is_local_maximum])
                 else :
                     ws.append(
                         ["", query.path, query.input_library[i], query.input_table[i], query.output_library,
-                         query.output_table,"",query.output_row,query.which_library])
+                         query.output_table,"",query.output_row,query.which_library,query.is_local_maximum])
 
         last_query_list = []
 
@@ -320,12 +353,12 @@ def make_test(_query):
     if re.search("[CREATE,DROP]+ VIEW ([A-Z,0-9,_]+[\.]*[A-Z,0-9,_]*)", _query.all_string):
         control = "NOT IN"
 
-    # if "DATA _NULL_" in _query.all_string:
+    # if "DATA _NULL_;" in _query.all_string:
     #     control = "NOT IN"
-    #
-    # if "DROP TABLE" in _query.all_string:
-    #     control = "NOT IN"
-    #
+
+    if "DROP TABLE" in _query.all_string:
+        control = "NOT IN"
+
     # if "CREATE TABLE" in _query.all_string:
     #     control = "NOT IN"
 
@@ -343,13 +376,19 @@ def make_test(_query):
     # elif _query.output_library == "" or _query.output_table == "":
     #     problem = "problem output"
 
+    if _query.output_library == "":
+        print("")
+
     if control != "NOT IN":
         last_query_list.append(_query)
+        if _query.output_library != "WORK":
+            in_logs_output_library.append(_query.output_library + "." + _query.output_table)
 
 
 if __name__ == '__main__':
 
-    read_directory_all_log_file(r'D:\New folder (4)\pythonProject\logs\temp')
+    # read_directory_all_log_file(r'C:\Users\mustafaisik\PycharmProjects\pythonProject\logs')
+    read_directory_all_log_file(r'C:\Users\mustafaisik\PycharmProjects\pythonProject\logs')
 
     create_xlsx_file()
 
