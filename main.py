@@ -11,7 +11,6 @@ last_query_list = []
 failed_data = []
 last_file = "first"
 in_logs_output_library = []
-all_local_max = []
 
 class query:
     def __init__(self, all_string, type, path, input_library, input_table, output_library, output_table, input_row,
@@ -309,7 +308,6 @@ def update_query_list(libs):
         temp = query.output_library + "." + query.output_table
         if temp in libs:
             query.is_local_maximum = "Maximum"
-            all_local_max.append(query)
 
 def create_xlsx_file():
     global last_query_list
@@ -321,7 +319,7 @@ def create_xlsx_file():
     ws.append([""])
     ws.append(
         ["", "PATH", "Input_Table_Library", "Input_Table", "Output_Table_Library", "Output_Table", "Input_Row_Num",
-         "Output_Row_Num","Which Library","Is_Local_Maximum"])
+         "Output_Row_Num","Is_Local_Maximum"])
     ws.append([""])
 
     for file in file_list:
@@ -329,7 +327,6 @@ def create_xlsx_file():
         distintc_lib = list(dict.fromkeys(in_logs_output_library))
         local_maximum = which_library_is_maximum(distintc_lib)
         update_query_list(local_maximum)
-        print("")
         in_logs_output_library = []
         for query in last_query_list:
             for i in range(len(query.input_library)):
@@ -337,13 +334,14 @@ def create_xlsx_file():
                     ws.append(
                         ["", query.path, query.input_library[i], query.input_table[i], query.output_library,
                          query.output_table,
-                         query.input_row[i],query.output_row,query.which_library,query.is_local_maximum])
+                         query.input_row[i],query.output_row,query.is_local_maximum])
                 else :
                     ws.append(
                         ["", query.path, query.input_library[i], query.input_table[i], query.output_library,
-                         query.output_table,"",query.output_row,query.which_library,query.is_local_maximum])
+                         query.output_table,"",query.output_row,query.is_local_maximum])
 
-        last_query_list = []
+
+        #last_query_list = []
 
     wb.save("Addictions.xlsx")
 
@@ -376,8 +374,8 @@ def make_test(_query):
     # elif _query.output_library == "" or _query.output_table == "":
     #     problem = "problem output"
 
-    if _query.output_library == "":
-        print("")
+    # if _query.output_library == "":
+    #     print("")
 
     if control != "NOT IN":
         last_query_list.append(_query)
@@ -387,7 +385,6 @@ def make_test(_query):
 
 if __name__ == '__main__':
 
-    # read_directory_all_log_file(r'C:\Users\mustafaisik\PycharmProjects\pythonProject\logs')
     read_directory_all_log_file(r'C:\Users\mustafaisik\PycharmProjects\pythonProject\logs')
 
     create_xlsx_file()
