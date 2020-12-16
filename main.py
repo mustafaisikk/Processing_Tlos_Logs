@@ -1,5 +1,6 @@
 import re
 import os
+import openpyxl
 from openpyxl import Workbook, load_workbook
 
 # This is a sample Python script.
@@ -315,12 +316,9 @@ def create_xlsx_file():
     wb = Workbook()
     ws = wb.active
     ws.title = "Addictions"
-
-    ws.append([""])
     ws.append(
-        ["", "PATH", "Input_Table_Library", "Input_Table", "Output_Table_Library", "Output_Table", "Input_Row_Num",
+        ["PATH", "Input_Table_Library", "Input_Table", "Output_Table_Library", "Output_Table", "Input_Row_Num",
          "Output_Row_Num","Is_Local_Maximum"])
-    ws.append([""])
 
     for file in file_list:
         read_log_file(file)
@@ -332,12 +330,12 @@ def create_xlsx_file():
             for i in range(len(query.input_library)):
                 if len(query.input_row) > i:
                     ws.append(
-                        ["", query.path, query.input_library[i], query.input_table[i], query.output_library,
+                        [query.path, query.input_library[i], query.input_table[i], query.output_library,
                          query.output_table,
                          query.input_row[i],query.output_row,query.is_local_maximum])
                 else :
                     ws.append(
-                        ["", query.path, query.input_library[i], query.input_table[i], query.output_library,
+                        [query.path, query.input_library[i], query.input_table[i], query.output_library,
                          query.output_table,"",query.output_row,query.is_local_maximum])
 
 
@@ -383,10 +381,39 @@ def make_test(_query):
             in_logs_output_library.append(_query.output_library + "." + _query.output_table)
 
 
+def read_and_create_new_xlsx_file():
+    path = r"C:\Users\mustafaisik\PycharmProjects\pythonProject\Addictions.xlsx"
+    wb_object = openpyxl.load_workbook(path)
+    sheet_obj = wb_object.active
+    max_row = sheet_obj.max_row
+    temp = []
+    say = 1
+    for i in range(2, (max_row+1)):
+        before_record_output_library = sheet_obj.cell(row=i, column=4).value
+
+        if before_record_output_library != "WORK":
+            before_record_path = sheet_obj.cell(row=i, column=1).value
+            before_record_output_table = sheet_obj.cell(row=i, column=5).value
+            before_record_local_max = sheet_obj.cell(row=i, column=8).value
+
+            for j in range(2, (max_row+1)):
+                if before_record_path != sheet_obj.cell(row=j, column=1).value:
+                    after_record_input_library = sheet_obj.cell(row=j, column=2).value
+                    after_record_input_table = sheet_obj.cell(row=j, column=3).value
+
+                    if before_record_output_library+"."+before_record_output_table == after_record_input_library+"."+after_record_input_table:
+                        print(say)
+                        say+=1
+
+
+    print()
+
 if __name__ == '__main__':
 
-    read_directory_all_log_file(r'C:\Users\mustafaisik\PycharmProjects\pythonProject\logs')
+    # read_directory_all_log_file(r'C:\Users\mustafaisik\PycharmProjects\pythonProject\logs')
+    #
+    # create_xlsx_file()
 
-    create_xlsx_file()
+    read_and_create_new_xlsx_file()
 
     print("hey")
