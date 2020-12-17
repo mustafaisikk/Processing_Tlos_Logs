@@ -30,11 +30,15 @@ class query:
 
 
 def get_table_and_library(table_and_library):
-    table_and_library = table_and_library.split(".")
-    if len(table_and_library) == 1:
-        return "WORK", table_and_library[0]
+    table_and_library_return = table_and_library.split(".")
+
+    if len(table_and_library_return) == 2:
+        if table_and_library_return[0] == "" or table_and_library_return[1] == "":
+            table_and_library_return = table_and_library.replace(".", "").split(".")
+    if len(table_and_library_return) == 1:
+        return "WORK", table_and_library_return[0]
     else:
-        return table_and_library[0], table_and_library[1]
+        return table_and_library_return[0], table_and_library_return[1]
 
 def read_directory_all_log_file(path):
     global last_file
