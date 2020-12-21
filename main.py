@@ -47,7 +47,7 @@ def read_directory_all_log_file(path):
     for file in files:
         if file.is_dir():
             read_directory_all_log_file(file)
-#file.name.find(str(last_file)) == -1  ( bir alt satırdaki koşul içi and is_there_before(file)
+
         elif file.is_file() and (last_file.replace(".log","") not in file.name):
             if file.name.split(".")[1] == "log":
                 file_list.append(file.path)
@@ -140,7 +140,7 @@ def read_log_file(path):
                     last_line = ""
 
                 if control == "PROC" or control == "DATA":
-                    # line = line.replace('\n', ' ')
+                    line = line.replace('\n', ' ')
                     line = line.replace('\t', '')
                     line = line.replace('\f', '')
 
@@ -392,7 +392,12 @@ def read_and_create_new_xlsx_file():
     max_row = sheet_obj.max_row
     temp = []
     say = 1
-
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Addictions_last"
+    ws.append(
+        ["PATH", "Input_Table_Library", "Input_Table", "Output_Table_Library", "Output_Table", "Input_Row_Num",
+         "Output_Row_Num", "Is_Local_Maximum","Before_is_Maximum"])
 
     for i in range(2, (max_row+1)):
         before_record_output_library = sheet_obj.cell(row=i, column=4).value
@@ -410,18 +415,23 @@ def read_and_create_new_xlsx_file():
                         after_record_input_table = sheet_obj.cell(row=j, column=3).value
 
                         if before_record_output_library + "." + before_record_output_table == after_record_input_library + "." + after_record_input_table:
-                            print("")
+                            print(say)
+                            say += 1
+                            ws.append(
+                                [after_record_path, after_record_input_library, after_record_input_table,sheet_obj.cell(row=j, column=4).value ,
+                                 sheet_obj.cell(row=j, column=5).value, sheet_obj.cell(row=j, column=6).value, sheet_obj.cell(row=j, column=7).value,
+                                 sheet_obj.cell(row=j, column=8).value,before_record_local_max])
 
 
 
-    print()
+    wb.save("Addictions_Last.xlsx")
 
 if __name__ == '__main__':
 
-    read_directory_all_log_file(r'C:\Users\mustafaisik\PycharmProjects\pythonProject\logs')
+    # read_directory_all_log_file(r'C:\Users\mustafaisik\PycharmProjects\pythonProject\logs')
+    #
+    # create_xlsx_file()
 
-    create_xlsx_file()
-
-    # read_and_create_new_xlsx_file()
+    read_and_create_new_xlsx_file()
 
     print("hey")
