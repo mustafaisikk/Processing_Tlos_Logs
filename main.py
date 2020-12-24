@@ -12,10 +12,11 @@ last_query_list = []
 failed_data = []
 last_file = "first"
 in_logs_output_library = []
+last_query_array = []
 
 class query:
     def __init__(self, all_string, type, path, input_library, input_table, output_library, output_table, input_row,
-                 output_row,which_library,is_local_maximum):
+                 output_row,is_local_maximum):
         self.all_string = all_string
         self.type = type
         self.path = path
@@ -25,7 +26,6 @@ class query:
         self.output_table = output_table
         self.input_row = input_row
         self.output_row = output_row
-        self.which_library = which_library
         self.is_local_maximum = is_local_maximum
 
 
@@ -292,17 +292,17 @@ def create_query_list(query_list, path):
         #     query(_query, type, path, input_library, input_table, output_library, output_table, input_row,output_row))
 
         make_test(query(_query, type, path, input_library, input_table, output_library, output_table, input_row,
-                        output_row,"",""))
+                        output_row,""))
 
 
 def which_library_is_maximum(libs):
     global last_query_list
 
     for query in last_query_list:
-        for i in range(0, len(query.input_library)):
-            temp = query.input_library[i]+"."+query.input_table[i]
-            if temp in libs:
-                libs.remove(temp)
+        temp = query[1] + "." + query[2]
+        if temp in libs:
+            libs.remove(temp)
+
 
     return libs
 
@@ -310,9 +310,17 @@ def update_query_list(libs):
     global last_query_list
 
     for query in last_query_list:
-        temp = query.output_library + "." + query.output_table
+        temp = query[3] + "." + query[4]
         if temp in libs:
-            query.is_local_maximum = "Maximum"
+            query[7] = "Maximum"
+
+def get_different_array(list):
+    different_array=[]
+
+    for var in list:
+        if var not in different_array:
+            different_array.append(var)
+    return different_array
 
 def create_xlsx_file():
     global last_query_list
@@ -326,24 +334,17 @@ def create_xlsx_file():
 
     for file in file_list:
         read_log_file(file)
-        distintc_lib = list(dict.fromkeys(in_logs_output_library))
-        local_maximum = which_library_is_maximum(distintc_lib)
+        local_maximum = which_library_is_maximum(in_logs_output_library)
         update_query_list(local_maximum)
+        last_query_list = get_different_array(last_query_list)
         in_logs_output_library = []
         for query in last_query_list:
-            for i in range(len(query.input_library)):
-                if len(query.input_row) > i:
-                    ws.append(
-                        [query.path, query.input_library[i], query.input_table[i], query.output_library,
-                         query.output_table,
-                         query.input_row[i],query.output_row,query.is_local_maximum])
-                else :
-                    ws.append(
-                        [query.path, query.input_library[i], query.input_table[i], query.output_library,
-                         query.output_table,"",query.output_row,query.is_local_maximum])
+            ws.append(
+                [query[0], query[1], query[2], query[3],
+                 query[4], query[5], query[6], query[7]])
 
 
-        #last_query_list = []
+        last_query_list = []
 
     wb.save("Addictions.xlsx")
 
@@ -380,9 +381,22 @@ def make_test(_query):
     #     print("")
 
     if control != "NOT IN":
-        last_query_list.append(_query)
+        for i in range(len(_query.input_library)):
+            if len(_query.input_row) > i:
+                _query_array = [_query.path, _query.input_library[i], _query.input_table[i],
+                                _query.output_library, _query.output_table, _query.input_row[i],
+                                _query.output_row, _query.is_local_maximum]
+            else:
+                _query_array = [_query.path, _query.input_library[i], _query.input_table[i],
+                                _query.output_library, _query.output_table, "",
+                                _query.output_row, _query.is_local_maximum]
+            if _query_array not in last_query_list:
+                last_query_list.append(_query_array)
+
+
         if _query.output_library != "WORK" and _query.output_library != "":
-            in_logs_output_library.append(_query.output_library + "." + _query.output_table)
+            if (_query.output_library + "." + _query.output_table ) not in in_logs_output_library:
+                in_logs_output_library.append(_query.output_library + "." + _query.output_table)
 
 
 def read_and_create_new_xlsx_file():
@@ -428,9 +442,9 @@ def read_and_create_new_xlsx_file():
 
 if __name__ == '__main__':
 
-    # read_directory_all_log_file(r'C:\Users\mustafaisik\PycharmProjects\pythonProject\logs')
-    #
-    # create_xlsx_file()
+    read_directory_all_log_file(r'C:\Users\mustafaisik\PycharmProjects\pythonProject\logs')
+
+    create_xlsx_file()
 
     read_and_create_new_xlsx_file()
 
