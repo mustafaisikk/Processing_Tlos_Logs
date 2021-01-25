@@ -1,19 +1,16 @@
 import re
 import os
-import openpyxl
-from openpyxl import Workbook, load_workbook
+from openpyxl import Workbook
+from graphviz import Digraph, Source
 
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 file_list = []
 last_query_list = []
 failed_data = []
 last_file = "first"
 in_logs_output_library = []
-last_query_array = []
+all_query_list_array = []
 
+## HEr Bir Sorgumda Bulunan özellikleri Barindiran Sinif
 class query:
     def __init__(self, all_string, type, path, input_library, input_table, output_library, output_table, input_row,
                  output_row,is_local_maximum):
@@ -29,10 +26,14 @@ class query:
         self.is_local_maximum = is_local_maximum
 
 
+## Kütüphane Ve Tablo Bilgisini Birbirinden Ayiran Fonksiyon
 def get_table_and_library(table_and_library):
     table_and_library_return = table_and_library.split(".")
 
+    ## Yalnizca Tablo Mu Yoksa Içerisinde Kütüphane Bilgisi De Varmi
     if len(table_and_library_return) == 2:
+
+        ## Veride Hata Varmi Kontrolü
         if table_and_library_return[0] == "" or table_and_library_return[1] == "":
             table_and_library_return = table_and_library.replace(".", "").split(".")
     if len(table_and_library_return) == 1:
@@ -40,6 +41,7 @@ def get_table_and_library(table_and_library):
     else:
         return table_and_library_return[0], table_and_library_return[1]
 
+## Dosya Içerisindeki Tüm Log Dosyalarinin Recursive Olarak Okunmasi
 def read_directory_all_log_file(path):
     global last_file
     files = os.scandir(path)
@@ -52,9 +54,10 @@ def read_directory_all_log_file(path):
             if file.name.split(".")[1] == "log":
                 file_list.append(file.path)
                 last_file = file.name
-        else:
-            print("Error file: ", file.name)
+        # else:
+        #     print("Error file: ", file.name)
 
+## BIDM Içerisindeki Dosyayi SAS Içerisinde Bir Daha Okumamak Için Olusturulan Fonksiyon
 def is_there_before(file):
     temp = file.path.split("\\")
     if temp[3] != "sas":
@@ -69,37 +72,38 @@ def is_there_before(file):
     else:
         return True
 
-def find_which_library(output_library):
-    di_libs = ["DASHLIBD","DMLIB","MIGLIB","NEDLIB","ODSLIB","ODSLIB2",
-               "ODSLIB3","PILIB","PODSLIB1","PODSLIB2","PODSLIB3","QLIKLIB",
-               "TMPLIB3","TMPLIB4","TRNLIB","TRNLIB2","UTFLIB"]
+# def find_which_library(output_library):
+#     di_libs = ["DASHLIBD","DMLIB","MIGLIB","NEDLIB","ODSLIB","ODSLIB2",
+#                "ODSLIB3","PILIB","PODSLIB1","PODSLIB2","PODSLIB3","QLIKLIB",
+#                "TMPLIB3","TMPLIB4","TRNLIB","TRNLIB2","UTFLIB"]
+#
+#     miner_libs = ["PILIB2","BFLIB","TMPLIB2","DMLIB2","ARCLIB","AUTODIAL",
+#                   "IADM","IATMP","BCSDM","BLDM","BLTMP","BADM","BATMP","CCDM","CCDM2",
+#                   "CMPDM","CPSFRC","CPSHRLY","CPSREG","CPSUST","CXDM","D2DLIB","DSTDM",
+#                   "DSTTMP","DYMDM","DYMTMP","DBALIB","EAP_ETY","EAP_PAY","EAP_PR",
+#                   "EPYDM","EPYTMP","ETSDM","FADM","FPCLIB","FPCTMP","HRDM","KMHMDM",
+#                   "CSSLIB","MDLIB","MHMDM","MHMAYEDS","MKVR","MSADM","MSATMP","MTHEO",
+#                   "MTHKA","MTHMA","MTHSO","MTHTMP","MIGLIB2","OKMDM","OKMTMP","PMDM",
+#                   "PRCDM2","CNPRCDM","CNPRCTMP","PRCDM","PRCTMP","PRFTBLIB","FRCARC",
+#                   "FRCPRD","HDGARC","HDGPRD","PRCHARC","PRCHPRD","PRICARC","PRICPRD",
+#                   "QL_SALES","RAPARCH","RAPOUT","RAPREF","RAPTEST","RAPTMP","RAPVAS",
+#                   "REFCPS","SDLIB","RMCDM","RMCTMP","RODQLIK","SAHOL","SHFDM","SODM",
+#                   "SOPDM","SOSUF","SOTMP","SPDM","SSIMDM","STLF","SOMLIB","SMDM","SMTMP",
+#                   "TKDM","TSDM","TALDM","QVYDM","STJVYDM","VYDM","VYDMKVKK","EDULIB",
+#                   "TMPLIB","OGMDM","OGMTMP","RASTMP","CRLIB","SOSEC"]
+#
+#     if output_library in di_libs:
+#         return ""
+#         # return "DILIB"
+#     elif output_library in miner_libs and output_library != "WORK":
+#         return "MINERLIBS"
+#     elif output_library == "WORK":
+#         return ""
+#         # return "WORK"
+#     else:
+#         return "Error LIB"
 
-    miner_libs = ["PILIB2","BFLIB","TMPLIB2","DMLIB2","ARCLIB","AUTODIAL",
-                  "IADM","IATMP","BCSDM","BLDM","BLTMP","BADM","BATMP","CCDM","CCDM2",
-                  "CMPDM","CPSFRC","CPSHRLY","CPSREG","CPSUST","CXDM","D2DLIB","DSTDM",
-                  "DSTTMP","DYMDM","DYMTMP","DBALIB","EAP_ETY","EAP_PAY","EAP_PR",
-                  "EPYDM","EPYTMP","ETSDM","FADM","FPCLIB","FPCTMP","HRDM","KMHMDM",
-                  "CSSLIB","MDLIB","MHMDM","MHMAYEDS","MKVR","MSADM","MSATMP","MTHEO",
-                  "MTHKA","MTHMA","MTHSO","MTHTMP","MIGLIB2","OKMDM","OKMTMP","PMDM",
-                  "PRCDM2","CNPRCDM","CNPRCTMP","PRCDM","PRCTMP","PRFTBLIB","FRCARC",
-                  "FRCPRD","HDGARC","HDGPRD","PRCHARC","PRCHPRD","PRICARC","PRICPRD",
-                  "QL_SALES","RAPARCH","RAPOUT","RAPREF","RAPTEST","RAPTMP","RAPVAS",
-                  "REFCPS","SDLIB","RMCDM","RMCTMP","RODQLIK","SAHOL","SHFDM","SODM",
-                  "SOPDM","SOSUF","SOTMP","SPDM","SSIMDM","STLF","SOMLIB","SMDM","SMTMP",
-                  "TKDM","TSDM","TALDM","QVYDM","STJVYDM","VYDM","VYDMKVKK","EDULIB",
-                  "TMPLIB","OGMDM","OGMTMP","RASTMP","CRLIB","SOSEC"]
-
-    if output_library in di_libs:
-        return ""
-        # return "DILIB"
-    elif output_library in miner_libs and output_library != "WORK":
-        return "MINERLIBS"
-    elif output_library == "WORK":
-        return ""
-        # return "WORK"
-    else:
-        return "Error LIB"
-
+## Bir Dosya Içerisindeki Tüm Kayitlari Bulma
 def read_log_file(path):
     match_list = []
     control = ""
@@ -123,6 +127,10 @@ def read_log_file(path):
                 if re.search("[0-9]+[ ]*PROC SQL[ ]*;", line) or re.search("[0-9]+[ ]*.[ ]*PROC SQL[ ]*;", line):
                     control = "PROC"
                     type = "PROC"
+                    last_line = ""
+                elif re.search("PROC SORT DATA *= *", line):
+                    control = "DATA"
+                    type = "DATA"
                     last_line = ""
                 elif re.search("MPRINT(.*?)PROC SQL(.*?);", line):
                     control = "PROC"
@@ -154,7 +162,7 @@ def read_log_file(path):
     file.close()
     create_query_list(match_list, path)
 
-
+## Dosya Içerisindeki Tüm Kayitlarin Içeriklerinin Bulunmasi
 def create_query_list(query_list, path):
     for _query_and_type in query_list:
 
@@ -165,13 +173,13 @@ def create_query_list(query_list, path):
         output_table = ""
         input_row = []
         output_row = ""
-        which_library = ""
         _query = _query_and_type[1]
 
         if "PROC" in type:
 
             if "MPRINT" not in type:
-                value = re.findall("TABLE ([A-Z]+[A-Z,0-9,_]*[\.]*[A-Z,0-9,_]*) CREATED", _query)
+
+                value = re.findall("TABLE (\w+\.?\w*) CREATED", _query)
                 if len(value) > 0:
                     output_library, output_table = get_table_and_library(value[0])
 
@@ -192,7 +200,7 @@ def create_query_list(query_list, path):
                             if len(value) > 0:
                                 output_library, output_table = get_table_and_library(value[0])
 
-                value = re.findall("DELETE[ ,0-9]*FROM(.[^ ]*)", _query)
+                value = re.findall("DELETE[ ,0-9]*FROM *(\w+\.?\w*)", _query)
                 if len(value) > 0:
                     output_library, output_table = get_table_and_library(value[0])
                     value_input = re.findall("SELECT ID FROM (\w+\.?\w*)", _query)
@@ -201,18 +209,21 @@ def create_query_list(query_list, path):
                         input_table.append(get_table_and_library(value_input[0])[1])
 
                 if len(input_library) == 0:
-                    value = re.findall("FROM[0-9, ,\+]*([A-Z]+[A-Z,0-9,_]*[\.]*[A-Z,0-9,_]*)", _query)
+                    value = re.findall("[0-9,\+]+ *SELECT[\w, ,\(,\)]*FROM[0-9, ,\+]*(\w+\.?\w*)", _query)
                     if len(value) > 0:
                         for sub_value in value:
                             input_library.append(get_table_and_library(sub_value)[0])
                             input_table.append(get_table_and_library(sub_value)[1])
 
                     value = re.findall(
-                        "[0-9]+ [ ]* [LEFT,RIGHT,FULL,INNER]* JOIN ([A-Z]+[A-Z,0-9,_]*[\.]*[A-Z,0-9,_]*)", _query)
+                        "[0-9]+[ ]*[LEFT,RIGHT,FULL,INNER]* JOIN ([A-Z]+[A-Z,0-9,_]*[\.]*[A-Z,0-9,_]*)", _query)
                     if len(value) > 0:
                         for sub_value in value:
-                            input_library.append(get_table_and_library(sub_value)[0])
-                            input_table.append(get_table_and_library(sub_value)[1])
+                            if get_table_and_library(sub_value)[1] not in input_table:
+                                input_library.append(get_table_and_library(sub_value)[0])
+                                input_table.append(get_table_and_library(sub_value)[1])
+
+
 
                 value = re.findall("WITH ([0-9]+) ROWS ", _query)
                 if len(value) > 0:
@@ -261,19 +272,10 @@ def create_query_list(query_list, path):
                 value = re.findall("[0-9]+ [ ]* SET(.[^;]*)[ ]*;", _query)
                 if len(value) > 0:
                     value2 = re.findall("\w+\.?\w*",value[0])
-                    if len(value2)>0:
+                    if len(value2) > 0:
                         for var in value2:
                             input_library.append(get_table_and_library(var)[0])
                             input_table.append(get_table_and_library(var)[1])
-
-            # if len(input_library) == 0:
-            #     value = re.findall("[0-9]+ [ ]* MERGE(.[^;]*)[ ]*;", _query)
-            #     if len(value) > 0:
-            #         value2 = re.findall("[A-Z,0-9,_]+[\.]+[A-Z,0-9,_]+", value[0])
-            #         if len(value2) > 0:
-            #             for var in value2:
-            #                 input_library.append(get_table_and_library(var)[0])
-            #                 input_table.append(get_table_and_library(var)[1])
 
             value = re.findall("WERE ([0-9]+) OBSERVATIONS", _query)
             if len(value) > 0:
@@ -287,14 +289,10 @@ def create_query_list(query_list, path):
                 input_library.append("HARD CODED")
                 input_table.append("HARD CODED")
 
-        # which_library = find_which_library(output_library)
-        # last_query_list.append(
-        #     query(_query, type, path, input_library, input_table, output_library, output_table, input_row,output_row))
-
         make_test(query(_query, type, path, input_library, input_table, output_library, output_table, input_row,
                         output_row,""))
 
-
+## Bir Dosyasi Içerindeki Input Olusturmayan Kayitlarin Bulunmasi
 def which_library_is_maximum(libs):
     global last_query_list
 
@@ -302,10 +300,9 @@ def which_library_is_maximum(libs):
         temp = query[1] + "." + query[2]
         if temp in libs:
             libs.remove(temp)
-
-
     return libs
 
+## Tüm KAyitlardaki Local Maximumlarin güncellenmesi
 def update_query_list(libs):
     global last_query_list
 
@@ -314,14 +311,7 @@ def update_query_list(libs):
         if temp in libs:
             query[7] = "Maximum"
 
-def get_different_array(list):
-    different_array=[]
-
-    for var in list:
-        if var not in different_array:
-            different_array.append(var)
-    return different_array
-
+## Tüm Veriler Ile Exel Dosyasinin Olusturulmasi
 def create_xlsx_file():
     global last_query_list
     global in_logs_output_library
@@ -336,19 +326,18 @@ def create_xlsx_file():
         read_log_file(file)
         local_maximum = which_library_is_maximum(in_logs_output_library)
         update_query_list(local_maximum)
-        last_query_list = get_different_array(last_query_list)
         in_logs_output_library = []
         for query in last_query_list:
             ws.append(
                 [query[0], query[1], query[2], query[3],
                  query[4], query[5], query[6], query[7]])
 
-
+        all_query_list_array.append(last_query_list)
         last_query_list = []
 
     wb.save("Addictions.xlsx")
 
-
+## Olusan Her Bir Kayit Için Test Fonksiyonu
 def make_test(_query):
     control = ""
     if re.search("[CREATE,DROP]+ VIEW ([A-Z,0-9,_]+[\.]*[A-Z,0-9,_]*)", _query.all_string):
@@ -359,6 +348,9 @@ def make_test(_query):
 
     if "DROP TABLE" in _query.all_string:
         control = "NOT IN"
+
+    # if "PROC SORT DATA" in _query.all_string:
+    #     control = "NOT IN"
 
     # if "CREATE TABLE" in _query.all_string:
     #     control = "NOT IN"
@@ -379,7 +371,8 @@ def make_test(_query):
 
     # if _query.output_library == "":
     #     print("")
-
+    # if _query.output_table =="" and _query.output_library != "":
+    #     print("")
     if control != "NOT IN":
         for i in range(len(_query.input_library)):
             if len(_query.input_row) > i:
@@ -400,45 +393,44 @@ def make_test(_query):
 
 
 def read_and_create_new_xlsx_file():
-    path = r"C:\Users\mustafaisik\PycharmProjects\pythonProject\Addictions.xlsx"
-    wb_object = openpyxl.load_workbook(path)
-    sheet_obj = wb_object.active
-    max_row = sheet_obj.max_row
-    temp = []
+    u = Digraph(node_attr={'color': 'lightblue2', 'style': 'filled'}, encoding="utf-8")
+    u.attr(size='6,6')
+
     say = 1
     wb = Workbook()
     ws = wb.active
     ws.title = "Addictions_last"
     ws.append(
-        ["PATH", "Input_Table_Library", "Input_Table", "Output_Table_Library", "Output_Table", "Input_Row_Num",
-         "Output_Row_Num", "Is_Local_Maximum","Before_is_Maximum"])
+        ["Input_PATH", "Input_Library", "Input_Table","Input_Is_Maximum",
+         "After_Path","After_Output_Library", "After_Output_Table", "After_Is_Maximum"])
 
-    for i in range(2, (max_row+1)):
-        before_record_output_library = sheet_obj.cell(row=i, column=4).value
+    for all_log in all_query_list_array:
+        for log in all_log:
+            before_record_output_library = log[3]
 
-        if before_record_output_library != "WORK" and before_record_output_library is not None:
-            before_record_path = sheet_obj.cell(row=i, column=1).value
-            before_record_output_table = sheet_obj.cell(row=i, column=5).value
-            before_record_local_max = sheet_obj.cell(row=i, column=8).value
-
-            for j in range(2, (max_row+1)):
-                after_record_path = sheet_obj.cell(row=j, column=1).value
-                if before_record_path != after_record_path:
-                    after_record_input_library = sheet_obj.cell(row=j, column=2).value
-                    if after_record_input_library != "WORK":
-                        after_record_input_table = sheet_obj.cell(row=j, column=3).value
-
-                        if before_record_output_library + "." + before_record_output_table == after_record_input_library + "." + after_record_input_table:
-                            print(say)
-                            say += 1
-                            ws.append(
-                                [after_record_path, after_record_input_library, after_record_input_table,sheet_obj.cell(row=j, column=4).value ,
-                                 sheet_obj.cell(row=j, column=5).value, sheet_obj.cell(row=j, column=6).value, sheet_obj.cell(row=j, column=7).value,
-                                 sheet_obj.cell(row=j, column=8).value,before_record_local_max])
-
-
-
+            if before_record_output_library != "WORK" and before_record_output_library != "":
+                before_record_path = log[0]
+                before_record_output_table = log[4]
+                for all_log_next in all_query_list_array:
+                    for log_next in all_log_next:
+                        after_record_path = log_next[0]
+                        if before_record_path != after_record_path:
+                            after_record_input_library = log_next[1]
+                            if after_record_input_library != "WORK":
+                                after_record_input_table = log_next[2]
+                                if before_record_output_library + "." + before_record_output_table == after_record_input_library + "." + after_record_input_table:
+                                    print(say)
+                                    say += 1
+                                    ws.append(
+                                        [before_record_path,log[1],log[2],log[7],
+                                         after_record_path,log_next[3],log_next[4],log_next[7]]
+                                    )
+                                    before_node = before_record_path.replace("C:\\Users\\mustafaisik\\PycharmProjects\\pythonProject\\logs","").replace("\\","/")
+                                    after_node = after_record_path.replace("C:\\Users\\mustafaisik\\PycharmProjects\\pythonProject\\logs","").replace("\\","/")
+                                    u.edge(before_node,after_node)
     wb.save("Addictions_Last.xlsx")
+    graph = Source(u)
+    graph.render('dtree_render', view=True)
 
 if __name__ == '__main__':
 
