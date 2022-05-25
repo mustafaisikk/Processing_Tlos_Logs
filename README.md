@@ -5,5 +5,6 @@
         - "dtree_render.gv" dosyası bağımlılıklarımın graf formatındaki dosyasıdır.
         - "dtree_render.pdf" dosyası ise bağımlılıklarımın görüntülenebilir şekilli formatlı dosyasıdır.
 
-![Capture](https://user-images.githubusercontent.com/52778108/105705545-6ea81200-5f21-11eb-944b-c851d8267329.PNG)
+![105705545-6ea81200-5f21-11eb-944b-c851d8267329](https://user-images.githubusercontent.com/52778108/170277590-b93ef99b-9ed0-4fee-9229-d8ea109124f4.png)
+
 

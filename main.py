@@ -73,25 +73,7 @@ def is_there_before(file):
         return True
 
 # def find_which_library(output_library):
-#     di_libs = ["DASHLIBD","DMLIB","MIGLIB","NEDLIB","ODSLIB","ODSLIB2",
-#                "ODSLIB3","PILIB","PODSLIB1","PODSLIB2","PODSLIB3","QLIKLIB",
-#                "TMPLIB3","TMPLIB4","TRNLIB","TRNLIB2","UTFLIB"]
-#
-#     miner_libs = ["PILIB2","BFLIB","TMPLIB2","DMLIB2","ARCLIB","AUTODIAL",
-#                   "IADM","IATMP","BCSDM","BLDM","BLTMP","BADM","BATMP","CCDM","CCDM2",
-#                   "CMPDM","CPSFRC","CPSHRLY","CPSREG","CPSUST","CXDM","D2DLIB","DSTDM",
-#                   "DSTTMP","DYMDM","DYMTMP","DBALIB","EAP_ETY","EAP_PAY","EAP_PR",
-#                   "EPYDM","EPYTMP","ETSDM","FADM","FPCLIB","FPCTMP","HRDM","KMHMDM",
-#                   "CSSLIB","MDLIB","MHMDM","MHMAYEDS","MKVR","MSADM","MSATMP","MTHEO",
-#                   "MTHKA","MTHMA","MTHSO","MTHTMP","MIGLIB2","OKMDM","OKMTMP","PMDM",
-#                   "PRCDM2","CNPRCDM","CNPRCTMP","PRCDM","PRCTMP","PRFTBLIB","FRCARC",
-#                   "FRCPRD","HDGARC","HDGPRD","PRCHARC","PRCHPRD","PRICARC","PRICPRD",
-#                   "QL_SALES","RAPARCH","RAPOUT","RAPREF","RAPTEST","RAPTMP","RAPVAS",
-#                   "REFCPS","SDLIB","RMCDM","RMCTMP","RODQLIK","SAHOL","SHFDM","SODM",
-#                   "SOPDM","SOSUF","SOTMP","SPDM","SSIMDM","STLF","SOMLIB","SMDM","SMTMP",
-#                   "TKDM","TSDM","TALDM","QVYDM","STJVYDM","VYDM","VYDMKVKK","EDULIB",
-#                   "TMPLIB","OGMDM","OGMTMP","RASTMP","CRLIB","SOSEC"]
-#
+
 #     if output_library in di_libs:
 #         return ""
 #         # return "DILIB"
